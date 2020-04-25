@@ -1,6 +1,5 @@
 theme: jekyll-theme-midnight
 title: Wellcome
 description: In is begining
-markdown: kramdown
 kramdown:
-    math_engine: katex
+  math_engine: mathjax
