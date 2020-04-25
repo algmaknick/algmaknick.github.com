@@ -1,13 +1,15 @@
 ---
 layout: default
 ---
-<body>
-  const mathBlocks = document.querySelectorAll('script[type^="math/tex"]');
+  <script> 
+            const mathBlocks = document.querySelectorAll('script[type^="math/tex"]');
 Array.from(mathBlocks).forEach((el) => {
   const tex = el.textContent.replace("% <![CDATA[", "").replace("%]]>", "");
   el.outerHTML = window.katex.renderToString(tex, {
     displayMode: el.type === "math/tex; mode=display",
   });
 });
+  </script>
+<body>
 Test \\[E=mc^2\\]
 </body>
