@@ -10,4 +10,17 @@ layout: default
 $$\LaTeX code$$   (for display)
 \\[\LaTeX code\\] (also for display)
 \(\LaTeX code$ \)(for inline)
+      <script>
+      renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "\\[", right: "\\]", display: true},
+                  {left: "$", right: "$", display: false},
+                  {left: "\\(", right: "\\)", display: false}
+              ]
+          }
+      );
+    </script>
 </body>
