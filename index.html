@@ -5,26 +5,6 @@ layout: default
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
-    <script type="text/javascript">
-
-	var reader = new FileReader();
-
-	function readText(that){
-
-		if(that.files && that.files[0]){
-			var reader = new FileReader();
-			reader.onload = function (e) {  
-				var output=e.target.result;
-
-				//process text to show only lines with "@":				
-				output=output.split("\n").filter(/./.test, /\@/).join("\n");
-
-				document.getElementById('main').innerHTML= output;
-			};//end onload()
-			reader.readAsText(that.files[0]);
-		}//end if html5 filelist support
-	} 
-</script>
 </head>
 <body>
 The number of COVID-19 cases \(K (t)\) after transformation is expressed as follows:
@@ -80,8 +60,7 @@ Assuming that all countries choose a slow (Korean scenario) exit from quarantine
 World      
 <br />
 <img src="pictures/covidcasesWorld25.png" alt="hi" class="inline"/><br /> 
-<input type="file" onchange='readText(text/covidcasesWorld25.txt)' />
-	<div id="main"></div><br /> 
+<br /> 
       <script>
       renderMathInElement(
           document.body,
