@@ -1,0 +1,21 @@
+World data at: 2020-04-25
++3 day model MAPE: 0.05446658127121722
+model: tri-logistic
+coeffs:  [2.89894998e+06 1.36052884e-01 7.04919766e+01] [8.64735804e+04 2.09600360e-01 9.98515269e+00 1.02227608e+05
+ 2.95650820e-01 4.22366999e+01]
+scenario coeffs:  [0.25, 1.0, 1.5]
+forecast rational stdev:  0.15615237673358315
+forecast at the end of period: +42 days
+	 deltaDaycases:  4786
+	 total cases:  3777789 ± 589910
+	 total death:  262879 ± 123147
+tri-logistic approximation splitting points: 30,52
+trend0 coefficient of determination: 0.961986
+ intercept: -8.630711
+ slope: -0.257026
+trend1 coefficient of determination: 0.872494
+ intercept: -17.970431
+ slope: 0.068998
+trend coefficient of determination: 0.978507
+ intercept: -8.978107
+ slope: -0.104968
