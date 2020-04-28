@@ -1,0 +1,13 @@
+Mexico data at: 2020-04-27<br />
++3 day model MAPE: 0.037580<br />
+model: logisticQ<br />
+coeffs: [ 3.78212680e+04  2.47011136e-05  3.51248414e+01 -4.55429421e+03]<br />
+scenario coeffs: [0.35, 0.5, 3, 1]<br />
+rational stdev: 0.211952<br />
+forecast at the end of period: +180 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 51033 ± 10816<br />
+	 total death: 4712 ± 2996<br />
+trend coefficient of determination: 0.986028 <br />
+ intercept_: -6.485482723745702 <br />
+ coeffs_: [ 0.         -0.23708175  0.00229911]<br />

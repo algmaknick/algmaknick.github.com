@@ -1,0 +1,13 @@
+Switzerland data at: 2020-04-27<br />
++3 day model MAPE: 0.010351<br />
+model: logisticQ<br />
+coeffs: [ 2.85291754e+04  1.49373287e-06  2.48994334e+01 -1.07671949e+05]<br />
+scenario coeffs: [0.35, 0.5, 3, 1]<br />
+rational stdev: 0.364136<br />
+forecast at the end of period: +82 days<br />
+	 deltaDaycases: 5<br />
+	 total cases: 38443 ± 13998<br />
+	 total death: 2194 ± 2396<br />
+trend coefficient of determination: 0.986484 <br />
+ intercept_: -3.3126978542644725 <br />
+ coeffs_: [ 0.         -0.37277823  0.00288591]<br />

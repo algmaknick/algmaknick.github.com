@@ -1,0 +1,13 @@
+USA data at: 2020-04-27<br />
++3 day model MAPE: 0.062523<br />
+model: logisticQ<br />
+coeffs: [ 1.08291036e+06  1.99803677e-06  3.35990221e+01 -6.83777255e+04]<br />
+scenario coeffs: [0.35, 0.5, 3.0, 1.0]<br />
+rational stdev: 0.418882<br />
+forecast at the end of period: +96 days<br />
+	 deltaDaycases: 1181<br />
+	 total cases: 1444392 ± 605029<br />
+	 total death: 81192 ± 102029<br />
+trend coefficient of determination: 0.996219 <br />
+ intercept_: -5.559771939320489 <br />
+ coeffs_: [ 0.         -0.37763506  0.00296171]<br />
