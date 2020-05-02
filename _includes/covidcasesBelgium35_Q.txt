@@ -1,13 +1,13 @@
-Belgium data at: 2020-04-27<br />
-+3 day model MAPE: 0.030381<br />
+Belgium data at: 2020-05-01<br />
++3 day model MAPE: 0.015015<br />
 model: logisticQ<br />
-coeffs: [ 4.95794981e+04  2.13471718e-06  3.08808970e+01 -6.18806672e+04]<br />
-scenario coeffs: [0.35, 0.5, 3.0, 1.0]<br />
-rational stdev: 0.346657<br />
-forecast at the end of period: +82 days<br />
-	 deltaDaycases: 80<br />
-	 total cases: 65662 ± 22762<br />
-	 total death: 10136 ± 10541<br />
-trend coefficient of determination: 0.978402 <br />
- intercept_: -4.004137505522356 <br />
- coeffs_: [ 0.         -0.35870355  0.00307934]<br />
+coeffs: [ 5.11295477e+04  1.76779475e-06  3.14917258e+01 -7.23012390e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.347751<br />
+forecast at the end of period: +134 days<br />
+	 deltaDaycases: 45<br />
+	 total cases: 68528 ± 23830<br />
+	 total death: 10765 ± 11230<br />
+trend coefficient of determination: 0.978808 <br />
+ intercept_: -4.110056536199428 <br />
+ coeffs_: [ 0.         -0.34360732  0.00275182]<br />

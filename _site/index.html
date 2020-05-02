@@ -1,74 +1,1408 @@
-<!DOCTYPE html>
-<html lang="en"><head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.5.0 -->
-<title>Your awesome title | Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</title>
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Begin Jekyll SEO tag v2.5.0 -->
+<title>Multi-logistic model of COVID-19 dynamics | Model, code, results</title>
 <meta name="generator" content="Jekyll v3.8.5" />
-<meta property="og:title" content="Your awesome title" />
+<meta property="og:title" content="Multi-logistic model of COVID-19 dynamics" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<meta name="description" content="Model, code, results" />
+<meta property="og:description" content="Model, code, results" />
 <link rel="canonical" href="http://localhost:4000/" />
 <meta property="og:url" content="http://localhost:4000/" />
-<meta property="og:site_name" content="Your awesome title" />
+<meta property="og:site_name" content="Multi-logistic model of COVID-19 dynamics" />
 <script type="application/ld+json">
-{"description":"Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.","@type":"WebSite","name":"Your awesome title","url":"http://localhost:4000/","headline":"Your awesome title","@context":"http://schema.org"}</script>
+{"description":"Model, code, results","@type":"WebSite","name":"Multi-logistic model of COVID-19 dynamics","url":"http://localhost:4000/","headline":"Multi-logistic model of COVID-19 dynamics","@context":"http://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
-<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Your awesome title" /></head>
-<body><header class="site-header" role="banner">
 
-  <div class="wrapper"><a class="site-title" rel="author" href="/">Your awesome title</a><nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <svg viewBox="0 0 18 15" width="18px" height="15px">
-              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
-            </svg>
-          </span>
-        </label>
+    <link rel="stylesheet" href="/assets/css/style.css?v=317aac2de75e571b6c55dbf270751a10e626d2c2">
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="/assets/js/respond.js"></script>
+    <!--[if lt IE 9]>
+      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <!--[if lt IE 8]>
+    <link rel="stylesheet" href="/assets/css/ie.css">
+    <![endif]-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 
-        <div class="trigger"><a class="page-link" href="/about/">About</a></div>
-      </nav></div>
-</header>
-<main class="page-content" aria-label="Content">
-      <div class="wrapper">
-        <div class="home">
-<h2 class="post-list-heading">Posts</h2>
-    <ul class="post-list"><li><span class="post-meta">May 1, 2020</span>
-        <h3>
-          <a class="post-link" href="/jekyll/update/2020/05/01/welcome-to-jekyll.html">
-            Welcome to Jekyll!
-          </a>
-        </h3></li></ul>
+  </head>
+  <body>
+      <div id="header">
+        <nav>
+          <li class="fork"><a href="https://github.com/algmaknick/algmaknick.github.com">View On GitHub</a></li>
+          
+        </nav>
+      </div><!-- end header -->
 
-    <p class="rss-subscribe">subscribe <a href="/feed.xml">via RSS</a></p></div>
+    <div class="wrapper">
 
-      </div>
-    </main><footer class="site-footer h-card">
-  <data class="u-url" href="/"></data>
+      <section>
+        <div id="title">
+          <h1>Multi-logistic model of COVID-19 dynamics</h1>
+          <p>Model, code, results</p>
+          <hr>
+          <span class="credits left">Project maintained by <a href="https://github.com/algmaknick">algmaknick</a></span>
+          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
 
-  <div class="wrapper">
+        <head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+</head>
+<body>
+The number of COVID-19 cases \(K (t)\) after transformation is expressed as follows:
 
-    <h2 class="footer-heading">Your awesome title</h2>
+$$G(t)=\log{\dfrac{1}{K(t)^2}\dfrac{d K(t)}{d t}}=\log{\dfrac{k}{L}}-k(t-t_0)$$
 
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li class="p-name">Your awesome title</li><li><a class="u-email" href="mailto:your-email@example.com">your-email@example.com</a></li></ul>
-      </div>
+was used to decide how many humps the model should have. It follows from a logistic function that describes the change in people infected with the virus and is expressed as:
 
-      <div class="footer-col footer-col-2"><ul class="social-media-list"><li><a href="https://github.com/jekyll"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#github"></use></svg> <span class="username">jekyll</span></a></li><li><a href="https://www.twitter.com/jekyllrb"><svg class="svg-icon"><use xlink:href="/assets/minima-social-icons.svg#twitter"></use></svg> <span class="username">jekyllrb</span></a></li></ul>
-</div>
+$$K(t) = \dfrac{L}{1+e^{-k (t-t_0)}}=\dfrac{L}{2}+\dfrac{L}{2}\tanh{\dfrac{k(t-t_0)}{2}}$$
 
-      <div class="footer-col footer-col-3">
-        <p>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</p>
-      </div>
-    </div>
+which is solution of the differential logistic growth equation
 
-  </div>
+$$\frac{dK}{dt}=k K \left(1 - \frac{K}{L}\right)$$
 
-</footer>
+where t0 is
+
+$$t_0=\dfrac{1}{k}\log{\dfrac{L-K(0)}{K(0)}}$$
+
+k is the exponential growth factor, and L is the quencher coefficient of growth and the lower it is, the faster the growth is extinguished.
+
+In addition,  Richards' growth function 
+
+$$R(t) = \dfrac{L}{\left(1+e^{-k \nu (t-t_0)}\right)^\frac{1}{\nu}}$$
+
+were used. The following is the result of the world  and some countries K (t) infected dynamics model and its comparison with observed experimentally observed results for the determination of parameters using the least squares method [4]:
+
+$$ \min{\sum_{i=1}^{N}\left(K(t_i,a)-y_i\right)^2}$$
+
+where K (t, a) is the selected or logistic function
+
+$$K(t,a) = \dfrac{a_0}{1+e^{-a_1 (t-a_2)}}$$
+
+or bi-logistic function [3]
+
+$$K(t,a) = \dfrac{a_0}{1+e^{-a_1 (t-a_2)}}+\dfrac{a_3}{1+e^{-a_4 (t-a_5)}}$$
+
+or a tri-logistic function
+
+$$K(t,a) = \dfrac{a_0}{1+e^{-a_1 (t-a_2)}}+\dfrac{a_3}{1+e^{-a_4 (t-a_5)}}+\dfrac{a_6}{1+e^{-a_7 (t-a_8)}}$$
+
+Finally, q-logistic and rq-logistic models replaced most of multy-logistic country models, where \(K_Q(t)=K((t-t_0)(t-t_1))\) and \(K_{RQ}(t)=R((t-t_0)(t-t_1))\) . The fourth graph shows the ratio
+
+$$S(t)=\dfrac{K_a^\prime(t)}{K^\prime(t)}$$
+
+where \(K_a(t)\) is the number of active cases, \(K(t)\) is the number total cases, after averaging those values ​​for three days. This size in the rise stats in Korea and the world was about 1 and is currently 0.8 . In addition, standard deviation bands for model and model derivative for 1, 2 and 3 sigma, respectively, were added. The red dot in the graphs means the value of current today . 
+
+Obviously, the coefficient \(L\) indicates the country’s actions in actively disinfecting, and the coefficient k is proportional to the amount of social contacts. Therefore, the reduction or disinfection of the L factor, disinfection and disinfection again are on the agenda today.
+
+It should be mentioned that it is only possible to say exactly what logistical growth rate COVID-19 develops after the end of the pandemic, but from the current point of view it can be seen that the model output can vary by several tens of percent to 2x, and the standard deviation of experimental data . However, there is another argument that leads to the assumption that it contains simple logistical dynamics. These are R (t) linear approximations fairly accurate for all countries and a coefficient of determination close to 0.9, and as the trend changes direction and this coefficient begins to decrease, the accuracy of the trend model increases again with the transition to a humpback graph. Therefore, the results of the simple multi-logistic function model will continue to be presented, bearing in mind that the predicted result is the lower limit of the possible scenarios.
+
+Assuming that all countries choose a slow (Korean scenario) exit from quarantine, a second hump with coefficients of 'scenario' was added (without optimisation) to predict the results of the model. 
+<br />
+ 
+  World      
+<br />
+<img src="pictures/covidcasesWorld35_Q.png" alt="hi" class="inline"/><br /> 
+
+  World data at: 2020-05-01<br />
++3 day model MAPE: 0.048398<br />
+model: bi-logisticQ<br />
+coeffs: [ 3.11650074e+06  5.52925237e-06  7.05863274e+01 -2.34749051e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.123549<br />
+forecast at the end of period: +316 days<br />
+	 deltaDaycases: 136<br />
+	 total cases: 4626657 ± 571620<br />
+	 total death: 325935 ± 120807<br />
+trend coefficient of determination: 0.957216 <br />
+ intercept_: -9.890425229004336 <br />
+ coeffs_: [ 0.         -0.26614025  0.00124975]<br />trend1 coefficient of determination: 0.874764 <br />
+ intercept_: -22.035447570025077 <br />
+ coeffs_: [ 0.          0.31660897 -0.00341999]<br />trend coefficient of determination: 0.988881 <br />
+ intercept_: -0.593904199773867 <br />
+ coeffs_: [ 0.         -0.35113113  0.00168812]<br />
+      <br /> 
+
+European Union
+<br />
+<img src="pictures/covidcasesEuropean Union35_Q.png" alt="hi" class="inline"/><br /> 
+
+  European Union data at: 2020-05-01<br />
++3 day model MAPE: 0.018586<br />
+model: logisticQ<br />
+coeffs: [ 1.01349078e+06  1.37273737e-06  4.79853982e+01 -9.44356652e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.427064<br />
+forecast at the end of period: +211 days<br />
+	 deltaDaycases: 158<br />
+	 total cases: 1370067 ± 585107<br />
+	 total death: 141683 ± 181523<br />
+trend coefficient of determination: 0.986144 <br />
+ intercept_: -3.0116513456684775 <br />
+ coeffs_: [ 0.         -0.32851184  0.00169106]<br />
+      <br /> 
+
+    USA
+    <br />
+    <img src="pictures/covidcasesUSA35_Q.png" alt="hi" class="inline"/><br /> 
+
+      USA data at: 2020-05-01<br />
++3 day model MAPE: 0.047588<br />
+model: logisticQ<br />
+coeffs: [ 1.19413534e+06  1.59392193e-06  3.54539301e+01 -7.83502895e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.422988<br />
+forecast at the end of period: +134 days<br />
+	 deltaDaycases: 2771<br />
+	 total cases: 1568417 ± 663421<br />
+	 total death: 91178 ± 115701<br />
+trend coefficient of determination: 0.996523 <br />
+ intercept_: -5.552758970127716 <br />
+ coeffs_: [ 0.         -0.37858484  0.00298127]<br />
+          <br /> 
+    
+    Spain
+    <br />
+    <img src="pictures/covidcasesSpain35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Spain data at: 2020-05-01<br />
++3 day model MAPE: 0.028157<br />
+model: logisticQ<br />
+coeffs: [ 1.80489569e+05  4.90633148e-06  2.63952659e+01 -3.83458431e+04]<br />
+rational stdev: 0.373397<br />
+forecast at the end of period: +64 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 180489 ± 67394<br />
+	 total death: 18439 ± 20655<br />
+trend coefficient of determination: 0.997432 <br />
+ intercept_: -3.859009253100683 <br />
+ coeffs_: [ 0.         -0.42385579  0.00363487]<br />
+          <br /> 
+    
+    Italy
+    <br />
+    <img src="pictures/covidcasesItaly35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Italy data at: 2020-05-01<br />
++3 day model MAPE: 0.019619<br />
+model: logisticQ<br />
+coeffs: [ 2.04383665e+05  8.67263057e-07  2.91652029e+01 -1.29590220e+05]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.323334<br />
+forecast at the end of period: +120 days<br />
+	 deltaDaycases: 191<br />
+	 total cases: 273305 ± 88368<br />
+	 total death: 37203 ± 36086<br />
+trend coefficient of determination: 0.994758 <br />
+ intercept_: -7.095655278253213 <br />
+ coeffs_: [ 0.         -0.28813308  0.002185  ]<br />
+          <br /> 
+    
+    United Kingdom
+    <br />
+    <img src="pictures/covidcasesUnited_Kingdom35_Q.png" alt="hi" class="inline"/><br /> 
+
+      United Kingdom data at: 2020-05-01<br />
++3 day model MAPE: 0.041820<br />
+model: logisticQ<br />
+coeffs: [ 1.88832107e+05  2.16025361e-06  4.02892824e+01 -5.91922264e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.384875<br />
+forecast at the end of period: +162 days<br />
+	 deltaDaycases: 240<br />
+	 total cases: 251849 ± 96930<br />
+	 total death: 39043 ± 45080<br />
+trend coefficient of determination: 0.995001 <br />
+ intercept_: -4.184782317199019 <br />
+ coeffs_: [ 0.         -0.30927022  0.00200984]<br />
+          <br /> 
+    
+    France
+    <br />
+    <img src="pictures/covidcasesFrance35_Q.png" alt="hi" class="inline"/><br /> 
+
+      France data at: 2020-05-01<br />
++3 day model MAPE: 0.006839<br />
+model: logisticQ<br />
+coeffs: [ 1.68765163e+05  3.06179827e-06  3.22715834e+01 -4.94325241e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.313598<br />
+forecast at the end of period: +130 days<br />
+	 deltaDaycases: 121<br />
+	 total cases: 226955 ± 71172<br />
+	 total death: 33354 ± 31379<br />
+trend coefficient of determination: 0.981843 <br />
+ intercept_: -5.051453587883749 <br />
+ coeffs_: [ 0.         -0.30742037  0.00184749]<br />
+          <br /> 
+    
+    Germany
+    <br />
+    <img src="pictures/covidcasesGermany35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Germany data at: 2020-05-01<br />
++3 day model MAPE: 0.015202<br />
+model: logisticQ<br />
+coeffs: [ 1.59476650e+05  1.31498321e-06  2.97618158e+01 -1.13590493e+05]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.372272<br />
+forecast at the end of period: +134 days<br />
+	 deltaDaycases: 37<br />
+	 total cases: 215476 ± 80216<br />
+	 total death: 8846 ± 9879<br />
+trend coefficient of determination: 0.993588 <br />
+ intercept_: -4.581306613832961 <br />
+ coeffs_: [ 0.         -0.34736665  0.00245152]<br />
+          <br /> 
+    
+    Turkey
+    <br />
+    <img src="pictures/covidcasesTurkey35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Turkey data at: 2020-05-01<br />
++3 day model MAPE: 0.022870<br />
+model: logisticQ<br />
+coeffs: [ 1.27349120e+05  3.18621385e-06  2.67548222e+01 -4.87903929e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.397465<br />
+forecast at the end of period: +126 days<br />
+	 deltaDaycases: 54<br />
+	 total cases: 171770 ± 68272<br />
+	 total death: 4572 ± 5451<br />
+trend coefficient of determination: 0.975727 <br />
+ intercept_: -2.960535569594539 <br />
+ coeffs_: [ 0.         -0.49905072  0.00505877]<br />
+          <br /> 
+    
+    Russia
+    <br />
+    <img src="pictures/covidcasesRussia35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Russia data at: 2020-05-01<br />
++3 day model MAPE: 0.049160<br />
+model: logisticQ<br />
+coeffs: [ 1.60071884e+05  1.38266145e-05  4.87079495e+01 -1.14825206e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.341377<br />
+forecast at the end of period: +211 days<br />
+	 deltaDaycases: 67<br />
+	 total cases: 215939 ± 73716<br />
+	 total death: 2205 ± 2258<br />
+trend coefficient of determination: 0.948540 <br />
+ intercept_: -3.7962087718427213 <br />
+ coeffs_: [ 0.00000000e+00 -1.87155036e-01  9.74847251e-05]<br />
+          <br /> 
+    
+    Iran
+    <br />
+    <img src="pictures/covidcasesIran35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Iran data at: 2020-05-01<br />
++3 day model MAPE: 0.437963<br />
+model: logisticQ<br />
+coeffs: [ 7.36885538e+03  7.42900276e-05 -6.37012173e+03  6.90117085e+00]<br />
+rational stdev: 0.203007<br />
+forecast at the end of period: +78 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 7368 ± 1495<br />
+	 total death: 469 ± 285<br />
+trend coefficient of determination: 0.985826 <br />
+ intercept_: -2.7244557798652984 <br />
+ coeffs_: [ 0.         -0.60810956  0.00802289]<br />
+          <br /> 
+    
+
+    Brazil
+    <br />
+    <img src="pictures/covidcasesBrazil35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Brazil data at: 2020-05-01<br />
++3 day model MAPE: 0.121062<br />
+model: logisticQ<br />
+coeffs: [ 2.44312552e+05  8.07395076e-06  5.75205431e+01 -1.19458483e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.413694<br />
+forecast at the end of period: +281 days<br />
+	 deltaDaycases: 76<br />
+	 total cases: 329282 ± 136222<br />
+	 total death: 22899 ± 28419<br />
+trend coefficient of determination: 0.831837 <br />
+ intercept_: -3.8360884448133774 <br />
+ coeffs_: [ 0.         -0.32295348  0.00259044]<br />
+          <br /> 
+    
+    Canada
+    <br />
+    <img src="pictures/covidcasesCanada35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Canada data at: 2020-05-01<br />
++3 day model MAPE: 0.044387<br />
+model: logisticQ<br />
+coeffs: [ 6.28397997e+04  1.58381095e-06  3.82758055e+01 -7.20038376e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.397065<br />
+forecast at the end of period: +168 days<br />
+	 deltaDaycases: 53<br />
+	 total cases: 84144 ± 33410<br />
+	 total death: 5182 ± 6172<br />
+trend coefficient of determination: 0.985077 <br />
+ intercept_: -4.646792557919564 <br />
+ coeffs_: [ 0.         -0.26703397  0.00168712]<br />
+          <br /> 
+    
+    Belgium
+    <br />
+    <img src="pictures/covidcasesBelgium35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Belgium data at: 2020-05-01<br />
++3 day model MAPE: 0.015015<br />
+model: logisticQ<br />
+coeffs: [ 5.11295477e+04  1.76779475e-06  3.14917258e+01 -7.23012390e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.347751<br />
+forecast at the end of period: +134 days<br />
+	 deltaDaycases: 45<br />
+	 total cases: 68528 ± 23830<br />
+	 total death: 10765 ± 11230<br />
+trend coefficient of determination: 0.978808 <br />
+ intercept_: -4.110056536199428 <br />
+ coeffs_: [ 0.         -0.34360732  0.00275182]<br />
+          <br /> 
+    
+    Peru
+    <br />
+    <img src="pictures/covidcasesPeru35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Peru data at: 2020-05-01<br />
++3 day model MAPE: 0.150129<br />
+model: logisticQ<br />
+coeffs: [ 7.58244929e+04  5.92159072e-06  4.65905225e+01 -2.04532361e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.341680<br />
+forecast at the end of period: +204 days<br />
+	 deltaDaycases: 81<br />
+	 total cases: 101308 ± 34615<br />
+	 total death: 2814 ± 2884<br />
+trend coefficient of determination: 0.963526 <br />
+ intercept_: -3.4764925760668186 <br />
+ coeffs_: [ 0.         -0.31158594  0.00249141]<br />
+          <br /> 
+    
+    Netherlands
+    <br />
+    <img src="pictures/covidcasesNetherlands35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Netherlands data at: 2020-05-01<br />
++3 day model MAPE: 0.009699<br />
+model: logisticQ<br />
+coeffs: [ 4.14901058e+04  1.72708446e-06  3.28821614e+01 -7.01316044e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.365979<br />
+forecast at the end of period: +134 days<br />
+	 deltaDaycases: 47<br />
+	 total cases: 55377 ± 20266<br />
+	 total death: 6809 ± 7475<br />
+trend coefficient of determination: 0.981280 <br />
+ intercept_: -3.1219941407348877 <br />
+ coeffs_: [ 0.         -0.37475276  0.00305994]<br />
+          <br /> 
+    
+    India
+    <br />
+    <img src="pictures/covidcasesIndia35_Q.png" alt="hi" class="inline"/><br /> 
+
+      India data at: 2020-05-01<br />
++3 day model MAPE: 0.054637<br />
+model: logisticQ<br />
+coeffs: [ 5.04915644e+04  4.16598602e-04  1.60751940e+01 -2.98987515e+02]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.113591<br />
+forecast at the end of period: +78 days<br />
+	 deltaDaycases: 125<br />
+	 total cases: 66190 ± 7518<br />
+	 total death: 2168 ± 738<br />
+trend coefficient of determination: 0.972973 <br />
+ intercept_: -9.267302135902948 <br />
+ coeffs_: [ 0.         -0.23741849  0.00338852]<br />
+          <br /> 
+    
+    Switzerland
+    <br />
+    <img src="pictures/covidcasesSwitzerland35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Switzerland data at: 2020-05-01<br />
++3 day model MAPE: 0.009162<br />
+model: logisticQ<br />
+coeffs: [ 2.89036380e+04  1.23331932e-06  2.51500499e+01 -1.27205429e+05]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.361987<br />
+forecast at the end of period: +106 days<br />
+	 deltaDaycases: 11<br />
+	 total cases: 39002 ± 14118<br />
+	 total death: 2302 ± 2499<br />
+trend coefficient of determination: 0.987150 <br />
+ intercept_: -3.3578702088942904 <br />
+ coeffs_: [ 0.         -0.36682256  0.00276614]<br />
+          <br /> 
+    
+    Ecuador
+    <br />
+    <img src="pictures/covidcasesEcuador35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Ecuador data at: 2020-05-01<br />
++3 day model MAPE: 0.021898<br />
+model: logisticQ<br />
+coeffs: [ 2.70848535e+04  3.54529281e-06  2.49712865e+01 -3.74805922e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.339077<br />
+forecast at the end of period: +134 days<br />
+	 deltaDaycases: 6<br />
+	 total cases: 36584 ± 12404<br />
+	 total death: 1476 ± 1501<br />
+trend coefficient of determination: 0.646703 <br />
+ intercept_: -6.651868524591974 <br />
+ coeffs_: [ 0.         -0.21770193  0.00076957]<br />
+          <br /> 
+    
+    Portugal
+    <br />
+    <img src="pictures/covidcasesPortugal35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Portugal data at: 2020-05-01<br />
++3 day model MAPE: 0.023576<br />
+model: logisticQ<br />
+coeffs: [ 2.52250680e+04  1.37647204e-06  2.83438081e+01 -1.00549147e+05]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.392666<br />
+forecast at the end of period: +134 days<br />
+	 deltaDaycases: 8<br />
+	 total cases: 34045 ± 13368<br />
+	 total death: 1352 ± 1592<br />
+trend coefficient of determination: 0.988768 <br />
+ intercept_: -2.6290482802486395 <br />
+ coeffs_: [ 0.         -0.39428307  0.00333096]<br />
+          <br /> 
+    
+    Saudi Arabia
+    <br />
+    <img src="pictures/covidcasesSaudi_Arabia35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Saudi Arabia data at: 2020-05-01<br />
++3 day model MAPE: 0.018335<br />
+model: logisticQ<br />
+coeffs: [ 3.64651648e+04  8.29229278e-04  4.65564400e+01 -1.29994391e+02]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.397939<br />
+forecast at the end of period: +218 days<br />
+	 deltaDaycases: 14<br />
+	 total cases: 49140 ± 19554<br />
+	 total death: 344 ± 410<br />
+trend coefficient of determination: 0.779217 <br />
+ intercept_: -4.122979369841758 <br />
+ coeffs_: [ 0.         -0.25847032  0.00199846]<br />
+          <br /> 
+    
+    Sweden
+    <br />
+    <img src="pictures/covidcasesSweden35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Sweden data at: 2020-05-01<br />
++3 day model MAPE: 0.034422<br />
+model: logisticQ<br />
+coeffs: [ 2.60598140e+04  2.14386735e-06  4.23851383e+01 -4.48815371e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.338666<br />
+forecast at the end of period: +190 days<br />
+	 deltaDaycases: 20<br />
+	 total cases: 34857 ± 11805<br />
+	 total death: 4297 ± 4365<br />
+trend coefficient of determination: 0.967779 <br />
+ intercept_: -3.8175692748912944 <br />
+ coeffs_: [ 0.         -0.3084901   0.00255544]<br />
+          <br /> 
+    
+    Ireland
+    <br />
+    <img src="pictures/covidcasesIreland35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Ireland data at: 2020-05-01<br />
++3 day model MAPE: 0.003127<br />
+model: logisticQ<br />
+coeffs: [ 2.26651459e+04  1.94393473e-04  3.40707174e+01 -6.84128321e+02]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.355400<br />
+forecast at the end of period: +148 days<br />
+	 deltaDaycases: 17<br />
+	 total cases: 30440 ± 10818<br />
+	 total death: 1848 ± 1970<br />
+trend coefficient of determination: 0.978361 <br />
+ intercept_: -3.527042458221759 <br />
+ coeffs_: [ 0.         -0.30682614  0.00222515]<br />
+          <br /> 
+    
+    Mexico
+    <br />
+    <img src="pictures/covidcasesMexico35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Mexico data at: 2020-05-01<br />
++3 day model MAPE: 0.027443<br />
+model: logisticQ<br />
+coeffs: [ 4.45578350e+04  1.43564048e-05  3.75374878e+01 -7.56075908e+03]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.215496<br />
+forecast at the end of period: +176 days<br />
+	 deltaDaycases: 54<br />
+	 total cases: 59294 ± 12777<br />
+	 total death: 5638 ± 3644<br />
+trend coefficient of determination: 0.987907 <br />
+ intercept_: -6.507624509271491 <br />
+ coeffs_: [ 0.         -0.23251836  0.00215763]<br />
+          <br /> 
+    
+    Singapore
+    <br />
+    <img src="pictures/covidcasesSingapore35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Singapore data at: 2020-05-01<br />
++3 day model MAPE: 0.020035<br />
+model: bi-logisticQ<br />
+coeffs: [ 1.91913103e+04  1.62477944e-03  8.19085849e+01 -4.25720805e+01]<br />
+S.Korea scenario coeffs: [0.35, 0.5, 4.0, 1.0]<br />
+rational stdev: 0.455178<br />
+forecast at the end of period: +106 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 19290 ± 8780<br />
+	 total death: 18 ± 24<br />
+trend coefficient of determination: 0.914568 <br />
+ intercept_: -2.036640634366525 <br />
+ coeffs_: [ 0.         -0.39517788  0.00592335]<br />trend coefficient of determination: 0.862920 <br />
+ intercept_: -10.17759337146799 <br />
+ coeffs_: [ 0.          0.10093689 -0.00130997]<br />
+          <br /> 
+    
+    Chile
+    <br />
+    <img src="pictures/covidcasesChile35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Chile data at: 2020-05-01<br />
++3 day model MAPE: 0.097652<br />
+model: logisticQ<br />
+coeffs: [ 1.97384329e+04  1.40090189e-06  3.80651697e+01 -7.42822380e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.411703<br />
+forecast at the end of period: +162 days<br />
+	 deltaDaycases: 27<br />
+	 total cases: 26181 ± 10779<br />
+	 total death: 360 ± 444<br />
+trend coefficient of determination: 0.739955 <br />
+ intercept_: -4.242579736495545 <br />
+ coeffs_: [ 0.         -0.28165801  0.0023007 ]<br />
+          <br /> 
+    
+    Israel
+    <br />
+    <img src="pictures/covidcasesIsrael35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Israel data at: 2020-05-01<br />
++3 day model MAPE: 0.019518<br />
+model: logisticQ<br />
+coeffs: [ 1.58258759e+04  1.25138632e-06  3.50884986e+01 -1.17701213e+05]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.406572<br />
+forecast at the end of period: +134 days<br />
+	 deltaDaycases: 17<br />
+	 total cases: 21193 ± 8616<br />
+	 total death: 296 ± 361<br />
+trend coefficient of determination: 0.927187 <br />
+ intercept_: -2.9954776721803684 <br />
+ coeffs_: [ 0.         -0.23601825  0.00088582]<br />
+          <br /> 
+    
+    Austria
+    <br />
+    <img src="pictures/covidcasesAustria35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Austria data at: 2020-05-01<br />
++3 day model MAPE: 0.008246<br />
+model: logisticQ<br />
+coeffs: [ 1.49271529e+04  1.62868827e-06  2.30559180e+01 -1.27683350e+05]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.315626<br />
+forecast at the end of period: +92 days<br />
+	 deltaDaycases: 3<br />
+	 total cases: 20181 ± 6369<br />
+	 total death: 765 ± 724<br />
+trend coefficient of determination: 0.978814 <br />
+ intercept_: -2.752379559676063 <br />
+ coeffs_: [ 0.         -0.35804086  0.00248257]<br />
+          <br /> 
+    
+    Belarus
+    <br />
+    <img src="pictures/covidcasesBelarus35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Belarus data at: 2020-05-01<br />
++3 day model MAPE: 0.080316<br />
+model: logisticQ<br />
+coeffs: [ 2.29811112e+04  7.40082700e-06  1.90374670e+01 -1.94229543e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.233241<br />
+forecast at the end of period: +106 days<br />
+	 deltaDaycases: 20<br />
+	 total cases: 30838 ± 7192<br />
+	 total death: 192 ± 134<br />
+trend coefficient of determination: 0.971876 <br />
+ intercept_: -6.951496653778041 <br />
+ coeffs_: [ 0.         -0.29132645  0.00375298]<br />
+          <br /> 
+    
+    Japan
+    <br />
+    <img src="pictures/covidcasesJapan35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Japan data at: 2020-05-01<br />
++3 day model MAPE: 0.009112<br />
+model: logisticQ<br />
+coeffs: [ 1.46267003e+04  1.67506808e-03  1.96747284e+01 -7.29209208e+01]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.059544<br />
+forecast at the end of period: +106 days<br />
+	 deltaDaycases: 7<br />
+	 total cases: 19708 ± 1173<br />
+	 total death: 626 ± 111<br />
+trend coefficient of determination: 0.931657 <br />
+ intercept_: -10.076813297133606 <br />
+ coeffs_: [ 0.          0.01949293 -0.00259254]<br />
+          <br /> 
+    
+    Qatar
+    <br />
+    <img src="pictures/covidcasesQatar35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Qatar data at: 2020-05-01<br />
++3 day model MAPE: 10.389766<br />
+model: logisticQ<br />
+coeffs: [ 4.40923501e+02 -1.12413074e-01  1.14811089e+01  1.00067900e-01]<br />
+rational stdev: 28560.888310<br />
+forecast at the end of period: +92 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 0 ± 0<br />
+	 total death: 0 ± 0<br />
+trend coefficient of determination: 0.925886 <br />
+ intercept_: -2.1066548119132458 <br />
+ coeffs_: [ 0.         -0.53152809 -0.00944941]<br />
+          <br /> 
+    
+    Poland
+    <br />
+    <img src="pictures/covidcasesPoland35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Poland data at: 2020-05-01<br />
++3 day model MAPE: 0.037079<br />
+model: logisticQ<br />
+coeffs: [ 1.42253600e+04  2.11565969e-06  3.24639789e+01 -5.69488902e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.360558<br />
+forecast at the end of period: +148 days<br />
+	 deltaDaycases: 9<br />
+	 total cases: 19104 ± 6888<br />
+	 total death: 949 ± 1026<br />
+trend coefficient of determination: 0.983240 <br />
+ intercept_: -2.9618002756254684 <br />
+ coeffs_: [ 0.         -0.34709555  0.00299614]<br />
+          <br /> 
+    
+    UAE
+    <br />
+    <img src="pictures/covidcasesUAE35_Q.png" alt="hi" class="inline"/><br /> 
+
+      UAE data at: 2020-05-01<br />
++3 day model MAPE: 0.059435<br />
+model: logisticQ<br />
+coeffs: [ 1.64495933e+04  3.88823958e-06  1.84583464e+01 -3.22658789e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.150795<br />
+forecast at the end of period: +92 days<br />
+	 deltaDaycases: 26<br />
+	 total cases: 21832 ± 3292<br />
+	 total death: 185 ± 83<br />
+trend coefficient of determination: 0.972728 <br />
+ intercept_: -7.754460755320794 <br />
+ coeffs_: [ 0.         -0.21846832  0.00225604]<br />
+          <br /> 
+    
+    Romania
+    <br />
+    <img src="pictures/covidcasesRomania35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Romania data at: 2020-05-01<br />
++3 day model MAPE: 0.038659<br />
+model: logisticQ<br />
+coeffs: [ 1.35030599e+04  1.97121832e-06  3.15060655e+01 -6.19495145e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.337555<br />
+forecast at the end of period: +134 days<br />
+	 deltaDaycases: 16<br />
+	 total cases: 18013 ± 6080<br />
+	 total death: 1066 ± 1079<br />
+trend coefficient of determination: 0.985269 <br />
+ intercept_: -3.7643217680660177 <br />
+ coeffs_: [ 0.         -0.30981571  0.00258267]<br />
+          <br /> 
+    
+    Ukraine
+    <br />
+    <img src="pictures/covidcasesUkraine35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Ukraine data at: 2020-05-01<br />
++3 day model MAPE: 0.034489<br />
+model: logisticQ<br />
+coeffs: [ 1.64548321e+04  6.66857815e-06  3.28541766e+01 -1.89389729e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.338090<br />
+forecast at the end of period: +148 days<br />
+	 deltaDaycases: 20<br />
+	 total cases: 21943 ± 7418<br />
+	 total death: 549 ± 556<br />
+trend coefficient of determination: 0.938363 <br />
+ intercept_: -3.6340534471368686 <br />
+ coeffs_: [ 0.         -0.36322464  0.003963  ]<br />
+          <br /> 
+    
+    South_Korea
+    <br />
+    <img src="pictures/covidcasesSouth_Korea100_Q.png" alt="hi" class="inline"/><br /> 
+
+      South Korea data at: 2020-05-01<br />
++3 day model MAPE: 0.001307<br />
+model: bi-logisticQ<br />
+coeffs: [ 2.81229102e+03  1.94091213e-06  3.20706657e+01 -9.27577379e+04]<br />
+rational stdev: 0.136308<br />
+forecast at the end of period: +22 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 10712 ± 1460<br />
+	 total death: 248 ± 101<br />
+trend coefficient of determination: 0.925965 <br />
+ intercept_: -5.745633553515705 <br />
+ coeffs_: [ 0.         -0.22458651 -0.00428776]<br />trend coefficient of determination: 0.504844 <br />
+ intercept_: -11.19357033976762 <br />
+ coeffs_: [ 0.         -0.06571011 -0.00015571]<br />
+          <br /> 
+    
+    Indonesia
+    <br />
+    <img src="pictures/covidcasesIndonesia35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Indonesia data at: 2020-05-01<br />
++3 day model MAPE: 0.017889<br />
+model: logisticQ<br />
+coeffs: [ 1.33127409e+04  4.53644215e-05  2.04462438e+01 -2.34401643e+03]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.044008<br />
+forecast at the end of period: +120 days<br />
+	 deltaDaycases: 8<br />
+	 total cases: 17871 ± 786<br />
+	 total death: 1355 ± 178<br />
+trend coefficient of determination: 0.969308 <br />
+ intercept_: -8.532444309670424 <br />
+ coeffs_: [ 0.         -0.14581114  0.00098463]<br />
+          <br /> 
+    
+    Denmark
+    <br />
+    <img src="pictures/covidcasesDenmark35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Denmark data at: 2020-05-01<br />
++3 day model MAPE: 2.879608<br />
+model: logisticQ<br />
+coeffs: [ 8.62480490e+02  2.49401516e-04  4.73670538e+00 -4.50088701e+03]<br />
+rational stdev: 487.269302<br />
+forecast at the end of period: +22 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 862 ± 420260<br />
+	 total death: 42 ± 61395<br />
+trend coefficient of determination: 0.965266 <br />
+ intercept_: -2.0557034713075613 <br />
+ coeffs_: [ 0.         -0.1970759  -0.01925246]<br />
+          <br /> 
+    
+    Serbia
+    <br />
+    <img src="pictures/covidcasesSerbia35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Serbia data at: 2020-05-01<br />
++3 day model MAPE: 0.029366<br />
+model: logisticQ<br />
+coeffs: [ 9.76620655e+03  4.27245232e-06  2.80953349e+01 -3.47913659e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.268849<br />
+forecast at the end of period: +106 days<br />
+	 deltaDaycases: 26<br />
+	 total cases: 12834 ± 3450<br />
+	 total death: 257 ± 207<br />
+trend coefficient of determination: 0.963613 <br />
+ intercept_: -3.8699002454284503 <br />
+ coeffs_: [ 0.         -0.28988003  0.00224464]<br />
+          <br /> 
+    
+    Philippines
+    <br />
+    <img src="pictures/covidcasesPhilippines35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Philippines data at: 2020-05-01<br />
++3 day model MAPE: 0.061028<br />
+model: logisticQ<br />
+coeffs: [ 8.61205785e+03  1.77442956e-06  2.23429435e+01 -7.38453176e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.345795<br />
+forecast at the end of period: +78 days<br />
+	 deltaDaycases: 29<br />
+	 total cases: 11131 ± 3849<br />
+	 total death: 734 ± 761<br />
+trend coefficient of determination: 0.943032 <br />
+ intercept_: -4.351483070971691 <br />
+ coeffs_: [ 0.         -0.35332977  0.00379712]<br />
+          <br /> 
+    
+    Norway
+    <br />
+    <img src="pictures/covidcasesNorway35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Norway data at: 2020-05-01<br />
++3 day model MAPE: 0.010261<br />
+model: logisticQ<br />
+coeffs: [ 7.60426611e+03  1.15725511e-06  2.33387850e+01 -1.15123271e+05]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.335592<br />
+forecast at the end of period: +106 days<br />
+	 deltaDaycases: 2<br />
+	 total cases: 10253 ± 3441<br />
+	 total death: 276 ± 277<br />
+trend coefficient of determination: 0.969910 <br />
+ intercept_: -3.104680915327407 <br />
+ coeffs_: [ 0.         -0.36510848  0.00312115]<br />
+          <br /> 
+    
+    Czechia
+    <br />
+    <img src="pictures/covidcasesCzechia35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Czechia data at: 2020-05-01<br />
++3 day model MAPE: 0.016549<br />
+model: logisticQ<br />
+coeffs: [ 7.48378707e+03  1.40676455e-06  2.40758501e+01 -1.07980473e+05]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.342781<br />
+forecast at the end of period: +106 days<br />
+	 deltaDaycases: 3<br />
+	 total cases: 10092 ± 3459<br />
+	 total death: 313 ± 321<br />
+trend coefficient of determination: 0.901637 <br />
+ intercept_: -3.8690597710713828 <br />
+ coeffs_: [ 0.         -0.29527012  0.00215857]<br />
+          <br /> 
+    
+    Colombia
+    <br />
+    <img src="pictures/covidcasesColombia35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Colombia data at: 2020-05-01<br />
++3 day model MAPE: 0.097743<br />
+model: logisticQ<br />
+coeffs: [ 9.43243241e+03  2.05274216e-06  3.55424667e+01 -4.75448830e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.336414<br />
+forecast at the end of period: +162 days<br />
+	 deltaDaycases: 11<br />
+	 total cases: 12521 ± 4212<br />
+	 total death: 561 ± 566<br />
+trend coefficient of determination: 0.963241 <br />
+ intercept_: -3.2201631662107246 <br />
+ coeffs_: [ 0.         -0.38103472  0.00433926]<br />
+          <br /> 
+    
+    Australia
+    <br />
+    <img src="pictures/covidcasesAustralia35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Australia data at: 2020-05-01<br />
++3 day model MAPE: 0.003998<br />
+model: logisticQ<br />
+coeffs: [ 6.62446167e+03  3.07140509e-06  1.80560288e+01 -7.55015126e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.207090<br />
+forecast at the end of period: +50 days<br />
+	 deltaDaycases: 15<br />
+	 total cases: 8840 ± 1830<br />
+	 total death: 121 ± 75<br />
+trend coefficient of determination: 0.977188 <br />
+ intercept_: -4.8710697155955485 <br />
+ coeffs_: [ 0.         -0.25032559  0.00112281]<br />
+          <br /> 
+    
+    Malaysia
+    <br />
+    <img src="pictures/covidcasesMalaysia35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Malaysia data at: 2020-05-01<br />
++3 day model MAPE: 0.011047<br />
+model: logisticQ<br />
+coeffs: [ 5.99700815e+03  2.52240802e-06  2.72099234e+01 -5.37253645e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.332567<br />
+forecast at the end of period: +106 days<br />
+	 deltaDaycases: 6<br />
+	 total cases: 8016 ± 2665<br />
+	 total death: 136 ± 135<br />
+trend coefficient of determination: 0.834354 <br />
+ intercept_: -4.403382592891479 <br />
+ coeffs_: [ 0.         -0.25013453  0.00166705]<br />
+          <br /> 
+    
+    Egypt
+    <br />
+    <img src="pictures/covidcasesEgypt35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Egypt data at: 2020-05-01<br />
++3 day model MAPE: 0.064483<br />
+model: logisticQ<br />
+coeffs: [ 8.75764591e+03  2.31329766e-05  2.97975097e+01 -4.18443464e+03]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.093391<br />
+forecast at the end of period: +148 days<br />
+	 deltaDaycases: 9<br />
+	 total cases: 11653 ± 1088<br />
+	 total death: 802 ± 224<br />
+trend coefficient of determination: 0.923336 <br />
+ intercept_: -7.553913714650536 <br />
+ coeffs_: [ 0.        -0.1323093  0.0007971]<br />
+          <br /> 
+    
+    Finland
+    <br />
+    <img src="pictures/covidcasesFinland35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Finland data at: 2020-05-01<br />
++3 day model MAPE: 0.026368<br />
+model: logisticQ<br />
+coeffs: [ 5.49639481e+03  1.62667782e-06  3.76879537e+01 -6.45635727e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.383424<br />
+forecast at the end of period: +176 days<br />
+	 deltaDaycases: 2<br />
+	 total cases: 7395 ± 2835<br />
+	 total death: 319 ± 366<br />
+trend coefficient of determination: 0.876172 <br />
+ intercept_: -3.3133296316179575 <br />
+ coeffs_: [ 0.         -0.2449607   0.00158464]<br />
+          <br /> 
+    
+    Morocco
+    <br />
+    <img src="pictures/covidcasesMorocco35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Morocco data at: 2020-05-01<br />
++3 day model MAPE: 0.015356<br />
+model: logisticQ<br />
+coeffs: [ 5.51191830e+03  1.19298239e-05  2.63265628e+01 -1.04788171e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.240815<br />
+forecast at the end of period: +134 days<br />
+	 deltaDaycases: 3<br />
+	 total cases: 7415 ± 1785<br />
+	 total death: 277 ± 200<br />
+trend coefficient of determination: 0.962978 <br />
+ intercept_: -4.925186138238542 <br />
+ coeffs_: [ 0.         -0.25270241  0.00215159]<br />
+          <br /> 
+    
+    Argentina
+    <br />
+    <img src="pictures/covidcasesArgentina35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Argentina data at: 2020-05-01<br />
++3 day model MAPE: 0.061338<br />
+model: logisticQ<br />
+coeffs: [ 5.16728513e+03  2.20690856e-06  3.40677433e+01 -4.63426916e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.378812<br />
+forecast at the end of period: +148 days<br />
+	 deltaDaycases: 6<br />
+	 total cases: 6864 ± 2600<br />
+	 total death: 340 ± 386<br />
+trend coefficient of determination: 0.666722 <br />
+ intercept_: -2.7271765274028876 <br />
+ coeffs_: [ 0.         -0.39327013  0.00433302]<br />
+          <br /> 
+    
+    Algeria
+    <br />
+    <img src="pictures/covidcasesAlgeria35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Algeria data at: 2020-05-01<br />
++3 day model MAPE: 0.082929<br />
+model: logisticQ<br />
+coeffs: [ 4.74574101e+03  1.88263622e-06  2.33116372e+01 -5.46903083e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.245159<br />
+forecast at the end of period: +134 days<br />
+	 deltaDaycases: 2<br />
+	 total cases: 6383 ± 1565<br />
+	 total death: 696 ± 511<br />
+trend coefficient of determination: 0.925201 <br />
+ intercept_: -6.20895164534797 <br />
+ coeffs_: [ 0.         -0.22567621  0.00234981]<br />
+          <br /> 
+    
+    Luxembourg
+    <br />
+    <img src="pictures/covidcasesLuxembourg35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Luxembourg data at: 2020-05-01<br />
++3 day model MAPE: 0.010497<br />
+model: logisticQ<br />
+coeffs: [ 3.65371386e+03  1.43234681e-06 -1.28474625e+05  9.11386110e+00]<br />
+rational stdev: 0.267041<br />
+forecast at the end of period: +78 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 3653 ± 975<br />
+	 total death: 88 ± 70<br />
+trend coefficient of determination: 0.944838 <br />
+ intercept_: -4.793575419867656 <br />
+ coeffs_: [ 0.         -0.39420389  0.00441783]<br />
+          <br /> 
+    
+    Thailand
+    <br />
+    <img src="pictures/covidcasesThailand35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Thailand data at: 2020-04-30<br />
++3 day model MAPE: 0.007440<br />
+model: logisticQ<br />
+coeffs: [ 2.84878775e+03  1.81899343e-06  4.21849062e+00 -1.07790955e+05]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.170117<br />
+forecast at the end of period: +79 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 3857 ± 656<br />
+	 total death: 70 ± 35<br />
+trend coefficient of determination: 0.925012 <br />
+ intercept_: -6.411951568091799 <br />
+ coeffs_: [ 0.         -0.32724854  0.00372851]<br />
+          <br /> 
+    
+    Hungary
+    <br />
+    <img src="pictures/covidcasesHungary35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Hungary data at: 2020-05-01<br />
++3 day model MAPE: 0.024245<br />
+model: logisticQ<br />
+coeffs: [ 3.40525532e+03  3.01610874e-06  3.33260876e+01 -3.81624076e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.304705<br />
+forecast at the end of period: +148 days<br />
+	 deltaDaycases: 3<br />
+	 total cases: 4550 ± 1386<br />
+	 total death: 518 ± 473<br />
+trend coefficient of determination: 0.975759 <br />
+ intercept_: -3.227442033227767 <br />
+ coeffs_: [ 0.         -0.26519647  0.00208085]<br />
+          <br /> 
+    
+    Greece
+    <br />
+    <img src="pictures/covidcasesGreece35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Greece data at: 2020-05-01<br />
++3 day model MAPE: 0.013336<br />
+model: logisticQ<br />
+coeffs: [ 2.55620099e+03  1.57827843e-06  2.28264147e+01 -8.28652042e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.281658<br />
+forecast at the end of period: +106 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 3444 ± 970<br />
+	 total death: 184 ± 155<br />
+trend coefficient of determination: 0.934315 <br />
+ intercept_: -3.2048083274574974 <br />
+ coeffs_: [ 0.         -0.31800848  0.00262589]<br />
+          <br /> 
+    
+    Iraq
+    <br />
+    <img src="pictures/covidcasesIraq35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Iraq data at: 2020-05-01<br />
++3 day model MAPE: 1.325310<br />
+model: logisticQ<br />
+coeffs: [ 3.12023575e+03  1.31776194e-04  2.10594687e+01 -1.03469115e+03]<br />
+rational stdev: 0.080850<br />
+forecast at the end of period: +64 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 3119 ± 252<br />
+	 total death: 136 ± 32<br />
+trend coefficient of determination: 0.824005 <br />
+ intercept_: -6.262912434952875 <br />
+ coeffs_: [ 0.         -0.16770647  0.00178172]<br />
+          <br /> 
+    
+    Croatia
+    <br />
+    <img src="pictures/covidcasesCroatia35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Croatia data at: 2020-05-01<br />
++3 day model MAPE: 0.009727<br />
+model: logisticQ<br />
+coeffs: [ 2.06699788e+03  1.49437043e-06  2.61390577e+01 -1.00661958e+05]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.328545<br />
+forecast at the end of period: +120 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 2791 ± 917<br />
+	 total death: 100 ± 98<br />
+trend coefficient of determination: 0.980829 <br />
+ intercept_: -2.285062898061895 <br />
+ coeffs_: [ 0.         -0.27331327  0.00160496]<br />
+          <br /> 
+    
+    Iceland
+    <br />
+    <img src="pictures/covidcasesIceland5_Q.png" alt="hi" class="inline"/><br /> 
+
+      Iceland data at: 2020-05-01<br />
++3 day model MAPE: 0.000012<br />
+model: logisticQ<br />
+coeffs: [ 1.80204765e+03  9.79205194e-06  1.33202402e+01 -1.80923115e+04]<br />
+rational stdev: 0.069619<br />
+forecast at the end of period: +50 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 1802 ± 125<br />
+	 total death: 10 ± 2<br />
+trend coefficient of determination: 0.949166 <br />
+ intercept_: -5.847287633106838 <br />
+ coeffs_: [ 0.         -0.16265467 -0.00029204]<br />
+          <br /> 
+    
+    Estonia
+    <br />
+    <img src="pictures/covidcasesEstonia8_Q.png" alt="hi" class="inline"/><br /> 
+
+      Estonia data at: 2020-05-01<br />
++3 day model MAPE: 0.007559<br />
+model: logisticQ<br />
+coeffs: [ 1.69746195e+03  2.89525228e-06  1.26281808e+01 -4.42535598e+04]<br />
+S.Korea scenario coeffs: [0.0875, 0.5, 4.0, 1]<br />
+rational stdev: 0.141939<br />
+forecast at the end of period: +36 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 1823 ± 258<br />
+	 total death: 55 ± 23<br />
+trend coefficient of determination: 0.883441 <br />
+ intercept_: -6.3484872075335215 <br />
+ coeffs_: [ 0.         -0.20574708  0.00158183]<br />
+          <br /> 
+    
+    Bulgaria
+    <br />
+    <img src="pictures/covidcasesBulgaria35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Bulgaria data at: 2020-05-01<br />
++3 day model MAPE: 0.014767<br />
+model: logisticQ<br />
+coeffs: [ 2.92634947e+03  3.45303682e-06  3.69567234e+01 -2.03730728e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.190056<br />
+forecast at the end of period: +211 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 3920 ± 745<br />
+	 total death: 171 ± 97<br />
+trend coefficient of determination: 0.889952 <br />
+ intercept_: -5.830798131906305 <br />
+ coeffs_: [ 0.         -0.21512215  0.00240479]<br />
+          <br /> 
+    
+    New Zealand
+    <br />
+    <img src="pictures/covidcasesNew_Zealand35_Q.png" alt="hi" class="inline"/><br /> 
+
+      New Zealand data at: 2020-05-01<br />
++3 day model MAPE: 0.003643<br />
+model: logisticQ<br />
+coeffs: [ 1.45725256e+03  4.23510799e-06  2.47931374e+01 -5.96441588e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.437703<br />
+forecast at the end of period: +78 days<br />
+	 deltaDaycases: 2<br />
+	 total cases: 1952 ± 854<br />
+	 total death: 26 ± 34<br />
+trend coefficient of determination: 0.832451 <br />
+ intercept_: -4.1908555918418315 <br />
+ coeffs_: [ 0.         -0.10988901 -0.00100988]<br />
+          <br /> 
+    
+    Slovenia
+    <br />
+    <img src="pictures/covidcasesSlovenia35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Slovenia data at: 2020-05-01<br />
++3 day model MAPE: inf<br />
+model: logisticQ<br />
+coeffs: [ 2.17965799e+02  4.01733228e-02 -2.21208435e+01 -7.00287194e-01]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.266979<br />
+forecast at the end of period: +92 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 295 ± 78<br />
+	 total death: 18 ± 14<br />
+trend coefficient of determination: 0.956027 <br />
+ intercept_: -2.543480478113449 <br />
+ coeffs_: [ 0.         -0.43771568 -0.00932819]<br />
+          <br /> 
+    
+    Slovakia
+    <br />
+    <img src="pictures/covidcasesSlovakia35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Slovakia data at: 2020-05-01<br />
++3 day model MAPE: 0.029678<br />
+model: logisticQ<br />
+coeffs: [ 1.59749207e+03  2.59120634e-05  2.50047723e+01 -4.66459266e+03]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.283319<br />
+forecast at the end of period: +134 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 2154 ± 610<br />
+	 total death: 35 ± 29<br />
+trend coefficient of determination: 0.900803 <br />
+ intercept_: -3.233732518543274 <br />
+ coeffs_: [ 0.         -0.29131816  0.00227999]<br />
+          <br /> 
+    
+    Lithuania
+    <br />
+    <img src="pictures/covidcasesLithuania35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Lithuania data at: 2020-05-01<br />
++3 day model MAPE: 0.019924<br />
+model: logisticQ<br />
+coeffs: [ 1.37716912e+03  9.74833489e-07  1.81118828e+01 -1.47020481e+05]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.362844<br />
+forecast at the end of period: +78 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 1845 ± 669<br />
+	 total death: 59 ± 64<br />
+trend coefficient of determination: 0.972390 <br />
+ intercept_: -1.354285813614327 <br />
+ coeffs_: [ 0.         -0.44313738  0.00473604]<br />
+          <br /> 
+    
+    Latvia
+    <br />
+    <img src="pictures/covidcasesLatvia35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Latvia data at: 2020-05-01<br />
++3 day model MAPE: 0.027954<br />
+model: logisticQ<br />
+coeffs: [ 8.17623506e+02  8.83020037e-07  1.73570378e+01 -1.58123287e+05]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.294327<br />
+forecast at the end of period: +64 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 1084 ± 319<br />
+	 total death: 19 ± 16<br />
+trend coefficient of determination: 0.735897 <br />
+ intercept_: -3.428003990089236 <br />
+ coeffs_: [ 0.         -0.30493318  0.00304435]<br />
+          <br /> 
+    
+    Cyprus
+    <br />
+    <img src="pictures/covidcasesCyprus35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Cyprus data at: 2020-05-01<br />
++3 day model MAPE: 0.007700<br />
+model: logisticQ<br />
+coeffs: [ 8.50185082e+02  5.13586404e-06  1.56594497e+01 -3.07245825e+04]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.183313<br />
+forecast at the end of period: +92 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 1149 ± 210<br />
+	 total death: 20 ± 10<br />
+trend coefficient of determination: 0.812517 <br />
+ intercept_: -4.342890910147938 <br />
+ coeffs_: [ 0.         -0.24548216  0.00193263]<br />
+          <br /> 
+    
+    Malta
+    <br />
+    <img src="pictures/covidcasesMalta35_Q.png" alt="hi" class="inline"/><br /> 
+
+      Malta data at: 2020-05-01<br />
++3 day model MAPE: 0.013349<br />
+model: bi-logisticQ<br />
+coeffs: [ 2.78593617e+02  2.64177695e-06  2.36393136e+01 -1.17483072e+05]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.048620<br />
+forecast at the end of period: +106 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 548 ± 26<br />
+	 total death: 4 ± 0<br />
+trend coefficient of determination: 0.942709 <br />
+ intercept_: -2.7278514236597555 <br />
+ coeffs_: [ 0.         -0.32197154  0.00170311]<br />trend coefficient of determination: 0.663511 <br />
+ intercept_: -5.412542564264208 <br />
+ coeffs_: [ 0.         -0.11213756 -0.00032224]<br />
+          <br />   
+ 
+<!-- Write your comments here      
+  <script>
+      renderMathInElement(
+          document.body,
+          {
+              delimiters: [
+                  {left: "$$", right: "$$", display: true},
+                  {left: "\\[", right: "\\]", display: true},
+                  {left: "$", right: "$", display: false},
+                  {left: "\\(", right: "\\)", display: false}
+              ]
+          }
+      );
+    </script>
+
+    <script type="text/javascript">
+$("script[type='math/tex']").replaceWith(
+  function(){
+    var tex = $(this).text();
+    return "<span class=\"inline-equation\">" + 
+           katex.renderToString(tex) +
+           "</span>";
+});
+
+$("script[type='math/tex; mode=display']").replaceWith(
+  function(){
+    var tex = $(this).text();
+    return "<div class=\"equation\">" + 
+           katex.renderToString("\\displaystyle "+tex) +
+           "</div>";
+});
+</script>
+-->
 </body>
 
+
+      </section>
+
+    </div>
+
+    
+  </body>
 </html>

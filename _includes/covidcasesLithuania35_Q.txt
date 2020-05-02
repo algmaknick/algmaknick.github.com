@@ -1,13 +1,13 @@
-Lithuania data at: 2020-04-27<br />
-+3 day model MAPE: 0.029253<br />
+Lithuania data at: 2020-05-01<br />
++3 day model MAPE: 0.019924<br />
 model: logisticQ<br />
-coeffs: [ 1.47616219e+03  1.16247264e-06  1.77351550e+01 -1.28504235e+05]<br />
-scenario coeffs: [0.35, 0.52, 4.0, 1.0]<br />
-rational stdev: 0.363018<br />
-forecast at the end of period: +82 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 1983 ± 720<br />
-	 total death: 56 ± 60<br />
-trend coefficient of determination: 0.964563 <br />
- intercept_: -1.8769016246090962 <br />
- coeffs_: [ 0.         -0.40996537  0.00422269]<br />
+coeffs: [ 1.37716912e+03  9.74833489e-07  1.81118828e+01 -1.47020481e+05]<br />
+S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
+rational stdev: 0.362844<br />
+forecast at the end of period: +78 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 1845 ± 669<br />
+	 total death: 59 ± 64<br />
+trend coefficient of determination: 0.972390 <br />
+ intercept_: -1.354285813614327 <br />
+ coeffs_: [ 0.         -0.44313738  0.00473604]<br />
