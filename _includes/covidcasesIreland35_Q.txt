@@ -1,13 +1,13 @@
-Ireland data at: 2020-05-01<br />
-+3 day model MAPE: 0.003127<br />
+Ireland data at: 2020-05-02<br />
++3 day model MAPE: 0.004168<br />
 model: logisticQ<br />
-coeffs: [ 2.26651459e+04  1.94393473e-04  3.40707174e+01 -6.84128321e+02]<br />
+coeffs: [ 2.27539413e+04  1.65795712e-04  3.41320431e+01 -8.03419013e+02]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.355400<br />
-forecast at the end of period: +148 days<br />
+rational stdev: 0.352352<br />
+forecast at the end of period: +147 days<br />
 	 deltaDaycases: 17<br />
-	 total cases: 30440 ± 10818<br />
-	 total death: 1848 ± 1970<br />
-trend coefficient of determination: 0.978361 <br />
- intercept_: -3.527042458221759 <br />
- coeffs_: [ 0.         -0.30682614  0.00222515]<br />
+	 total cases: 30554 ± 10766<br />
+	 total death: 1855 ± 1960<br />
+trend coefficient of determination: 0.978930 <br />
+ intercept_: -3.535749971364149 <br />
+ coeffs_: [ 0.         -0.30559819  0.0021988 ]<br />
