@@ -50,7 +50,10 @@ theme: jekyll-theme-midnight
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-github: [metadata]
+#github: [metadata]
+github:
+  zip_url: https://github.com/algmaknick/algmaknick.github.com/archive/master.zip
+  repository_name: algmaknick.github.com
 encoding: UTF-8
 markdown: kramdown 
 kramdown:   
