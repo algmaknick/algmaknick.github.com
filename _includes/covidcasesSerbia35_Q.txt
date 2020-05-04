@@ -1,13 +1,13 @@
-Serbia data at: 2020-05-02<br />
-+3 day model MAPE: 0.029966<br />
+Serbia data at: 2020-05-03<br />
++3 day model MAPE: 0.025496<br />
 model: logisticQ<br />
-coeffs: [ 9.88944764e+03  3.73754317e-06  2.83090910e+01 -3.92639617e+04]<br />
+coeffs: [ 9.97979067e+03  3.49800572e-06  2.84675690e+01 -4.15466684e+04]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.272507<br />
-forecast at the end of period: +105 days<br />
-	 deltaDaycases: 28<br />
-	 total cases: 12961 ± 3532<br />
-	 total death: 261 ± 213<br />
-trend coefficient of determination: 0.964720 <br />
- intercept_: -3.8872856877258988 <br />
- coeffs_: [ 0.         -0.28708281  0.00217639]<br />
+rational stdev: 0.274888<br />
+forecast at the end of period: +146 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 13489 ± 3708<br />
+	 total death: 275 ± 226<br />
+trend coefficient of determination: 0.965274 <br />
+ intercept_: -3.9205344956372254 <br />
+ coeffs_: [ 0.         -0.28183885  0.0020509 ]<br />
