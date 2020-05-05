@@ -1,12 +1,12 @@
-Russia data at: 2020-05-03<br />
-+3 day model MAPE: 0.095207<br />
+Russia data at: 2020-05-04<br />
++3 day model MAPE: 0.101611<br />
 model: Richards<br />
-coeffs: [4.40936847e+05 6.36470821e-01 1.17734538e+01 8.08496564e-02]<br />
-rational stdev: 10.385976<br />
-forecast at the end of period: +34 days<br />
-	 deltaDaycases: 4033<br />
-	 total cases: 354247 ± 3679207<br />
-	 total death: 3366 ± 104877<br />
-trend coefficient of determination: 0.082805 <br />
- intercept: -2.295475 <br />
- slope: -0.014437<br />
+coeffs: [ 5.82052189e+05  1.18712217e+00 -1.03251050e+01  3.67080269e-02]<br />
+rational stdev: 22.238208<br />
+forecast at the end of period: +61 days<br />
+	 deltaDaycases: 2364<br />
+	 total cases: 525948 ± 11696157<br />
+	 total death: 4909 ± 327502<br />
+trend coefficient of determination: 0.021849 <br />
+ intercept: -2.205843 <br />
+ slope: -0.007131<br />
