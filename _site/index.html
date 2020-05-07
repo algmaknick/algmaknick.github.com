@@ -81,7 +81,11 @@ In addition,  Richards' growth function
 
 $$R(t) = \dfrac{L}{\left(1+e^{-k \nu (t-t_0)}\right)^\frac{1}{\nu}}$$
 
-were used. The following is the result of the world  and some countries K (t) infected dynamics model and its comparison with observed experimentally observed results for the determination of parameters using the least squares method [4]:
+were presended, where \(G_R(t)\) expressed as follow
+
+$$G_R(t)=\log{\dfrac{1}{K(t)^{1+\nu}}\dfrac{d K(t)}{d t}}=\log{\dfrac{k}{L^\nu}}-k\nu (t-t_0). $$
+
+The following is the result of the world  and some countries K (t) infected dynamics model and its comparison with observed experimentally observed results for the determination of parameters using the least squares method [4]:
 
 $$ \min{\sum_{i=1}^{N}\left(K(t_i,a)-y_i\right)^2}$$
 
@@ -174,42 +178,38 @@ trend coefficient of determination: 0.996622 <br />
     
     Spain
     <br />
-    <img src="pictures/covidcasesSpain35_Q.png" alt="hi" class="inline"/><br /> 
+    <img src="pictures/covidcasesSpain25_R.png" alt="hi" class="inline"/><br /> 
 
       Spain data at: 2020-05-06<br />
-+3 day model MAPE: 0.011343<br />
-model: bi-logisticQ<br />
-coeffs: [ 7.34800526e+04  3.37625624e-06  5.03713026e+01 -7.13101280e+04]<br />
-rational stdev: 0.336215<br />
-forecast at the end of period: +59 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 253969 ± 85388<br />
-	 total death: 25886 ± 26109<br />
-bi-logisticQ approximation splitting point: 50<br />
-trend coefficient of determination: 0.997202 <br />
- intercept_: -3.834231460165485 <br />
- coeffs_: [ 0.         -0.42809872  0.00374483]<br />trend coefficient of determination: 0.591734 <br />
- intercept_: -15.72253322366293 <br />
- coeffs_: [ 0.          0.04318831 -0.00094144]<br />
++3 day model MAPE: 0.009851<br />
+model: Richards<br />
+coeffs: [ 2.70364269e+05  8.40823022e+00 -4.05958926e+01  8.38221174e-03]<br />
+rational stdev: 0.619575<br />
+forecast at the end of period: +45 days<br />
+	 deltaDaycases: 71<br />
+	 total cases: 269386 ± 166905<br />
+	 total death: 27457 ± 51035<br />
+trend coefficient of determination: 0.940702 <br />
+ intercept: -0.730924 <br />
+ slope: -0.061075<br />
           <br /> 
     
     Italy
     <br />
-    <img src="pictures/covidcasesItaly35_Q.png" alt="hi" class="inline"/><br /> 
+    <img src="pictures/covidcasesItaly100_R.png" alt="hi" class="inline"/><br /> 
 
       Italy data at: 2020-05-06<br />
-+3 day model MAPE: 0.014219<br />
-model: logisticQ<br />
-coeffs: [ 2.10914327e+05  7.12634178e-07  2.99874429e+01 -1.50339882e+05]<br />
-S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.324615<br />
-forecast at the end of period: +115 days<br />
-	 deltaDaycases: 252<br />
-	 total cases: 280718 ± 91125<br />
-	 total death: 38855 ± 37838<br />
-trend coefficient of determination: 0.992708 <br />
- intercept_: -7.206919873064125 <br />
- coeffs_: [ 0.         -0.27499845  0.00194792]<br />
++3 day model MAPE: 0.004276<br />
+model: Richards<br />
+coeffs: [ 2.31606238e+05  5.74021246e+00 -4.74925315e+01  1.07976955e-02]<br />
+rational stdev: 0.106508<br />
+forecast at the end of period: +45 days<br />
+	 deltaDaycases: 78<br />
+	 total cases: 230373 ± 24536<br />
+	 total death: 31887 ± 10188<br />
+trend coefficient of determination: 0.978191 <br />
+ intercept: -1.095299 <br />
+ slope: -0.057040<br />
           <br /> 
     
     United Kingdom
@@ -233,21 +233,20 @@ trend coefficient of determination: 0.995450 <br />
     
     France
     <br />
-    <img src="pictures/covidcasesFrance35_Q.png" alt="hi" class="inline"/><br /> 
+    <img src="pictures/covidcasesFrance100_R.png" alt="hi" class="inline"/><br /> 
 
       France data at: 2020-05-06<br />
-+3 day model MAPE: 0.006449<br />
-model: logisticQ<br />
-coeffs: [ 1.70588447e+05  2.36352175e-06  3.24781513e+01 -6.28631972e+04]<br />
-S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.311278<br />
-forecast at the end of period: +125 days<br />
-	 deltaDaycases: 136<br />
-	 total cases: 229186 ± 71340<br />
-	 total death: 33957 ± 31710<br />
-trend coefficient of determination: 0.980262 <br />
- intercept_: -5.002026917391758 <br />
- coeffs_: [ 0.         -0.3131316   0.00194825]<br />
++3 day model MAPE: 0.003898<br />
+model: Richards<br />
+coeffs: [1.74457608e+05 2.18247285e-01 2.63358615e+01 5.55634347e-01]<br />
+rational stdev: 0.225469<br />
+forecast at the end of period: +41 days<br />
+	 deltaDaycases: 3<br />
+	 total cases: 174432 ± 39328<br />
+	 total death: 25844 ± 17481<br />
+trend coefficient of determination: 0.953298 <br />
+ intercept: -3.912650 <br />
+ slope: -0.127402<br />
           <br /> 
     
     Germany
@@ -271,21 +270,20 @@ trend coefficient of determination: 0.993227 <br />
     
     Turkey
     <br />
-    <img src="pictures/covidcasesTurkey35_Q.png" alt="hi" class="inline"/><br /> 
+    <img src="pictures/covidcasesTurkey35_R.png" alt="hi" class="inline"/><br /> 
 
       Turkey data at: 2020-05-06<br />
-+3 day model MAPE: 0.018775<br />
-model: logisticQ<br />
-coeffs: [ 1.32834071e+05  2.16263784e-06  2.74955976e+01 -6.82747032e+04]<br />
-S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.391508<br />
-forecast at the end of period: +126 days<br />
-	 deltaDaycases: 58<br />
-	 total cases: 179111 ± 70123<br />
-	 total death: 4872 ± 5722<br />
-trend coefficient of determination: 0.976711 <br />
- intercept_: -3.101785936083756 <br />
- coeffs_: [ 0.         -0.47705914  0.00453876]<br />
++3 day model MAPE: 0.003366<br />
+model: Richards<br />
+coeffs: [1.47443057e+05 5.18717060e-01 6.05757097e+00 1.73617378e-01]<br />
+rational stdev: 0.319489<br />
+forecast at the end of period: +98 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 147440 ± 47105<br />
+	 total death: 4011 ± 3844<br />
+trend coefficient of determination: 0.822863 <br />
+ intercept: -1.720707 <br />
+ slope: -0.084516<br />
           <br /> 
     
     Russia
@@ -484,21 +482,20 @@ trend coefficient of determination: 0.686752 <br />
     
     Portugal
     <br />
-    <img src="pictures/covidcasesPortugal35_Q.png" alt="hi" class="inline"/><br /> 
+    <img src="pictures/covidcasesPortugal100_R.png" alt="hi" class="inline"/><br /> 
 
       Portugal data at: 2020-05-06<br />
-+3 day model MAPE: 0.016266<br />
-model: logisticQ<br />
-coeffs: [ 2.57455339e+04  1.06364179e-06  2.90749567e+01 -1.23755088e+05]<br />
-S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.390075<br />
-forecast at the end of period: +129 days<br />
-	 deltaDaycases: 11<br />
-	 total cases: 34687 ± 13530<br />
-	 total death: 1442 ± 1687<br />
-trend coefficient of determination: 0.987054 <br />
- intercept_: -2.7315133490627073 <br />
- coeffs_: [ 0.         -0.37972765  0.00303526]<br />
++3 day model MAPE: 0.002820<br />
+model: Richards<br />
+coeffs: [ 2.84234090e+04  5.87518998e+00 -3.23547899e+01  1.28090589e-02]<br />
+rational stdev: 1.239257<br />
+forecast at the end of period: +59 days<br />
+	 deltaDaycases: 2<br />
+	 total cases: 28391 ± 35184<br />
+	 total death: 1180 ± 4386<br />
+trend coefficient of determination: 0.888152 <br />
+ intercept: -0.727894 <br />
+ slope: -0.065396<br />
           <br /> 
     
     Saudi Arabia
@@ -938,21 +935,20 @@ trend coefficient of determination: 0.946887 <br />
     
     Norway
     <br />
-    <img src="pictures/covidcasesNorway35_Q.png" alt="hi" class="inline"/><br /> 
+    <img src="pictures/covidcasesNorway100_R.png" alt="hi" class="inline"/><br /> 
 
       Norway data at: 2020-05-06<br />
-+3 day model MAPE: 0.009247<br />
-model: logisticQ<br />
-coeffs: [ 7.73478586e+03  1.05219117e-06  2.37264795e+01 -1.22622127e+05]<br />
-S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.328904<br />
-forecast at the end of period: +101 days<br />
-	 deltaDaycases: 3<br />
-	 total cases: 10418 ± 3426<br />
-	 total death: 281 ± 277<br />
-trend coefficient of determination: 0.970507 <br />
- intercept_: -3.203295305051004 <br />
- coeffs_: [ 0.         -0.35281154  0.00288692]<br />
++3 day model MAPE: 0.005699<br />
+model: Richards<br />
+coeffs: [ 8.11682193e+03  6.32399846e-01 -3.79551879e+00  1.33048050e-01]<br />
+rational stdev: 0.237503<br />
+forecast at the end of period: +45 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 8111 ± 1926<br />
+	 total death: 219 ± 156<br />
+trend coefficient of determination: 0.928972 <br />
+ intercept: -1.382715 <br />
+ slope: -0.082661<br />
           <br /> 
     
     Czechia
@@ -1052,21 +1048,20 @@ trend coefficient of determination: 0.936931 <br />
     
     Finland
     <br />
-    <img src="pictures/covidcasesFinland35_Q.png" alt="hi" class="inline"/><br /> 
+    <img src="pictures/covidcasesFinland100_R.png" alt="hi" class="inline"/><br /> 
 
       Finland data at: 2020-05-06<br />
-+3 day model MAPE: 0.022573<br />
-model: logisticQ<br />
-coeffs: [ 5.83801164e+03  1.23626620e-06  3.91549524e+01 -8.02025412e+04]<br />
-S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.379458<br />
-forecast at the end of period: +171 days<br />
-	 deltaDaycases: 4<br />
-	 total cases: 7821 ± 2967<br />
-	 total death: 353 ± 401<br />
-trend coefficient of determination: 0.887030 <br />
- intercept_: -3.300472719597952 <br />
- coeffs_: [ 0.         -0.24648612  0.00161235]<br />
++3 day model MAPE: 0.003167<br />
+model: Richards<br />
+coeffs: [ 7.41255406e+03  2.63129422e+00 -5.61301910e+01  1.81631918e-02]<br />
+rational stdev: 0.173595<br />
+forecast at the end of period: +87 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 7377 ± 1280<br />
+	 total death: 333 ± 173<br />
+trend coefficient of determination: 0.811865 <br />
+ intercept: -1.537419 <br />
+ slope: -0.048973<br />
           <br /> 
     
     Morocco
