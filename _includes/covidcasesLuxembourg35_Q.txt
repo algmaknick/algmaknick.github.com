@@ -1,13 +1,12 @@
-Luxembourg data at: 2020-05-05<br />
-+3 day model MAPE: 0.008272<br />
+Luxembourg data at: 2020-05-06<br />
++3 day model MAPE: 0.007886<br />
 model: logisticQ<br />
-coeffs: [ 3.69684494e+03  1.16238712e-06 -1.53927079e+05  9.32129059e+00]<br />
-S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.262011<br />
-forecast at the end of period: +256 days<br />
-	 deltaDaycases: 1<br />
-	 total cases: 4905 ± 1285<br />
-	 total death: 122 ± 95<br />
-trend coefficient of determination: 0.944288 <br />
- intercept_: -4.940352640028236 <br />
- coeffs_: [ 0.         -0.3703007   0.00382754]<br />
+coeffs: [ 3.70632566e+03  1.12789783e-06  9.36769952e+00 -1.57636490e+05]<br />
+rational stdev: 0.260747<br />
+forecast at the end of period: +255 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 3706 ± 966<br />
+	 total death: 94 ± 73<br />
+trend coefficient of determination: 0.945170 <br />
+ intercept_: -4.956280216220291 <br />
+ coeffs_: [ 0.         -0.36783724  0.00376969]<br />
