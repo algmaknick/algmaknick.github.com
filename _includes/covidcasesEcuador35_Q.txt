@@ -1,13 +1,13 @@
-Ecuador data at: 2020-05-07<br />
-+3 day model MAPE: 0.155316<br />
+Ecuador data at: 2020-05-08<br />
++3 day model MAPE: 0.177818<br />
 model: logisticQ<br />
-coeffs: [ 3.13676865e+04  8.84955156e-07  3.29891810e+01 -1.06534782e+05]<br />
+coeffs: [ 3.23047541e+04  7.96953311e-07  3.57218676e+01 -1.09505381e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.355776<br />
-forecast at the end of period: +128 days<br />
-	 deltaDaycases: 73<br />
-	 total cases: 40646 ± 14461<br />
-	 total death: 2218 ± 2367<br />
-trend coefficient of determination: 0.689577 <br />
- intercept_: -5.424323886254214 <br />
- coeffs_: [ 0.         -0.32999434  0.0030905 ]<br />
+rational stdev: 0.361204<br />
+forecast at the end of period: +197 days<br />
+	 deltaDaycases: 8<br />
+	 total cases: 43550 ± 15730<br />
+	 total death: 2575 ± 2790<br />
+trend coefficient of determination: 0.685115 <br />
+ intercept_: -5.330213250222788 <br />
+ coeffs_: [ 0.         -0.33253927  0.00314692]<br />
