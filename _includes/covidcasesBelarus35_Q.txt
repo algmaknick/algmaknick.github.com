@@ -1,13 +1,13 @@
-Belarus data at: 2020-05-07<br />
-+3 day model MAPE: 0.026259<br />
+Belarus data at: 2020-05-08<br />
++3 day model MAPE: 0.030273<br />
 model: logisticQ<br />
-coeffs: [ 2.69735080e+04  6.14235327e-06  2.13064912e+01 -2.17785309e+04]<br />
+coeffs: [ 2.76915620e+04  5.75946220e-06  2.17169988e+01 -2.28998861e+04]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.233741<br />
-forecast at the end of period: +100 days<br />
-	 deltaDaycases: 49<br />
-	 total cases: 35755 ± 8357<br />
-	 total death: 205 ± 143<br />
-trend coefficient of determination: 0.978757 <br />
- intercept_: -7.023478314067885 <br />
- coeffs_: [ 0.         -0.27263722  0.00302915]<br />
+rational stdev: 0.234475<br />
+forecast at the end of period: +99 days<br />
+	 deltaDaycases: 56<br />
+	 total cases: 36588 ± 8579<br />
+	 total death: 209 ± 147<br />
+trend coefficient of determination: 0.979682 <br />
+ intercept_: -7.030556757582664 <br />
+ coeffs_: [ 0.         -0.27100495  0.00297281]<br />
