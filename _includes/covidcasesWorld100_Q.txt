@@ -1,15 +1,15 @@
-World data at: 2020-05-08<br />
-+3 day model MAPE: 0.322399<br />
+World data at: 2020-05-09<br />
++3 day model MAPE: 0.635593<br />
 model: bi-logisticQ<br />
-coeffs: [ 3.08550720e+05  9.52088730e-05  4.52981129e+01 -3.08910430e+03]<br />
-rational stdev: 0.092561<br />
-forecast at the end of period: +29 days<br />
-	 deltaDaycases: 14<br />
-	 total cases: 408374 ± 37799<br />
-	 total death: 28100 ± 7802<br />
+coeffs: [ 9.37578627e+04  2.55228565e-05  3.89552969e+01 -1.87082152e+04]<br />
+rational stdev: 0.094698<br />
+forecast at the end of period: +28 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 193621 ± 18335<br />
+	 total death: 13237 ± 3760<br />
 bi-logisticQ approximation splitting point: 26<br />
 trend coefficient of determination: 0.957216 <br />
  intercept_: -9.890425229004336 <br />
- coeffs_: [ 0.         -0.26614025  0.00124975]<br />trend coefficient of determination: 0.900515 <br />
- intercept_: -20.622215746086294 <br />
- coeffs_: [ 0.          0.23801537 -0.00236922]<br />
+ coeffs_: [ 0.         -0.26614025  0.00124975]<br />trend coefficient of determination: 0.893677 <br />
+ intercept_: -19.558019139425994 <br />
+ coeffs_: [ 0.          0.17538587 -0.00147405]<br />

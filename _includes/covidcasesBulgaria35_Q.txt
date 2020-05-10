@@ -1,13 +1,13 @@
-Bulgaria data at: 2020-05-08<br />
-+3 day model MAPE: 0.006809<br />
+Bulgaria data at: 2020-05-09<br />
++3 day model MAPE: 0.011824<br />
 model: logisticQ<br />
-coeffs: [ 2.68208948e+03  3.44363818e-06  3.47524028e+01 -2.10479133e+04]<br />
+coeffs: [ 2.74498204e+03  3.08658886e-06  3.53923959e+01 -2.32195489e+04]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.174918<br />
-forecast at the end of period: +204 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 3606 ± 630<br />
-	 total death: 165 ± 86<br />
-trend coefficient of determination: 0.901979 <br />
- intercept_: -5.939913679842645 <br />
- coeffs_: [ 0.         -0.19635307  0.00191538]<br />
+rational stdev: 0.174940<br />
+forecast at the end of period: +203 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 3687 ± 645<br />
+	 total death: 169 ± 88<br />
+trend coefficient of determination: 0.903023 <br />
+ intercept_: -5.929558128455415 <br />
+ coeffs_: [ 0.         -0.19795472  0.00195299]<br />
