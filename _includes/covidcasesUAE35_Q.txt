@@ -1,13 +1,13 @@
-UAE data at: 2020-05-09<br />
-+3 day model MAPE: 0.033988<br />
+UAE data at: 2020-05-10<br />
++3 day model MAPE: 0.038921<br />
 model: logisticQ<br />
-coeffs: [ 2.12047949e+04  2.82019911e-06  2.31894686e+01 -3.79660801e+04]<br />
+coeffs: [ 2.19745769e+04  2.59171634e-06  2.39296477e+01 -4.03503409e+04]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.181714<br />
-forecast at the end of period: +84 days<br />
-	 deltaDaycases: 79<br />
-	 total cases: 26723 ± 4856<br />
-	 total death: 283 ± 154<br />
-trend coefficient of determination: 0.980536 <br />
- intercept_: -7.787916701940736 <br />
- coeffs_: [ 0.         -0.21122604  0.00202059]<br />
+rational stdev: 0.186143<br />
+forecast at the end of period: +83 days<br />
+	 deltaDaycases: 87<br />
+	 total cases: 27386 ± 5097<br />
+	 total death: 297 ± 165<br />
+trend coefficient of determination: 0.980804 <br />
+ intercept_: -7.776123805337868 <br />
+ coeffs_: [ 0.         -0.21348792  0.002086  ]<br />
