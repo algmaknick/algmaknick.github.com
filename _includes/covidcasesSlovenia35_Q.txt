@@ -1,16 +1,16 @@
-Slovenia data at: 2020-05-12<br />
-+3 day model MAPE: 0.004187<br />
+Slovenia data at: 2020-05-13<br />
++3 day model MAPE: 0.003891<br />
 model: bi-logisticQ<br />
-coeffs: [ 1.20991223e+03  8.50498803e-07  1.92552292e+01 -1.79636172e+05]<br />
+coeffs: [ 1.21198087e+03  7.99371221e-07  1.92913166e+01 -1.90399012e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.221981<br />
-forecast at the end of period: +81 days<br />
+rational stdev: 0.221282<br />
+forecast at the end of period: +80 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 1851 ± 410<br />
-	 total death: 129 ± 85<br />
+	 total cases: 1853 ± 410<br />
+	 total death: 130 ± 86<br />
 bi-logisticQ approximation splitting point: 10<br />
 trend coefficient of determination: 0.968209 <br />
  intercept_: -2.53431844604435 <br />
- coeffs_: [ 0.         -0.45029183 -0.00732028]<br />trend coefficient of determination: 0.911666 <br />
- intercept_: -6.586319841289663 <br />
- coeffs_: [ 0.         -0.12843607  0.00019753]<br />
+ coeffs_: [ 0.         -0.45029183 -0.00732028]<br />trend coefficient of determination: 0.913360 <br />
+ intercept_: -6.522676300592283 <br />
+ coeffs_: [ 0.         -0.13321195  0.00027013]<br />

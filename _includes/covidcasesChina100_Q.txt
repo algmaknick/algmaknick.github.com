@@ -1,15 +1,15 @@
-China data at: 2020-05-12<br />
-+3 day model MAPE: 0.000704<br />
+China data at: 2020-05-13<br />
++3 day model MAPE: 0.000693<br />
 model: bi-logisticQ<br />
-coeffs: [ 1.49511019e+03  7.18751641e-04  2.48679146e+01 -1.31713918e-02]<br />
-rational stdev: 0.140665<br />
-forecast at the end of period: +39 days<br />
+coeffs: [ 1.51389693e+03  7.08304562e-04  2.48660929e+01 -1.39346418e-02]<br />
+rational stdev: 0.140244<br />
+forecast at the end of period: +38 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 81912 ± 11522<br />
-	 total death: 4576 ± 1931<br />
+	 total cases: 81931 ± 11490<br />
+	 total death: 4577 ± 1925<br />
 bi-logisticQ approximation splitting point: 50<br />
 trend coefficient of determination: 0.980847 <br />
  intercept_: -8.442415731989867 <br />
- coeffs_: [ 0.         -0.29762768  0.00151769]<br />trend coefficient of determination: 0.531725 <br />
- intercept_: -28.597971407382673 <br />
- coeffs_: [ 0.          0.28361522 -0.00207233]<br />
+ coeffs_: [ 0.         -0.29762768  0.00151769]<br />trend coefficient of determination: 0.534511 <br />
+ intercept_: -27.90885788829164 <br />
+ coeffs_: [ 0.          0.26420539 -0.0019413 ]<br />
