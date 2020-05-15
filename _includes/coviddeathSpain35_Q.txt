@@ -1,14 +1,14 @@
-Spain data at: 2020-05-13<br />
-+3 day model MAPE: 0.123435<br />
+Spain data at: 2020-05-14<br />
++3 day model MAPE: 0.014741<br />
 model: bi-logisticQ<br />
-coeffs: [ 4.12428914e+03  2.46837042e-06  5.61014340e+01 -9.66497863e+04]<br />
+coeffs: [ 4.30019115e+03  1.65871862e-06  5.66193327e+01 -1.37203653e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.402178<br />
-forecast at the end of period: +122 days<br />
-	 total death: 27006 ± 10861<br />
+rational stdev: 0.400704<br />
+forecast at the end of period: +121 days<br />
+	 total death: 27182 ± 10892<br />
 bi-logisticQ approximation splitting point: 60<br />
 trend coefficient of determination: 0.995823 <br />
  intercept_: -4.3202000903722375 <br />
- coeffs_: [ 0.         -0.41230978  0.00355978]<br />trend coefficient of determination: 0.320275 <br />
- intercept_: -15.222756547851395 <br />
- coeffs_: [ 0.         -0.00661493 -0.00029918]<br />
+ coeffs_: [ 0.         -0.41230978  0.00355978]<br />trend coefficient of determination: 0.390566 <br />
+ intercept_: -16.385175129970204 <br />
+ coeffs_: [ 0.          0.03048587 -0.0005935 ]<br />
