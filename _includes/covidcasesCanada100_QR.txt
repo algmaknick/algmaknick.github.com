@@ -1,13 +1,13 @@
-Canada data at: 2020-05-15<br />
-+3 day model MAPE: 0.000785<br />
+Canada data at: 2020-05-16<br />
++3 day model MAPE: 0.000225<br />
 model: RichardsQ<br />
-coeffs: [ 1.02147178e+05  1.01417001e-02 -1.07793596e+02 -7.60471694e+02
-  4.85329414e-03]<br />
-rational stdev: 0.187937<br />
+coeffs: [ 1.02313043e+05  1.04257105e-02 -1.09008613e+02 -7.76443307e+02
+  4.62667481e-03]<br />
+rational stdev: 0.186756<br />
 forecast at the end of period: +98 days<br />
 	 deltaDaycases: 10<br />
-	 total cases: 101967 ± 19163<br />
-	 total death: 7601 ± 4285<br />
-trend coefficient of determination: 0.988548 <br />
- intercept_: -7.568456404703073 <br />
- coeffs_: [ 0.         -0.24440136  0.00198978]<br />
+	 total cases: 102138 ± 19074<br />
+	 total death: 7645 ± 4283<br />
+trend coefficient of determination: 0.988625 <br />
+ intercept_: -7.579716119393197 <br />
+ coeffs_: [ 0.         -0.24289331  0.001959  ]<br />

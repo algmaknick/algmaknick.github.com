@@ -1,13 +1,13 @@
-Colombia data at: 2020-05-15<br />
-+3 day model MAPE: 0.048499<br />
+Colombia data at: 2020-05-16<br />
++3 day model MAPE: 0.041250<br />
 model: logisticQ<br />
-coeffs: [ 3.86410371e+04  4.52289162e-06  6.66145783e+01 -1.45813913e+04]<br />
+coeffs: [ 4.19315369e+04  4.80173743e-06  6.84616839e+01 -1.35621322e+04]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.354961<br />
-forecast at the end of period: +330 days<br />
-	 deltaDaycases: 16<br />
-	 total cases: 51813 ± 18391<br />
-	 total death: 1990 ± 2119<br />
-trend coefficient of determination: 0.956732 <br />
- intercept_: -3.6708346416477573 <br />
- coeffs_: [ 0.         -0.31667665  0.00293347]<br />
+rational stdev: 0.354291<br />
+forecast at the end of period: +329 days<br />
+	 deltaDaycases: 23<br />
+	 total cases: 56036 ± 19853<br />
+	 total death: 2108 ± 2240<br />
+trend coefficient of determination: 0.956123 <br />
+ intercept_: -3.7044181807805545 <br />
+ coeffs_: [ 0.         -0.31246116  0.0028527 ]<br />

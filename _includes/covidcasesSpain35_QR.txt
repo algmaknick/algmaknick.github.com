@@ -1,13 +1,13 @@
-Spain data at: 2020-05-15<br />
-+3 day model MAPE: 0.009907<br />
+Spain data at: 2020-05-16<br />
++3 day model MAPE: 0.499561<br />
 model: RichardsQ<br />
-coeffs: [ 2.82981619e+05  3.00951286e-02 -8.54097041e+01 -1.49496196e+03
-  1.32350686e-03]<br />
-rational stdev: 0.207820<br />
-forecast at the end of period: +64 days<br />
-	 deltaDaycases: 13<br />
-	 total cases: 282806 ± 58772<br />
-	 total death: 28303 ± 17645<br />
-trend coefficient of determination: 0.988143 <br />
- intercept_: -6.3673001147841495 <br />
- coeffs_: [ 0.         -0.32910834  0.00250879]<br />
+coeffs: [ 1.33796922e+05 -2.82943029e+00 -3.96621095e+01 -2.05447277e+02
+ -8.23886439e-02]<br />
+rational stdev: 0.745969<br />
+forecast at the end of period: +63 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 133796 ± 99808<br />
+	 total death: 13337 ± 29846<br />
+trend coefficient of determination: 0.988090 <br />
+ intercept_: -6.383403456813702 <br />
+ coeffs_: [ 0.         -0.32733722  0.00247897]<br />
