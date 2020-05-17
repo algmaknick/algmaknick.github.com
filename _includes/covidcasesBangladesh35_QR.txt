@@ -1,13 +1,13 @@
 Bangladesh data at: 2020-05-16<br />
-+3 day model MAPE: 0.059515<br />
++3 day model MAPE: 0.049308<br />
 model: RichardsQ<br />
-coeffs: [ 2.70091422e+04  3.12884912e-02 -7.41561616e+01 -2.11791577e+02
-  5.24797657e-03]<br />
-rational stdev: 5991.563261<br />
+coeffs: [ 6.56280745e+04  1.26216195e-02 -1.10393715e+02 -4.97044475e+02
+  4.37588956e-03]<br />
+rational stdev: 7.762213<br />
 forecast at the end of period: +7 days<br />
-	 deltaDaycases: 569<br />
-	 total cases: 15653 ± 93787156<br />
-	 total death: 234 ± 4206077<br />
-trend coefficient of determination: 0.630447 <br />
- intercept_: -5.653904656846626 <br />
- coeffs_: [ 0.         -0.02628648 -0.00163203]<br />
+	 deltaDaycases: 981<br />
+	 total cases: 27454 ± 213103<br />
+	 total death: 410 ± 9547<br />
+trend coefficient of determination: 0.723173 <br />
+ intercept_: -5.330004486779539 <br />
+ coeffs_: [ 0.         -0.06855556 -0.00078925]<br />
