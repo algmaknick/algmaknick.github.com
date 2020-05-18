@@ -1,13 +1,13 @@
-Singapore data at: 2020-05-16<br />
-+3 day model MAPE: 0.061385<br />
+Singapore data at: 2020-05-17<br />
++3 day model MAPE: 0.052854<br />
 model: RichardsQ<br />
-coeffs: [ 3.28956489e+04  1.03349419e-03 -1.22183790e+00 -4.55256902e+02
-  1.42805695e-01]<br />
-rational stdev: 2.225128<br />
-forecast at the end of period: +35 days<br />
-	 deltaDaycases: 32<br />
-	 total cases: 32553 ± 72436<br />
-	 total death: 26 ± 173<br />
-trend coefficient of determination: 0.946331 <br />
- intercept_: -8.851210460052124 <br />
- coeffs_: [ 0.         -0.07702912 -0.000524  ]<br />
+coeffs: [ 3.45649977e+04  3.75862986e-03 -2.91859647e+01 -3.98350456e+02
+  3.72149202e-02]<br />
+rational stdev: 4.224727<br />
+forecast at the end of period: +34 days<br />
+	 deltaDaycases: 48<br />
+	 total cases: 33995 ± 143621<br />
+	 total death: 26 ± 329<br />
+trend coefficient of determination: 0.946722 <br />
+ intercept_: -8.823887853211275 <br />
+ coeffs_: [ 0.         -0.081255   -0.00042477]<br />
