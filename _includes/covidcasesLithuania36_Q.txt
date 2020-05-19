@@ -1,0 +1,15 @@
+Lithuania data at: 2020-05-18<br />
++3 day model MAPE: 0.056224<br />
+model: bi-logisticQ<br />
+coeffs: [ 7.59241061e+01  1.29886846e-03  8.17519519e+00 -2.10506455e+00]<br />
+rational stdev: 0.295937<br />
+forecast at the end of period: +195 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 1407 ± 416<br />
+	 total death: 53 ± 47<br />
+bi-logisticQ approximation splitting point: 50<br />
+trend coefficient of determination: 0.966881 <br />
+ intercept_: -3.005568487672738 <br />
+ coeffs_: [ 0.         -0.38324354  0.00418884]<br />trend coefficient of determination: 0.161841 <br />
+ intercept_: -13.796073450791681 <br />
+ coeffs_: [ 0.         -0.00953192  0.00053619]<br />
