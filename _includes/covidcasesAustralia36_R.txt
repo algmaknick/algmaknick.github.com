@@ -1,13 +1,16 @@
-Australia data at: 2020-05-17<br />
-+3 day model MAPE: 0.012313<br />
-model: Richards<br />
-coeffs: [6.84626408e+03 9.11219388e-01 4.97903186e+00 1.72876796e-01]<br />
+Australia data at: 2020-05-18<br />
++3 day model MAPE: 0.003195<br />
+model: bi-Richards<br />
+coeffs: [ 8.73227493e+02  7.21904260e+00 -2.84147796e+01  9.13273289e-03]<br />
 S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 152.346348<br />
-forecast at the end of period: +62 days<br />
-	 deltaDaycases: 7<br />
-	 total cases: 9178 ± 1398290<br />
-	 total death: 128 ± 58500<br />
-trend coefficient of determination: 0.886463 <br />
- intercept: -1.998769 <br />
- slope: -0.090513<br />
+rational stdev: 0.786361<br />
+forecast at the end of period: +61 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 7169 ± 5637<br />
+	 total death: 100 ± 235<br />
+bi-Richards approximation splitting point: 50<br />
+trend coefficient of determination: 0.756694 <br />
+ intercept: -0.981860 <br />
+ slope: -0.083701<br />trend coefficient of determination: 0.004737 <br />
+ intercept: -6.518256 <br />
+ slope: 0.003725<br />

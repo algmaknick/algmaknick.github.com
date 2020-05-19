@@ -1,13 +1,16 @@
-Colombia data at: 2020-05-17<br />
-+3 day model MAPE: 0.023267<br />
-model: Richards<br />
-coeffs: [ 4.90754000e+05  3.49408015e-01 -8.42632883e+01  3.85810235e-02]<br />
+Colombia data at: 2020-05-18<br />
++3 day model MAPE: 0.012744<br />
+model: bi-Richards<br />
+coeffs: [ 3.41444037e+04  2.81678372e+00 -1.01785322e+01  1.91684156e-02]<br />
 S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.332271<br />
-forecast at the end of period: +1350 days<br />
-	 deltaDaycases: 102<br />
-	 total cases: 644734 ± 214226<br />
-	 total death: 23762 ± 23686<br />
-trend coefficient of determination: 0.655219 <br />
- intercept: -1.640448 <br />
- slope: -0.034628<br />
+rational stdev: 0.215549<br />
+forecast at the end of period: +89 days<br />
+	 deltaDaycases: 17<br />
+	 total cases: 38826 ± 8369<br />
+	 total death: 1410 ± 911<br />
+bi-Richards approximation splitting point: 40<br />
+trend coefficient of determination: 0.747770 <br />
+ intercept: -1.028488 <br />
+ slope: -0.064020<br />trend coefficient of determination: 0.006081 <br />
+ intercept: -3.116841 <br />
+ slope: -0.001624<br />
