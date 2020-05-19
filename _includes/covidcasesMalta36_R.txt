@@ -1,13 +1,16 @@
 Malta data at: 2020-05-18<br />
-+3 day model MAPE: 0.008547<br />
-model: Richards<br />
-coeffs: [5.24417316e+02 2.57103521e-01 5.33144914e+00 3.43590800e-01]<br />
++3 day model MAPE: 0.034913<br />
+model: bi-Richards<br />
+coeffs: [ 1.65430229e+03  1.72229334e+00 -7.93560220e+00  2.23754296e-02]<br />
 S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.166869<br />
-forecast at the end of period: +61 days<br />
-	 deltaDaycases: 1<br />
-	 total cases: 619 ± 103<br />
-	 total death: 6 ± 3<br />
-trend coefficient of determination: 0.696967 <br />
- intercept: -2.773283 <br />
- slope: -0.078541<br />
+rational stdev: 0.235306<br />
+forecast at the end of period: +201 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 2113 ± 497<br />
+	 total death: 22 ± 15<br />
+bi-Richards approximation splitting point: 50<br />
+trend coefficient of determination: 0.735122 <br />
+ intercept: -0.982532 <br />
+ slope: -0.095657<br />trend coefficient of determination: 0.106443 <br />
+ intercept: -7.451824 <br />
+ slope: 0.040833<br />
