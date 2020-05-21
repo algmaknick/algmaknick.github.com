@@ -1,13 +1,13 @@
-Brazil data at: 2020-05-19<br />
-+3 day model MAPE: 0.000121<br />
+Brazil data at: 2020-05-20<br />
++3 day model MAPE: 0.012853<br />
 model: RichardsQ<br />
-coeffs: [ 4.96222203e+06  1.63932804e-03 -2.41132983e+02 -2.41100523e+02
-  1.86625570e-02]<br />
-rational stdev: 0.349689<br />
-forecast at the end of period: +298 days<br />
-	 deltaDaycases: 136<br />
-	 total cases: 4958596 ± 1733964<br />
-	 total death: 327971 ± 344063<br />
-trend coefficient of determination: 0.856572 <br />
- intercept_: -5.754088396855306 <br />
- coeffs_: [ 0.         -0.24180855  0.00155204]<br />
+coeffs: [ 6.73834199e+06  1.53289081e-03 -2.63780678e+02 -2.63487667e+02
+  1.72196363e-02]<br />
+rational stdev: 0.351083<br />
+forecast at the end of period: +297 days<br />
+	 deltaDaycases: 400<br />
+	 total cases: 6726419 ± 2361529<br />
+	 total death: 433222 ± 456290<br />
+trend coefficient of determination: 0.858914 <br />
+ intercept_: -5.756057221099276 <br />
+ coeffs_: [ 0.         -0.24158899  0.00154829]<br />

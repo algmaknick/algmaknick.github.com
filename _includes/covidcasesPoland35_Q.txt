@@ -1,13 +1,13 @@
-Poland data at: 2020-05-19<br />
-+3 day model MAPE: 0.035819<br />
+Poland data at: 2020-05-20<br />
++3 day model MAPE: 0.036802<br />
 model: logisticQ<br />
-coeffs: [ 1.98135388e+04  6.91336579e-07  4.06991568e+01 -1.25226682e+05]<br />
+coeffs: [ 2.02144324e+04  6.45435031e-07  4.12948856e+01 -1.31444112e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.373687<br />
-forecast at the end of period: +200 days<br />
-	 deltaDaycases: 5<br />
-	 total cases: 26697 ± 9976<br />
-	 total death: 1313 ± 1471<br />
-trend coefficient of determination: 0.984007 <br />
- intercept_: -3.22114307415713 <br />
- coeffs_: [ 0.         -0.31514852  0.00239116]<br />
+rational stdev: 0.374412<br />
+forecast at the end of period: +199 days<br />
+	 deltaDaycases: 6<br />
+	 total cases: 27210 ± 10187<br />
+	 total death: 1326 ± 1489<br />
+trend coefficient of determination: 0.984121 <br />
+ intercept_: -3.2304269073887584 <br />
+ coeffs_: [ 0.         -0.3141413   0.00237442]<br />

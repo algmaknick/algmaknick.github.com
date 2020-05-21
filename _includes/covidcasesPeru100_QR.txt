@@ -1,13 +1,13 @@
-Peru data at: 2020-05-19<br />
-+3 day model MAPE: 0.003802<br />
+Peru data at: 2020-05-20<br />
++3 day model MAPE: 0.004144<br />
 model: RichardsQ<br />
-coeffs: [ 2.55548540e+05  6.95288182e-03 -1.41405814e+02 -1.81338714e+02
-  1.25243260e-02]<br />
-rational stdev: 0.200816<br />
-forecast at the end of period: +200 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 255545 ± 51317<br />
-	 total death: 7485 ± 4509<br />
-trend coefficient of determination: 0.973480 <br />
- intercept_: -3.742385178907379 <br />
- coeffs_: [ 0.         -0.27599842  0.00176054]<br />
+coeffs: [ 2.81079849e+05  7.40780028e-03 -1.27065998e+02 -3.37569894e+02
+  8.29186664e-03]<br />
+rational stdev: 0.192577<br />
+forecast at the end of period: +199 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 281062 ± 54126<br />
+	 total death: 8170 ± 4720<br />
+trend coefficient of determination: 0.973990 <br />
+ intercept_: -3.748790630648238 <br />
+ coeffs_: [ 0.       -0.275274  0.001748]<br />
