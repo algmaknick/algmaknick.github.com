@@ -1,15 +1,13 @@
-Lithuania data at: 2020-05-19<br />
-+3 day model MAPE: 0.015979<br />
-model: bi-Richards<br />
-coeffs: [128.38168655   0.1998912   57.85145318   1.41795592]<br />
-rational stdev: 0.194832<br />
-forecast at the end of period: +27 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 1629 ± 317<br />
-	 total death: 62 ± 36<br />
-bi-Richards approximation splitting point: 56<br />
-trend coefficient of determination: 0.873953 <br />
- intercept: -6.505904 <br />
- slope: -0.199910<br />trend coefficient of determination: 0.012115 <br />
- intercept: -14.380179 <br />
- slope: -0.016611<br />
+Lithuania data at: 2020-05-20<br />
++3 day model MAPE: 0.008894<br />
+model: Richards<br />
+coeffs: [ 1.56411754e+03  1.12291702e+01 -4.86880400e+01  6.91556769e-03]<br />
+S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
+rational stdev: 0.268137<br />
+forecast at the end of period: +209 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 2091 ± 560<br />
+	 total death: 79 ± 63<br />
+trend coefficient of determination: 0.851863 <br />
+ intercept: -0.947208 <br />
+ slope: -0.072568<br />
