@@ -1,12 +1,12 @@
-Iceland data at: 2020-05-20<br />
-+3 day model MAPE: 0.000035<br />
+Iceland data at: 2020-05-21<br />
++3 day model MAPE: 0.000043<br />
 model: logisticQ<br />
-coeffs: [ 1.80213370e+03  9.21528456e-06  1.33209238e+01 -1.92234880e+04]<br />
-rational stdev: 0.061245<br />
-forecast at the end of period: +31 days<br />
+coeffs: [ 1.80216594e+03  9.07722187e-06  1.33211949e+01 -1.95152753e+04]<br />
+rational stdev: 0.060894<br />
+forecast at the end of period: +30 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 1802 ± 110<br />
+	 total cases: 1802 ± 109<br />
 	 total death: 9 ± 1<br />
-trend coefficient of determination: 0.946649 <br />
- intercept_: -5.496899379244933 <br />
- coeffs_: [ 0.         -0.2036439   0.00043609]<br />
+trend coefficient of determination: 0.947033 <br />
+ intercept_: -5.460707169554636 <br />
+ coeffs_: [ 0.         -0.20762447  0.00050311]<br />
