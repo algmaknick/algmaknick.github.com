@@ -1,13 +1,13 @@
-Netherlands data at: 2020-05-20<br />
-+3 day model MAPE: 0.000987<br />
+Netherlands data at: 2020-05-21<br />
++3 day model MAPE: 0.001506<br />
 model: RichardsQ<br />
-coeffs: [ 4.54843361e+04  2.80858939e-02 -9.26512578e+01 -1.55458404e+02
-  8.35723919e-03]<br />
-rational stdev: 0.044232<br />
-forecast at the end of period: +31 days<br />
+coeffs: [ 4.55470790e+04  2.53390338e-02 -8.36582402e+01 -1.75001059e+02
+  8.92695889e-03]<br />
+rational stdev: 0.044909<br />
+forecast at the end of period: +30 days<br />
 	 deltaDaycases: 6<br />
-	 total cases: 45426 ± 2009<br />
-	 total death: 5874 ± 779<br />
-trend coefficient of determination: 0.989429 <br />
- intercept_: -6.706624087026005 <br />
- coeffs_: [ 0.         -0.23448086  0.0014434 ]<br />
+	 total cases: 45485 ± 2042<br />
+	 total death: 5876 ± 791<br />
+trend coefficient of determination: 0.989456 <br />
+ intercept_: -6.695820978035561 <br />
+ coeffs_: [ 0.         -0.23565291  0.00146287]<br />
