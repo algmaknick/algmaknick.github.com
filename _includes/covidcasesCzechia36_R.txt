@@ -1,13 +1,15 @@
-Czechia data at: 2020-05-21<br />
-+3 day model MAPE: 0.009751<br />
-model: Richards<br />
-coeffs: [ 8.50686348e+03  1.06849335e+01 -3.97789083e+01  7.47978129e-03]<br />
-S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 1.021072<br />
-forecast at the end of period: +198 days<br />
-	 deltaDaycases: 6<br />
-	 total cases: 11344 ± 11583<br />
-	 total death: 396 ± 1213<br />
-trend coefficient of determination: 0.592081 <br />
- intercept: -1.496705 <br />
- slope: -0.053101<br />
+Czechia data at: 2020-05-22<br />
++3 day model MAPE: 0.007064<br />
+model: bi-Richards<br />
+coeffs: [ 2.71417107e+03  3.37835771e+00 -6.11812802e+00  1.52238767e-02]<br />
+rational stdev: 1.171446<br />
+forecast at the end of period: +85 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 10584 ± 12399<br />
+	 total death: 374 ± 1314<br />
+bi-Richards approximation splitting point: 59<br />
+trend coefficient of determination: 0.401963 <br />
+ intercept: -1.482399 <br />
+ slope: -0.055021<br />trend coefficient of determination: 0.001496 <br />
+ intercept: -5.491211 <br />
+ slope: 0.002938<br />
