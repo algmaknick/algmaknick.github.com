@@ -1,13 +1,13 @@
-Austria data at: 2020-05-22<br />
-+3 day model MAPE: 0.005256<br />
+Austria data at: 2020-05-23<br />
++3 day model MAPE: 0.005162<br />
 model: logisticQ<br />
-coeffs: [ 1.55619629e+04  7.88344410e-07  2.37524717e+01 -2.36158135e+05]<br />
+coeffs: [ 1.55894972e+04  7.71316810e-07  2.37847132e+01 -2.40159873e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.323586<br />
-forecast at the end of period: +71 days<br />
+rational stdev: 0.323633<br />
+forecast at the end of period: +70 days<br />
 	 deltaDaycases: 7<br />
-	 total cases: 20996 ± 6794<br />
-	 total death: 811 ± 787<br />
-trend coefficient of determination: 0.981163 <br />
- intercept_: -2.7842501764013896 <br />
- coeffs_: [ 0.         -0.35438264  0.00241634]<br />
+	 total cases: 21031 ± 6806<br />
+	 total death: 815 ± 791<br />
+trend coefficient of determination: 0.981322 <br />
+ intercept_: -2.7879761102567944 <br />
+ coeffs_: [ 0.         -0.35402669  0.00241112]<br />
