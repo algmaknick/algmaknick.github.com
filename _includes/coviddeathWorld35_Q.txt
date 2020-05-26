@@ -1,15 +1,15 @@
-World data at: 2020-05-24<br />
-+3 day model MAPE: 0.028016<br />
+World data at: 2020-05-25<br />
++3 day model MAPE: 0.025638<br />
 model: tri-logisticQ<br />
-coeffs: [-6.10943027e+06  3.69304881e-04  7.96358987e+01 -5.44831414e+02]<br />
-rational stdev: 0.229164<br />
-forecast at the end of period: +97 days<br />
-	 total death: 315281 ± 72251<br />
+coeffs: [-6.10700125e+06  3.92650289e-04  7.96332021e+01 -5.08240757e+02]<br />
+rational stdev: 0.234739<br />
+forecast at the end of period: +96 days<br />
+	 total death: 317710 ± 74578<br />
 tri-logisticQ approximation splitting points: 26,51<br />
 trend coefficient of determination: 0.957216 <br />
  intercept_: -9.890425229004336 <br />
  coeffs_: [ 0.         -0.26614025  0.00124975]<br />trend1 coefficient of determination: 0.890965 <br />
  intercept_: -20.382525077358043 <br />
- coeffs_: [ 0.          0.22422642 -0.00217733]<br />trend coefficient of determination: 0.994014 <br />
- intercept_: -4.096231394770365 <br />
- coeffs_: [ 0.         -0.25944272  0.00110109]<br />
+ coeffs_: [ 0.          0.22422642 -0.00217733]<br />trend coefficient of determination: 0.993595 <br />
+ intercept_: -4.25381706363253 <br />
+ coeffs_: [ 0.         -0.25519878  0.00107384]<br />
