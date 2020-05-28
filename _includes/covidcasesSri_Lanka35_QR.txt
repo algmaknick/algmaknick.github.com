@@ -1,13 +1,8 @@
-Sri Lanka data at: 2020-05-26<br />
-+3 day model MAPE: 0.102584<br />
+Sri Lanka data at: 2020-05-27<br />
++3 day model MAPE: 1.000000<br />
 model: RichardsQ<br />
-coeffs: [ 1.27179552e+03  7.91082517e-04 -1.07194169e+02  3.42341787e+01
-  5.81349634e-01]<br />
-rational stdev: 0.289982<br />
-forecast at the end of period: +193 days<br />
+coeffs: [ 7.52300715e+02  3.17341453e-01 -2.13465663e+01  2.32384278e+01
+  1.09117845e-03]<br />
+rational stdev: nan<br />
+forecast at the end of period: +192 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 1271 ± 368<br />
-	 total death: 9 ± 7<br />
-trend coefficient of determination: 0.616315 <br />
- intercept_: -4.188684816840845 <br />
- coeffs_: [ 0.         -0.21116108  0.00171341]<br />

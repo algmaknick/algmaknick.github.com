@@ -1,15 +1,15 @@
-Australia data at: 2020-05-26<br />
+Australia data at: 2020-05-27<br />
 +3 day model MAPE: 0.000000<br />
 model: bi-logisticQ<br />
-coeffs: [-13.09653644  -0.87920786  22.49211106   6.02470798]<br />
-rational stdev: 0.476103<br />
-forecast at the end of period: +25 days<br />
+coeffs: [-11.36452966  -0.93206791  22.53192254   4.48149444]<br />
+rational stdev: 0.473265<br />
+forecast at the end of period: +24 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 6168 ± 2936<br />
-	 total death: 88 ± 125<br />
+	 total cases: 6168 ± 2919<br />
+	 total death: 88 ± 124<br />
 bi-logisticQ approximation splitting point: 50<br />
 trend coefficient of determination: 0.978786 <br />
  intercept_: -5.1508340728883 <br />
- coeffs_: [ 0.00000000e+00 -2.09278795e-01  2.06303704e-04]<br />trend coefficient of determination: 0.287414 <br />
- intercept_: -24.4865956262924 <br />
- coeffs_: [ 0.          0.30356728 -0.00240231]<br />
+ coeffs_: [ 0.00000000e+00 -2.09278795e-01  2.06303704e-04]<br />trend coefficient of determination: 0.248709 <br />
+ intercept_: -22.819158667377486 <br />
+ coeffs_: [ 0.          0.25035439 -0.00198598]<br />

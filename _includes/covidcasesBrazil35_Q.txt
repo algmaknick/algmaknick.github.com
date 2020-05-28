@@ -1,13 +1,13 @@
-Brazil data at: 2020-05-26<br />
-+3 day model MAPE: 0.005776<br />
+Brazil data at: 2020-05-27<br />
++3 day model MAPE: 0.013411<br />
 model: logisticQ<br />
-coeffs: [ 1.02554837e+06  8.10077198e-06  8.30056679e+01 -9.34853032e+03]<br />
+coeffs: [ 1.01793112e+06  7.60434991e-06  8.28589461e+01 -9.97420448e+03]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.395964<br />
-forecast at the end of period: +431 days<br />
-	 deltaDaycases: 52<br />
-	 total cases: 1387410 ± 549364<br />
-	 total death: 86489 ± 102739<br />
-trend coefficient of determination: 0.889507 <br />
- intercept_: -4.305915354015761 <br />
- coeffs_: [ 0.         -0.26901785  0.00163263]<br />
+rational stdev: 0.394820<br />
+forecast at the end of period: +430 days<br />
+	 deltaDaycases: 50<br />
+	 total cases: 1377147 ± 543725<br />
+	 total death: 85343 ± 101085<br />
+trend coefficient of determination: 0.891006 <br />
+ intercept_: -4.324413613138619 <br />
+ coeffs_: [ 0.         -0.2672293   0.00160609]<br />
