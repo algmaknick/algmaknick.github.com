@@ -1,12 +1,15 @@
 Iceland data at: 2020-05-27<br />
-+3 day model MAPE: 0.000574<br />
-model: Richards<br />
-coeffs: [1.80664071e+03 1.96329707e-01 1.60140797e+01 8.56236679e-01]<br />
-rational stdev: 0.141183<br />
++3 day model MAPE: 0.000145<br />
+model: bi-Richards<br />
+coeffs: [-3.56132139  1.16775373 33.17316813  0.21482152]<br />
+rational stdev: 0.123131<br />
 forecast at the end of period: +52 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 1806 ± 255<br />
-	 total death: 10 ± 4<br />
-trend coefficient of determination: 0.937183 <br />
- intercept: -3.923109 <br />
- slope: -0.181532<br />
+	 total cases: 1803 ± 222<br />
+	 total death: 9 ± 3<br />
+bi-Richards approximation splitting point: 66<br />
+trend coefficient of determination: 0.879057 <br />
+ intercept: -1.145266 <br />
+ slope: -0.138643<br />trend coefficient of determination: 0.058000 <br />
+ intercept: -13.822792 <br />
+ slope: 0.035369<br />
