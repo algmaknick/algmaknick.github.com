@@ -1,13 +1,12 @@
-Cyprus data at: 2020-05-28<br />
-+3 day model MAPE: 0.002624<br />
+Cyprus data at: 2020-05-29<br />
++3 day model MAPE: 0.004766<br />
 model: logisticQ<br />
-coeffs: [ 9.06640339e+02  8.14891444e-07  1.69598085e+01 -1.69080347e+05]<br />
-S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.175781<br />
-forecast at the end of period: +65 days<br />
+coeffs: [ 9.08036095e+02  8.02003339e-07  1.69949434e+01 -1.71131750e+05]<br />
+rational stdev: 0.175655<br />
+forecast at the end of period: +64 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 1222 ± 214<br />
-	 total death: 22 ± 11<br />
-trend coefficient of determination: 0.884177 <br />
- intercept_: -4.548413091607139 <br />
- coeffs_: [ 0.         -0.21810754  0.00136819]<br />
+	 total cases: 908 ± 159<br />
+	 total death: 16 ± 8<br />
+trend coefficient of determination: 0.886188 <br />
+ intercept_: -4.564544934091524 <br />
+ coeffs_: [ 0.         -0.21638079  0.00133988]<br />
