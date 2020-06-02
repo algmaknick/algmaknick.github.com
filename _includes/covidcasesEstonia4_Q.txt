@@ -1,13 +1,13 @@
-Estonia data at: 2020-05-31<br />
-+3 day model MAPE: 0.005348<br />
+Estonia data at: 2020-06-01<br />
++3 day model MAPE: 0.005215<br />
 model: logisticQ<br />
-coeffs: [ 1.78609491e+03  7.42142280e-07  1.38516015e+01 -1.54358722e+05]<br />
+coeffs: [ 1.78935164e+03  7.08622373e-07  1.38998329e+01 -1.60896256e+05]<br />
 S.Korea scenario coeffs: [0.04375, 0.5, 4.0, 1]<br />
-rational stdev: 0.121643<br />
-forecast at the end of period: +6 days<br />
+rational stdev: 0.121532<br />
+forecast at the end of period: +5 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 1846 ± 224<br />
+	 total cases: 1849 ± 224<br />
 	 total death: 67 ± 24<br />
-trend coefficient of determination: 0.908026 <br />
- intercept_: -6.302244612708839 <br />
- coeffs_: [ 0.         -0.20748331  0.00151156]<br />
+trend coefficient of determination: 0.903864 <br />
+ intercept_: -6.363926254370309 <br />
+ coeffs_: [ 0.         -0.20113577  0.00141143]<br />

@@ -1,13 +1,13 @@
-Pakistan data at: 2020-05-31<br />
-+3 day model MAPE: 0.003019<br />
+Pakistan data at: 2020-06-01<br />
++3 day model MAPE: 0.016525<br />
 model: RichardsQ<br />
-coeffs: [ 2.62963849e+05  1.40019973e-03 -1.43219744e+02 -9.21553032e+01
-  4.80112129e-02]<br />
-rational stdev: 0.382966<br />
-forecast at the end of period: +272 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 262962 ± 100705<br />
-	 total death: 5599 ± 6432<br />
-trend coefficient of determination: 0.957698 <br />
- intercept_: -3.215295832391506 <br />
- coeffs_: [ 0.         -0.23892932  0.00131343]<br />
+coeffs: [ 3.51098145e+05  1.52335438e-03 -1.74148360e+02 -1.91698222e+02
+  2.81053436e-02]<br />
+rational stdev: 0.378044<br />
+forecast at the end of period: +271 days<br />
+	 deltaDaycases: 2<br />
+	 total cases: 351052 ± 132713<br />
+	 total death: 7448 ± 8447<br />
+trend coefficient of determination: 0.958212 <br />
+ intercept_: -3.2193519172675504 <br />
+ coeffs_: [ 0.         -0.23857563  0.00130869]<br />

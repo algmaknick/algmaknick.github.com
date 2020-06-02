@@ -1,13 +1,13 @@
-Chile data at: 2020-05-31<br />
-+3 day model MAPE: 0.039043<br />
+Chile data at: 2020-06-01<br />
++3 day model MAPE: 0.045256<br />
 model: logisticQ<br />
-coeffs: [ 1.03418687e+06  6.27463991e-05  1.14732508e+02 -9.64856441e+02]<br />
+coeffs: [ 5.65264721e+05  1.01191030e-04  1.02982841e+02 -6.04469784e+02]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.412310<br />
-forecast at the end of period: +524 days<br />
-	 deltaDaycases: 403<br />
-	 total cases: 1387434 ± 572053<br />
-	 total death: 14669 ± 18144<br />
-trend coefficient of determination: 0.875970 <br />
- intercept_: -3.841309692110965 <br />
- coeffs_: [ 0.         -0.26693173  0.00178739]<br />
+rational stdev: 0.412871<br />
+forecast at the end of period: +523 days<br />
+	 deltaDaycases: 42<br />
+	 total cases: 764194 ± 315513<br />
+	 total death: 8088 ± 10017<br />
+trend coefficient of determination: 0.876519 <br />
+ intercept_: -3.8741851938364844 <br />
+ coeffs_: [ 0.         -0.26389969  0.00174444]<br />

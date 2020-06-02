@@ -1,13 +1,13 @@
-UAE data at: 2020-05-31<br />
-+3 day model MAPE: 0.077148<br />
+UAE data at: 2020-06-01<br />
++3 day model MAPE: 1.827779<br />
 model: RichardsQ<br />
-coeffs: [ 1.33999403e+04 -6.30375804e+00 -8.06918632e+02  6.25822742e+02
-  1.42771291e-02]<br />
-rational stdev: 0.786269<br />
-forecast at the end of period: +62 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 13399 ± 10535<br />
-	 total death: 102 ± 240<br />
-trend coefficient of determination: 0.980769 <br />
- intercept_: -8.010648990632317 <br />
- coeffs_: [ 0.         -0.18006865  0.00135591]<br />
+coeffs: [ 7.46102221e+04  3.46318495e-03 -1.67857862e+02 -8.20608536e+02
+  7.49738815e-03]<br />
+rational stdev: 0.180239<br />
+forecast at the end of period: +61 days<br />
+	 deltaDaycases: 252<br />
+	 total cases: 66309 ± 11951<br />
+	 total death: 501 ± 270<br />
+trend coefficient of determination: 0.980362 <br />
+ intercept_: -8.0302694325958 <br />
+ coeffs_: [ 0.         -0.17760583  0.00130872]<br />

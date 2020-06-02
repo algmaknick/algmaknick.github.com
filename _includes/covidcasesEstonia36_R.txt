@@ -1,15 +1,15 @@
-Estonia data at: 2020-05-31<br />
-+3 day model MAPE: 0.003628<br />
+Estonia data at: 2020-06-01<br />
++3 day model MAPE: 0.008051<br />
 model: bi-Richards<br />
-coeffs: [2.28106403e+02 1.63156287e-01 6.45701280e+01 6.29384043e-01]<br />
-rational stdev: 0.113532<br />
-forecast at the end of period: +111 days<br />
+coeffs: [1.71734466e+02 1.42191603e-01 6.65668071e+01 1.05666342e+00]<br />
+rational stdev: 0.112835<br />
+forecast at the end of period: +110 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 1978 ± 224<br />
-	 total death: 71 ± 24<br />
+	 total cases: 1921 ± 216<br />
+	 total death: 69 ± 23<br />
 bi-Richards approximation splitting point: 50<br />
-trend coefficient of determination: 0.836423 <br />
- intercept: -4.962801 <br />
- slope: -0.109238<br />trend coefficient of determination: 0.026942 <br />
- intercept: -11.374798 <br />
- slope: 0.012033<br />
+trend coefficient of determination: 0.864184 <br />
+ intercept: -7.274669 <br />
+ slope: -0.131165<br />trend coefficient of determination: 0.000079 <br />
+ intercept: -13.805992 <br />
+ slope: -0.000685<br />
