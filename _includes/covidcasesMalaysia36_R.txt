@@ -1,13 +1,16 @@
 Malaysia data at: 2020-06-02<br />
-+3 day model MAPE: 0.014297<br />
-model: Richards<br />
-coeffs: [ 7.58609498e+03  9.24735204e+00 -6.07989926e+01  6.29230481e-03]<br />
++3 day model MAPE: 0.007775<br />
+model: bi-Richards<br />
+coeffs: [ 3.56075489e+03  5.39613497e+00 -1.22799740e+01  8.85858024e-03]<br />
 S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.200232<br />
-forecast at the end of period: +186 days<br />
-	 deltaDaycases: 17<br />
-	 total cases: 9168 ± 1835<br />
-	 total death: 133 ± 79<br />
-trend coefficient of determination: 0.476729 <br />
- intercept: -1.931723 <br />
- slope: -0.040163<br />
+rational stdev: 0.153710<br />
+forecast at the end of period: +144 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 10114 ± 1554<br />
+	 total death: 147 ± 67<br />
+bi-Richards approximation splitting point: 70<br />
+trend coefficient of determination: 0.329032 <br />
+ intercept: -1.819532 <br />
+ slope: -0.044616<br />trend coefficient of determination: 0.014738 <br />
+ intercept: -4.272034 <br />
+ slope: -0.011310<br />
