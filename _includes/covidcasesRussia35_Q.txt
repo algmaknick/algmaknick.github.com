@@ -1,13 +1,13 @@
-Russia data at: 2020-06-02<br />
-+3 day model MAPE: 0.026106<br />
+Russia data at: 2020-06-03<br />
++3 day model MAPE: 0.026677<br />
 model: logisticQ<br />
-coeffs: [ 4.61406564e+05  1.84329289e-06  6.52122754e+01 -5.34690254e+04]<br />
+coeffs: [ 4.68299155e+05  1.59059473e-06  6.55782788e+01 -6.11635615e+04]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.419071<br />
-forecast at the end of period: +270 days<br />
-	 deltaDaycases: 223<br />
-	 total cases: 620303 ± 259951<br />
-	 total death: 7373 ± 9269<br />
-trend coefficient of determination: 0.974861 <br />
- intercept_: -3.380168759031653 <br />
- coeffs_: [ 0.         -0.23464178  0.00093936]<br />
+rational stdev: 0.419810<br />
+forecast at the end of period: +269 days<br />
+	 deltaDaycases: 251<br />
+	 total cases: 628982 ± 264052<br />
+	 total death: 7588 ± 9556<br />
+trend coefficient of determination: 0.975271 <br />
+ intercept_: -3.373361246286919 <br />
+ coeffs_: [ 0.         -0.2352354   0.00094732]<br />
