@@ -1,13 +1,13 @@
-Portugal data at: 2020-06-03<br />
-+3 day model MAPE: 0.016321<br />
+Portugal data at: 2020-06-04<br />
++3 day model MAPE: 0.016594<br />
 model: logisticQ<br />
-coeffs: [ 3.07102591e+04  3.25240365e-07  3.38210636e+01 -2.95399069e+05]<br />
+coeffs: [ 3.09030017e+04  3.11073080e-07  3.40294618e+01 -3.04911454e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.377578<br />
-forecast at the end of period: +101 days<br />
-	 deltaDaycases: 62<br />
-	 total cases: 40128 ± 15151<br />
-	 total death: 1745 ± 1976<br />
-trend coefficient of determination: 0.983472 <br />
- intercept_: -3.1878851063191735 <br />
- coeffs_: [ 0.         -0.3319649   0.00226196]<br />
+rational stdev: 0.377250<br />
+forecast at the end of period: +100 days<br />
+	 deltaDaycases: 64<br />
+	 total cases: 40292 ± 15200<br />
+	 total death: 1745 ± 1974<br />
+trend coefficient of determination: 0.983373 <br />
+ intercept_: -3.203847308699684 <br />
+ coeffs_: [ 0.         -0.33055765  0.00224289]<br />
