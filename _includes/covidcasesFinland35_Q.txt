@@ -1,13 +1,13 @@
-Finland data at: 2020-06-03<br />
-+3 day model MAPE: 0.006325<br />
+Finland data at: 2020-06-05<br />
++3 day model MAPE: 0.005230<br />
 model: logisticQ<br />
-coeffs: [ 6.88175826e+03  5.27824333e-07  4.39483890e+01 -1.55117174e+05]<br />
+coeffs: [ 6.90837092e+03  4.80775393e-07  4.40847438e+01 -1.69268688e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.354489<br />
-forecast at the end of period: +185 days<br />
-	 deltaDaycases: 2<br />
-	 total cases: 9246 ± 3277<br />
-	 total death: 429 ± 456<br />
-trend coefficient of determination: 0.916793 <br />
- intercept_: -3.715113297269454 <br />
- coeffs_: [ 0.         -0.20614826  0.00100438]<br />
+rational stdev: 0.352467<br />
+forecast at the end of period: +183 days<br />
+	 deltaDaycases: 3<br />
+	 total cases: 9278 ± 3270<br />
+	 total death: 430 ± 454<br />
+trend coefficient of determination: 0.908703 <br />
+ intercept_: -3.8188805288753462 <br />
+ coeffs_: [ 0.         -0.19755936  0.000895  ]<br />

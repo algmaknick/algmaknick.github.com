@@ -1,18 +1,18 @@
-World data at: 2020-06-04<br />
-+3 day model MAPE: 0.032496<br />
+World data at: 2020-06-05<br />
++3 day model MAPE: 0.033448<br />
 model: tri-logisticQ<br />
-coeffs: [ 6.96170120e+06  3.94179155e-07  9.08476836e+01 -1.57800910e+05]<br />
+coeffs: [ 7.11388168e+06  3.59292673e-07  9.16896213e+01 -1.70097721e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.301292<br />
-forecast at the end of period: +422 days<br />
-	 deltaDaycases: 747<br />
-	 total cases: 9597211 ± 2891567<br />
-	 total death: 563001 ± 508883<br />
+rational stdev: 0.306060<br />
+forecast at the end of period: +421 days<br />
+	 deltaDaycases: 906<br />
+	 total cases: 9797642 ± 2998665<br />
+	 total death: 569574 ± 522971<br />
 tri-logisticQ approximation splitting points: 26,54<br />
 trend coefficient of determination: 0.957216 <br />
  intercept_: -9.890425229004336 <br />
  coeffs_: [ 0.         -0.26614025  0.00124975]<br />trend1 coefficient of determination: 0.900515 <br />
  intercept_: -20.622215746086294 <br />
- coeffs_: [ 0.          0.23801537 -0.00236922]<br />trend coefficient of determination: 0.990200 <br />
- intercept_: -5.046520781789452 <br />
- coeffs_: [ 0.         -0.23437259  0.00094405]<br />
+ coeffs_: [ 0.          0.23801537 -0.00236922]<br />trend coefficient of determination: 0.990328 <br />
+ intercept_: -5.054282280763637 <br />
+ coeffs_: [ 0.         -0.23417833  0.00094289]<br />
