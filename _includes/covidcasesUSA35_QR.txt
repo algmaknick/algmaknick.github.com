@@ -1,13 +1,13 @@
-USA data at: 2020-06-05<br />
-+3 day model MAPE: 0.043718<br />
+USA data at: 2020-06-06<br />
++3 day model MAPE: 0.038669<br />
 model: RichardsQ<br />
-coeffs: [ 8.94224362e+05  4.86671653e+00 -2.37735868e+03  2.01738121e+03
- -3.61671141e+00]<br />
-rational stdev: 0.720043<br />
-forecast at the end of period: +57 days<br />
+coeffs: [ 1.01767468e+06  6.21948619e-01 -2.15150751e+01 -3.83567930e+01
+  1.21242564e-01]<br />
+rational stdev: 0.598462<br />
+forecast at the end of period: +56 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 894224 ± 643879<br />
-	 total death: 50672 ± 109457<br />
-trend coefficient of determination: 0.984605 <br />
- intercept_: -9.70514497363689 <br />
- coeffs_: [ 0.         -0.25897968  0.00186045]<br />
+	 total cases: 1017674 ± 609039<br />
+	 total death: 57367 ± 102995<br />
+trend coefficient of determination: 0.983458 <br />
+ intercept_: -12.531441864823815 <br />
+ coeffs_: [ 0.         -0.18781091  0.0014156 ]<br />

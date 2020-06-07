@@ -1,13 +1,15 @@
-Slovenia data at: 2020-06-05<br />
-+3 day model MAPE: 0.000181<br />
-model: Richards<br />
-coeffs: [ 1.48197790e+03  4.71478038e-01 -5.79361306e+00  1.88841229e-01]<br />
-S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.198532<br />
-forecast at the end of period: +113 days<br />
-	 deltaDaycases: 1<br />
-	 total cases: 1981 ± 393<br />
-	 total death: 146 ± 86<br />
-trend coefficient of determination: 0.892939 <br />
- intercept: -1.807624 <br />
- slope: -0.097172<br />
+Slovenia data at: 2020-06-06<br />
++3 day model MAPE: 0.006962<br />
+model: bi-Richards<br />
+coeffs: [ 5.77390643e+01 -4.10039131e-02 -5.16860129e+00  1.31131037e-02]<br />
+rational stdev: 0.195031<br />
+forecast at the end of period: +42 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 1488 ± 290<br />
+	 total death: 109 ± 63<br />
+bi-Richards approximation splitting point: 75<br />
+trend coefficient of determination: 0.903849 <br />
+ intercept: -0.789892 <br />
+ slope: -0.094866<br />trend coefficient of determination: 0.218921 <br />
+ intercept: -18.512070 <br />
+ slope: 0.122489<br />

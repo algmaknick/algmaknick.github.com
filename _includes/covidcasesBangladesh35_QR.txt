@@ -1,13 +1,13 @@
-Bangladesh data at: 2020-06-05<br />
-+3 day model MAPE: 0.022239<br />
+Bangladesh data at: 2020-06-06<br />
++3 day model MAPE: 0.017262<br />
 model: RichardsQ<br />
-coeffs: [ 5.39224987e+05  2.67038096e-03 -2.21289551e+02 -5.48626945e+02
-  7.94261678e-03]<br />
-rational stdev: 0.399455<br />
-forecast at the end of period: +1 days<br />
-	 deltaDaycases: 2604<br />
-	 total cases: 62163 ± 24831<br />
-	 total death: 834 ± 999<br />
-trend coefficient of determination: 0.812833 <br />
- intercept_: -4.792643536045354 <br />
- coeffs_: [ 0.         -0.12608666  0.0001595 ]<br />
+coeffs: [ 5.63656423e+05  2.73012620e-03 -2.40179629e+02 -4.77365736e+02
+  8.15311619e-03]<br />
+rational stdev: 0.403045<br />
+forecast at the end of period: +14 days<br />
+	 deltaDaycases: 3536<br />
+	 total cases: 106247 ± 42822<br />
+	 total death: 1426 ± 1724<br />
+trend coefficient of determination: 0.816257 <br />
+ intercept_: -4.776647819841135 <br />
+ coeffs_: [ 0.         -0.12756191  0.0001804 ]<br />

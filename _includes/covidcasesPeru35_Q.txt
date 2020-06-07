@@ -1,13 +1,13 @@
-Peru data at: 2020-06-05<br />
-+3 day model MAPE: 0.023661<br />
+Peru data at: 2020-06-06<br />
++3 day model MAPE: 0.014966<br />
 model: logisticQ<br />
-coeffs: [ 2.83238437e+05  1.37776647e-06  7.31852292e+01 -5.24740647e+04]<br />
+coeffs: [ 2.85708284e+05  1.36877574e-06  7.34158655e+01 -5.26356087e+04]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.404510<br />
-forecast at the end of period: +365 days<br />
-	 deltaDaycases: 34<br />
-	 total cases: 382610 ± 154769<br />
-	 total death: 10539 ± 12789<br />
-trend coefficient of determination: 0.977654 <br />
- intercept_: -3.9478157095359876 <br />
- coeffs_: [ 0.         -0.25542936  0.00144318]<br />
+rational stdev: 0.404035<br />
+forecast at the end of period: +364 days<br />
+	 deltaDaycases: 36<br />
+	 total cases: 385896 ± 155915<br />
+	 total death: 10667 ± 12929<br />
+trend coefficient of determination: 0.977649 <br />
+ intercept_: -3.96897759443935 <br />
+ coeffs_: [ 0.         -0.25349989  0.00141616]<br />
