@@ -1,13 +1,13 @@
-France data at: 2020-06-06<br />
-+3 day model MAPE: 0.006632<br />
+France data at: 2020-06-07<br />
++3 day model MAPE: 0.006601<br />
 model: logisticQ<br />
-coeffs: [ 1.44496184e+05  5.03903652e-07  3.40794308e+01 -2.52060858e+05]<br />
+coeffs: [ 1.44807391e+05  5.16621344e-07  3.41347083e+01 -2.44562374e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.314138<br />
-forecast at the end of period: +94 days<br />
-	 deltaDaycases: 231<br />
-	 total cases: 191867 ± 60272<br />
-	 total death: 36394 ± 34298<br />
-trend coefficient of determination: 0.978674 <br />
- intercept_: -4.865904292621563 <br />
- coeffs_: [ 0.         -0.29975912  0.00172518]<br />
+rational stdev: 0.314258<br />
+forecast at the end of period: +93 days<br />
+	 deltaDaycases: 236<br />
+	 total cases: 192179 ± 60393<br />
+	 total death: 36388 ± 34305<br />
+trend coefficient of determination: 0.978700 <br />
+ intercept_: -4.880954387654906 <br />
+ coeffs_: [ 0.         -0.29855203  0.00171028]<br />
