@@ -1,16 +1,16 @@
-Bangladesh data at: 2020-06-07<br />
-+3 day model MAPE: 0.036138<br />
+Bangladesh data at: 2020-06-08<br />
++3 day model MAPE: 0.030206<br />
 model: bi-logisticQ<br />
-coeffs: [ 1.28854503e+05  3.72147517e-06  8.29248662e+01 -2.01294850e+04]<br />
+coeffs: [ 1.33718551e+05  3.57319268e-06  8.37560674e+01 -2.07747500e+04]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.449254<br />
-forecast at the end of period: +251 days<br />
-	 deltaDaycases: 329<br />
-	 total cases: 140869 ± 63286<br />
-	 total death: 1901 ± 2562<br />
+rational stdev: 0.448902<br />
+forecast at the end of period: +250 days<br />
+	 deltaDaycases: 318<br />
+	 total cases: 145065 ± 65120<br />
+	 total death: 1969 ± 2651<br />
 bi-logisticQ approximation splitting point: 25<br />
 trend coefficient of determination: 0.232653 <br />
  intercept_: -6.325425729788838 <br />
- coeffs_: [ 0.          0.22449345 -0.0150245 ]<br />trend coefficient of determination: 0.984555 <br />
- intercept_: 1.6206137824745728 <br />
- coeffs_: [ 0.         -0.35644262  0.00205728]<br />
+ coeffs_: [ 0.          0.22449345 -0.0150245 ]<br />trend coefficient of determination: 0.984158 <br />
+ intercept_: 1.491908906360603 <br />
+ coeffs_: [ 0.         -0.35083421  0.00200239]<br />

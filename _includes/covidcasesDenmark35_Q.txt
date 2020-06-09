@@ -1,16 +1,16 @@
-Denmark data at: 2020-06-07<br />
-+3 day model MAPE: 0.007666<br />
+Denmark data at: 2020-06-08<br />
++3 day model MAPE: 0.007368<br />
 model: bi-logisticQ<br />
-coeffs: [ 1.06414806e+04  3.16309714e-07  3.93607592e+01 -3.00181049e+05]<br />
+coeffs: [ 1.06697125e+04  3.08310940e-07  3.94496055e+01 -3.06324770e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.316157<br />
-forecast at the end of period: +111 days<br />
+rational stdev: 0.315563<br />
+forecast at the end of period: +110 days<br />
 	 deltaDaycases: 26<br />
-	 total cases: 14612 ± 4619<br />
-	 total death: 720 ± 682<br />
+	 total cases: 14634 ± 4618<br />
+	 total death: 725 ± 686<br />
 bi-logisticQ approximation splitting point: 18<br />
 trend coefficient of determination: 0.963211 <br />
  intercept_: -1.9308894789691964 <br />
- coeffs_: [ 0.         -0.26605777 -0.01390014]<br />trend coefficient of determination: 0.975662 <br />
- intercept_: -7.024236725648753 <br />
- coeffs_: [ 0.         -0.13432746  0.0005217 ]<br />
+ coeffs_: [ 0.         -0.26605777 -0.01390014]<br />trend coefficient of determination: 0.974142 <br />
+ intercept_: -7.116562597752907 <br />
+ coeffs_: [ 0.         -0.13000083  0.00047919]<br />
