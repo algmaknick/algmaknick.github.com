@@ -1,13 +1,15 @@
 European Union data at: 2020-06-09<br />
-+3 day model MAPE: 0.004180<br />
-model: Richards<br />
-coeffs: [ 1.18393438e+06  8.38322185e+00 -5.22231981e+01  7.46713599e-03]<br />
-S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.309280<br />
-forecast at the end of period: +249 days<br />
-	 deltaDaycases: 711<br />
-	 total cases: 1578616 ± 488235<br />
-	 total death: 169493 ± 157262<br />
-trend coefficient of determination: 0.943354 <br />
- intercept: -1.248415 <br />
- slope: -0.052355<br />
++3 day model MAPE: 0.004107<br />
+model: bi-Richards<br />
+coeffs: [ 1.53804009e+05  7.00725860e+00 -9.67663470e+00  8.35778404e-03]<br />
+rational stdev: 0.618495<br />
+forecast at the end of period: +39 days<br />
+	 deltaDaycases: 274<br />
+	 total cases: 1231627 ± 761755<br />
+	 total death: 132238 ± 245365<br />
+bi-Richards approximation splitting point: 83<br />
+trend coefficient of determination: 0.943264 <br />
+ intercept: -1.104401 <br />
+ slope: -0.057351<br />trend coefficient of determination: 0.025958 <br />
+ intercept: -5.018176 <br />
+ slope: -0.009152<br />
