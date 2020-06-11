@@ -1,13 +1,15 @@
-Greece data at: 2020-06-09<br />
-+3 day model MAPE: 0.005644<br />
-model: Richards<br />
-coeffs: [ 2.93636056e+03  9.02542698e+00 -5.33875913e+01  7.41026486e-03]<br />
-S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.150455<br />
-forecast at the end of period: +193 days<br />
-	 deltaDaycases: 3<br />
-	 total cases: 3847 ± 578<br />
-	 total death: 230 ± 103<br />
-trend coefficient of determination: 0.772230 <br />
- intercept: -1.435953 <br />
- slope: -0.056890<br />
+Greece data at: 2020-06-10<br />
++3 day model MAPE: 0.028516<br />
+model: bi-Richards<br />
+coeffs: [ 4.00569990e+03  5.57522750e+00 -5.16253150e+01  5.11305676e-03]<br />
+rational stdev: 0.140635<br />
+forecast at the end of period: +192 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 6840 ± 962<br />
+	 total death: 408 ± 172<br />
+bi-Richards approximation splitting point: 90<br />
+trend coefficient of determination: 0.836950 <br />
+ intercept: -1.186440 <br />
+ slope: -0.064216<br />trend coefficient of determination: 0.267433 <br />
+ intercept: -24.278098 <br />
+ slope: 0.190961<br />

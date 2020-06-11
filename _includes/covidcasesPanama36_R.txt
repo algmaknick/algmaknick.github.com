@@ -1,13 +1,15 @@
-Panama data at: 2020-06-09<br />
-+3 day model MAPE: 0.052038<br />
-model: Richards<br />
-coeffs: [ 3.84499320e+04  1.53517563e+00 -1.60005125e+02  1.21556070e-02]<br />
-S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.328183<br />
-forecast at the end of period: +935 days<br />
-	 deltaDaycases: 11<br />
-	 total cases: 50529 ± 16582<br />
-	 total death: 1181 ± 1162<br />
-trend coefficient of determination: 0.705227 <br />
- intercept: -1.701727 <br />
- slope: -0.031802<br />
+Panama data at: 2020-06-10<br />
++3 day model MAPE: 0.014532<br />
+model: bi-Richards<br />
+coeffs: [1.10235759e+04 4.66757939e+00 3.77624435e+01 2.02299927e-02]<br />
+rational stdev: 0.234435<br />
+forecast at the end of period: +94 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 24473 ± 5737<br />
+	 total death: 565 ± 397<br />
+bi-Richards approximation splitting point: 70<br />
+trend coefficient of determination: 0.874704 <br />
+ intercept: -1.311236 <br />
+ slope: -0.048725<br />trend coefficient of determination: 0.243018 <br />
+ intercept: -5.868641 <br />
+ slope: 0.024916<br />
