@@ -1,16 +1,16 @@
-Singapore data at: 2020-06-09<br />
-+3 day model MAPE: 0.022786<br />
+Singapore data at: 2020-06-10<br />
++3 day model MAPE: 0.021777<br />
 model: bi-logisticQ<br />
-coeffs: [ 3.82189917e+04  6.17959338e-07  9.50868871e+01 -1.47847633e+05]<br />
+coeffs: [ 3.85747142e+04  5.80735615e-07  9.53707170e+01 -1.55406199e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.224557<br />
-forecast at the end of period: +67 days<br />
+rational stdev: 0.230338<br />
+forecast at the end of period: +66 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 38315 ± 8603<br />
+	 total cases: 38670 ± 8907<br />
 	 total death: 24 ± 16<br />
 bi-logisticQ approximation splitting point: 35<br />
 trend coefficient of determination: 0.914568 <br />
  intercept_: -2.036640634366525 <br />
- coeffs_: [ 0.         -0.39517788  0.00592335]<br />trend coefficient of determination: 0.940609 <br />
- intercept_: -5.300169596626798 <br />
- coeffs_: [ 0.         -0.05650099 -0.00015254]<br />
+ coeffs_: [ 0.         -0.39517788  0.00592335]<br />trend coefficient of determination: 0.940735 <br />
+ intercept_: -5.182852784179991 <br />
+ coeffs_: [ 0.         -0.05998073 -0.00012961]<br />
