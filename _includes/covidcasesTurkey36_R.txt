@@ -1,13 +1,15 @@
 Turkey data at: 2020-06-11<br />
-+3 day model MAPE: 0.007831<br />
-model: Richards<br />
-coeffs: [ 1.71528564e+05  7.81229272e+00 -4.80157547e+01  8.19761592e-03]<br />
-S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.287652<br />
-forecast at the end of period: +196 days<br />
-	 deltaDaycases: 291<br />
-	 total cases: 218424 ± 62830<br />
-	 total death: 5978 ± 5158<br />
-trend coefficient of determination: 0.830922 <br />
- intercept: -1.117829 <br />
- slope: -0.052167<br />
++3 day model MAPE: 0.006259<br />
+model: bi-Richards<br />
+coeffs: [2.26685611e+04 8.74258426e+00 1.75183074e+01 9.26188551e-03]<br />
+rational stdev: 0.213670<br />
+forecast at the end of period: +51 days<br />
+	 deltaDaycases: 18<br />
+	 total cases: 183682 ± 39247<br />
+	 total death: 5027 ± 3222<br />
+bi-Richards approximation splitting point: 75<br />
+trend coefficient of determination: 0.776842 <br />
+ intercept: -0.966280 <br />
+ slope: -0.057924<br />trend coefficient of determination: 0.230080 <br />
+ intercept: -4.405755 <br />
+ slope: -0.010398<br />
