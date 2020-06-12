@@ -1,13 +1,13 @@
-Thailand data at: 2020-06-09<br />
-+3 day model MAPE: 0.002045<br />
+Thailand data at: 2020-06-11<br />
++3 day model MAPE: 0.001834<br />
 model: logisticQ<br />
-coeffs: [ 3.00432189e+03  6.97865294e-07  2.52012935e+01 -2.50163960e+05]<br />
+coeffs: [ 3.00938718e+03  6.89588756e-07  2.52343748e+01 -2.51944153e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.252133<br />
-forecast at the end of period: +67 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 4057 ± 1023<br />
+rational stdev: 0.252178<br />
+forecast at the end of period: +65 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 4064 ± 1024<br />
 	 total death: 75 ± 56<br />
-trend coefficient of determination: 0.925963 <br />
- intercept_: -2.531666325158591 <br />
- coeffs_: [ 0.         -0.28470845  0.00156187]<br />
+trend coefficient of determination: 0.926182 <br />
+ intercept_: -2.557607637955467 <br />
+ coeffs_: [ 0.         -0.28263745  0.00153642]<br />

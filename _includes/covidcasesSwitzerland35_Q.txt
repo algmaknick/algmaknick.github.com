@@ -1,13 +1,12 @@
-Switzerland data at: 2020-06-10<br />
-+3 day model MAPE: 0.001124<br />
+Switzerland data at: 2020-06-11<br />
++3 day model MAPE: 0.001546<br />
 model: logisticQ<br />
-coeffs: [ 3.03371723e+04  6.01182727e-07  2.61907240e+01 -2.33908748e+05]<br />
-S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.322659<br />
-forecast at the end of period: +66 days<br />
-	 deltaDaycases: 21<br />
-	 total cases: 40774 ± 13156<br />
-	 total death: 2545 ± 2463<br />
-trend coefficient of determination: 0.981176 <br />
- intercept_: -4.150830965066946 <br />
- coeffs_: [ 0.         -0.28660692  0.00150116]<br />
+coeffs: [ 3.03527939e+04  5.90014935e-07  2.62028402e+01 -2.38025678e+05]<br />
+rational stdev: 0.321667<br />
+forecast at the end of period: +65 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 30352 ± 9763<br />
+	 total death: 1893 ± 1826<br />
+trend coefficient of determination: 0.981191 <br />
+ intercept_: -4.138496582184251 <br />
+ coeffs_: [ 0.         -0.28755806  0.00151245]<br />
