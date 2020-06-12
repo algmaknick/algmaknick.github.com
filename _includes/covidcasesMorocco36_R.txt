@@ -1,13 +1,15 @@
 Morocco data at: 2020-06-11<br />
-+3 day model MAPE: 0.007990<br />
-model: Richards<br />
-coeffs: [ 9.10735131e+03  5.61214908e-01 -1.53926811e+01  9.14037098e-02]<br />
-S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.093373<br />
-forecast at the end of period: +359 days<br />
++3 day model MAPE: 0.005270<br />
+model: bi-Richards<br />
+coeffs: [-3.13893603e+02  2.73184692e-01  6.57658893e+01  3.00371623e+00]<br />
+rational stdev: 0.079239<br />
+forecast at the end of period: +79 days<br />
 	 deltaDaycases: 1<br />
-	 total cases: 12333 ± 1151<br />
-	 total death: 304 ± 85<br />
-trend coefficient of determination: 0.886311 <br />
- intercept: -1.951656 <br />
- slope: -0.049634<br />
+	 total cases: 9456 ± 749<br />
+	 total death: 233 ± 55<br />
+bi-Richards approximation splitting point: 70<br />
+trend coefficient of determination: 0.896566 <br />
+ intercept: -16.147544 <br />
+ slope: -0.260561<br />trend coefficient of determination: 0.001818 <br />
+ intercept: -31.661109 <br />
+ slope: -0.003859<br />
