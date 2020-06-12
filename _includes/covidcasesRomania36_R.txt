@@ -1,13 +1,15 @@
 Romania data at: 2020-06-11<br />
-+3 day model MAPE: 0.007581<br />
-model: Richards<br />
-coeffs: [ 2.26219135e+04  4.14150752e+00 -6.68976922e+01  1.06035970e-02]<br />
-S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.226016<br />
-forecast at the end of period: +317 days<br />
-	 deltaDaycases: 23<br />
-	 total cases: 29021 ± 6559<br />
-	 total death: 1875 ± 1271<br />
-trend coefficient of determination: 0.920414 <br />
- intercept: -1.376816 <br />
- slope: -0.041485<br />
++3 day model MAPE: 0.000129<br />
+model: bi-Richards<br />
+coeffs: [ 2.79978188e+04  1.17352435e+00 -8.66132169e-02  2.45097841e-02]<br />
+rational stdev: 0.151458<br />
+forecast at the end of period: +177 days<br />
+	 deltaDaycases: 15<br />
+	 total cases: 48574 ± 7357<br />
+	 total death: 3139 ± 1426<br />
+bi-Richards approximation splitting point: 82<br />
+trend coefficient of determination: 0.919599 <br />
+ intercept: -1.324371 <br />
+ slope: -0.046560<br />trend coefficient of determination: 0.001143 <br />
+ intercept: -5.148292 <br />
+ slope: 0.001518<br />
