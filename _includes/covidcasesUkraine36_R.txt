@@ -1,13 +1,15 @@
 Ukraine data at: 2020-06-11<br />
-+3 day model MAPE: 0.020584<br />
-model: Richards<br />
-coeffs: [ 3.69324503e+04  3.70808393e+00 -8.24665227e+01  9.76087661e-03]<br />
-S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.250747<br />
-forecast at the end of period: +485 days<br />
-	 deltaDaycases: 16<br />
-	 total cases: 48942 ± 12272<br />
-	 total death: 1431 ± 1076<br />
-trend coefficient of determination: 0.755745 <br />
- intercept: -1.501053 <br />
- slope: -0.035459<br />
++3 day model MAPE: 0.020327<br />
+model: bi-Richards<br />
+coeffs: [9.59492220e+03 1.65675843e-01 7.92991740e+01 9.14985525e-01]<br />
+rational stdev: 0.178327<br />
+forecast at the end of period: +65 days<br />
+	 deltaDaycases: 6<br />
+	 total cases: 36787 ± 6560<br />
+	 total death: 1075 ± 575<br />
+bi-Richards approximation splitting point: 65<br />
+trend coefficient of determination: 0.885912 <br />
+ intercept: -5.291835 <br />
+ slope: -0.135441<br />trend coefficient of determination: 0.279606 <br />
+ intercept: -11.894087 <br />
+ slope: -0.017410<br />
