@@ -1,13 +1,13 @@
-Malaysia data at: 2020-06-11<br />
-+3 day model MAPE: 0.015562<br />
+Malaysia data at: 2020-06-12<br />
++3 day model MAPE: 0.014864<br />
 model: logisticQ<br />
-coeffs: [ 7.63360882e+03  2.02653895e-07  3.43287915e+01 -4.06091279e+05]<br />
+coeffs: [ 7.67670341e+03  1.99110993e-07  3.45559029e+01 -4.07929814e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.339590<br />
-forecast at the end of period: +100 days<br />
+rational stdev: 0.339673<br />
+forecast at the end of period: +99 days<br />
 	 deltaDaycases: 12<br />
-	 total cases: 10003 ± 3397<br />
-	 total death: 141 ± 143<br />
-trend coefficient of determination: 0.866962 <br />
- intercept_: -4.865548159334695 <br />
- coeffs_: [ 0.         -0.21082495  0.00115327]<br />
+	 total cases: 10040 ± 3410<br />
+	 total death: 142 ± 144<br />
+trend coefficient of determination: 0.867976 <br />
+ intercept_: -4.873117768485863 <br />
+ coeffs_: [ 0.         -0.21023555  0.0011462 ]<br />

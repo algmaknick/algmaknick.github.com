@@ -1,13 +1,13 @@
-Sri Lanka data at: 2020-06-11<br />
-+3 day model MAPE: 4868766730100110690306735803542251869749715694785906409067126165480338941556976941396527448229484664157186746124563299371327538208576660581557859660059489468052866420703232.000000<br />
+Sri Lanka data at: 2020-06-12<br />
++3 day model MAPE: 0.039243<br />
 model: RichardsQ<br />
-coeffs: [ 5.56257386e+03  1.40396434e-03 -2.48394993e+02 -4.49058334e+02
-  1.69649803e-02]<br />
-rational stdev: 0.126406<br />
-forecast at the end of period: +177 days<br />
-	 deltaDaycases: 2<br />
-	 total cases: 5486 ± 693<br />
-	 total death: 32 ± 12<br />
-trend coefficient of determination: 0.477122 <br />
- intercept_: -8.369211081800847 <br />
- coeffs_: [ 0.         -0.02117986 -0.00036302]<br />
+coeffs: [ 4.37189947e+03  1.11385409e-03 -1.81974891e+02 -2.29851818e+02
+  3.93920886e-02]<br />
+rational stdev: 0.124084<br />
+forecast at the end of period: +176 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 4360 ± 541<br />
+	 total death: 25 ± 9<br />
+trend coefficient of determination: 0.499631 <br />
+ intercept_: -8.413046426169224 <br />
+ coeffs_: [ 0.         -0.01683652 -0.00042903]<br />

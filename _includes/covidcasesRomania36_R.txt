@@ -1,15 +1,15 @@
-Romania data at: 2020-06-11<br />
-+3 day model MAPE: 0.000129<br />
+Romania data at: 2020-06-12<br />
++3 day model MAPE: 0.003003<br />
 model: bi-Richards<br />
-coeffs: [ 2.79978188e+04  1.17352435e+00 -8.66132169e-02  2.45097841e-02]<br />
-rational stdev: 0.151458<br />
-forecast at the end of period: +177 days<br />
-	 deltaDaycases: 15<br />
-	 total cases: 48574 ± 7357<br />
-	 total death: 3139 ± 1426<br />
+coeffs: [ 4.03245946e+04  1.21920182e+00 -7.96844858e+00  2.17535989e-02]<br />
+rational stdev: 0.150881<br />
+forecast at the end of period: +176 days<br />
+	 deltaDaycases: 32<br />
+	 total cases: 60181 ± 9080<br />
+	 total death: 3880 ± 1756<br />
 bi-Richards approximation splitting point: 82<br />
-trend coefficient of determination: 0.919599 <br />
- intercept: -1.324371 <br />
- slope: -0.046560<br />trend coefficient of determination: 0.001143 <br />
- intercept: -5.148292 <br />
- slope: 0.001518<br />
+trend coefficient of determination: 0.918875 <br />
+ intercept: -1.311071 <br />
+ slope: -0.046344<br />trend coefficient of determination: 0.015240 <br />
+ intercept: -5.441173 <br />
+ slope: 0.005198<br />
