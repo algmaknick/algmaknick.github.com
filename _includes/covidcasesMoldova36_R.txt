@@ -1,13 +1,16 @@
 Moldova data at: 2020-06-12<br />
-+3 day model MAPE: 0.033698<br />
-model: Richards<br />
-coeffs: [ 1.98617570e+04  1.15652670e+00 -1.02527850e+02  1.96428821e-02]<br />
++3 day model MAPE: 0.034568<br />
+model: bi-Richards<br />
+coeffs: [ 1.54704288e+04  2.46520491e+00 -1.89210869e+01  1.51187554e-02]<br />
 S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.364759<br />
+rational stdev: 0.372970<br />
 forecast at the end of period: +652 days<br />
-	 deltaDaycases: 11<br />
-	 total cases: 25301 ± 9229<br />
-	 total death: 878 ± 960<br />
-trend coefficient of determination: 0.640959 <br />
- intercept: -1.786152 <br />
- slope: -0.028442<br />
+	 deltaDaycases: 1<br />
+	 total cases: 27241 ± 10160<br />
+	 total death: 945 ± 1057<br />
+bi-Richards approximation splitting point: 60<br />
+trend coefficient of determination: 0.527380 <br />
+ intercept: -1.486270 <br />
+ slope: -0.038612<br />trend coefficient of determination: 0.001628 <br />
+ intercept: -3.808521 <br />
+ slope: -0.001429<br />
