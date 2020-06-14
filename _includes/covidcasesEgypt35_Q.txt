@@ -1,13 +1,13 @@
-Egypt data at: 2020-06-12<br />
-+3 day model MAPE: 0.016424<br />
+Egypt data at: 2020-06-13<br />
++3 day model MAPE: 0.015638<br />
 model: logisticQ<br />
-coeffs: [ 1.76519605e+05  1.20134372e-05  9.96031435e+01 -4.44176653e+03]<br />
+coeffs: [ 1.66707744e+05  1.36322523e-05  9.81315232e+01 -3.93477256e+03]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.224307<br />
-forecast at the end of period: +519 days<br />
-	 deltaDaycases: 20<br />
-	 total cases: 238281 ± 53448<br />
-	 total death: 8203 ± 5519<br />
-trend coefficient of determination: 0.971971 <br />
- intercept_: -7.701801591438343 <br />
- coeffs_: [ 0.         -0.11688426  0.00055681]<br />
+rational stdev: 0.222538<br />
+forecast at the end of period: +518 days<br />
+	 deltaDaycases: 16<br />
+	 total cases: 225165 ± 50107<br />
+	 total death: 7774 ± 5190<br />
+trend coefficient of determination: 0.972391 <br />
+ intercept_: -7.710491120770907 <br />
+ coeffs_: [ 0.         -0.11605413  0.00054464]<br />

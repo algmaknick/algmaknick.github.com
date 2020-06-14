@@ -1,12 +1,12 @@
-Luxembourg data at: 2020-06-12<br />
-+3 day model MAPE: 0.002546<br />
+Luxembourg data at: 2020-06-13<br />
++3 day model MAPE: 0.002518<br />
 model: logisticQ<br />
-coeffs: [ 3.90759878e+03  5.07303725e-07  1.04308526e+01 -3.02814112e+05]<br />
-rational stdev: 0.221661<br />
-forecast at the end of period: +8 days<br />
+coeffs: [ 3.91087911e+03  5.19225854e-07  1.04495429e+01 -2.95099281e+05]<br />
+rational stdev: 0.220813<br />
+forecast at the end of period: +7 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 3907 ± 866<br />
-	 total death: 106 ± 70<br />
-trend coefficient of determination: 0.927059 <br />
- intercept_: -5.930367425556939 <br />
- coeffs_: [ 0.         -0.25404851  0.00169587]<br />
+	 total cases: 3910 ± 863<br />
+	 total death: 105 ± 69<br />
+trend coefficient of determination: 0.927147 <br />
+ intercept_: -5.918269091806303 <br />
+ coeffs_: [ 0.         -0.255127    0.00171064]<br />
