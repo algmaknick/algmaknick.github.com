@@ -1,15 +1,15 @@
-Iraq data at: 2020-06-13<br />
-+3 day model MAPE: 2.029569<br />
+Iraq data at: 2020-06-14<br />
++3 day model MAPE: 4.518626<br />
 model: bi-logisticQ<br />
-coeffs: [ 3.05027847e+03  3.77252701e+00  2.45808293e+01 -5.57577466e-01]<br />
-rational stdev: 0.837963<br />
-forecast at the end of period: +231 days<br />
+coeffs: [ 8.23842781e+04  5.11519843e-04  9.62002768e+01 -1.41963042e+02]<br />
+rational stdev: 0.171216<br />
+forecast at the end of period: +230 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 4553 ± 3815<br />
-	 total death: 131 ± 329<br />
+	 total cases: 83887 ± 14362<br />
+	 total death: 2519 ± 1293<br />
 bi-logisticQ approximation splitting point: 42<br />
 trend coefficient of determination: 0.941003 <br />
  intercept_: -5.824005146615983 <br />
- coeffs_: [ 0.         -0.18682641  0.00101526]<br />trend coefficient of determination: 0.394394 <br />
- intercept_: -11.151194361829209 <br />
- coeffs_: [ 0.          0.00692348 -0.00019133]<br />
+ coeffs_: [ 0.         -0.18682641  0.00101526]<br />trend coefficient of determination: 0.438022 <br />
+ intercept_: -11.540667437245189 <br />
+ coeffs_: [ 0.          0.02001654 -0.00029684]<br />
