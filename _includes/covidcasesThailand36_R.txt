@@ -1,15 +1,12 @@
-Thailand data at: 2020-06-13<br />
-+3 day model MAPE: 0.000103<br />
-model: bi-Richards<br />
-coeffs: [ 2.75913375e+02  6.26292907e+00 -5.50936000e+01  6.47033311e-03]<br />
-rational stdev: 0.077281<br />
-forecast at the end of period: +49 days<br />
+Thailand data at: 2020-06-15<br />
++3 day model MAPE: 0.001961<br />
+model: Richards<br />
+coeffs: [ 2.99626186e+03  1.57389308e+01 -3.79335147e+01  7.82164356e-03]<br />
+rational stdev: 0.093313<br />
+forecast at the end of period: +47 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 3247 ± 250<br />
-	 total death: 60 ± 13<br />
-bi-Richards approximation splitting point: 60<br />
-trend coefficient of determination: 0.843227 <br />
- intercept: -1.240107 <br />
- slope: -0.117518<br />trend coefficient of determination: 0.057305 <br />
- intercept: -10.546997 <br />
- slope: 0.042373<br />
+	 total cases: 2996 ± 279<br />
+	 total death: 55 ± 15<br />
+trend coefficient of determination: 0.845848 <br />
+ intercept: -1.208266 <br />
+ slope: -0.119672<br />

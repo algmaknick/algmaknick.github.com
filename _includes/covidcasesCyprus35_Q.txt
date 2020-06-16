@@ -1,12 +1,12 @@
-Cyprus data at: 2020-06-12<br />
-+3 day model MAPE: 0.004687<br />
+Cyprus data at: 2020-06-15<br />
++3 day model MAPE: 0.004581<br />
 model: logisticQ<br />
-coeffs: [ 9.27916678e+02  5.56680068e-07  1.75123616e+01 -2.32757213e+05]<br />
-rational stdev: 0.175850<br />
-forecast at the end of period: +50 days<br />
+coeffs: [ 9.32181568e+02  4.52510490e-07  1.76276820e+01 -2.82700636e+05]<br />
+rational stdev: 0.176192<br />
+forecast at the end of period: +47 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 927 ± 163<br />
+	 total cases: 932 ± 164<br />
 	 total death: 17 ± 8<br />
-trend coefficient of determination: 0.888267 <br />
- intercept_: -4.516148690824104 <br />
- coeffs_: [ 0.         -0.22109721  0.00141063]<br />
+trend coefficient of determination: 0.888971 <br />
+ intercept_: -4.560642100713807 <br />
+ coeffs_: [ 0.         -0.21713275  0.00135634]<br />
