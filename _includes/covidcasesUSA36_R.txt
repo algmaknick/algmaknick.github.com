@@ -1,15 +1,15 @@
-USA data at: 2020-06-15<br />
-+3 day model MAPE: 0.007429<br />
+USA data at: 2020-06-16<br />
++3 day model MAPE: 0.006875<br />
 model: bi-Richards<br />
-coeffs: [ 1.14381902e+06  3.37681547e+00 -2.39873170e+01  1.23408064e-02]<br />
-rational stdev: 0.184517<br />
-forecast at the end of period: +145 days<br />
-	 deltaDaycases: 75<br />
-	 total cases: 2755396 ± 508416<br />
-	 total death: 149300 ± 82644<br />
+coeffs: [ 1.18508315e+06  3.00162328e+00 -2.30410936e+01  1.35889516e-02]<br />
+rational stdev: 0.183781<br />
+forecast at the end of period: +144 days<br />
+	 deltaDaycases: 90<br />
+	 total cases: 2796255 ± 513899<br />
+	 total death: 150843 ± 83166<br />
 bi-Richards approximation splitting point: 65<br />
-trend coefficient of determination: 0.952803 <br />
- intercept: -1.127382 <br />
- slope: -0.051044<br />trend coefficient of determination: 0.666343 <br />
- intercept: -3.276734 <br />
- slope: -0.015603<br />
+trend coefficient of determination: 0.953154 <br />
+ intercept: -1.137994 <br />
+ slope: -0.051181<br />trend coefficient of determination: 0.643226 <br />
+ intercept: -3.359936 <br />
+ slope: -0.014747<br />

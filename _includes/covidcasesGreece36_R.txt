@@ -1,15 +1,15 @@
-Greece data at: 2020-06-15<br />
-+3 day model MAPE: 0.010253<br />
+Greece data at: 2020-06-16<br />
++3 day model MAPE: 0.010701<br />
 model: bi-Richards<br />
-coeffs: [ 2.05724309e+03  4.01641677e+00 -1.99377349e+01  8.48912889e-03]<br />
-rational stdev: 0.137374<br />
-forecast at the end of period: +187 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 4936 ± 678<br />
-	 total death: 289 ± 119<br />
+coeffs: [ 1.61832019e+03  5.52278021e+00 -2.23310462e+01  6.60292410e-03]<br />
+rational stdev: 0.136748<br />
+forecast at the end of period: +109 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 4452 ± 608<br />
+	 total death: 261 ± 107<br />
 bi-Richards approximation splitting point: 90<br />
-trend coefficient of determination: 0.837454 <br />
- intercept: -1.202450 <br />
- slope: -0.064381<br />trend coefficient of determination: 0.154981 <br />
- intercept: -14.879632 <br />
- slope: 0.091066<br />
+trend coefficient of determination: 0.837173 <br />
+ intercept: -1.193505 <br />
+ slope: -0.064289<br />trend coefficient of determination: 0.158675 <br />
+ intercept: -14.282908 <br />
+ slope: 0.084965<br />
