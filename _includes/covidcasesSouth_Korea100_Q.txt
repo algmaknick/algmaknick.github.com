@@ -1,15 +1,15 @@
-South Korea data at: 2020-06-16<br />
-+3 day model MAPE: 0.008221<br />
+South Korea data at: 2020-06-17<br />
++3 day model MAPE: 0.008684<br />
 model: bi-logisticQ<br />
-coeffs: [ 3.41442969e+03  1.26002886e-07  3.69515315e+01 -7.62669603e+05]<br />
-rational stdev: 0.144181<br />
-forecast at the end of period: +4 days<br />
+coeffs: [ 3.45002201e+03  9.69254821e-08  3.74042687e+01 -9.54147594e+05]<br />
+rational stdev: 0.146726<br />
+forecast at the end of period: +3 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 11349 ± 1636<br />
-	 total death: 259 ± 112<br />
+	 total cases: 11384 ± 1670<br />
+	 total death: 260 ± 114<br />
 bi-logisticQ approximation splitting point: 23<br />
 trend coefficient of determination: 0.939645 <br />
  intercept_: -5.742054822567119 <br />
- coeffs_: [ 0.         -0.24685696 -0.00483449]<br />trend coefficient of determination: 0.653966 <br />
- intercept_: -9.135708611934646 <br />
- coeffs_: [ 0.         -0.17152353  0.00106729]<br />
+ coeffs_: [ 0.         -0.24685696 -0.00483449]<br />trend coefficient of determination: 0.652608 <br />
+ intercept_: -9.183105563928791 <br />
+ coeffs_: [ 0.         -0.1697177   0.00105271]<br />
