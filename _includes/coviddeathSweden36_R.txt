@@ -1,11 +1,13 @@
-Sweden data at: 2020-06-17<br />
-+3 day model MAPE: 0.005516<br />
-model: Richards<br />
-coeffs: [ 5.34275595e+03  4.75609910e+00 -5.20309976e+01  9.48498717e-03]<br />
-S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.380096<br />
-forecast at the end of period: +339 days<br />
-	 total death: 6939 ± 2637<br />
-trend coefficient of determination: 0.783932 <br />
- intercept: -1.583934 <br />
- slope: -0.029107<br />
+Sweden data at: 2020-06-18<br />
++3 day model MAPE: 0.007616<br />
+model: bi-Richards<br />
+coeffs: [1.01716489e+03 4.53438115e+00 2.58285645e+01 1.49328011e-02]<br />
+rational stdev: 0.382800<br />
+forecast at the end of period: +338 days<br />
+	 total death: 5403 ± 2068<br />
+bi-Richards approximation splitting point: 80<br />
+trend coefficient of determination: 0.827060 <br />
+ intercept: -1.322149 <br />
+ slope: -0.038317<br />trend coefficient of determination: 0.038225 <br />
+ intercept: -5.173311 <br />
+ slope: 0.009251<br />
