@@ -1,15 +1,15 @@
-Lithuania data at: 2020-06-18<br />
-+3 day model MAPE: 0.000505<br />
+Lithuania data at: 2020-06-19<br />
++3 day model MAPE: 0.000803<br />
 model: bi-Richards<br />
-coeffs: [ 4.46367851e+02  2.20881832e+00 -1.84426401e+01  2.13622293e-02]<br />
-rational stdev: 0.147166<br />
-forecast at the end of period: +15 days<br />
-	 deltaDaycases: 2<br />
-	 total cases: 1840 ± 270<br />
+coeffs: [ 4.49357061e+02  3.39047681e+00 -2.87688428e+01  1.37551367e-02]<br />
+rational stdev: 0.146503<br />
+forecast at the end of period: +21 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 1857 ± 272<br />
 	 total death: 78 ± 34<br />
 bi-Richards approximation splitting point: 48<br />
-trend coefficient of determination: 0.874422 <br />
- intercept: -0.930059 <br />
- slope: -0.089727<br />trend coefficient of determination: 0.140697 <br />
- intercept: -4.492957 <br />
- slope: -0.015453<br />
+trend coefficient of determination: 0.872791 <br />
+ intercept: -0.901886 <br />
+ slope: -0.088996<br />trend coefficient of determination: 0.165345 <br />
+ intercept: -4.360109 <br />
+ slope: -0.016651<br />
