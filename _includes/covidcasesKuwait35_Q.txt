@@ -1,12 +1,12 @@
-Kuwait data at: 2020-06-19<br />
-+3 day model MAPE: 0.013312<br />
+Kuwait data at: 2020-06-20<br />
++3 day model MAPE: 0.012871<br />
 model: logisticQ<br />
-coeffs: [ 4.12656740e+04  5.11347618e-06  8.19080306e+01 -1.77356619e+04]<br />
-rational stdev: 0.390764<br />
-forecast at the end of period: +169 days<br />
+coeffs: [ 4.15468643e+04  4.32788175e-06  8.20946566e+01 -2.08180102e+04]<br />
+rational stdev: 0.365062<br />
+forecast at the end of period: +168 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 41265 ± 16125<br />
-	 total death: 333 ± 390<br />
-trend coefficient of determination: 0.887114 <br />
- intercept_: -6.601840905770651 <br />
- coeffs_: [ 0.         -0.05740943 -0.00015626]<br />
+	 total cases: 41546 ± 15167<br />
+	 total death: 338 ± 370<br />
+trend coefficient of determination: 0.889517 <br />
+ intercept_: -6.593218856920447 <br />
+ coeffs_: [ 0.         -0.05801584 -0.00014968]<br />

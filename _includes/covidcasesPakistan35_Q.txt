@@ -1,16 +1,16 @@
-Pakistan data at: 2020-06-19<br />
-+3 day model MAPE: 0.013018<br />
+Pakistan data at: 2020-06-20<br />
++3 day model MAPE: 0.016379<br />
 model: bi-logisticQ<br />
-coeffs: [ 6.34741343e+05  5.68668790e-06  1.23353744e+02 -9.31589617e+03]<br />
+coeffs: [ 5.96403347e+05  5.68391817e-06  1.21739608e+02 -9.38603630e+03]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.388342<br />
-forecast at the end of period: +631 days<br />
-	 deltaDaycases: 29<br />
-	 total cases: 858750 ± 333488<br />
-	 total death: 16918 ± 19709<br />
+rational stdev: 0.387206<br />
+forecast at the end of period: +630 days<br />
+	 deltaDaycases: 22<br />
+	 total cases: 807111 ± 312518<br />
+	 total death: 15999 ± 18584<br />
 bi-logisticQ approximation splitting point: 20<br />
 trend coefficient of determination: 0.391568 <br />
  intercept_: -3.9808806978581046 <br />
- coeffs_: [ 0.         -0.04620278 -0.00453428]<br />trend coefficient of determination: 0.963186 <br />
- intercept_: -5.697633971020043 <br />
- coeffs_: [ 0.         -0.15026192  0.00059654]<br />
+ coeffs_: [ 0.         -0.04620278 -0.00453428]<br />trend coefficient of determination: 0.963238 <br />
+ intercept_: -5.754198507724621 <br />
+ coeffs_: [ 0.         -0.1478892   0.00057568]<br />
