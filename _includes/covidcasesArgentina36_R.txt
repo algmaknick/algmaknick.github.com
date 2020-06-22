@@ -1,13 +1,15 @@
-Argentina data at: 2020-06-20<br />
-+3 day model MAPE: 0.158276<br />
-model: Richards<br />
-coeffs: [2.49220377e+05 4.54516356e-02 1.22620211e+02 6.99565716e+00]<br />
-S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.181746<br />
-forecast at the end of period: +196 days<br />
-	 deltaDaycases: 37<br />
-	 total cases: 339212 ± 61650<br />
-	 total death: 8166 ± 4452<br />
-trend coefficient of determination: 0.950362 <br />
- intercept: -48.655724 <br />
- slope: -0.323832<br />
+Argentina data at: 2020-06-21<br />
++3 day model MAPE: 0.015810<br />
+model: bi-Richards<br />
+coeffs: [ 7.95399697e+05  2.66476099e-01 -1.22887000e+00  5.98166324e-02]<br />
+rational stdev: 0.119315<br />
+forecast at the end of period: +475 days<br />
+	 deltaDaycases: 21<br />
+	 total cases: 796678 ± 95055<br />
+	 total death: 18825 ± 6738<br />
+bi-Richards approximation splitting point: 38<br />
+trend coefficient of determination: 0.100291 <br />
+ intercept: -1.673127 <br />
+ slope: -0.071647<br />trend coefficient of determination: 0.035486 <br />
+ intercept: -3.925923 <br />
+ slope: 0.002203<br />
