@@ -1,12 +1,12 @@
-Switzerland data at: 2020-06-22<br />
-+3 day model MAPE: 0.001432<br />
+Switzerland data at: 2020-06-23<br />
++3 day model MAPE: 0.001435<br />
 model: logisticQ<br />
-coeffs: [ 3.05165577e+04  5.41103284e-07  2.63310500e+01 -2.55954274e+05]<br />
-rational stdev: 0.311342<br />
-forecast at the end of period: +54 days<br />
+coeffs: [ 3.05310064e+04  5.29133568e-07  2.63424427e+01 -2.61422457e+05]<br />
+rational stdev: 0.310454<br />
+forecast at the end of period: +53 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 30516 ± 9501<br />
-	 total death: 1906 ± 1780<br />
-trend coefficient of determination: 0.981022 <br />
- intercept_: -4.194984927449784 <br />
- coeffs_: [ 0.         -0.28350387  0.00146757]<br />
+	 total cases: 30531 ± 9478<br />
+	 total death: 1905 ± 1774<br />
+trend coefficient of determination: 0.981066 <br />
+ intercept_: -4.204404224269153 <br />
+ coeffs_: [ 0.         -0.28285284  0.00146063]<br />

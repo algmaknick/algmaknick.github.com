@@ -1,13 +1,9 @@
-Spain data at: 2020-06-22<br />
-+3 day model MAPE: 0.016521<br />
+Spain data at: 2020-06-23<br />
++3 day model MAPE: 0.000000<br />
 model: RichardsQ<br />
-coeffs: [ 1.83169377e+05  1.45902661e+00 -2.55116203e+03  2.04602746e+03
- -3.53388415e+00]<br />
-rational stdev: 0.594346<br />
-forecast at the end of period: +26 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 183169 ± 108865<br />
-	 total death: 17671 ± 31508<br />
-trend coefficient of determination: 0.971256 <br />
- intercept_: -7.3381207881671315 <br />
- coeffs_: [ 0.         -0.23843263  0.00119857]<br />
+coeffs: [ 7.79976480e+03  2.30000000e-01  6.31714688e+00 -1.00000000e-04
+  5.00000000e-02]<br />
+rational stdev: nan<br />
+forecast at the end of period: +25 days<br />
+	 deltaDaycases: 5<br />
+

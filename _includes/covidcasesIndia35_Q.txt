@@ -1,13 +1,13 @@
-India data at: 2020-06-22<br />
-+3 day model MAPE: 0.025503<br />
+India data at: 2020-06-23<br />
++3 day model MAPE: 0.024582<br />
 model: logisticQ<br />
-coeffs: [ 8.06364897e+05  4.04740636e-06  7.25829867e+01 -1.48220415e+04]<br />
+coeffs: [ 8.35765788e+05  3.96175896e-06  7.36180911e+01 -1.49898562e+04]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.191973<br />
-forecast at the end of period: +376 days<br />
-	 deltaDaycases: 144<br />
-	 total cases: 1087160 ± 208705<br />
-	 total death: 34574 ± 19911<br />
-trend coefficient of determination: 0.982222 <br />
- intercept_: -9.903526280727 <br />
- coeffs_: [ 0.         -0.13459493  0.0007097 ]<br />
+rational stdev: 0.194126<br />
+forecast at the end of period: +375 days<br />
+	 deltaDaycases: 175<br />
+	 total cases: 1125862 ± 218559<br />
+	 total death: 35715 ± 20799<br />
+trend coefficient of determination: 0.982481 <br />
+ intercept_: -9.910180956141247 <br />
+ coeffs_: [ 0.         -0.13393556  0.00069968]<br />

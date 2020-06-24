@@ -1,13 +1,8 @@
-Russia data at: 2020-06-22<br />
-+3 day model MAPE: 0.058909<br />
+Russia data at: 2020-06-23<br />
++3 day model MAPE: 0.000000<br />
 model: RichardsQ<br />
-coeffs: [ 2.16048558e+05  1.24423739e+01 -2.12571644e+03  1.79813534e+03
- -4.67810710e+00]<br />
-rational stdev: 0.921672<br />
-forecast at the end of period: +124 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 216048 ± 199125<br />
-	 total death: 2993 ± 8275<br />
-trend coefficient of determination: 0.997848 <br />
- intercept_: -7.510627979107365 <br />
- coeffs_: [ 0.         -0.21305722  0.00114956]<br />
+coeffs: [ 2.43452012e+04  2.30000000e-01  6.31714688e+00 -1.00000000e-04
+  5.00000000e-02]<br />
+rational stdev: nan<br />
+forecast at the end of period: +123 days<br />
+	 deltaDaycases: 80<br />
