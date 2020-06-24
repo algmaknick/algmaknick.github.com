@@ -1,15 +1,15 @@
 Sweden data at: 2020-06-23<br />
-+3 day model MAPE: 0.012757<br />
++3 day model MAPE: 0.007743<br />
 model: bi-Richards<br />
-coeffs: [3.69221630e+04 2.75466904e-01 8.26804592e+01 2.23448786e-01]<br />
-rational stdev: 0.234063<br />
+coeffs: [3.08048287e+04 3.48297019e+00 3.95332213e+01 1.76766033e-02]<br />
+rational stdev: 0.245213<br />
 forecast at the end of period: +88 days<br />
-	 deltaDaycases: 16<br />
-	 total cases: 83878 ± 19632<br />
-	 total death: 7115 ± 4996<br />
-bi-Richards approximation splitting point: 80<br />
-trend coefficient of determination: 0.869074 <br />
- intercept: -2.258591 <br />
- slope: -0.057176<br />trend coefficient of determination: 0.016000 <br />
- intercept: -5.867352 <br />
- slope: -0.007249<br />
+	 deltaDaycases: 19<br />
+	 total cases: 81836 ± 20067<br />
+	 total death: 6942 ± 5106<br />
+bi-Richards approximation splitting point: 90<br />
+trend coefficient of determination: 0.853766 <br />
+ intercept: -1.355805 <br />
+ slope: -0.037810<br />trend coefficient of determination: 0.039993 <br />
+ intercept: -2.611409 <br />
+ slope: -0.016801<br />
