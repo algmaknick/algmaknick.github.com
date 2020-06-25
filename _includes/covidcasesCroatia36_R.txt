@@ -1,13 +1,15 @@
 Croatia data at: 2020-06-24<br />
-+3 day model MAPE: 0.002092<br />
-model: Richards<br />
-coeffs: [ 2.26486909e+03  1.02738953e+01 -4.11335380e+01  8.31619287e-03]<br />
-S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.425071<br />
-forecast at the end of period: +164 days<br />
-	 deltaDaycases: 1<br />
-	 total cases: 3050 ± 1296<br />
-	 total death: 136 ± 173<br />
-trend coefficient of determination: 0.685876 <br />
- intercept: -1.419290 <br />
- slope: -0.071701<br />
++3 day model MAPE: 0.063700<br />
+model: bi-Richards<br />
+coeffs: [178.58549242   0.37877705  99.35630502   1.98514228]<br />
+rational stdev: 0.530732<br />
+forecast at the end of period: +24 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 2427 ± 1288<br />
+	 total death: 108 ± 171<br />
+bi-Richards approximation splitting point: 88<br />
+trend coefficient of determination: 0.903808 <br />
+ intercept: -10.448303 <br />
+ slope: -0.180326<br />trend coefficient of determination: 0.866085 <br />
+ intercept: -56.444293 <br />
+ slope: 0.345708<br />
