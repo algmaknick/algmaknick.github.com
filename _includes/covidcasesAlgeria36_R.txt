@@ -1,13 +1,16 @@
 Algeria data at: 2020-06-24<br />
-+3 day model MAPE: 0.008048<br />
-model: Richards<br />
-coeffs: [1.48261047e+04 1.42905576e-01 9.18173224e+00 2.48050032e-01]<br />
++3 day model MAPE: 0.002009<br />
+model: bi-Richards<br />
+coeffs: [-1.32087189e+03  1.32944670e+01  4.48885056e+01  1.16417883e-02]<br />
 S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.200797<br />
+rational stdev: 0.197482<br />
 forecast at the end of period: +402 days<br />
-	 deltaDaycases: 5<br />
-	 total cases: 19717 ± 3959<br />
-	 total death: 1398 ± 842<br />
-trend coefficient of determination: 0.875552 <br />
- intercept: -3.561826 <br />
- slope: -0.037890<br />
+	 deltaDaycases: 0<br />
+	 total cases: 19481 ± 3847<br />
+	 total death: 1382 ± 818<br />
+bi-Richards approximation splitting point: 88<br />
+trend coefficient of determination: 0.785948 <br />
+ intercept: -2.088374 <br />
+ slope: -0.029743<br />trend coefficient of determination: 0.781670 <br />
+ intercept: -7.158215 <br />
+ slope: 0.027301<br />
