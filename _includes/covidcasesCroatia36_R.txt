@@ -1,15 +1,15 @@
 Croatia data at: 2020-06-25<br />
-+3 day model MAPE: 0.127653<br />
++3 day model MAPE: 0.087786<br />
 model: bi-Richards<br />
-coeffs: [1.03987469e+03 3.09051804e-01 1.05958083e+02 8.65310027e+00]<br />
-rational stdev: 0.550226<br />
+coeffs: [5.28935247e+03 3.35473454e-01 1.00444523e+02 3.93520477e+00]<br />
+rational stdev: 0.050795<br />
 forecast at the end of period: +16 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 3286 ± 1808<br />
-	 total death: 141 ± 232<br />
-bi-Richards approximation splitting point: 85<br />
-trend coefficient of determination: 0.745049 <br />
- intercept: -42.994957 <br />
- slope: -0.488778<br />trend coefficient of determination: 0.817603 <br />
- intercept: -101.180967 <br />
- slope: 0.277741<br />
+	 total cases: 7540 ± 383<br />
+	 total death: 324 ± 49<br />
+bi-Richards approximation splitting point: 95<br />
+trend coefficient of determination: 0.750201 <br />
+ intercept: -27.499160 <br />
+ slope: -0.149776<br />trend coefficient of determination: 0.573159 <br />
+ intercept: -69.339176 <br />
+ slope: 0.356893<br />
