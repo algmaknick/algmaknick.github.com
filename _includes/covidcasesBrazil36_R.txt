@@ -1,13 +1,13 @@
 Brazil data at: 2020-06-25<br />
-+3 day model MAPE: 0.675653<br />
++3 day model MAPE: 0.017608<br />
 model: Richards<br />
-coeffs: [ 2.91330479e+05 -2.50813251e-02 -1.17635648e+02 -3.26730214e+01]<br />
+coeffs: [2.73675204e+06 9.99501605e-02 6.45153838e+01 3.57266888e-01]<br />
 S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 1.220664<br />
+rational stdev: 0.237563<br />
 forecast at the end of period: +471 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 396915 ± 484500<br />
-	 total death: 17720 ± 64890<br />
-trend coefficient of determination: 0.924775 <br />
- intercept: 236.765227 <br />
- slope: 2.416754<br />
+	 deltaDaycases: 1001<br />
+	 total cases: 3642907 ± 865419<br />
+	 total death: 162638 ± 115910<br />
+trend coefficient of determination: 0.902327 <br />
+ intercept: -4.452296 <br />
+ slope: -0.044719<br />
