@@ -1,13 +1,13 @@
-Morocco data at: 2020-06-25<br />
-+3 day model MAPE: 0.042184<br />
+Morocco data at: 2020-06-26<br />
++3 day model MAPE: 0.049844<br />
 model: logisticQ<br />
-coeffs: [ 9.57111374e+03  2.77622916e-07  4.13050757e+01 -2.44071264e+05]<br />
+coeffs: [ 9.80287480e+03  2.44563776e-07  4.23461115e+01 -2.66508860e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.292097<br />
-forecast at the end of period: +121 days<br />
-	 deltaDaycases: 20<br />
-	 total cases: 12171 ± 3555<br />
-	 total death: 232 ± 203<br />
-trend coefficient of determination: 0.964046 <br />
- intercept_: -5.206384740650476 <br />
- coeffs_: [ 0.         -0.21259717  0.00132505]<br />
+rational stdev: 0.297226<br />
+forecast at the end of period: +120 days<br />
+	 deltaDaycases: 22<br />
+	 total cases: 12339 ± 3667<br />
+	 total death: 231 ± 205<br />
+trend coefficient of determination: 0.964176 <br />
+ intercept_: -5.204520759736369 <br />
+ coeffs_: [ 0.         -0.21274667  0.0013269 ]<br />

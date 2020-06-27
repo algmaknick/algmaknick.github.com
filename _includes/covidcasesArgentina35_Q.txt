@@ -1,13 +1,13 @@
-Argentina data at: 2020-06-25<br />
-+3 day model MAPE: 0.018336<br />
+Argentina data at: 2020-06-26<br />
++3 day model MAPE: 0.023240<br />
 model: logisticQ<br />
-coeffs: [ 1.34249797e+06  2.96802431e-05  1.59703220e+02 -1.57771642e+03]<br />
+coeffs: [ 8.00789849e+06  2.42490109e-05  1.96781754e+02 -1.94162112e+03]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.273033<br />
-forecast at the end of period: +639 days<br />
-	 deltaDaycases: 2357<br />
-	 total cases: 1681984 ± 459237<br />
-	 total death: 36873 ± 30202<br />
-trend coefficient of determination: 0.546585 <br />
- intercept_: -7.972484176002285 <br />
- coeffs_: [ 0.         -0.1075803   0.00053643]<br />
+rational stdev: 0.271139<br />
+forecast at the end of period: +638 days<br />
+	 deltaDaycases: 3085<br />
+	 total cases: 8144022 ± 2208166<br />
+	 total death: 174232 ± 141723<br />
+trend coefficient of determination: 0.550754 <br />
+ intercept_: -7.986170036609316 <br />
+ coeffs_: [ 0.         -0.10649352  0.00052314]<br />
