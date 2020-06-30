@@ -1,13 +1,13 @@
-Ukraine data at: 2020-06-28<br />
-+3 day model MAPE: 0.053613<br />
+Ukraine data at: 2020-06-29<br />
++3 day model MAPE: 0.051248<br />
 model: logisticQ<br />
-coeffs: [ 4.98836725e+04  2.72628247e-07  6.94791453e+01 -1.75117092e+05]<br />
+coeffs: [ 5.18669768e+04  2.88866925e-07  7.12803289e+01 -1.61378546e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.375114<br />
-forecast at the end of period: +160 days<br />
-	 deltaDaycases: 79<br />
-	 total cases: 54286 ± 20363<br />
-	 total death: 1425 ± 1603<br />
-trend coefficient of determination: 0.962638 <br />
- intercept_: -4.679117049702678 <br />
- coeffs_: [ 0.         -0.23538893  0.00142507]<br />
+rational stdev: 0.376187<br />
+forecast at the end of period: +159 days<br />
+	 deltaDaycases: 74<br />
+	 total cases: 55919 ± 21036<br />
+	 total death: 1470 ± 1658<br />
+trend coefficient of determination: 0.961567 <br />
+ intercept_: -4.710921003230551 <br />
+ coeffs_: [ 0.         -0.23291258  0.00139538]<br />

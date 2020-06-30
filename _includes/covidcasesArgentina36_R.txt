@@ -1,15 +1,15 @@
-Argentina data at: 2020-06-28<br />
-+3 day model MAPE: 0.025273<br />
+Argentina data at: 2020-06-29<br />
++3 day model MAPE: 0.015819<br />
 model: bi-Richards<br />
-coeffs: [2.32770640e+06 1.44037931e-01 5.18977508e+01 9.95230063e-02]<br />
-rational stdev: 0.173533<br />
-forecast at the end of period: +468 days<br />
-	 deltaDaycases: 183<br />
-	 total cases: 2317596 ± 402179<br />
-	 total death: 47641 ± 24801<br />
+coeffs: [2.47021410e+06 1.42067558e-01 5.32681571e+01 1.00122872e-01]<br />
+rational stdev: 0.175857<br />
+forecast at the end of period: +467 days<br />
+	 deltaDaycases: 207<br />
+	 total cases: 2458325 ± 432312<br />
+	 total death: 50534 ± 26660<br />
 bi-Richards approximation splitting point: 38<br />
-trend coefficient of determination: 0.117540 <br />
- intercept: -1.760888 <br />
- slope: -0.078399<br />trend coefficient of determination: 0.000521 <br />
- intercept: -4.146394 <br />
- slope: 0.000231<br />
+trend coefficient of determination: 0.117807 <br />
+ intercept: -1.762214 <br />
+ slope: -0.078501<br />trend coefficient of determination: 0.000019 <br />
+ intercept: -4.134104 <br />
+ slope: -0.000044<br />
