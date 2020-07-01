@@ -1,13 +1,13 @@
-Czechia data at: 2020-06-29<br />
-+3 day model MAPE: 0.014663<br />
+Czechia data at: 2020-06-30<br />
++3 day model MAPE: 0.015857<br />
 model: logisticQ<br />
-coeffs: [ 9.77619732e+03  1.11520850e-07  3.22963600e+01 -7.01821986e+05]<br />
+coeffs: [ 9.85812559e+03  1.05912401e-07  3.26833620e+01 -7.21341580e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.341367<br />
-forecast at the end of period: +47 days<br />
+rational stdev: 0.342405<br />
+forecast at the end of period: +46 days<br />
 	 deltaDaycases: 30<br />
-	 total cases: 12103 ± 4131<br />
-	 total death: 356 ± 364<br />
-trend coefficient of determination: 0.927308 <br />
- intercept_: -4.475832790254365 <br />
- coeffs_: [ 0.         -0.24244793  0.00142627]<br />
+	 total cases: 12140 ± 4156<br />
+	 total death: 354 ± 363<br />
+trend coefficient of determination: 0.927024 <br />
+ intercept_: -4.493053430085372 <br />
+ coeffs_: [ 0.         -0.24127791  0.001414  ]<br />

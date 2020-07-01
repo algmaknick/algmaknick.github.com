@@ -1,13 +1,13 @@
-Turkey data at: 2020-06-29<br />
-+3 day model MAPE: 0.014105<br />
+Turkey data at: 2020-06-30<br />
++3 day model MAPE: 0.014161<br />
 model: logisticQ<br />
-coeffs: [ 1.78219185e+05  1.65825395e-07  3.55417757e+01 -5.07234602e+05]<br />
+coeffs: [ 1.79178358e+05  1.52298468e-07  3.57572406e+01 -5.45121949e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.357804<br />
+rational stdev: 0.357654<br />
 forecast at the end of period: +126 days<br />
-	 deltaDaycases: 108<br />
-	 total cases: 238708 ± 85410<br />
-	 total death: 6147 ± 6598<br />
-trend coefficient of determination: 0.962793 <br />
- intercept_: -4.648981584822543 <br />
- coeffs_: [ 0.         -0.31869989  0.00196041]<br />
+	 deltaDaycases: 111<br />
+	 total cases: 239895 ± 85799<br />
+	 total death: 6157 ± 6606<br />
+trend coefficient of determination: 0.961931 <br />
+ intercept_: -4.683279831023377 <br />
+ coeffs_: [ 0.         -0.31617669  0.0019318 ]<br />

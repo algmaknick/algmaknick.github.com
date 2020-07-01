@@ -1,16 +1,15 @@
-Moldova data at: 2020-06-29<br />
-+3 day model MAPE: 0.018815<br />
+Moldova data at: 2020-06-30<br />
++3 day model MAPE: 0.026446<br />
 model: bi-Richards<br />
-coeffs: [3.42199279e+04 6.36702085e-01 6.68177244e+00 4.57676334e-02]<br />
-S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.347290<br />
-forecast at the end of period: +285 days<br />
-	 deltaDaycases: 10<br />
-	 total cases: 40807 ± 14172<br />
-	 total death: 1337 ± 1392<br />
+coeffs: [2.56141470e+04 2.26533287e-01 5.76286673e+01 1.66435760e-01]<br />
+rational stdev: 0.340554<br />
+forecast at the end of period: +144 days<br />
+	 deltaDaycases: 4<br />
+	 total cases: 31814 ± 10834<br />
+	 total death: 1043 ± 1065<br />
 bi-Richards approximation splitting point: 60<br />
-trend coefficient of determination: 0.581767 <br />
- intercept: -1.557771 <br />
- slope: -0.042444<br />trend coefficient of determination: 0.042859 <br />
- intercept: -3.757293 <br />
- slope: -0.005504<br />
+trend coefficient of determination: 0.738243 <br />
+ intercept: -1.839276 <br />
+ slope: -0.057528<br />trend coefficient of determination: 0.109389 <br />
+ intercept: -4.565940 <br />
+ slope: -0.008878<br />
