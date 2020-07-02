@@ -1,15 +1,15 @@
-Spain data at: 2020-06-30<br />
-+3 day model MAPE: 0.002071<br />
+Spain data at: 2020-07-01<br />
++3 day model MAPE: 0.002052<br />
 model: bi-logisticQ<br />
-coeffs: [ 1.10382854e+05  4.39284558e-07  5.71107336e+01 -2.94776683e+05]<br />
-rational stdev: 0.273645<br />
-forecast at the end of period: +4 days<br />
+coeffs: [ 1.10582971e+05  4.03397751e-07  5.71582963e+01 -3.19635732e+05]<br />
+rational stdev: 0.272840<br />
+forecast at the end of period: +3 days<br />
 	 deltaDaycases: 3<br />
-	 total cases: 290302 ± 79439<br />
-	 total death: 27776 ± 22802<br />
+	 total cases: 290501 ± 79260<br />
+	 total death: 27766 ± 22727<br />
 bi-logisticQ approximation splitting point: 50<br />
 trend coefficient of determination: 0.997131 <br />
  intercept_: -3.7751216617675887 <br />
- coeffs_: [ 0.         -0.43240435  0.00381547]<br />trend coefficient of determination: 0.890436 <br />
- intercept_: -8.544543933916302 <br />
- coeffs_: [ 0.         -0.17434555  0.00068874]<br />
+ coeffs_: [ 0.         -0.43240435  0.00381547]<br />trend coefficient of determination: 0.890578 <br />
+ intercept_: -8.415449566375049 <br />
+ coeffs_: [ 0.         -0.17775617  0.00071004]<br />

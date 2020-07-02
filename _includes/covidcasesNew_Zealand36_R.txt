@@ -1,12 +1,15 @@
-New Zealand data at: 2020-06-28<br />
-+3 day model MAPE: 0.000829<br />
-model: Richards<br />
-coeffs: [ 1.50025356e+03  6.90579480e-01 -2.37035862e+00  2.58210909e-01]<br />
-rational stdev: 0.057134<br />
-forecast at the end of period: +6 days<br />
+New Zealand data at: 2020-07-01<br />
++3 day model MAPE: 0.005132<br />
+model: bi-Richards<br />
+coeffs: [ 1.20907363e+02  3.22408212e+00 -1.21063224e+02  6.72257003e-03]<br />
+rational stdev: 0.034857<br />
+forecast at the end of period: +17 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 1500 ± 85<br />
-	 total death: 21 ± 3<br />
-trend coefficient of determination: 0.632712 <br />
- intercept: -3.788809 <br />
- slope: -0.094710<br />
+	 total cases: 1541 ± 53<br />
+	 total death: 22 ± 2<br />
+bi-Richards approximation splitting point: 90<br />
+trend coefficient of determination: 0.914484 <br />
+ intercept: -0.896178 <br />
+ slope: -0.133641<br />trend coefficient of determination: 0.005855 <br />
+ intercept: -8.505197 <br />
+ slope: 0.013012<br />

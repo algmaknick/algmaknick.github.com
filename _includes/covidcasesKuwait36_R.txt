@@ -1,13 +1,16 @@
-Kuwait data at: 2020-06-30<br />
-+3 day model MAPE: 0.025980<br />
-model: Richards<br />
-coeffs: [5.23518335e+04 1.86550482e-01 4.14140081e+01 2.70155088e-01]<br />
+Kuwait data at: 2020-07-01<br />
++3 day model MAPE: 0.017770<br />
+model: bi-Richards<br />
+coeffs: [ 2.39374064e+04  9.54699554e+00 -1.85204406e+01  6.35779824e-03]<br />
 S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 3.911511<br />
-forecast at the end of period: +165 days<br />
-	 deltaDaycases: 118<br />
-	 total cases: 59245 ± 231740<br />
-	 total death: 454 ± 5327<br />
-trend coefficient of determination: 0.801527 <br />
- intercept: -3.627234 <br />
- slope: -0.032042<br />
+rational stdev: 0.198814<br />
+forecast at the end of period: +374 days<br />
+	 deltaDaycases: 5<br />
+	 total cases: 64137 ± 12751<br />
+	 total death: 489 ± 291<br />
+bi-Richards approximation splitting point: 65<br />
+trend coefficient of determination: 0.007109 <br />
+ intercept: -2.831481 <br />
+ slope: 0.002553<br />trend coefficient of determination: 0.771129 <br />
+ intercept: -0.894818 <br />
+ slope: -0.033206<br />

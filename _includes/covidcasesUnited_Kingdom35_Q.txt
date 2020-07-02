@@ -1,13 +1,13 @@
-United Kingdom data at: 2020-06-30<br />
-+3 day model MAPE: 0.006006<br />
+United Kingdom data at: 2020-07-01<br />
++3 day model MAPE: 0.005858<br />
 model: logisticQ<br />
-coeffs: [ 3.02966780e+05  2.90623435e-07  5.31447563e+01 -2.56135040e+05]<br />
+coeffs: [ 3.03593024e+05  2.85152046e-07  5.32295246e+01 -2.60033031e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.385235<br />
-forecast at the end of period: +172 days<br />
-	 deltaDaycases: 381<br />
-	 total cases: 399058 ± 153731<br />
-	 total death: 55815 ± 64505<br />
-trend coefficient of determination: 0.988433 <br />
- intercept_: -4.964081114744696 <br />
- coeffs_: [ 0.         -0.2415851   0.00111252]<br />
+rational stdev: 0.384526<br />
+forecast at the end of period: +171 days<br />
+	 deltaDaycases: 387<br />
+	 total cases: 399658 ± 153679<br />
+	 total death: 55975 ± 64571<br />
+trend coefficient of determination: 0.988236 <br />
+ intercept_: -4.982209046403263 <br />
+ coeffs_: [ 0.         -0.24040362  0.00110063]<br />
