@@ -1,13 +1,16 @@
 Qatar data at: 2020-07-02<br />
-+3 day model MAPE: 0.094777<br />
-model: Richards<br />
-coeffs: [ 5.19500000e+02  6.42694478e+00 -2.25068246e+01  4.16314066e-02]<br />
++3 day model MAPE: 0.001294<br />
+model: bi-Richards<br />
+coeffs: [1.07734829e+05 9.92256251e-02 5.69974097e+01 5.79467052e-01]<br />
 S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.028888<br />
-forecast at the end of period: +58 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 704 ± 20<br />
-	 total death: 0 ± 0<br />
-trend coefficient of determination: 0.150368 <br />
- intercept: -3.256307 <br />
- slope: -0.103409<br />
+rational stdev: 0.173694<br />
+forecast at the end of period: +324 days<br />
+	 deltaDaycases: 18<br />
+	 total cases: 149024 ± 25884<br />
+	 total death: 179 ± 93<br />
+bi-Richards approximation splitting point: 29<br />
+trend coefficient of determination: 0.014435 <br />
+ intercept: -7.031413 <br />
+ slope: 0.010438<br />trend coefficient of determination: 0.981921 <br />
+ intercept: -5.779442 <br />
+ slope: -0.053355<br />
