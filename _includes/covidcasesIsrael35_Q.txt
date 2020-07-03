@@ -1,13 +1,13 @@
-Israel data at: 2020-07-01<br />
-+3 day model MAPE: 0.029575<br />
+Israel data at: 2020-07-02<br />
++3 day model MAPE: 0.034511<br />
 model: logisticQ<br />
-coeffs: [ 1.89739110e+04  1.17469385e-07  4.02415640e+01 -7.92323733e+05]<br />
+coeffs: [ 1.92334067e+04  1.00352942e-07  4.08055974e+01 -8.86251384e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.398671<br />
-forecast at the end of period: +101 days<br />
-	 deltaDaycases: 28<br />
-	 total cases: 25040 ± 9983<br />
-	 total death: 307 ± 367<br />
-trend coefficient of determination: 0.942252 <br />
- intercept_: -2.2235566732918315 <br />
- coeffs_: [ 0.         -0.29778088  0.00164012]<br />
+rational stdev: 0.402119<br />
+forecast at the end of period: +100 days<br />
+	 deltaDaycases: 32<br />
+	 total cases: 25247 ± 10152<br />
+	 total death: 297 ± 358<br />
+trend coefficient of determination: 0.942277 <br />
+ intercept_: -2.2250950116412227 <br />
+ coeffs_: [ 0.         -0.29768454  0.00163919]<br />
