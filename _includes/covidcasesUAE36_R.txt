@@ -1,13 +1,15 @@
-UAE data at: 2020-07-02<br />
-+3 day model MAPE: 0.002734<br />
-model: Richards<br />
-coeffs: [5.71222914e+04 1.53899999e-01 2.94536147e+01 2.59875956e-01]<br />
-S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.250497<br />
-forecast at the end of period: +394 days<br />
-	 deltaDaycases: 16<br />
-	 total cases: 76575 ± 19181<br />
-	 total death: 490 ± 368<br />
-trend coefficient of determination: 0.026272 <br />
- intercept: -5.583722 <br />
- slope: -0.011272<br />
+UAE data at: 2020-07-03<br />
++3 day model MAPE: 0.003835<br />
+model: bi-Richards<br />
+coeffs: [4.52311716e+03 4.48043351e+01 4.61032640e+00 2.87478420e-03]<br />
+rational stdev: 0.116954<br />
+forecast at the end of period: +113 days<br />
+	 deltaDaycases: 7<br />
+	 total cases: 57380 ± 6710<br />
+	 total death: 363 ± 127<br />
+bi-Richards approximation splitting point: 95<br />
+trend coefficient of determination: 0.941350 <br />
+ intercept: -1.908169 <br />
+ slope: -0.032584<br />trend coefficient of determination: 0.485080 <br />
+ intercept: -17.246991 <br />
+ slope: 0.129998<br />

@@ -1,13 +1,13 @@
-Panama data at: 2020-07-02<br />
-+3 day model MAPE: 0.003427<br />
+Panama data at: 2020-07-03<br />
++3 day model MAPE: 0.001067<br />
 model: logisticQ<br />
-coeffs: [ 5.21364659e+05  2.39520945e-06  1.90872011e+02 -1.27953023e+04]<br />
+coeffs: [ 4.50811398e+05  2.86463065e-06  1.85391500e+02 -1.07446500e+04]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.354152<br />
-forecast at the end of period: +142 days<br />
-	 deltaDaycases: 2036<br />
-	 total cases: 446458 ± 158114<br />
-	 total death: 8450 ± 8977<br />
-trend coefficient of determination: 0.934685 <br />
- intercept_: -5.133832684179084 <br />
- coeffs_: [ 0.         -0.20366813  0.00119381]<br />
+rational stdev: 0.352760<br />
+forecast at the end of period: +141 days<br />
+	 deltaDaycases: 1550<br />
+	 total cases: 395738 ± 139600<br />
+	 total death: 7673 ± 8120<br />
+trend coefficient of determination: 0.932663 <br />
+ intercept_: -5.170664420216499 <br />
+ coeffs_: [ 0.         -0.2010313   0.00116471]<br />
