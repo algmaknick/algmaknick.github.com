@@ -1,12 +1,15 @@
 Denmark data at: 2020-07-04<br />
-+3 day model MAPE: 0.002072<br />
-model: Richards<br />
-coeffs: [ 1.22659587e+04  7.57412632e-01 -2.17374814e+01  7.08529608e-02]<br />
-rational stdev: 0.283101<br />
++3 day model MAPE: 0.003301<br />
+model: bi-Richards<br />
+coeffs: [8.19551596e+02 1.74149322e-01 9.94087256e+01 7.16264548e-01]<br />
+rational stdev: 0.248429<br />
 forecast at the end of period: +63 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 12248 ± 3467<br />
-	 total death: 578 ± 490<br />
-trend coefficient of determination: 0.907675 <br />
- intercept: -1.842227 <br />
- slope: -0.051439<br />
+	 total cases: 13081 ± 3249<br />
+	 total death: 617 ± 459<br />
+bi-Richards approximation splitting point: 100<br />
+trend coefficient of determination: 0.875868 <br />
+ intercept: -5.681935 <br />
+ slope: -0.081142<br />trend coefficient of determination: 0.076852 <br />
+ intercept: -3.964985 <br />
+ slope: -0.086945<br />
