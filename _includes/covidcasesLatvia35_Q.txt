@@ -1,13 +1,13 @@
-Latvia data at: 2020-07-04<br />
-+3 day model MAPE: 0.001304<br />
+Latvia data at: 2020-07-05<br />
++3 day model MAPE: 0.001280<br />
 model: logisticQ<br />
-coeffs: [ 1.08919644e+03  1.76879828e-07  2.59979057e+01 -4.38496851e+05]<br />
+coeffs: [ 1.09028352e+03  1.76462773e-07  2.60402292e+01 -4.38403232e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.271109<br />
-forecast at the end of period: +28 days<br />
-	 deltaDaycases: 2<br />
-	 total cases: 1371 ± 371<br />
+rational stdev: 0.270288<br />
+forecast at the end of period: +27 days<br />
+	 deltaDaycases: 3<br />
+	 total cases: 1371 ± 370<br />
 	 total death: 36 ± 29<br />
-trend coefficient of determination: 0.823213 <br />
- intercept_: -4.794794704469626 <br />
- coeffs_: [ 0.         -0.16317211  0.00069041]<br />
+trend coefficient of determination: 0.821145 <br />
+ intercept_: -4.753487185561573 <br />
+ coeffs_: [ 0.         -0.1660027   0.00072034]<br />

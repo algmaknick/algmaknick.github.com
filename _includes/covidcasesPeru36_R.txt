@@ -1,13 +1,16 @@
-Peru data at: 2020-07-04<br />
-+3 day model MAPE: 0.003013<br />
-model: Richards<br />
-coeffs: [3.65480488e+05 1.12378166e-01 5.05014914e+01 3.95118618e-01]<br />
+Peru data at: 2020-07-05<br />
++3 day model MAPE: 0.011042<br />
+model: bi-Richards<br />
+coeffs: [9.30044850e+04 8.08312451e+00 8.93551247e+00 7.95942985e-03]<br />
 S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.304755<br />
-forecast at the end of period: +462 days<br />
-	 deltaDaycases: 28<br />
-	 total cases: 496066 ± 151178<br />
-	 total death: 17269 ± 15788<br />
-trend coefficient of determination: 0.927217 <br />
- intercept: -4.008718 <br />
- slope: -0.053128<br />
+rational stdev: 0.171593<br />
+forecast at the end of period: +461 days<br />
+	 deltaDaycases: 3<br />
+	 total cases: 380423 ± 65278<br />
+	 total death: 13307 ± 6850<br />
+bi-Richards approximation splitting point: 70<br />
+trend coefficient of determination: 0.545532 <br />
+ intercept: -1.444383 <br />
+ slope: -0.026948<br />trend coefficient of determination: 0.827946 <br />
+ intercept: -0.938461 <br />
+ slope: -0.031816<br />
