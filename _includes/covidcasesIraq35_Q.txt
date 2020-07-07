@@ -1,16 +1,16 @@
-Iraq data at: 2020-07-05<br />
-+3 day model MAPE: 0.019673<br />
+Iraq data at: 2020-07-06<br />
++3 day model MAPE: 0.014097<br />
 model: bi-logisticQ<br />
-coeffs: [ 9.14653015e+04  1.57879635e-05  1.00884710e+02 -5.84896307e+03]<br />
+coeffs: [ 9.20039822e+04  1.48869278e-05  1.01004784e+02 -6.19266069e+03]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.098095<br />
-forecast at the end of period: +69 days<br />
+rational stdev: 0.097373<br />
+forecast at the end of period: +68 days<br />
 	 deltaDaycases: 7<br />
-	 total cases: 92896 ± 9112<br />
-	 total death: 3798 ± 1117<br />
+	 total cases: 93431 ± 9097<br />
+	 total death: 3851 ± 1124<br />
 bi-logisticQ approximation splitting point: 42<br />
 trend coefficient of determination: 0.941003 <br />
  intercept_: -5.824005146615983 <br />
- coeffs_: [ 0.         -0.18682641  0.00101526]<br />trend coefficient of determination: 0.896345 <br />
- intercept_: -13.666983014310937 <br />
- coeffs_: [ 0.          0.08966426 -0.00084084]<br />
+ coeffs_: [ 0.         -0.18682641  0.00101526]<br />trend coefficient of determination: 0.903988 <br />
+ intercept_: -13.70354833035756 <br />
+ coeffs_: [ 0.          0.09076704 -0.00084862]<br />

@@ -1,13 +1,13 @@
-Saudi Arabia data at: 2020-07-05<br />
-+3 day model MAPE: 0.014821<br />
+Saudi Arabia data at: 2020-07-06<br />
++3 day model MAPE: 0.014466<br />
 model: logisticQ<br />
-coeffs: [ 2.91909474e+05  5.83005697e-07  9.88444024e+01 -8.60794237e+04]<br />
+coeffs: [ 2.95885672e+05  6.20748167e-07  9.93806990e+01 -8.03564525e+04]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.398059<br />
-forecast at the end of period: +433 days<br />
-	 deltaDaycases: 120<br />
-	 total cases: 390320 ± 155370<br />
-	 total death: 3569 ± 4262<br />
-trend coefficient of determination: 0.922436 <br />
- intercept_: -4.8518120342063975 <br />
- coeffs_: [ 0.         -0.18412694  0.00077565]<br />
+rational stdev: 0.398058<br />
+forecast at the end of period: +432 days<br />
+	 deltaDaycases: 130<br />
+	 total cases: 395256 ± 157334<br />
+	 total death: 3639 ± 4345<br />
+trend coefficient of determination: 0.923125 <br />
+ intercept_: -4.86178317428175 <br />
+ coeffs_: [ 0.         -0.18347173  0.000769  ]<br />

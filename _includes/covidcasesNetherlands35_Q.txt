@@ -1,13 +1,13 @@
-Netherlands data at: 2020-07-02<br />
-+3 day model MAPE: 0.004037<br />
+Netherlands data at: 2020-07-06<br />
++3 day model MAPE: 0.003596<br />
 model: logisticQ<br />
-coeffs: [ 4.77050698e+04  2.65416657e-07  3.67987018e+01 -3.50164129e+05]<br />
+coeffs: [ 4.79665528e+04  2.44699142e-07  3.69949266e+01 -3.74455297e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.321887<br />
-forecast at the end of period: +72 days<br />
-	 deltaDaycases: 128<br />
-	 total cases: 61216 ± 19704<br />
-	 total death: 7434 ± 7178<br />
-trend coefficient of determination: 0.951097 <br />
- intercept_: -4.616975559674671 <br />
- coeffs_: [ 0.        -0.2426177  0.0011728]<br />
+rational stdev: 0.319601<br />
+forecast at the end of period: +68 days<br />
+	 deltaDaycases: 131<br />
+	 total cases: 61389 ± 19620<br />
+	 total death: 7426 ± 7120<br />
+trend coefficient of determination: 0.920861 <br />
+ intercept_: -4.876349918854768 <br />
+ coeffs_: [ 0.         -0.22591624  0.00100677]<br />
