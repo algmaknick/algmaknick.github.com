@@ -1,15 +1,15 @@
-Sweden data at: 2020-07-06<br />
-+3 day model MAPE: 0.014172<br />
+Sweden data at: 2020-07-07<br />
++3 day model MAPE: 0.012741<br />
 model: bi-Richards<br />
-coeffs: [4.28900694e+04 2.70469025e+00 3.48823758e+01 1.94036425e-02]<br />
-rational stdev: 0.234506<br />
-forecast at the end of period: +75 days<br />
-	 deltaDaycases: 35<br />
-	 total cases: 93620 ± 21954<br />
-	 total death: 6961 ± 4897<br />
+coeffs: [4.14753254e+04 2.11633150e+00 4.16247820e+01 2.55685605e-02]<br />
+rational stdev: 0.233756<br />
+forecast at the end of period: +74 days<br />
+	 deltaDaycases: 31<br />
+	 total cases: 92281 ± 21571<br />
+	 total death: 6853 ± 4805<br />
 bi-Richards approximation splitting point: 90<br />
-trend coefficient of determination: 0.854293 <br />
- intercept: -1.364207 <br />
- slope: -0.037943<br />trend coefficient of determination: 0.143417 <br />
- intercept: 1.624623 <br />
- slope: -0.057928<br />
+trend coefficient of determination: 0.856188 <br />
+ intercept: -1.393859 <br />
+ slope: -0.038430<br />trend coefficient of determination: 0.149266 <br />
+ intercept: 1.488467 <br />
+ slope: -0.057254<br />

@@ -1,13 +1,15 @@
-Canada data at: 2020-07-06<br />
-+3 day model MAPE: 0.000771<br />
-model: Richards<br />
-coeffs: [ 1.09998219e+05  3.53047904e+00 -7.36495672e+01  1.19594037e-02]<br />
-S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.151748<br />
-forecast at the end of period: +420 days<br />
-	 deltaDaycases: 24<br />
-	 total cases: 148115 ± 22476<br />
-	 total death: 12154 ± 5533<br />
-trend coefficient of determination: 0.967849 <br />
- intercept: -1.611225 <br />
- slope: -0.043031<br />
+Canada data at: 2020-07-07<br />
++3 day model MAPE: 0.002121<br />
+model: bi-Richards<br />
+coeffs: [2.66568965e+03 3.51751379e+01 2.67860312e+01 3.20092693e-03]<br />
+rational stdev: 0.194361<br />
+forecast at the end of period: +126 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 108906 ± 21167<br />
+	 total death: 8935 ± 5209<br />
+bi-Richards approximation splitting point: 95<br />
+trend coefficient of determination: 0.908781 <br />
+ intercept: -1.307612 <br />
+ slope: -0.037823<br />trend coefficient of determination: 0.401097 <br />
+ intercept: -2.257350 <br />
+ slope: -0.031122<br />
