@@ -1,13 +1,15 @@
-Latvia data at: 2020-07-07<br />
-+3 day model MAPE: 0.002079<br />
-model: Richards<br />
-coeffs: [ 1.11854783e+03  9.15092395e+00 -8.00512286e+01  5.72648112e-03]<br />
-S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.228389<br />
-forecast at the end of period: +214 days<br />
-	 deltaDaycases: 1<br />
-	 total cases: 1430 ± 326<br />
-	 total death: 37 ± 25<br />
-trend coefficient of determination: 0.637448 <br />
- intercept: -1.890555 <br />
- slope: -0.051006<br />
+Latvia data at: 2020-07-08<br />
++3 day model MAPE: 0.004947<br />
+model: bi-Richards<br />
+coeffs: [38.59646996  1.62647744 32.44193398  0.05983141]<br />
+rational stdev: 0.093877<br />
+forecast at the end of period: +73 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 1129 ± 106<br />
+	 total death: 29 ± 8<br />
+bi-Richards approximation splitting point: 88<br />
+trend coefficient of determination: 0.771930 <br />
+ intercept: -2.414514 <br />
+ slope: -0.059057<br />trend coefficient of determination: 0.170923 <br />
+ intercept: -16.625379 <br />
+ slope: 0.090033<br />
