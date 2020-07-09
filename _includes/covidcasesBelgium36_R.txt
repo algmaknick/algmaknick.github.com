@@ -1,13 +1,15 @@
-Belgium data at: 2020-07-07<br />
-+3 day model MAPE: 0.002134<br />
-model: Richards<br />
-coeffs: [ 6.08159864e+04  7.62544484e+00 -5.14413479e+01  8.31057621e-03]<br />
-S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.300768<br />
-forecast at the end of period: +235 days<br />
-	 deltaDaycases: 26<br />
-	 total cases: 81588 ± 24539<br />
-	 total death: 12849 ± 11593<br />
-trend coefficient of determination: 0.836046 <br />
- intercept: -1.395838 <br />
- slope: -0.052597<br />
+Belgium data at: 2020-07-08<br />
++3 day model MAPE: 0.001840<br />
+model: bi-Richards<br />
+coeffs: [3.84517135e+03 6.92466952e+00 9.64526687e+00 7.68792930e-03]<br />
+rational stdev: 0.547799<br />
+forecast at the end of period: +73 days<br />
+	 deltaDaycases: 2<br />
+	 total cases: 63607 ± 34844<br />
+	 total death: 10009 ± 16448<br />
+bi-Richards approximation splitting point: 105<br />
+trend coefficient of determination: 0.958217 <br />
+ intercept: -1.273604 <br />
+ slope: -0.055333<br />trend coefficient of determination: 0.168069 <br />
+ intercept: -22.518105 <br />
+ slope: 0.134570<br />
