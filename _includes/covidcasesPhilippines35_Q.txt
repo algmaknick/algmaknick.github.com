@@ -1,13 +1,13 @@
-Philippines data at: 2020-07-08<br />
-+3 day model MAPE: 0.065868<br />
+Philippines data at: 2020-07-09<br />
++3 day model MAPE: 0.056213<br />
 model: logisticQ<br />
-coeffs: [ 3.00757328e+05  2.29007647e-06  1.68325636e+02 -1.26461184e+04]<br />
+coeffs: [ 4.51926596e+05  2.84738789e-06  1.85060454e+02 -9.98575641e+03]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.346809<br />
-forecast at the end of period: +178 days<br />
-	 deltaDaycases: 244<br />
-	 total cases: 292720 ± 101518<br />
-	 total death: 7637 ± 7945<br />
-trend coefficient of determination: 0.907395 <br />
- intercept_: -6.015282176397996 <br />
- coeffs_: [ 0.         -0.1855664   0.00104468]<br />
+rational stdev: 0.346083<br />
+forecast at the end of period: +177 days<br />
+	 deltaDaycases: 590<br />
+	 total cases: 431409 ± 149303<br />
+	 total death: 10953 ± 11371<br />
+trend coefficient of determination: 0.906429 <br />
+ intercept_: -6.042490553317823 <br />
+ coeffs_: [ 0.         -0.18370196  0.00102497]<br />

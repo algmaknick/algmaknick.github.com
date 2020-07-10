@@ -1,13 +1,13 @@
-Croatia data at: 2020-07-08<br />
-+3 day model MAPE: 0.011028<br />
+Croatia data at: 2020-07-09<br />
++3 day model MAPE: 0.011596<br />
 model: logisticQ<br />
-coeffs: [ 2.39580076e+03  1.56240043e-07  3.00003079e+01 -6.66128163e+05]<br />
+coeffs: [ 2.41636863e+03  1.35240568e-07  3.03050607e+01 -7.48202940e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.327531<br />
-forecast at the end of period: +52 days<br />
-	 deltaDaycases: 3<br />
-	 total cases: 3164 ± 1036<br />
-	 total death: 108 ± 106<br />
-trend coefficient of determination: 0.892980 <br />
- intercept_: -1.6079085229480636 <br />
- coeffs_: [ 0.         -0.30673493  0.00175491]<br />
+rational stdev: 0.331154<br />
+forecast at the end of period: +51 days<br />
+	 deltaDaycases: 4<br />
+	 total cases: 3181 ± 1053<br />
+	 total death: 107 ± 106<br />
+trend coefficient of determination: 0.892979 <br />
+ intercept_: -1.6065334183487856 <br />
+ coeffs_: [ 0.         -0.30682104  0.00175574]<br />
