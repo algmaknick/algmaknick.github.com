@@ -1,15 +1,15 @@
-Czechia data at: 2020-07-11<br />
-+3 day model MAPE: 0.005126<br />
+Czechia data at: 2020-07-12<br />
++3 day model MAPE: 0.007252<br />
 model: bi-Richards<br />
-coeffs: [ 4.68229532e+04  6.16659348e-01 -1.06798932e+02  2.13481576e-02]<br />
-rational stdev: 0.571285<br />
-forecast at the end of period: +385 days<br />
-	 deltaDaycases: 8<br />
-	 total cases: 54155 ± 30938<br />
-	 total death: 1453 ± 2490<br />
+coeffs: [ 4.20228724e+04  6.80138548e-01 -1.08984593e+02  1.99258683e-02]<br />
+rational stdev: 0.645527<br />
+forecast at the end of period: +384 days<br />
+	 deltaDaycases: 6<br />
+	 total cases: 49528 ± 31972<br />
+	 total death: 1323 ± 2562<br />
 bi-Richards approximation splitting point: 61<br />
-trend coefficient of determination: 0.433268 <br />
- intercept: -1.504142 <br />
- slope: -0.055754<br />trend coefficient of determination: 0.145984 <br />
- intercept: -6.165055 <br />
- slope: 0.009622<br />
+trend coefficient of determination: 0.431605 <br />
+ intercept: -1.498855 <br />
+ slope: -0.055594<br />trend coefficient of determination: 0.126830 <br />
+ intercept: -6.084051 <br />
+ slope: 0.008815<br />

@@ -1,13 +1,13 @@
-Algeria data at: 2020-07-11<br />
-+3 day model MAPE: 0.069765<br />
+Algeria data at: 2020-07-12<br />
++3 day model MAPE: 0.070837<br />
 model: logisticQ<br />
-coeffs: [ 2.12980209e+04  2.00612150e-07  7.71539422e+01 -1.86448265e+05]<br />
+coeffs: [ 2.28290500e+04  2.11913751e-07  8.11991626e+01 -1.69345747e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.281113<br />
-forecast at the end of period: +231 days<br />
+rational stdev: 0.285089<br />
+forecast at the end of period: +230 days<br />
 	 deltaDaycases: 35<br />
-	 total cases: 25200 ± 7084<br />
-	 total death: 1352 ± 1140<br />
-trend coefficient of determination: 0.962344 <br />
- intercept_: -6.84678851723946 <br />
- coeffs_: [ 0.         -0.14554494  0.00078022]<br />
+	 total cases: 26364 ± 7516<br />
+	 total death: 1388 ± 1187<br />
+trend coefficient of determination: 0.962351 <br />
+ intercept_: -6.855093239530194 <br />
+ coeffs_: [ 0.         -0.14496595  0.000774  ]<br />
