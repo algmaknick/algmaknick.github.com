@@ -1,13 +1,13 @@
-Japan data at: 2020-07-12<br />
-+3 day model MAPE: 0.005095<br />
+Japan data at: 2020-07-13<br />
++3 day model MAPE: 0.005478<br />
 model: logisticQ<br />
-coeffs: [ 1.79320778e+04  2.46170582e-07  2.37392662e+01 -4.06596071e+05]<br />
+coeffs: [ 1.80192184e+04  2.25246184e-07  2.38995318e+01 -4.37614424e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.093424<br />
-forecast at the end of period: +34 days<br />
-	 deltaDaycases: 33<br />
-	 total cases: 23552 ± 2200<br />
-	 total death: 1075 ± 301<br />
-trend coefficient of determination: 0.917971 <br />
- intercept_: -8.41429807292499 <br />
- coeffs_: [ 0.         -0.1718191   0.00103254]<br />
+rational stdev: 0.097770<br />
+forecast at the end of period: +33 days<br />
+	 deltaDaycases: 34<br />
+	 total cases: 23623 ± 2309<br />
+	 total death: 1060 ± 310<br />
+trend coefficient of determination: 0.917899 <br />
+ intercept_: -8.40890413629096 <br />
+ coeffs_: [ 0.         -0.17219192  0.00103651]<br />

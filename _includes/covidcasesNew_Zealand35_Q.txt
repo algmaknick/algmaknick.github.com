@@ -1,13 +1,13 @@
-New Zealand data at: 2020-07-11<br />
-+3 day model MAPE: 0.000701<br />
+New Zealand data at: 2020-07-13<br />
++3 day model MAPE: 0.000722<br />
 model: logisticQ<br />
-coeffs: [ 1.50054499e+03  1.74259526e-06  2.51709160e+01 -1.34874394e+05]<br />
+coeffs: [ 1.50156539e+03  1.93457649e-06  2.51802448e+01 -1.21243071e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.203367<br />
-forecast at the end of period: +35 days<br />
+rational stdev: 0.201183<br />
+forecast at the end of period: +33 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 2030 ± 412<br />
-	 total death: 28 ± 17<br />
-trend coefficient of determination: 0.853124 <br />
- intercept_: -1.8703566791078323 <br />
- coeffs_: [ 0.         -0.30113015  0.00154208]<br />
+	 total cases: 2032 ± 408<br />
+	 total death: 28 ± 16<br />
+trend coefficient of determination: 0.853312 <br />
+ intercept_: -1.906853829589659 <br />
+ coeffs_: [ 0.         -0.29892255  0.00152144]<br />
