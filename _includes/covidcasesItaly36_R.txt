@@ -1,12 +1,16 @@
-Italy data at: 2020-07-13<br />
-+3 day model MAPE: 0.001084<br />
-model: Richards<br />
-coeffs: [ 2.39904780e+05  7.38422771e+00 -5.84848823e+01  7.75772638e-03]<br />
-rational stdev: 0.102826<br />
-forecast at the end of period: +5 days<br />
-	 deltaDaycases: 23<br />
-	 total cases: 239505 ± 24627<br />
-	 total death: 34431 ± 10621<br />
-trend coefficient of determination: 0.958598 <br />
- intercept: -1.425125 <br />
- slope: -0.048247<br />
+Italy data at: 2020-07-14<br />
++3 day model MAPE: 0.000573<br />
+model: bi-Richards<br />
+coeffs: [ 1.61933240e+04  4.27222172e+00 -8.04200565e+01  6.12100879e-03]<br />
+S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
+rational stdev: 0.056305<br />
+forecast at the end of period: +102 days<br />
+	 deltaDaycases: 17<br />
+	 total cases: 250128 ± 14083<br />
+	 total death: 35959 ± 6074<br />
+bi-Richards approximation splitting point: 85<br />
+trend coefficient of determination: 0.982581 <br />
+ intercept: -1.043022 <br />
+ slope: -0.057261<br />trend coefficient of determination: 0.555395 <br />
+ intercept: -4.255709 <br />
+ slope: -0.022758<br />
