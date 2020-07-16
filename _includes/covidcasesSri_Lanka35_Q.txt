@@ -1,16 +1,16 @@
-Sri Lanka data at: 2020-07-14<br />
-+3 day model MAPE: 0.041747<br />
+Sri Lanka data at: 2020-07-15<br />
++3 day model MAPE: 0.129176<br />
 model: bi-logisticQ<br />
-coeffs: [1203.31477528    7.9522148    30.57251315   -2.39200209]<br />
+coeffs: [1217.20753578    8.13053391   30.84782073   -2.42574877]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.491571<br />
-forecast at the end of period: +88 days<br />
+rational stdev: 0.492693<br />
+forecast at the end of period: +87 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 1777 ± 873<br />
+	 total cases: 1796 ± 884<br />
 	 total death: 7 ± 10<br />
 bi-logisticQ approximation splitting point: 30<br />
 trend coefficient of determination: 0.725855 <br />
  intercept_: -1.5084890363019623 <br />
- coeffs_: [ 0.         -0.68634546  0.01540158]<br />trend coefficient of determination: 0.537278 <br />
- intercept_: -5.2953233964467845 <br />
- coeffs_: [ 0.         -0.11412917  0.00039249]<br />
+ coeffs_: [ 0.         -0.68634546  0.01540158]<br />trend coefficient of determination: 0.543656 <br />
+ intercept_: -5.366044347574097 <br />
+ coeffs_: [ 0.         -0.11176755  0.00037515]<br />

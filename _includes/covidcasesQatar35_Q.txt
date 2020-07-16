@@ -1,16 +1,16 @@
-Qatar data at: 2020-07-14<br />
-+3 day model MAPE: 0.140168<br />
+Qatar data at: 2020-07-15<br />
++3 day model MAPE: 13.083646<br />
 model: bi-logisticQ<br />
-coeffs: [-2.32928483e+06  1.54889055e+02  2.01013900e+01 -1.43692543e+00]<br />
+coeffs: [-2.53195644e+06  1.74874283e+00  2.11029952e+01 -3.12008894e+01]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.513831<br />
-forecast at the end of period: +158 days<br />
+rational stdev: 0.477447<br />
+forecast at the end of period: +157 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 1522088 ± 782095<br />
-	 total death: 2184 ± 3366<br />
+	 total cases: 1247636 ± 595679<br />
+	 total death: 1794 ± 2569<br />
 bi-logisticQ approximation splitting point: 33<br />
 trend coefficient of determination: 0.887233 <br />
  intercept_: -1.9921673153050232 <br />
- coeffs_: [ 0.         -0.78114612  0.01840466]<br />trend coefficient of determination: 0.993243 <br />
- intercept_: -7.019434258339434 <br />
- coeffs_: [ 0.         -0.10540165  0.00022115]<br />
+ coeffs_: [ 0.         -0.78114612  0.01840466]<br />trend coefficient of determination: 0.993401 <br />
+ intercept_: -7.016951999514552 <br />
+ coeffs_: [ 0.         -0.10547946  0.00022169]<br />
