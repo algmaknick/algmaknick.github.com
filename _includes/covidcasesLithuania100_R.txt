@@ -1,12 +1,12 @@
-Lithuania data at: 2020-05-09<br />
-+3 day model MAPE: 0.002376<br />
+Lithuania data at: 2020-07-15<br />
++3 day model MAPE: 0.003625<br />
 model: Richards<br />
-coeffs: [ 1.51208006e+03  1.19098018e+01 -4.48670900e+01  6.98487591e-03]<br />
-rational stdev: 0.256373<br />
-forecast at the end of period: +41 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 1509 ± 387<br />
-	 total death: 51 ± 39<br />
-trend coefficient of determination: 0.892907 <br />
- intercept: -0.650774 <br />
- slope: -0.086114<br />
+coeffs: [5.00180838e+03 4.14206921e-03 6.42623169e+01 8.00436936e-01]<br />
+rational stdev: 0.003129<br />
+forecast at the end of period: +871 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 4619 ± 14<br />
+	 total death: 193 ± 1<br />
+trend coefficient of determination: 0.194907 <br />
+ intercept: -12.897506 <br />
+ slope: 0.052249<br />
