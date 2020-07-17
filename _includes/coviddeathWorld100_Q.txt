@@ -1,10 +1,10 @@
-World data at: 2020-07-15<br />
-+3 day model MAPE: 0.018158<br />
+World data at: 2020-07-16<br />
++3 day model MAPE: 0.018362<br />
 model: logisticQ<br />
-coeffs: [ 5.89897113e+05  3.81091691e-07  4.80425090e+01 -1.09952949e+05]<br />
-rational stdev: 0.217533<br />
-forecast at the end of period: +3 days<br />
-	 total death: 552142 ± 120109<br />
-trend coefficient of determination: 0.975528 <br />
- intercept_: -15.338787959059868 <br />
- coeffs_: [ 0.         -0.09909853  0.00049848]<br />
+coeffs: [ 5.95865697e+05  3.20668991e-07  4.86673903e+01 -1.28994255e+05]<br />
+rational stdev: 0.218290<br />
+forecast at the end of period: +2 days<br />
+	 total death: 555503 ± 121260<br />
+trend coefficient of determination: 0.975363 <br />
+ intercept_: -15.346848160819665 <br />
+ coeffs_: [ 0.         -0.09853658  0.00049243]<br />

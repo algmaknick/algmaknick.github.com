@@ -1,12 +1,12 @@
-Dominican Republic data at: 2020-07-15<br />
-+3 day model MAPE: 0.036975<br />
+Dominican Republic data at: 2020-07-16<br />
++3 day model MAPE: 0.034312<br />
 model: logisticQ<br />
-coeffs: [ 9.58868204e+04  4.96953291e-07  1.31354834e+02 -6.61147597e+04]<br />
-rational stdev: 0.402224<br />
-forecast at the end of period: +143 days<br />
-	 deltaDaycases: 31<br />
-	 total cases: 94939 ± 38186<br />
-	 total death: 1850 ± 2232<br />
-trend coefficient of determination: 0.886353 <br />
- intercept_: -4.583786209855647 <br />
- coeffs_: [ 0.         -0.17269781  0.00077055]<br />
+coeffs: [ 1.02307826e+05  4.93759324e-07  1.34587935e+02 -6.55895935e+04]<br />
+rational stdev: 0.402006<br />
+forecast at the end of period: +142 days<br />
+	 deltaDaycases: 39<br />
+	 total cases: 101110 ± 40646<br />
+	 total death: 1951 ± 2352<br />
+trend coefficient of determination: 0.886718 <br />
+ intercept_: -4.600157239815669 <br />
+ coeffs_: [ 0.         -0.17171858  0.0007615 ]<br />
