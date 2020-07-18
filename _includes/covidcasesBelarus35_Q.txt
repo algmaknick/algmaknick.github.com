@@ -1,12 +1,12 @@
-Belarus data at: 2020-07-16<br />
-+3 day model MAPE: 0.002583<br />
+Belarus data at: 2020-07-17<br />
++3 day model MAPE: 0.002521<br />
 model: logisticQ<br />
-coeffs: [ 6.64649132e+04  4.29168030e-07  4.33897975e+01 -1.53015070e+05]<br />
-rational stdev: 0.256640<br />
-forecast at the end of period: +100 days<br />
+coeffs: [ 6.65319082e+04  3.89108132e-07  4.34327798e+01 -1.68512564e+05]<br />
+rational stdev: 0.255867<br />
+forecast at the end of period: +99 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 66462 ± 17056<br />
-	 total death: 491 ± 378<br />
-trend coefficient of determination: 0.977504 <br />
- intercept_: -8.04995448311287 <br />
- coeffs_: [ 0.         -0.15234525  0.00067322]<br />
+	 total cases: 66529 ± 17022<br />
+	 total death: 496 ± 380<br />
+trend coefficient of determination: 0.977598 <br />
+ intercept_: -8.062228598523518 <br />
+ coeffs_: [ 0.         -0.1514078   0.00066219]<br />

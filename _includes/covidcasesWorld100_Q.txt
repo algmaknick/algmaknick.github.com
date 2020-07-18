@@ -1,12 +1,12 @@
-World data at: 2020-07-16<br />
-+3 day model MAPE: 0.635593<br />
+World data at: 2020-07-17<br />
++3 day model MAPE: 0.635592<br />
 model: bi-logisticQ<br />
-coeffs: [ 9.37578627e+04  2.55228565e-05  3.89552969e+01 -1.87082152e+04]<br />
+coeffs: [ 9.37621522e+04  2.37764402e-05  3.89555041e+01 -2.00834102e+04]<br />
 rational stdev: 0.094698<br />
-forecast at the end of period: +2 days<br />
-	 deltaDaycases: 5915<br />
-	 total cases: 181661 ± 17203<br />
-	 total death: 7717 ± 2192<br />
+forecast at the end of period: +1 days<br />
+	 deltaDaycases: 7936<br />
+	 total cases: 175745 ± 16642<br />
+	 total death: 7421 ± 2108<br />
 bi-logisticQ approximation splitting point: 26<br />
 trend coefficient of determination: 0.957216 <br />
  intercept_: -9.890425229004336 <br />

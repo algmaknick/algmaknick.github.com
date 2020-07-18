@@ -1,13 +1,13 @@
-Indonesia data at: 2020-07-15<br />
-+3 day model MAPE: 0.017641<br />
+Indonesia data at: 2020-07-17<br />
++3 day model MAPE: 0.004673<br />
 model: logisticQ<br />
-coeffs: [ 1.84492777e+05  1.92594099e-06  1.14579414e+02 -1.79524604e+04]<br />
+coeffs: [ 1.84455711e+05  1.64875833e-06  1.14584711e+02 -2.09755810e+04]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.228101<br />
-forecast at the end of period: +213 days<br />
+rational stdev: 0.226327<br />
+forecast at the end of period: +211 days<br />
 	 deltaDaycases: 50<br />
-	 total cases: 187112 ± 42680<br />
-	 total death: 8870 ± 6069<br />
-trend coefficient of determination: 0.969616 <br />
- intercept_: -8.986748157823005 <br />
- coeffs_: [ 0.         -0.10629907  0.00048843]<br />
+	 total cases: 187070 ± 42339<br />
+	 total death: 8904 ± 6045<br />
+trend coefficient of determination: 0.950940 <br />
+ intercept_: -9.069358670302147 <br />
+ coeffs_: [ 0.         -0.10044477  0.00042446]<br />

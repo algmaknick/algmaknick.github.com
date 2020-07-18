@@ -1,15 +1,15 @@
-Luxembourg data at: 2020-07-16<br />
-+3 day model MAPE: 0.012593<br />
+Luxembourg data at: 2020-07-17<br />
++3 day model MAPE: 0.015970<br />
 model: bi-Richards<br />
-coeffs: [7.60416033e+03 6.44546414e-02 1.49228088e+02 7.92282666e+00]<br />
-rational stdev: 0.140910<br />
-forecast at the end of period: +44 days<br />
+coeffs: [7.46614422e+03 6.59553222e-02 1.48026764e+02 8.66754270e+00]<br />
+rational stdev: 0.140468<br />
+forecast at the end of period: +43 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 11485 ± 1618<br />
-	 total death: 241 ± 101<br />
+	 total cases: 11347 ± 1593<br />
+	 total death: 232 ± 97<br />
 bi-Richards approximation splitting point: 75<br />
-trend coefficient of determination: 0.621058 <br />
- intercept: -42.373352 <br />
- slope: -0.538663<br />trend coefficient of determination: 0.436196 <br />
- intercept: -76.135645 <br />
- slope: 0.038013<br />
+trend coefficient of determination: 0.614552 <br />
+ intercept: -46.217280 <br />
+ slope: -0.582115<br />trend coefficient of determination: 0.380159 <br />
+ intercept: -81.906981 <br />
+ slope: 0.033461<br />

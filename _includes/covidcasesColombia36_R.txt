@@ -1,15 +1,15 @@
-Colombia data at: 2020-07-16<br />
-+3 day model MAPE: 0.007356<br />
+Colombia data at: 2020-07-17<br />
++3 day model MAPE: 0.013732<br />
 model: bi-Richards<br />
-coeffs: [ 2.31179787e+06  2.90883541e-01 -3.59211131e+01  4.54245176e-02]<br />
-rational stdev: 0.196591<br />
-forecast at the end of period: +590 days<br />
-	 deltaDaycases: 35<br />
-	 total cases: 2314584 ± 455026<br />
-	 total death: 80566 ± 47515<br />
+coeffs: [ 2.79844303e+06  2.96554042e-01 -4.41310191e+01  4.23725915e-02]<br />
+rational stdev: 0.200635<br />
+forecast at the end of period: +589 days<br />
+	 deltaDaycases: 63<br />
+	 total cases: 2798838 ± 561544<br />
+	 total death: 96624 ± 58158<br />
 bi-Richards approximation splitting point: 41<br />
-trend coefficient of determination: 0.766946 <br />
- intercept: -1.135324 <br />
- slope: -0.066504<br />trend coefficient of determination: 0.510112 <br />
- intercept: -3.085723 <br />
- slope: -0.006729<br />
+trend coefficient of determination: 0.765231 <br />
+ intercept: -1.124814 <br />
+ slope: -0.066069<br />trend coefficient of determination: 0.471957 <br />
+ intercept: -3.085631 <br />
+ slope: -0.006304<br />
