@@ -1,16 +1,16 @@
-Malta data at: 2020-07-09<br />
-+3 day model MAPE: 0.001617<br />
+Malta data at: 2020-07-17<br />
++3 day model MAPE: 0.000801<br />
 model: bi-logisticQ<br />
-coeffs: [ 4.18383247e+02  1.66170438e-07  4.52627771e+01 -4.10984527e+05]<br />
+coeffs: [ 4.20469442e+02  1.61677532e-07  4.54923875e+01 -4.18599016e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.199748<br />
-forecast at the end of period: +177 days<br />
+rational stdev: 0.195214<br />
+forecast at the end of period: +169 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 811 ± 162<br />
+	 total cases: 814 ± 158<br />
 	 total death: 10 ± 5<br />
 bi-logisticQ approximation splitting point: 30<br />
 trend coefficient of determination: 0.928360 <br />
  intercept_: -2.3445378489560733 <br />
- coeffs_: [ 0.         -0.45826686  0.00882824]<br />trend coefficient of determination: 0.576252 <br />
- intercept_: -9.260792380469315 <br />
- coeffs_: [ 0.         -0.02134082 -0.00018518]<br />
+ coeffs_: [ 0.         -0.45826686  0.00882824]<br />trend coefficient of determination: 0.707191 <br />
+ intercept_: -11.226439441945061 <br />
+ coeffs_: [ 0.          0.04442536 -0.00066933]<br />

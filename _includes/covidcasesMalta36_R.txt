@@ -1,12 +1,15 @@
 Malta data at: 2020-07-17<br />
-+3 day model MAPE: 0.016229<br />
-model: Richards<br />
-coeffs: [4.60753453e+02 9.94315745e-02 2.41437164e+01 1.98427317e+00]<br />
-rational stdev: 0.277865<br />
++3 day model MAPE: 0.000645<br />
+model: bi-Richards<br />
+coeffs: [2.11734577e+02 1.22351682e+01 4.12519727e-01 6.81585685e-03]<br />
+rational stdev: 0.176913<br />
 forecast at the end of period: +1 days<br />
-	 deltaDaycases: 1<br />
-	 total cases: 454 ± 126<br />
-	 total death: 6 ± 5<br />
-trend coefficient of determination: 0.914701 <br />
- intercept: -6.567936 <br />
- slope: -0.262394<br />
+	 deltaDaycases: 0<br />
+	 total cases: 671 ± 118<br />
+	 total death: 8 ± 4<br />
+bi-Richards approximation splitting point: 50<br />
+trend coefficient of determination: 0.728657 <br />
+ intercept: -0.937686 <br />
+ slope: -0.094369<br />trend coefficient of determination: 0.613174 <br />
+ intercept: -0.365084 <br />
+ slope: -0.069716<br />
