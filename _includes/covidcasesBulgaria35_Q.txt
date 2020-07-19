@@ -1,13 +1,13 @@
 Bulgaria data at: 2020-07-17<br />
-+3 day model MAPE: 0.030255<br />
++3 day model MAPE: 0.028541<br />
 model: logisticQ<br />
-coeffs: [ 6.45699429e+06  1.97153222e-05  3.38265961e+02 -1.41022464e+03]<br />
+coeffs: [ 6.99465373e+06  2.32488649e-05  3.33125081e+02 -1.22339873e+03]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.285611<br />
+rational stdev: 0.286413<br />
 forecast at the end of period: +134 days<br />
-	 deltaDaycases: 9845<br />
-	 total cases: 340248 ± 97178<br />
-	 total death: 11970 ± 10256<br />
-trend coefficient of determination: 0.886278 <br />
- intercept_: -6.5233528234305895 <br />
- coeffs_: [ 0.         -0.13219889  0.00072743]<br />
+	 deltaDaycases: 11891<br />
+	 total cases: 395296 ± 113217<br />
+	 total death: 13907 ± 11949<br />
+trend coefficient of determination: 0.884488 <br />
+ intercept_: -6.548525189061679 <br />
+ coeffs_: [ 0.         -0.1305448   0.00071065]<br />

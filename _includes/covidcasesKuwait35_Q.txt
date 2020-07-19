@@ -1,12 +1,12 @@
 Kuwait data at: 2020-07-17<br />
-+3 day model MAPE: 0.025440<br />
++3 day model MAPE: 0.024947<br />
 model: logisticQ<br />
-coeffs: [ 5.86542621e+04  3.32155823e-07  9.42863269e+01 -1.83707916e+05]<br />
-rational stdev: 0.323412<br />
+coeffs: [ 5.93811156e+04  3.35309697e-07  9.48172571e+01 -1.79496610e+05]<br />
+rational stdev: 0.329292<br />
 forecast at the end of period: +141 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 58653 ± 18969<br />
-	 total death: 407 ± 394<br />
-trend coefficient of determination: 0.915799 <br />
- intercept_: -6.175366814745902 <br />
- coeffs_: [ 0.         -0.08452832  0.00011097]<br />
+	 total cases: 59380 ± 19553<br />
+	 total death: 412 ± 407<br />
+trend coefficient of determination: 0.916552 <br />
+ intercept_: -6.163513563883564 <br />
+ coeffs_: [ 0.         -0.0851973   0.00011681]<br />

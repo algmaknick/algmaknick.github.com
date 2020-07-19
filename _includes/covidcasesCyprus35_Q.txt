@@ -1,12 +1,12 @@
 Cyprus data at: 2020-07-17<br />
-+3 day model MAPE: 0.003293<br />
++3 day model MAPE: 0.003395<br />
 model: logisticQ<br />
-coeffs: [ 9.65499567e+02  2.66118391e-07  1.85892477e+01 -4.32363387e+05]<br />
-rational stdev: 0.175034<br />
+coeffs: [ 9.66612592e+02  2.52420832e-07  1.86233563e+01 -4.54136087e+05]<br />
+rational stdev: 0.175133<br />
 forecast at the end of period: +15 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 965 ± 168<br />
+	 total cases: 966 ± 169<br />
 	 total death: 17 ± 8<br />
-trend coefficient of determination: 0.872126 <br />
- intercept_: -4.870939503459284 <br />
- coeffs_: [ 0.         -0.18986227  0.00099099]<br />
+trend coefficient of determination: 0.872010 <br />
+ intercept_: -4.859979765129028 <br />
+ coeffs_: [ 0.         -0.19056512  0.00099794]<br />

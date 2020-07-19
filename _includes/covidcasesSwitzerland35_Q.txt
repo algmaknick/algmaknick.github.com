@@ -1,12 +1,12 @@
 Switzerland data at: 2020-07-17<br />
-+3 day model MAPE: 0.002847<br />
++3 day model MAPE: 0.002922<br />
 model: logisticQ<br />
-coeffs: [ 3.10670084e+04  4.47424797e-07  2.67759640e+01 -2.94989322e+05]<br />
-rational stdev: 0.293827<br />
+coeffs: [ 3.10978850e+04  4.39928111e-07  2.68019131e+01 -2.99205167e+05]<br />
+rational stdev: 0.293319<br />
 forecast at the end of period: +29 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 31067 ± 9128<br />
-	 total death: 1832 ± 1614<br />
-trend coefficient of determination: 0.977833 <br />
- intercept_: -4.331411957818819 <br />
- coeffs_: [ 0.         -0.27566253  0.00139818]<br />
+	 total cases: 31097 ± 9121<br />
+	 total death: 1834 ± 1613<br />
+trend coefficient of determination: 0.977443 <br />
+ intercept_: -4.350676065191005 <br />
+ coeffs_: [ 0.         -0.27456757  0.00138855]<br />

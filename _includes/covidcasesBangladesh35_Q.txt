@@ -1,16 +1,12 @@
 Bangladesh data at: 2020-07-17<br />
-+3 day model MAPE: 0.007596<br />
-model: bi-logisticQ<br />
-coeffs: [ 2.49753461e+05  1.38022689e-06  1.00254402e+02 -4.39486038e+04]<br />
-S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.419925<br />
-forecast at the end of period: +421 days<br />
-	 deltaDaycases: 96<br />
-	 total cases: 335018 ± 140682<br />
-	 total death: 4280 ± 5391<br />
-bi-logisticQ approximation splitting point: 25<br />
-trend coefficient of determination: 0.232653 <br />
- intercept_: -6.325425729788838 <br />
- coeffs_: [ 0.          0.22449345 -0.0150245 ]<br />trend coefficient of determination: 0.973338 <br />
- intercept_: -1.9108053581499718 <br />
- coeffs_: [ 0.         -0.21667239  0.00083947]<br />
++3 day model MAPE: 0.027574<br />
+model: logisticQ<br />
+coeffs: [ 5.24923910e+01  5.83606353e-03  5.49443194e+00 -5.18823422e+01]<br />
+rational stdev: 0.229682<br />
+forecast at the end of period: +1 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 51 ± 11<br />
+	 total death: 0 ± 0<br />
+trend coefficient of determination: 0.276192 <br />
+ intercept_: -6.599187027141191 <br />
+ coeffs_: [ 0.          0.32583568 -0.02049035]<br />

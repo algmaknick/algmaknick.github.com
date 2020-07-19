@@ -1,13 +1,13 @@
 Thailand data at: 2020-07-17<br />
-+3 day model MAPE: 0.001091<br />
++3 day model MAPE: 0.001126<br />
 model: logisticQ<br />
-coeffs: [ 3.08309101e+03  4.98234637e-07  2.57400153e+01 -3.24567408e+05]<br />
+coeffs: [ 3.08511401e+03  4.96555442e-07  2.57544754e+01 -3.25006476e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.248721<br />
+rational stdev: 0.248659<br />
 forecast at the end of period: +29 days<br />
 	 deltaDaycases: 1<br />
-	 total cases: 4156 ± 1033<br />
+	 total cases: 4160 ± 1034<br />
 	 total death: 74 ± 55<br />
-trend coefficient of determination: 0.911814 <br />
- intercept_: -2.926456504467623 <br />
- coeffs_: [ 0.         -0.25666374  0.00125229]<br />
+trend coefficient of determination: 0.911731 <br />
+ intercept_: -2.9435125649624005 <br />
+ coeffs_: [ 0.         -0.25568031  0.00124353]<br />

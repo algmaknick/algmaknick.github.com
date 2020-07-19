@@ -1,13 +1,13 @@
 European Union data at: 2020-07-17<br />
-+3 day model MAPE: 0.005129<br />
++3 day model MAPE: 0.005107<br />
 model: logisticQ<br />
-coeffs: [ 1.23808047e+06  1.37963223e-07  3.91073463e+01 -5.76783526e+05]<br />
+coeffs: [ 1.24082246e+06  1.35123512e-07  3.92055172e+01 -5.85253348e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.326662<br />
+rational stdev: 0.326419<br />
 forecast at the end of period: +99 days<br />
-	 deltaDaycases: 1165<br />
-	 total cases: 1645807 ± 537623<br />
-	 total death: 163374 ± 160104<br />
-trend coefficient of determination: 0.977163 <br />
- intercept_: -8.52289873931078 <br />
- coeffs_: [ 0.         -0.21794281  0.00101551]<br />
+	 deltaDaycases: 1153<br />
+	 total cases: 1649645 ± 538475<br />
+	 total death: 163755 ± 160358<br />
+trend coefficient of determination: 0.976266 <br />
+ intercept_: -8.549637894665409 <br />
+ coeffs_: [ 0.         -0.2164337   0.00100234]<br />

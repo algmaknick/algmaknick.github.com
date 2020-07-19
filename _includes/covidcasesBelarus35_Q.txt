@@ -1,12 +1,12 @@
 Belarus data at: 2020-07-17<br />
-+3 day model MAPE: 0.002521<br />
++3 day model MAPE: 0.002487<br />
 model: logisticQ<br />
-coeffs: [ 6.65319082e+04  3.89108132e-07  4.34327798e+01 -1.68512564e+05]<br />
-rational stdev: 0.255867<br />
+coeffs: [ 6.65975060e+04  4.01723903e-07  4.34752071e+01 -1.62982128e+05]<br />
+rational stdev: 0.255096<br />
 forecast at the end of period: +99 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 66529 ± 17022<br />
-	 total death: 496 ± 380<br />
-trend coefficient of determination: 0.977598 <br />
- intercept_: -8.062228598523518 <br />
- coeffs_: [ 0.         -0.1514078   0.00066219]<br />
+	 total cases: 66595 ± 16988<br />
+	 total death: 497 ± 380<br />
+trend coefficient of determination: 0.977786 <br />
+ intercept_: -8.071463032735556 <br />
+ coeffs_: [ 0.         -0.15070918  0.00065405]<br />

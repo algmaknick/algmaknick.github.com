@@ -1,13 +1,13 @@
 Romania data at: 2020-07-17<br />
-+3 day model MAPE: 0.046932<br />
++3 day model MAPE: 0.049419<br />
 model: logisticQ<br />
-coeffs: [ 3.50525905e+04  1.03820953e-07  7.17326145e+01 -3.57901415e+05]<br />
+coeffs: [ 3.63073523e+04  1.01819187e-07  7.41043763e+01 -3.53141295e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.372403<br />
+rational stdev: 0.373739<br />
 forecast at the end of period: +141 days<br />
-	 deltaDaycases: 49<br />
-	 total cases: 38736 ± 14425<br />
-	 total death: 2150 ± 2402<br />
-trend coefficient of determination: 0.973135 <br />
- intercept_: -4.88036544088583 <br />
- coeffs_: [ 0.         -0.20832624  0.00107424]<br />
+	 deltaDaycases: 46<br />
+	 total cases: 39744 ± 14854<br />
+	 total death: 2206 ± 2473<br />
+trend coefficient of determination: 0.972794 <br />
+ intercept_: -4.895511566937778 <br />
+ coeffs_: [ 0.         -0.20740653  0.00106561]<br />
