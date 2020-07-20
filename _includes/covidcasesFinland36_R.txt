@@ -1,15 +1,15 @@
-Finland data at: 2020-07-18<br />
-+3 day model MAPE: 0.000027<br />
+Finland data at: 2020-07-19<br />
++3 day model MAPE: 0.000320<br />
 model: bi-Richards<br />
-coeffs: [-2.97643533e+02  9.81685458e+00  9.15692857e+00  7.15588313e-03]<br />
-rational stdev: 0.128106<br />
-forecast at the end of period: +14 days<br />
+coeffs: [-2.95291734e+02  9.04689635e+00  1.13055430e+01  7.87246075e-03]<br />
+rational stdev: 0.127657<br />
+forecast at the end of period: +13 days<br />
 	 deltaDaycases: 1<br />
-	 total cases: 7341 ± 940<br />
-	 total death: 329 ± 126<br />
+	 total cases: 7343 ± 937<br />
+	 total death: 328 ± 125<br />
 bi-Richards approximation splitting point: 86<br />
-trend coefficient of determination: 0.875112 <br />
- intercept: -1.475650 <br />
- slope: -0.048653<br />trend coefficient of determination: 0.196350 <br />
- intercept: -2.781933 <br />
- slope: -0.040817<br />
+trend coefficient of determination: 0.875251 <br />
+ intercept: -1.479554 <br />
+ slope: -0.048689<br />trend coefficient of determination: 0.156653 <br />
+ intercept: -3.316178 <br />
+ slope: -0.035625<br />

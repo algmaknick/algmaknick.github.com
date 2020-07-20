@@ -1,15 +1,15 @@
-Sri Lanka data at: 2020-07-18<br />
-+3 day model MAPE: 0.408218<br />
+Sri Lanka data at: 2020-07-19<br />
++3 day model MAPE: 0.400708<br />
 model: bi-Richards<br />
-coeffs: [-319.18177894   -1.06804096 -101.75936851   -2.48838197]<br />
-rational stdev: 16.835439<br />
-forecast at the end of period: +448 days<br />
+coeffs: [-3.30117863e+02  1.07293862e-01 -1.09629018e+02  6.06546624e+00]<br />
+rational stdev: 8.760592<br />
+forecast at the end of period: +447 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 14365 ± 241843<br />
-	 total death: 58 ± 2929<br />
+	 total cases: 14354 ± 125751<br />
+	 total death: 57 ± 1498<br />
 bi-Richards approximation splitting point: 88<br />
-trend coefficient of determination: 0.634737 <br />
- intercept: 8.180808 <br />
- slope: 0.080776<br />trend coefficient of determination: 0.255434 <br />
- intercept: 3.385108 <br />
- slope: 0.097339<br />
+trend coefficient of determination: 0.952871 <br />
+ intercept: -31.183020 <br />
+ slope: -0.250659<br />trend coefficient of determination: 0.002212 <br />
+ intercept: -51.588572 <br />
+ slope: -0.007126<br />
