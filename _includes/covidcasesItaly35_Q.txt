@@ -1,13 +1,13 @@
-Italy data at: 2020-07-20<br />
-+3 day model MAPE: 0.000889<br />
+Italy data at: 2020-07-21<br />
++3 day model MAPE: 0.000864<br />
 model: logisticQ<br />
-coeffs: [ 2.36360276e+05  2.27570530e-07  3.37175964e+01 -3.73691746e+05]<br />
+coeffs: [ 2.36497758e+05  2.35043651e-07  3.37403435e+01 -3.61265093e+05]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.274896<br />
-forecast at the end of period: +40 days<br />
-	 deltaDaycases: 571<br />
-	 total cases: 303692 ± 83483<br />
-	 total death: 43523 ± 35892<br />
-trend coefficient of determination: 0.980133 <br />
- intercept_: -8.329716850097903 <br />
- coeffs_: [ 0.         -0.18343174  0.00075385]<br />
+rational stdev: 0.274281<br />
+forecast at the end of period: +39 days<br />
+	 deltaDaycases: 572<br />
+	 total cases: 303784 ± 83322<br />
+	 total death: 43532 ± 35819<br />
+trend coefficient of determination: 0.979730 <br />
+ intercept_: -8.34876785567296 <br />
+ coeffs_: [ 0.         -0.18238604  0.00074497]<br />

@@ -1,12 +1,12 @@
-Chile data at: 2020-07-20<br />
-+3 day model MAPE: 0.007850<br />
+Chile data at: 2020-07-21<br />
++3 day model MAPE: 0.007658<br />
 model: logisticQ<br />
-coeffs: [ 3.44432403e+05  3.68743913e-05  9.05068987e+01 -1.86161550e+03]<br />
-rational stdev: 0.367459<br />
-forecast at the end of period: +54 days<br />
-	 deltaDaycases: 22<br />
-	 total cases: 344157 ± 126463<br />
-	 total death: 8921 ± 9834<br />
-trend coefficient of determination: 0.948486 <br />
- intercept_: -4.595073471821891 <br />
- coeffs_: [ 0.         -0.18368388  0.00068303]<br />
+coeffs: [ 3.46044686e+05  2.47520626e-05  9.06448267e+01 -2.79644255e+03]<br />
+rational stdev: 0.369865<br />
+forecast at the end of period: +53 days<br />
+	 deltaDaycases: 25<br />
+	 total cases: 345717 ± 127868<br />
+	 total death: 8963 ± 9945<br />
+trend coefficient of determination: 0.948584 <br />
+ intercept_: -4.617340317208585 <br />
+ coeffs_: [ 0.         -0.18238123  0.00067125]<br />
