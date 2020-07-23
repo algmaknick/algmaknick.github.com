@@ -1,12 +1,15 @@
 Latvia data at: 2020-07-21<br />
-+3 day model MAPE: 0.006926<br />
-model: Richards<br />
-coeffs: [ 1.08327891e+03  6.55865808e+00 -7.95752157e+01  8.38168173e-03]<br />
-rational stdev: 0.113290<br />
-forecast at the end of period: +60 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 1081 ± 122<br />
-	 total death: 28 ± 9<br />
-trend coefficient of determination: 0.723415 <br />
- intercept: -2.136856 <br />
- slope: -0.057686<br />
++3 day model MAPE: 0.001439<br />
+model: bi-Richards<br />
+coeffs: [ 1.42074625e+03  1.34062961e+00 -1.95288073e+02  8.99857973e-03]<br />
+rational stdev: 0.087688<br />
+forecast at the end of period: +200 days<br />
+	 deltaDaycases: 3<br />
+	 total cases: 2215 ± 194<br />
+	 total death: 57 ± 14<br />
+bi-Richards approximation splitting point: 85<br />
+trend coefficient of determination: 0.757590 <br />
+ intercept: -2.126596 <br />
+ slope: -0.058115<br />trend coefficient of determination: 0.103827 <br />
+ intercept: -11.175326 <br />
+ slope: 0.039603<br />

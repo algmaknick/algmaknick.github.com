@@ -1,13 +1,15 @@
-Mexico data at: 2020-07-21<br />
-+3 day model MAPE: 0.001534<br />
-model: Richards<br />
-coeffs: [ 1.07740068e+06  5.18826289e-01 -9.90690933e+01  3.12769371e-02]<br />
-S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.125569<br />
-forecast at the end of period: +1075 days<br />
-	 deltaDaycases: 238<br />
-	 total cases: 1422174 ± 178581<br />
-	 total death: 161277 ± 60754<br />
-trend coefficient of determination: 0.923045 <br />
- intercept: -2.417076 <br />
- slope: -0.018507<br />
+Mexico data at: 2020-07-22<br />
++3 day model MAPE: 0.000306<br />
+model: bi-Richards<br />
+coeffs: [ 5.50113214e+05  8.22188836e-01 -8.16910624e+00  2.98988968e-02]<br />
+rational stdev: 0.209770<br />
+forecast at the end of period: +234 days<br />
+	 deltaDaycases: 53<br />
+	 total cases: 794171 ± 166593<br />
+	 total death: 90296 ± 56824<br />
+bi-Richards approximation splitting point: 60<br />
+trend coefficient of determination: 0.837541 <br />
+ intercept: -1.344732 <br />
+ slope: -0.034598<br />trend coefficient of determination: 0.840055 <br />
+ intercept: -2.300704 <br />
+ slope: -0.015867<br />

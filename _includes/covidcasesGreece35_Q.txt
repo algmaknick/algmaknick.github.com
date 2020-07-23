@@ -1,13 +1,13 @@
-Greece data at: 2020-07-21<br />
-+3 day model MAPE: 0.008131<br />
+Greece data at: 2020-07-22<br />
++3 day model MAPE: 0.008349<br />
 model: logisticQ<br />
-coeffs: [ 3.36720677e+03  6.08900968e-08  3.29918376e+01 -1.01796112e+06]<br />
+coeffs: [ 3.39033175e+03  5.77830927e-08  3.33932754e+01 -1.04842060e+06]<br />
 S.Korea scenario coeffs: [0.35416971, 0.02606324, 4.35859408, 19.30413219]<br />
-rational stdev: 0.286807<br />
-forecast at the end of period: +25 days<br />
+rational stdev: 0.288117<br />
+forecast at the end of period: +24 days<br />
 	 deltaDaycases: 8<br />
-	 total cases: 4109 ± 1178<br />
-	 total death: 200 ± 172<br />
-trend coefficient of determination: 0.894730 <br />
- intercept_: -4.5477494721503815 <br />
- coeffs_: [ 0.         -0.20595391  0.00108323]<br />
+	 total cases: 4119 ± 1186<br />
+	 total death: 202 ± 174<br />
+trend coefficient of determination: 0.893315 <br />
+ intercept_: -4.575545002281809 <br />
+ coeffs_: [ 0.         -0.20437403  0.00106935]<br />
