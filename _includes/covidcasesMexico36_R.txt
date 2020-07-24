@@ -1,15 +1,15 @@
-Mexico data at: 2020-07-22<br />
-+3 day model MAPE: 0.000306<br />
+Mexico data at: 2020-07-23<br />
++3 day model MAPE: 0.001900<br />
 model: bi-Richards<br />
-coeffs: [ 5.50113214e+05  8.22188836e-01 -8.16910624e+00  2.98988968e-02]<br />
-rational stdev: 0.209770<br />
-forecast at the end of period: +234 days<br />
-	 deltaDaycases: 53<br />
-	 total cases: 794171 ± 166593<br />
-	 total death: 90296 ± 56824<br />
+coeffs: [ 5.64288790e+05  8.13744128e-01 -8.96637760e+00  2.98648086e-02]<br />
+rational stdev: 0.209051<br />
+forecast at the end of period: +233 days<br />
+	 deltaDaycases: 58<br />
+	 total cases: 808106 ± 168935<br />
+	 total death: 91354 ± 57292<br />
 bi-Richards approximation splitting point: 60<br />
-trend coefficient of determination: 0.837541 <br />
- intercept: -1.344732 <br />
- slope: -0.034598<br />trend coefficient of determination: 0.840055 <br />
- intercept: -2.300704 <br />
- slope: -0.015867<br />
+trend coefficient of determination: 0.837516 <br />
+ intercept: -1.344618 <br />
+ slope: -0.034593<br />trend coefficient of determination: 0.834139 <br />
+ intercept: -2.325250 <br />
+ slope: -0.015574<br />
