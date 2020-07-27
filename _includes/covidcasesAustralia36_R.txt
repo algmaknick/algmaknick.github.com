@@ -1,15 +1,15 @@
-Australia data at: 2020-07-25<br />
-+3 day model MAPE: 0.019416<br />
+Australia data at: 2020-07-26<br />
++3 day model MAPE: 0.046642<br />
 model: bi-Richards<br />
-coeffs: [8.87707114e+03 8.14136107e-02 1.18213668e+02 4.01727953e+00]<br />
-rational stdev: 0.022226<br />
-forecast at the end of period: +56 days<br />
+coeffs: [1.01850355e+04 8.15943159e-02 1.19814473e+02 3.13750419e+00]<br />
+rational stdev: 0.022190<br />
+forecast at the end of period: +55 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 15807 ± 351<br />
-	 total death: 170 ± 11<br />
+	 total cases: 17115 ± 379<br />
+	 total death: 184 ± 12<br />
 bi-Richards approximation splitting point: 104<br />
-trend coefficient of determination: 0.431162 <br />
- intercept: -37.892261 <br />
- slope: -0.054084<br />trend coefficient of determination: 0.845800 <br />
- intercept: -31.645470 <br />
- slope: -0.082039<br />
+trend coefficient of determination: 0.418424 <br />
+ intercept: -30.472104 <br />
+ slope: -0.048442<br />trend coefficient of determination: 0.762553 <br />
+ intercept: -26.162294 <br />
+ slope: -0.058541<br />
