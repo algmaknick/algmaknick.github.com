@@ -1,15 +1,15 @@
-Uzbekistan data at: 2020-07-30<br />
-+3 day model MAPE: 0.014923<br />
+Uzbekistan data at: 2020-07-31<br />
++3 day model MAPE: 0.023420<br />
 model: bi-Richards<br />
-coeffs: [9.14609833e+04 5.49734749e-02 1.41128415e+02 6.48416747e-01]<br />
-rational stdev: 0.171248<br />
-forecast at the end of period: +744 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 93411 ± 15996<br />
-	 total death: 543 ± 278<br />
+coeffs: [5.21239781e+04 5.07688296e-02 1.37767819e+02 1.09430168e+00]<br />
+rational stdev: 0.184135<br />
+forecast at the end of period: +113 days<br />
+	 deltaDaycases: 7<br />
+	 total cases: 53937 ± 9931<br />
+	 total death: 316 ± 174<br />
 bi-Richards approximation splitting point: 45<br />
-trend coefficient of determination: 0.891144 <br />
- intercept: -3.255803 <br />
- slope: -0.136520<br />trend coefficient of determination: 0.216126 <br />
- intercept: -8.677213 <br />
- slope: -0.007470<br />
+trend coefficient of determination: 0.933697 <br />
+ intercept: -4.636863 <br />
+ slope: -0.190576<br />trend coefficient of determination: 0.650769 <br />
+ intercept: -11.392540 <br />
+ slope: -0.020331<br />

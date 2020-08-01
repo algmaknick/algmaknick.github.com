@@ -1,15 +1,15 @@
-European Union data at: 2020-07-30<br />
-+3 day model MAPE: 0.007416<br />
+European Union data at: 2020-07-31<br />
++3 day model MAPE: 0.008114<br />
 model: bi-Richards<br />
-coeffs: [ 7.05837304e+05  1.66079011e+00 -1.25025413e+02  1.08243755e-02]<br />
-rational stdev: 0.477754<br />
-forecast at the end of period: +100 days<br />
-	 deltaDaycases: 1352<br />
-	 total cases: 1708859 ± 816414<br />
-	 total death: 160225 ± 229644<br />
+coeffs: [ 7.51455461e+05  1.34681194e+00 -1.20607636e+02  1.28827866e-02]<br />
+rational stdev: 0.460733<br />
+forecast at the end of period: +99 days<br />
+	 deltaDaycases: 1561<br />
+	 total cases: 1738035 ± 800769<br />
+	 total death: 161914 ± 223797<br />
 bi-Richards approximation splitting point: 83<br />
-trend coefficient of determination: 0.943715 <br />
- intercept: -1.128348 <br />
- slope: -0.057517<br />trend coefficient of determination: 0.056658 <br />
- intercept: -6.362481 <br />
- slope: 0.004437<br />
+trend coefficient of determination: 0.944084 <br />
+ intercept: -1.148332 <br />
+ slope: -0.057655<br />trend coefficient of determination: 0.074759 <br />
+ intercept: -6.464438 <br />
+ slope: 0.005127<br />
