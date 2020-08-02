@@ -1,16 +1,15 @@
-Pakistan data at: 2020-07-30<br />
-+3 day model MAPE: 0.003274<br />
+Pakistan data at: 2020-08-01<br />
++3 day model MAPE: 0.002495<br />
 model: bi-Richards<br />
-coeffs: [2.83210686e+05 5.87860445e-02 1.05832938e+02 1.33451670e+00]<br />
-S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.355623<br />
-forecast at the end of period: +191 days<br />
-	 deltaDaycases: 305<br />
-	 total cases: 375320 ± 133472<br />
-	 total death: 8025 ± 8561<br />
+coeffs: [2.83830605e+05 5.90044770e-02 1.05702434e+02 1.31839664e+00]<br />
+rational stdev: 0.353841<br />
+forecast at the end of period: +49 days<br />
+	 deltaDaycases: 14<br />
+	 total cases: 285291 ± 100947<br />
+	 total death: 6101 ± 6476<br />
 bi-Richards approximation splitting point: 25<br />
-trend coefficient of determination: 0.788265 <br />
- intercept: -3.383661 <br />
- slope: -0.283911<br />trend coefficient of determination: 0.978508 <br />
- intercept: -10.644233 <br />
- slope: -0.079615<br />
+trend coefficient of determination: 0.784230 <br />
+ intercept: -3.378904 <br />
+ slope: -0.279651<br />trend coefficient of determination: 0.979422 <br />
+ intercept: -10.520243 <br />
+ slope: -0.079123<br />
