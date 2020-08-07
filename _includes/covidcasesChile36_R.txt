@@ -1,12 +1,16 @@
-Chile data at: 2020-08-05<br />
-+3 day model MAPE: 0.007621<br />
-model: Richards<br />
-coeffs: [3.70096428e+05 8.35730917e-02 8.42178539e+01 6.88434034e-01]<br />
-rational stdev: 0.455588<br />
-forecast at the end of period: +45 days<br />
-	 deltaDaycases: 64<br />
-	 total cases: 369009 ± 168116<br />
-	 total death: 9907 ± 13540<br />
-trend coefficient of determination: 0.897971 <br />
- intercept: -5.297297 <br />
- slope: -0.064594<br />
+Chile data at: 2020-08-06<br />
++3 day model MAPE: 0.002266<br />
+model: bi-Richards<br />
+coeffs: [6.25288143e+04 6.29837939e+00 7.20200417e+01 1.09812557e-02]<br />
+S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
+rational stdev: 0.335659<br />
+forecast at the end of period: +149 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 392268 ± 131668<br />
+	 total death: 10579 ± 10652<br />
+bi-Richards approximation splitting point: 130<br />
+trend coefficient of determination: 0.819751 <br />
+ intercept: -1.511864 <br />
+ slope: -0.023538<br />trend coefficient of determination: 0.453621 <br />
+ intercept: -2.702644 <br />
+ slope: -0.017845<br />
