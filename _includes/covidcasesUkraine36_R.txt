@@ -1,15 +1,15 @@
-Ukraine data at: 2020-08-09<br />
-+3 day model MAPE: 0.012676<br />
+Ukraine data at: 2020-08-10<br />
++3 day model MAPE: 0.009448<br />
 model: bi-Richards<br />
-coeffs: [ 2.97317856e+05  1.47760377e+00 -4.00720061e+01  1.21654131e-02]<br />
-rational stdev: 0.316519<br />
-forecast at the end of period: +426 days<br />
-	 deltaDaycases: 9<br />
-	 total cases: 412889 ± 130687<br />
-	 total death: 9675 ± 9186<br />
+coeffs: [ 3.21738128e+05  1.23715127e+00 -3.05355388e+01  1.44124234e-02]<br />
+rational stdev: 0.315652<br />
+forecast at the end of period: +425 days<br />
+	 deltaDaycases: 11<br />
+	 total cases: 437225 ± 138011<br />
+	 total death: 10263 ± 9718<br />
 bi-Richards approximation splitting point: 120<br />
-trend coefficient of determination: 0.713570 <br />
- intercept: -1.873908 <br />
- slope: -0.024684<br />trend coefficient of determination: 0.336537 <br />
- intercept: -5.741564 <br />
- slope: 0.010399<br />
+trend coefficient of determination: 0.714691 <br />
+ intercept: -1.886998 <br />
+ slope: -0.024801<br />trend coefficient of determination: 0.209339 <br />
+ intercept: -5.455034 <br />
+ slope: 0.007979<br />
