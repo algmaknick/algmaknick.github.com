@@ -1,15 +1,15 @@
-Cyprus data at: 2020-08-15<br />
-+3 day model MAPE: 0.005640<br />
+Cyprus data at: 2020-08-16<br />
++3 day model MAPE: 0.001927<br />
 model: bi-Richards<br />
-coeffs: [5.74982762e+03 5.61777001e-02 1.95930610e+02 3.75459937e+00]<br />
-rational stdev: 0.125068<br />
-forecast at the end of period: +70 days<br />
-	 deltaDaycases: 3<br />
-	 total cases: 6690 ± 836<br />
-	 total death: 100 ± 37<br />
-bi-Richards approximation splitting point: 100<br />
-trend coefficient of determination: 0.745418 <br />
- intercept: -19.827649 <br />
- slope: -0.169345<br />trend coefficient of determination: 0.419143 <br />
- intercept: -37.234211 <br />
- slope: 0.040435<br />
+coeffs: [5.54482084e+03 4.92179693e-02 2.01992645e+02 5.09523573e+00]<br />
+rational stdev: 0.121112<br />
+forecast at the end of period: +69 days<br />
+	 deltaDaycases: 5<br />
+	 total cases: 6467 ± 783<br />
+	 total death: 96 ± 34<br />
+bi-Richards approximation splitting point: 90<br />
+trend coefficient of determination: 0.722646 <br />
+ intercept: -25.583381 <br />
+ slope: -0.231291<br />trend coefficient of determination: 0.321284 <br />
+ intercept: -45.874283 <br />
+ slope: 0.034249<br />
