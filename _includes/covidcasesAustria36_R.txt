@@ -1,15 +1,15 @@
-Austria data at: 2020-08-17<br />
-+3 day model MAPE: 0.001983<br />
+Austria data at: 2020-08-18<br />
++3 day model MAPE: 0.002109<br />
 model: bi-Richards<br />
-coeffs: [ 6.11734396e+04  3.90092726e-01 -1.32997401e+02  2.59694493e-02]<br />
-rational stdev: 0.699472<br />
-forecast at the end of period: +460 days<br />
-	 deltaDaycases: 12<br />
-	 total cases: 75693 ± 52945<br />
-	 total death: 2344 ± 4918<br />
+coeffs: [ 6.36849542e+04  3.48373471e-01 -1.22243733e+02  2.88835577e-02]<br />
+rational stdev: 0.681220<br />
+forecast at the end of period: +459 days<br />
+	 deltaDaycases: 13<br />
+	 total cases: 78086 ± 53194<br />
+	 total death: 2363 ± 4829<br />
 bi-Richards approximation splitting point: 83<br />
-trend coefficient of determination: 0.867870 <br />
- intercept: -1.721483 <br />
- slope: -0.071513<br />trend coefficient of determination: 0.508269 <br />
- intercept: -9.082457 <br />
- slope: 0.025879<br />
+trend coefficient of determination: 0.867839 <br />
+ intercept: -1.743614 <br />
+ slope: -0.071616<br />trend coefficient of determination: 0.521690 <br />
+ intercept: -9.136636 <br />
+ slope: 0.026115<br />
