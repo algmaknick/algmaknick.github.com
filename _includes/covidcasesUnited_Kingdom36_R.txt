@@ -1,15 +1,15 @@
-United Kingdom data at: 2020-08-18<br />
-+3 day model MAPE: 0.001873<br />
+United Kingdom data at: 2020-08-19<br />
++3 day model MAPE: 0.001212<br />
 model: bi-Richards<br />
-coeffs: [ 2.05171933e+05  9.49563920e-01 -6.06393802e+01  1.69589537e-02]<br />
-rational stdev: 0.119200<br />
-forecast at the end of period: +207 days<br />
-	 deltaDaycases: 206<br />
-	 total cases: 480049 ± 57222<br />
-	 total death: 62022 ± 22179<br />
+coeffs: [ 2.11400165e+05  1.01240278e+00 -6.70199812e+01  1.57213977e-02]<br />
+rational stdev: 0.118885<br />
+forecast at the end of period: +206 days<br />
+	 deltaDaycases: 220<br />
+	 total cases: 485163 ± 57678<br />
+	 total death: 62548 ± 22308<br />
 bi-Richards approximation splitting point: 116<br />
-trend coefficient of determination: 0.976939 <br />
- intercept: -1.511638 <br />
- slope: -0.043354<br />trend coefficient of determination: 0.400969 <br />
- intercept: -7.902869 <br />
- slope: 0.012273<br />
+trend coefficient of determination: 0.976915 <br />
+ intercept: -1.500708 <br />
+ slope: -0.043301<br />trend coefficient of determination: 0.377430 <br />
+ intercept: -7.790022 <br />
+ slope: 0.011530<br />
