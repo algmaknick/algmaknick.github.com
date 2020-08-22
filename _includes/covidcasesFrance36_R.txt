@@ -1,15 +1,15 @@
-France data at: 2020-08-20<br />
-+3 day model MAPE: 0.016733<br />
+France data at: 2020-08-21<br />
++3 day model MAPE: 0.020352<br />
 model: bi-Richards<br />
-coeffs: [ 2.46413716e+06  3.04465672e-01 -2.42212325e+02  2.09700523e-02]<br />
-rational stdev: 0.119954<br />
-forecast at the end of period: +737 days<br />
-	 deltaDaycases: 489<br />
-	 total cases: 2525991 ± 303003<br />
-	 total death: 335019 ± 120560<br />
+coeffs: [ 4.56264999e+06  2.31001069e-01 -2.26567595e+02  2.49041900e-02]<br />
+rational stdev: 0.125916<br />
+forecast at the end of period: +736 days<br />
+	 deltaDaycases: 1504<br />
+	 total cases: 4433140 ± 558202<br />
+	 total death: 576894 ± 217920<br />
 bi-Richards approximation splitting point: 86<br />
-trend coefficient of determination: 0.906880 <br />
- intercept: -0.915166 <br />
- slope: -0.069528<br />trend coefficient of determination: 0.408330 <br />
- intercept: -7.945822 <br />
- slope: 0.017118<br />
+trend coefficient of determination: 0.907909 <br />
+ intercept: -0.944616 <br />
+ slope: -0.069798<br />trend coefficient of determination: 0.426990 <br />
+ intercept: -8.060504 <br />
+ slope: 0.017707<br />
