@@ -1,15 +1,15 @@
-Philippines data at: 2020-08-21<br />
-+3 day model MAPE: 0.014310<br />
+Philippines data at: 2020-08-22<br />
++3 day model MAPE: 0.037403<br />
 model: bi-Richards<br />
-coeffs: [7.06175351e+06 6.82189189e-02 1.44106144e+02 1.71811486e-01]<br />
-rational stdev: 0.209069<br />
-forecast at the end of period: +974 days<br />
-	 deltaDaycases: 4<br />
-	 total cases: 7072856 ± 1478713<br />
-	 total death: 112033 ± 70267<br />
-bi-Richards approximation splitting point: 60<br />
-trend coefficient of determination: 0.745148 <br />
- intercept: -2.274340 <br />
- slope: -0.063417<br />trend coefficient of determination: 0.015019 <br />
- intercept: -5.335006 <br />
- slope: -0.001663<br />
+coeffs: [1.94578077e+05 3.35659091e-02 1.55463157e+02 1.17384019e+01]<br />
+rational stdev: 0.283375<br />
+forecast at the end of period: +14 days<br />
+	 deltaDaycases: 25<br />
+	 total cases: 198932 ± 56372<br />
+	 total death: 3145 ± 2673<br />
+bi-Richards approximation splitting point: 36<br />
+trend coefficient of determination: 0.927543 <br />
+ intercept: -46.527262 <br />
+ slope: -1.955370<br />trend coefficient of determination: 0.995301 <br />
+ intercept: -93.559882 <br />
+ slope: -0.317430<br />
