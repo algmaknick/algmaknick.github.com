@@ -1,15 +1,15 @@
-Singapore data at: 2020-08-22<br />
-+3 day model MAPE: 0.001133<br />
+Singapore data at: 2020-08-23<br />
++3 day model MAPE: 0.000830<br />
 model: bi-Richards<br />
-coeffs: [ 4.35205074e+04  2.25152367e+00 -7.83922556e+01  1.00619689e-02]<br />
-rational stdev: 0.533398<br />
-forecast at the end of period: +63 days<br />
+coeffs: [ 4.35535846e+04  2.47876047e+00 -8.29809853e+01  9.12645229e-03]<br />
+rational stdev: 0.532381<br />
+forecast at the end of period: +62 days<br />
 	 deltaDaycases: 38<br />
-	 total cases: 61056 ± 32567<br />
+	 total cases: 61079 ± 32517<br />
 	 total death: 29 ± 46<br />
 bi-Richards approximation splitting point: 80<br />
-trend coefficient of determination: 0.015987 <br />
- intercept: -2.694432 <br />
- slope: -0.005140<br />trend coefficient of determination: 0.570222 <br />
- intercept: -0.509272 <br />
- slope: -0.029430<br />
+trend coefficient of determination: 0.015610 <br />
+ intercept: -2.692232 <br />
+ slope: -0.005078<br />trend coefficient of determination: 0.577402 <br />
+ intercept: -0.486087 <br />
+ slope: -0.029541<br />
