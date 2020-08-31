@@ -1,15 +1,15 @@
-China data at: 2020-08-29<br />
-+3 day model MAPE: 0.000699<br />
+China data at: 2020-08-30<br />
++3 day model MAPE: 0.000611<br />
 model: bi-Richards<br />
-coeffs: [ 4.03275164e+03  1.22610403e+00 -1.38937028e+02  1.29715958e-02]<br />
-rational stdev: 0.082670<br />
-forecast at the end of period: +56 days<br />
-	 deltaDaycases: 6<br />
-	 total cases: 85353 ± 7056<br />
-	 total death: 4651 ± 1153<br />
+coeffs: [ 4.07045276e+03  8.33445682e-01 -1.14499371e+02  1.90248410e-02]<br />
+rational stdev: 0.082495<br />
+forecast at the end of period: +55 days<br />
+	 deltaDaycases: 7<br />
+	 total cases: 85376 ± 7043<br />
+	 total death: 4651 ± 1151<br />
 bi-Richards approximation splitting point: 110<br />
-trend coefficient of determination: 0.820953 <br />
- intercept: -2.082806 <br />
- slope: -0.082863<br />trend coefficient of determination: 0.260949 <br />
- intercept: -12.560091 <br />
- slope: 0.020774<br />
+trend coefficient of determination: 0.820921 <br />
+ intercept: -2.143126 <br />
+ slope: -0.082971<br />trend coefficient of determination: 0.259436 <br />
+ intercept: -12.580774 <br />
+ slope: 0.020446<br />
