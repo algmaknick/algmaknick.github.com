@@ -1,15 +1,15 @@
-Iceland data at: 2020-08-31<br />
-+3 day model MAPE: 0.002476<br />
+Iceland data at: 2020-09-01<br />
++3 day model MAPE: 0.002741<br />
 model: bi-Richards<br />
-coeffs: [ 9.34358060e+02  9.95522902e-01 -6.63690148e+00  2.22277261e-02]<br />
-rational stdev: 0.066146<br />
-forecast at the end of period: +96 days<br />
+coeffs: [8.89563841e+02 5.43997556e-01 2.76185998e+01 4.26358024e-02]<br />
+rational stdev: 0.065970<br />
+forecast at the end of period: +95 days<br />
 	 deltaDaycases: 1<br />
-	 total cases: 2558 ± 169<br />
-	 total death: 12 ± 2<br />
+	 total cases: 2528 ± 166<br />
+	 total death: 11 ± 2<br />
 bi-Richards approximation splitting point: 87<br />
-trend coefficient of determination: 0.916835 <br />
- intercept: -0.712231 <br />
- slope: -0.113718<br />trend coefficient of determination: 0.547014 <br />
- intercept: -11.964034 <br />
- slope: 0.037835<br />
+trend coefficient of determination: 0.918494 <br />
+ intercept: -0.816596 <br />
+ slope: -0.114486<br />trend coefficient of determination: 0.548906 <br />
+ intercept: -12.071027 <br />
+ slope: 0.037448<br />
