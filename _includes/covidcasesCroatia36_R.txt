@@ -1,15 +1,15 @@
-Croatia data at: 2020-09-02<br />
-+3 day model MAPE: 0.037643<br />
+Croatia data at: 2020-09-03<br />
++3 day model MAPE: 0.038627<br />
 model: bi-Richards<br />
-coeffs: [ 3.78947287e+05  2.70082643e-01 -7.88609480e+01  3.17607920e-02]<br />
-rational stdev: 0.068340<br />
-forecast at the end of period: +528 days<br />
-	 deltaDaycases: 136<br />
-	 total cases: 364966 ± 24941<br />
-	 total death: 6382 ± 1308<br />
+coeffs: [ 6.85973590e+05  2.27187528e-01 -7.21590672e+01  3.43747782e-02]<br />
+rational stdev: 0.069423<br />
+forecast at the end of period: +667 days<br />
+	 deltaDaycases: 134<br />
+	 total cases: 670783 ± 46567<br />
+	 total death: 11445 ± 2383<br />
 bi-Richards approximation splitting point: 80<br />
-trend coefficient of determination: 0.903977 <br />
- intercept: -1.240113 <br />
- slope: -0.105877<br />trend coefficient of determination: 0.351958 <br />
- intercept: -9.626562 <br />
- slope: 0.038460<br />
+trend coefficient of determination: 0.904134 <br />
+ intercept: -1.256800 <br />
+ slope: -0.105937<br />trend coefficient of determination: 0.352516 <br />
+ intercept: -9.588163 <br />
+ slope: 0.037913<br />

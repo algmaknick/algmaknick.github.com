@@ -1,15 +1,15 @@
-Iraq data at: 2020-09-02<br />
-+3 day model MAPE: 0.008818<br />
+Iraq data at: 2020-09-03<br />
++3 day model MAPE: 0.008835<br />
 model: bi-Richards<br />
-coeffs: [ 5.29427503e+05  6.93703317e-01 -4.70277281e+01  2.59872130e-02]<br />
-rational stdev: 0.206879<br />
-forecast at the end of period: +234 days<br />
-	 deltaDaycases: 117<br />
-	 total cases: 531572 ± 109971<br />
-	 total death: 15799 ± 9805<br />
+coeffs: [ 5.48780839e+05  1.26213533e+00 -8.79243621e+01  1.38413603e-02]<br />
+rational stdev: 0.206677<br />
+forecast at the end of period: +233 days<br />
+	 deltaDaycases: 139<br />
+	 total cases: 549489 ± 113566<br />
+	 total death: 16181 ± 10032<br />
 bi-Richards approximation splitting point: 80<br />
-trend coefficient of determination: 0.291457 <br />
- intercept: -2.634430 <br />
- slope: -0.017419<br />trend coefficient of determination: 0.886585 <br />
- intercept: -1.298923 <br />
- slope: -0.019276<br />
+trend coefficient of determination: 0.278967 <br />
+ intercept: -2.570456 <br />
+ slope: -0.016837<br />trend coefficient of determination: 0.880860 <br />
+ intercept: -1.241422 <br />
+ slope: -0.018625<br />
