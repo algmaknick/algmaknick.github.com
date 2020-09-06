@@ -1,15 +1,15 @@
-Israel data at: 2020-09-04<br />
-+3 day model MAPE: 0.019998<br />
+Israel data at: 2020-09-05<br />
++3 day model MAPE: 0.022620<br />
 model: bi-Richards<br />
-coeffs: [1.45013490e+05 1.45598903e+00 1.42226154e+01 2.20607729e-02]<br />
-rational stdev: 0.102030<br />
-forecast at the end of period: +120 days<br />
-	 deltaDaycases: 33<br />
-	 total cases: 161039 ± 16430<br />
-	 total death: 1264 ± 386<br />
+coeffs: [ 1.49999293e+05  2.07140255e+00 -1.49813269e+00  1.49652415e-02]<br />
+rational stdev: 0.102040<br />
+forecast at the end of period: +119 days<br />
+	 deltaDaycases: 40<br />
+	 total cases: 165747 ± 16912<br />
+	 total death: 1294 ± 396<br />
 bi-Richards approximation splitting point: 70<br />
-trend coefficient of determination: 0.929706 <br />
- intercept: -1.072255 <br />
- slope: -0.093015<br />trend coefficient of determination: 0.196243 <br />
- intercept: -6.133166 <br />
- slope: 0.013417<br />
+trend coefficient of determination: 0.928617 <br />
+ intercept: -1.021358 <br />
+ slope: -0.092662<br />trend coefficient of determination: 0.201334 <br />
+ intercept: -6.063007 <br />
+ slope: 0.013441<br />
