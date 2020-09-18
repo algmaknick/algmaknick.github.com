@@ -1,15 +1,15 @@
-Malta data at: 2020-09-16<br />
-+3 day model MAPE: 0.038327<br />
+Malta data at: 2020-09-17<br />
++3 day model MAPE: 0.041635<br />
 model: bi-Richards<br />
-coeffs: [2.23474059e+03 4.81464811e+00 7.25553907e+01 1.11327631e-02]<br />
-rational stdev: 0.159345<br />
-forecast at the end of period: +17 days<br />
-	 deltaDaycases: 10<br />
-	 total cases: 2647 ± 421<br />
+coeffs: [2.33939607e+03 3.34845936e+00 7.57276877e+01 1.52624748e-02]<br />
+rational stdev: 0.159023<br />
+forecast at the end of period: +16 days<br />
+	 deltaDaycases: 11<br />
+	 total cases: 2707 ± 430<br />
 	 total death: 16 ± 7<br />
 bi-Richards approximation splitting point: 112<br />
-trend coefficient of determination: 0.688000 <br />
- intercept: -1.923568 <br />
- slope: -0.049839<br />trend coefficient of determination: 0.471106 <br />
- intercept: -16.969075 <br />
- slope: 0.075306<br />
+trend coefficient of determination: 0.688691 <br />
+ intercept: -1.940442 <br />
+ slope: -0.049954<br />trend coefficient of determination: 0.465294 <br />
+ intercept: -16.749109 <br />
+ slope: 0.073517<br />
