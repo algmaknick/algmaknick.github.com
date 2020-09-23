@@ -1,15 +1,15 @@
-Japan data at: 2020-09-21<br />
-+3 day model MAPE: 0.010115<br />
+Japan data at: 2020-09-22<br />
++3 day model MAPE: 0.009903<br />
 model: bi-Richards<br />
-coeffs: [6.42946161e+04 8.51875785e-02 1.91268166e+02 8.51396747e-01]<br />
-rational stdev: 0.586177<br />
-forecast at the end of period: +5 days<br />
-	 deltaDaycases: 155<br />
-	 total cases: 78263 ± 45876<br />
-	 total death: 1483 ± 2607<br />
+coeffs: [6.47189477e+04 8.66390172e-02 1.90681403e+02 8.19372404e-01]<br />
+rational stdev: 0.585355<br />
+forecast at the end of period: +4 days<br />
+	 deltaDaycases: 163<br />
+	 total cases: 78518 ± 45960<br />
+	 total death: 1490 ± 2616<br />
 bi-Richards approximation splitting point: 115<br />
-trend coefficient of determination: 0.570217 <br />
- intercept: -5.498707 <br />
- slope: -0.066514<br />trend coefficient of determination: 0.011535 <br />
- intercept: -14.055651 <br />
- slope: 0.002454<br />
+trend coefficient of determination: 0.550966 <br />
+ intercept: -5.427803 <br />
+ slope: -0.064049<br />trend coefficient of determination: 0.010342 <br />
+ intercept: -13.714468 <br />
+ slope: 0.002325<br />

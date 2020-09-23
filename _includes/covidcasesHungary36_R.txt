@@ -1,15 +1,15 @@
-Hungary data at: 2020-09-21<br />
-+3 day model MAPE: 0.086595<br />
+Hungary data at: 2020-09-22<br />
++3 day model MAPE: 0.046601<br />
 model: bi-Richards<br />
-coeffs: [1.99370217e+04 1.04519302e-01 1.90160040e+02 2.23941768e+00]<br />
-rational stdev: 0.298642<br />
-forecast at the end of period: +12 days<br />
-	 deltaDaycases: 107<br />
-	 total cases: 23732 ± 7087<br />
-	 total death: 844 ± 756<br />
+coeffs: [2.10929723e+04 1.04972661e-01 1.90576236e+02 2.04473464e+00]<br />
+rational stdev: 0.297938<br />
+forecast at the end of period: +11 days<br />
+	 deltaDaycases: 153<br />
+	 total cases: 24632 ± 7339<br />
+	 total death: 845 ± 755<br />
 bi-Richards approximation splitting point: 130<br />
-trend coefficient of determination: 0.811587 <br />
- intercept: -12.258902 <br />
- slope: -0.128813<br />trend coefficient of determination: 0.086153 <br />
- intercept: -25.787497 <br />
- slope: 0.010307<br />
+trend coefficient of determination: 0.819873 <br />
+ intercept: -11.305416 <br />
+ slope: -0.121756<br />trend coefficient of determination: 0.125617 <br />
+ intercept: -24.451245 <br />
+ slope: 0.012416<br />
