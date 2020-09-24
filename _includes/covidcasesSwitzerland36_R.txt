@@ -1,15 +1,15 @@
-Switzerland data at: 2020-09-22<br />
-+3 day model MAPE: 0.000877<br />
+Switzerland data at: 2020-09-23<br />
++3 day model MAPE: 0.000411<br />
 model: bi-Richards<br />
-coeffs: [ 2.38491853e+05  2.26921831e-01 -3.47560163e+01  4.26989914e-02]<br />
-rational stdev: 0.242974<br />
-forecast at the end of period: +424 days<br />
-	 deltaDaycases: 95<br />
-	 total cases: 259050 ± 62942<br />
-	 total death: 10502 ± 7655<br />
+coeffs: [ 2.30496966e+05  2.24038916e-01 -3.13519626e+01  4.36999706e-02]<br />
+rational stdev: 0.242440<br />
+forecast at the end of period: +423 days<br />
+	 deltaDaycases: 88<br />
+	 total cases: 251908 ± 61072<br />
+	 total death: 10155 ± 7385<br />
 bi-Richards approximation splitting point: 85<br />
-trend coefficient of determination: 0.963778 <br />
- intercept: -1.400794 <br />
- slope: -0.084184<br />trend coefficient of determination: 0.757426 <br />
- intercept: -10.143979 <br />
- slope: 0.027205<br />
+trend coefficient of determination: 0.963826 <br />
+ intercept: -1.408790 <br />
+ slope: -0.084223<br />trend coefficient of determination: 0.751607 <br />
+ intercept: -10.103709 <br />
+ slope: 0.026791<br />

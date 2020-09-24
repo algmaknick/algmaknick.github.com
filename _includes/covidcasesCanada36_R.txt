@@ -1,15 +1,15 @@
-Canada data at: 2020-09-22<br />
-+3 day model MAPE: 0.012240<br />
+Canada data at: 2020-09-23<br />
++3 day model MAPE: 0.013213<br />
 model: bi-Richards<br />
-coeffs: [ 1.13782062e+05  1.49055630e+00 -6.41943655e+01  1.10535546e-02]<br />
-rational stdev: 0.169171<br />
-forecast at the end of period: +88 days<br />
-	 deltaDaycases: 405<br />
-	 total cases: 195637 ± 33096<br />
-	 total death: 12317 ± 6251<br />
+coeffs: [ 1.33044670e+05  1.19395648e+00 -6.40310608e+01  1.29413784e-02]<br />
+rational stdev: 0.168802<br />
+forecast at the end of period: +297 days<br />
+	 deltaDaycases: 27<br />
+	 total cases: 241442 ± 40756<br />
+	 total death: 15103 ± 7648<br />
 bi-Richards approximation splitting point: 114<br />
-trend coefficient of determination: 0.948525 <br />
- intercept: -1.292693 <br />
- slope: -0.040178<br />trend coefficient of determination: 0.183341 <br />
- intercept: -7.047549 <br />
- slope: 0.007996<br />
+trend coefficient of determination: 0.949152 <br />
+ intercept: -1.304327 <br />
+ slope: -0.040295<br />trend coefficient of determination: 0.196779 <br />
+ intercept: -7.105592 <br />
+ slope: 0.008247<br />
