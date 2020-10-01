@@ -1,15 +1,15 @@
-Germany data at: 2020-09-29<br />
-+3 day model MAPE: 0.001122<br />
+Germany data at: 2020-09-30<br />
++3 day model MAPE: 0.000940<br />
 model: bi-Richards<br />
-coeffs: [ 1.12011435e+06  2.66005710e-01 -1.73096143e+02  2.75490775e-02]<br />
-rational stdev: 0.069326<br />
-forecast at the end of period: +683 days<br />
-	 deltaDaycases: 129<br />
-	 total cases: 1281408 ± 88834<br />
-	 total death: 42156 ± 8767<br />
+coeffs: [ 9.84931246e+05  1.57901304e-01 -7.48135786e+01  5.00570898e-02]<br />
+rational stdev: 0.067169<br />
+forecast at the end of period: +682 days<br />
+	 deltaDaycases: 80<br />
+	 total cases: 1153796 ± 77499<br />
+	 total death: 37700 ± 7596<br />
 bi-Richards approximation splitting point: 94<br />
-trend coefficient of determination: 0.950564 <br />
- intercept: -1.625979 <br />
- slope: -0.061919<br />trend coefficient of determination: 0.502107 <br />
- intercept: -8.048031 <br />
- slope: 0.013418<br />
+trend coefficient of determination: 0.950207 <br />
+ intercept: -1.841242 <br />
+ slope: -0.062762<br />trend coefficient of determination: 0.507849 <br />
+ intercept: -8.321078 <br />
+ slope: 0.013400<br />
