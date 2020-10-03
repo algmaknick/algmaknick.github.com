@@ -1,15 +1,15 @@
-Malaysia data at: 2020-10-01<br />
-+3 day model MAPE: 0.004508<br />
+Malaysia data at: 2020-10-02<br />
++3 day model MAPE: 0.008750<br />
 model: bi-Richards<br />
-coeffs: [2.99534122e+05 5.18531841e-02 3.01657273e+02 2.62810208e+00]<br />
-rational stdev: 0.239803<br />
-forecast at the end of period: +163 days<br />
-	 deltaDaycases: 1<br />
-	 total cases: 308436 ± 73963<br />
-	 total death: 3652 ± 2627<br />
+coeffs: [3.42053268e+05 5.29590492e-02 3.01856761e+02 2.78976692e+00]<br />
+rational stdev: 0.239360<br />
+forecast at the end of period: +162 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 350959 ± 84005<br />
+	 total death: 4054 ± 2911<br />
 bi-Richards approximation splitting point: 170<br />
-trend coefficient of determination: 0.665588 <br />
- intercept: -18.589106 <br />
- slope: -0.095478<br />trend coefficient of determination: 0.275535 <br />
- intercept: -41.777180 <br />
- slope: 0.059120<br />
+trend coefficient of determination: 0.660219 <br />
+ intercept: -19.592754 <br />
+ slope: -0.099311<br />trend coefficient of determination: 0.293169 <br />
+ intercept: -43.404175 <br />
+ slope: 0.059910<br />
