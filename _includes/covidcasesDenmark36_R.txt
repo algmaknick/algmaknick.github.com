@@ -1,15 +1,15 @@
-Denmark data at: 2020-10-04<br />
-+3 day model MAPE: 0.013650<br />
+Denmark data at: 2020-10-05<br />
++3 day model MAPE: 0.055008<br />
 model: bi-Richards<br />
-coeffs: [7.14870255e+05 1.42237751e-01 1.25634839e+02 8.43595505e-02]<br />
-rational stdev: 0.179164<br />
-forecast at the end of period: +594 days<br />
-	 deltaDaycases: 30<br />
-	 total cases: 725756 ± 130029<br />
-	 total death: 16089 ± 8647<br />
+coeffs: [1.73959443e+04 4.95700329e-02 2.06243549e+02 6.63629920e+00]<br />
+rational stdev: 0.178506<br />
+forecast at the end of period: +103 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 30808 ± 5499<br />
+	 total death: 675 ± 361<br />
 bi-Richards approximation splitting point: 166<br />
-trend coefficient of determination: 0.523441 <br />
- intercept: -2.947874 <br />
- slope: -0.030959<br />trend coefficient of determination: 0.635344 <br />
- intercept: -11.214438 <br />
- slope: 0.030868<br />
+trend coefficient of determination: 0.560069 <br />
+ intercept: -48.685141 <br />
+ slope: -0.169858<br />trend coefficient of determination: 0.743065 <br />
+ intercept: -58.540071 <br />
+ slope: -0.061459<br />
