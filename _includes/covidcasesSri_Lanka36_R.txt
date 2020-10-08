@@ -1,15 +1,15 @@
 Sri Lanka data at: 2020-10-07<br />
-+3 day model MAPE: 0.032462<br />
++3 day model MAPE: 0.086491<br />
 model: bi-Richards<br />
-coeffs: [ 2.35993467e+03  3.67694872e+00 -1.18849670e+02  6.45991086e-03]<br />
-rational stdev: 0.118744<br />
-forecast at the end of period: +87 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 3613 ± 429<br />
-	 total death: 10 ± 3<br />
-bi-Richards approximation splitting point: 78<br />
-trend coefficient of determination: 0.008205 <br />
- intercept: -3.584404 <br />
- slope: -0.005389<br />trend coefficient of determination: 0.000002 <br />
- intercept: -6.018528 <br />
- slope: -0.000053<br />
+coeffs: [5.39467196e+04 3.28571190e-02 3.20548801e+02 3.33589349e+00]<br />
+rational stdev: 0.180292<br />
+forecast at the end of period: +178 days<br />
+	 deltaDaycases: 7<br />
+	 total cases: 56836 ± 10247<br />
+	 total death: 165 ± 89<br />
+bi-Richards approximation splitting point: 130<br />
+trend coefficient of determination: 0.864241 <br />
+ intercept: -19.827717 <br />
+ slope: -0.112192<br />trend coefficient of determination: 0.071424 <br />
+ intercept: -35.661126 <br />
+ slope: 0.015953<br />
