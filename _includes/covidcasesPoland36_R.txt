@@ -1,15 +1,15 @@
-Poland data at: 2020-10-07<br />
-+3 day model MAPE: 0.042942<br />
+Poland data at: 2020-10-08<br />
++3 day model MAPE: 0.048355<br />
 model: bi-Richards<br />
-coeffs: [ 2.42260892e+05  9.82238337e-01 -8.41708340e+01  1.35236259e-02]<br />
-rational stdev: 0.260625<br />
-forecast at the end of period: +227 days<br />
-	 deltaDaycases: 221<br />
-	 total cases: 272162 ± 70932<br />
-	 total death: 7080 ± 5535<br />
+coeffs: [ 3.70023197e+05  8.19914114e-01 -1.08321472e+02  1.39355057e-02]<br />
+rational stdev: 0.260042<br />
+forecast at the end of period: +226 days<br />
+	 deltaDaycases: 525<br />
+	 total cases: 367946 ± 95681<br />
+	 total death: 9452 ± 7373<br />
 bi-Richards approximation splitting point: 120<br />
-trend coefficient of determination: 0.830404 <br />
- intercept: -1.651274 <br />
- slope: -0.030632<br />trend coefficient of determination: 0.105667 <br />
- intercept: -5.478842 <br />
- slope: 0.004648<br />
+trend coefficient of determination: 0.830526 <br />
+ intercept: -1.653531 <br />
+ slope: -0.030654<br />trend coefficient of determination: 0.128047 <br />
+ intercept: -5.581482 <br />
+ slope: 0.005294<br />
