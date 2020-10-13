@@ -1,15 +1,15 @@
-Spain data at: 2020-10-09<br />
-+3 day model MAPE: 0.002710<br />
+Spain data at: 2020-10-12<br />
++3 day model MAPE: 0.004366<br />
 model: bi-Richards<br />
-coeffs: [ 3.49468906e+06  3.72161202e-01 -1.07397165e+01  3.31990450e-02]<br />
-rational stdev: 0.172878<br />
-forecast at the end of period: +365 days<br />
-	 deltaDaycases: 825<br />
-	 total cases: 3688836 ± 637718<br />
-	 total death: 136426 ± 70755<br />
+coeffs: [3.20769595e+06 3.50657187e-01 8.29737753e-01 3.64845775e-02]<br />
+rational stdev: 0.171736<br />
+forecast at the end of period: +362 days<br />
+	 deltaDaycases: 640<br />
+	 total cases: 3418772 ± 587125<br />
+	 total death: 123328 ± 63539<br />
 bi-Richards approximation splitting point: 110<br />
-trend coefficient of determination: 0.943862 <br />
- intercept: -1.719248 <br />
- slope: -0.060500<br />trend coefficient of determination: 0.557058 <br />
- intercept: -9.022084 <br />
- slope: 0.021528<br />
+trend coefficient of determination: 0.943838 <br />
+ intercept: -1.751947 <br />
+ slope: -0.060606<br />trend coefficient of determination: 0.536711 <br />
+ intercept: -8.890268 <br />
+ slope: 0.020363<br />
