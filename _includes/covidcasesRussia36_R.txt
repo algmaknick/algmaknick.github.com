@@ -1,15 +1,15 @@
-Russia data at: 2020-10-13<br />
-+3 day model MAPE: 0.009821<br />
+Russia data at: 2020-10-14<br />
++3 day model MAPE: 0.009468<br />
 model: bi-Richards<br />
-coeffs: [ 4.04307899e+06  7.83838328e-01 -6.68569810e+01  1.61605098e-02]<br />
-rational stdev: 0.159273<br />
-forecast at the end of period: +361 days<br />
-	 deltaDaycases: 1336<br />
-	 total cases: 4952135 ± 788739<br />
-	 total death: 85758 ± 40976<br />
+coeffs: [ 4.84438802e+06  7.33355082e-01 -7.02366428e+01  1.65527412e-02]<br />
+rational stdev: 0.158906<br />
+forecast at the end of period: +570 days<br />
+	 deltaDaycases: 159<br />
+	 total cases: 5846671 ± 929070<br />
+	 total death: 101423 ± 48350<br />
 bi-Richards approximation splitting point: 170<br />
-trend coefficient of determination: 0.912010 <br />
- intercept: -2.521110 <br />
- slope: -0.021756<br />trend coefficient of determination: 0.980290 <br />
- intercept: -10.634407 <br />
- slope: 0.030855<br />
+trend coefficient of determination: 0.911971 <br />
+ intercept: -2.525438 <br />
+ slope: -0.021765<br />trend coefficient of determination: 0.978464 <br />
+ intercept: -10.518147 <br />
+ slope: 0.030167<br />
