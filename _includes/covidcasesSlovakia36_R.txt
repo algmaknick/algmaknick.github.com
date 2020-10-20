@@ -1,15 +1,15 @@
-Slovakia data at: 2020-10-18<br />
-+3 day model MAPE: 0.069050<br />
+Slovakia data at: 2020-10-19<br />
++3 day model MAPE: 0.114239<br />
 model: bi-Richards<br />
-coeffs: [8.48194345e+04 7.41205237e-02 2.29407472e+02 9.81065331e+00]<br />
-rational stdev: 0.307487<br />
-forecast at the end of period: +76 days<br />
+coeffs: [2.72886114e+04 7.44728399e-02 2.14043160e+02 4.06841187e+01]<br />
+rational stdev: 0.306894<br />
+forecast at the end of period: +75 days<br />
 	 deltaDaycases: 17<br />
-	 total cases: 90311 ± 27769<br />
-	 total death: 270 ± 249<br />
+	 total cases: 32781 ± 10060<br />
+	 total death: 102 ± 93<br />
 bi-Richards approximation splitting point: 170<br />
-trend coefficient of determination: 0.534856 <br />
- intercept: -56.622490 <br />
- slope: -0.197822<br />trend coefficient of determination: 0.951033 <br />
- intercept: -18.967295 <br />
- slope: -0.376075<br />
+trend coefficient of determination: 0.556896 <br />
+ intercept: -223.308013 <br />
+ slope: -0.778169<br />trend coefficient of determination: 0.963609 <br />
+ intercept: -48.969310 <br />
+ slope: -1.656582<br />
