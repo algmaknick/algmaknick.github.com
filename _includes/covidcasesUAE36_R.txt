@@ -1,15 +1,15 @@
-UAE data at: 2020-10-19<br />
-+3 day model MAPE: 0.003446<br />
+UAE data at: 2020-10-20<br />
++3 day model MAPE: 0.006856<br />
 model: bi-Richards<br />
-coeffs: [3.40575208e+05 5.12404260e-02 1.86719851e+02 3.41285689e-01]<br />
-rational stdev: 0.113659<br />
-forecast at the end of period: +705 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 397529 ± 45182<br />
-	 total death: 1589 ± 541<br />
+coeffs: [2.16388828e+05 4.44826838e-02 1.98590274e+02 5.35908018e-01]<br />
+rational stdev: 0.113855<br />
+forecast at the end of period: +214 days<br />
+	 deltaDaycases: 56<br />
+	 total cases: 270989 ± 30853<br />
+	 total death: 1083 ± 369<br />
 bi-Richards approximation splitting point: 128<br />
-trend coefficient of determination: 0.935201 <br />
- intercept: -4.745042 <br />
- slope: -0.038680<br />trend coefficient of determination: 0.440610 <br />
- intercept: -11.089250 <br />
- slope: 0.013861<br />
+trend coefficient of determination: 0.925273 <br />
+ intercept: -6.293236 <br />
+ slope: -0.044564<br />trend coefficient of determination: 0.362346 <br />
+ intercept: -12.938783 <br />
+ slope: 0.011752<br />
