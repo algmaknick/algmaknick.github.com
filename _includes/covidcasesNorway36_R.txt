@@ -1,15 +1,15 @@
-Norway data at: 2020-10-20<br />
-+3 day model MAPE: 0.000199<br />
+Norway data at: 2020-10-21<br />
++3 day model MAPE: 0.001880<br />
 model: bi-Richards<br />
-coeffs: [1.46074203e+04 4.27570198e-02 2.13765241e+02 8.05438228e-01]<br />
-rational stdev: 0.137043<br />
-forecast at the end of period: +109 days<br />
-	 deltaDaycases: 8<br />
-	 total cases: 22898 ± 3138<br />
-	 total death: 379 ± 155<br />
+coeffs: [1.50454126e+04 4.31786257e-02 2.13419818e+02 7.72120088e-01]<br />
+rational stdev: 0.136687<br />
+forecast at the end of period: +108 days<br />
+	 deltaDaycases: 10<br />
+	 total cases: 23283 ± 3182<br />
+	 total death: 382 ± 156<br />
 bi-Richards approximation splitting point: 120<br />
-trend coefficient of determination: 0.815141 <br />
- intercept: -6.203426 <br />
- slope: -0.083245<br />trend coefficient of determination: 0.487940 <br />
- intercept: -16.561632 <br />
- slope: 0.019497<br />
+trend coefficient of determination: 0.818595 <br />
+ intercept: -6.000536 <br />
+ slope: -0.082087<br />trend coefficient of determination: 0.494940 <br />
+ intercept: -16.259879 <br />
+ slope: 0.019527<br />
