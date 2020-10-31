@@ -1,15 +1,15 @@
 Colombia data at: 2020-10-30<br />
-+3 day model MAPE: 0.011980<br />
++3 day model MAPE: 0.008249<br />
 model: bi-Richards<br />
-coeffs: [1.22542017e+06 1.33564923e-01 8.00207175e+01 1.74419044e-01]<br />
-rational stdev: 0.207647<br />
-forecast at the end of period: +64 days<br />
-	 deltaDaycases: 1181<br />
-	 total cases: 1179429 ± 244905<br />
-	 total death: 34540 ± 21516<br />
-bi-Richards approximation splitting point: 41<br />
-trend coefficient of determination: 0.818990 <br />
- intercept: -1.579532 <br />
- slope: -0.084914<br />trend coefficient of determination: 0.938640 <br />
- intercept: -3.561325 <br />
- slope: -0.016762<br />
+coeffs: [4.55993036e+05 3.97834503e+00 1.11999818e+02 1.07851906e-02]<br />
+rational stdev: 0.264644<br />
+forecast at the end of period: +204 days<br />
+	 deltaDaycases: 2<br />
+	 total cases: 1290676 ± 341569<br />
+	 total death: 37798 ± 30009<br />
+bi-Richards approximation splitting point: 170<br />
+trend coefficient of determination: 0.632612 <br />
+ intercept: -2.176962 <br />
+ slope: -0.011513<br />trend coefficient of determination: 0.415380 <br />
+ intercept: -3.278177 <br />
+ slope: -0.007763<br />
