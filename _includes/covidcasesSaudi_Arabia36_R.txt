@@ -1,12 +1,15 @@
 Saudi Arabia data at: 2020-11-07<br />
-+3 day model MAPE: 0.001462<br />
-model: Richards<br />
-coeffs: [3.47773414e+05 8.55815492e-02 5.75981230e+01 3.80370677e-01]<br />
-rational stdev: 0.202165<br />
++3 day model MAPE: 0.001184<br />
+model: bi-Richards<br />
+coeffs: [2.40131074e+04 4.32589742e+00 4.49095756e+01 6.90969077e-03]<br />
+rational stdev: 0.232803<br />
 forecast at the end of period: +56 days<br />
-	 deltaDaycases: 18<br />
-	 total cases: 347216 ± 70195<br />
-	 total death: 5477 ± 3321<br />
-trend coefficient of determination: 0.963128 <br />
- intercept: -5.025544 <br />
- slope: -0.032288<br />
+	 deltaDaycases: 80<br />
+	 total cases: 359386 ± 83666<br />
+	 total death: 5669 ± 3959<br />
+bi-Richards approximation splitting point: 200<br />
+trend coefficient of determination: 0.970269 <br />
+ intercept: -1.750256 <br />
+ slope: -0.024399<br />trend coefficient of determination: 0.039749 <br />
+ intercept: -6.378387 <br />
+ slope: -0.002050<br />
