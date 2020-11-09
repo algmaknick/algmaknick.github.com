@@ -1,15 +1,15 @@
-Slovenia data at: 2020-11-07<br />
-+3 day model MAPE: 0.160648<br />
+Slovenia data at: 2020-11-08<br />
++3 day model MAPE: 0.117018<br />
 model: bi-Richards<br />
-coeffs: [4.23183630e+04 1.06112759e-01 2.33642293e+02 2.38209210e+00]<br />
-rational stdev: 0.270240<br />
-forecast at the end of period: +336 days<br />
-	 deltaDaycases: 1<br />
-	 total cases: 84886 ± 22939<br />
-	 total death: 1018 ± 825<br />
-bi-Richards approximation splitting point: 200<br />
-trend coefficient of determination: 0.317015 <br />
- intercept: -18.602107 <br />
- slope: -0.036048<br />trend coefficient of determination: 0.600765 <br />
- intercept: -2.675216 <br />
- slope: -0.103997<br />
+coeffs: [4.25417014e+04 1.12370642e-01 2.33210075e+02 2.07760053e+00]<br />
+rational stdev: 0.282067<br />
+forecast at the end of period: +335 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 87042 ± 24551<br />
+	 total death: 1067 ± 902<br />
+bi-Richards approximation splitting point: 205<br />
+trend coefficient of determination: 0.295124 <br />
+ intercept: -16.841116 <br />
+ slope: -0.031450<br />trend coefficient of determination: 0.605843 <br />
+ intercept: 6.804039 <br />
+ slope: -0.133248<br />
