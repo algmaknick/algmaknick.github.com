@@ -1,15 +1,15 @@
-Portugal data at: 2020-11-09<br />
-+3 day model MAPE: 0.002921<br />
+Portugal data at: 2020-11-10<br />
++3 day model MAPE: 0.044354<br />
 model: bi-Richards<br />
-coeffs: [7.25019001e+05 4.81036399e-02 2.70285174e+02 7.32951137e+00]<br />
-rational stdev: 0.217953<br />
-forecast at the end of period: +89 days<br />
-	 deltaDaycases: 3<br />
-	 total cases: 783401 ± 170744<br />
-	 total death: 12638 ± 8263<br />
+coeffs: [1.30489431e+05 4.81338590e-02 2.34621362e+02 5.56741283e+01]<br />
+rational stdev: 0.217531<br />
+forecast at the end of period: +53 days<br />
+	 deltaDaycases: 7<br />
+	 total cases: 188675 ± 41042<br />
+	 total death: 3044 ± 1986<br />
 bi-Richards approximation splitting point: 170<br />
-trend coefficient of determination: 0.610258 <br />
- intercept: -64.993551 <br />
- slope: -0.156367<br />trend coefficient of determination: 0.887355 <br />
- intercept: -69.642675 <br />
- slope: -0.087834<br />
+trend coefficient of determination: 0.585160 <br />
+ intercept: -476.704632 <br />
+ slope: -1.044611<br />trend coefficient of determination: 0.933953 <br />
+ intercept: -463.432499 <br />
+ slope: -0.848541<br />
