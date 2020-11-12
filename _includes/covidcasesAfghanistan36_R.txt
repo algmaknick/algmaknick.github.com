@@ -1,15 +1,15 @@
-Afghanistan data at: 2020-11-10<br />
-+3 day model MAPE: 0.001296<br />
+Afghanistan data at: 2020-11-11<br />
++3 day model MAPE: 0.002149<br />
 model: bi-Richards<br />
-coeffs: [ 3.13598487e+04  1.12617145e+00 -9.45646461e+01  1.12225525e-02]<br />
-rational stdev: 0.227995<br />
-forecast at the end of period: +221 days<br />
-	 deltaDaycases: 42<br />
-	 total cases: 65753 ± 14991<br />
-	 total death: 2439 ± 1668<br />
+coeffs: [ 3.48492521e+04  1.19557418e+00 -1.08581985e+02  1.02192470e-02]<br />
+rational stdev: 0.227538<br />
+forecast at the end of period: +220 days<br />
+	 deltaDaycases: 51<br />
+	 total cases: 68291 ± 15538<br />
+	 total death: 2538 ± 1732<br />
 bi-Richards approximation splitting point: 150<br />
-trend coefficient of determination: 0.788544 <br />
- intercept: -1.350095 <br />
- slope: -0.039133<br />trend coefficient of determination: 0.250360 <br />
- intercept: -11.030124 <br />
- slope: 0.023026<br />
+trend coefficient of determination: 0.788067 <br />
+ intercept: -1.343954 <br />
+ slope: -0.039094<br />trend coefficient of determination: 0.268676 <br />
+ intercept: -11.132490 <br />
+ slope: 0.023684<br />
