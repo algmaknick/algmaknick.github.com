@@ -1,15 +1,12 @@
-Indonesia data at: 2020-11-11<br />
-+3 day model MAPE: 0.007240<br />
-model: bi-Richards<br />
-coeffs: [9.13142043e+05 1.08401831e-01 5.21615798e+01 1.17910911e-01]<br />
-rational stdev: 0.123820<br />
-forecast at the end of period: +500 days<br />
-	 deltaDaycases: 16<br />
-	 total cases: 958980 ± 118740<br />
-	 total death: 31662 ± 11761<br />
-bi-Richards approximation splitting point: 75<br />
-trend coefficient of determination: 0.833268 <br />
- intercept: -2.624984 <br />
- slope: -0.034998<br />trend coefficient of determination: 0.554794 <br />
- intercept: -4.128318 <br />
- slope: -0.009177<br />
+Indonesia data at: 2020-11-12<br />
++3 day model MAPE: 0.038052<br />
+model: Richards<br />
+coeffs: [ 4.71241400e+04  1.80052285e+00 -1.05975004e+02  1.46057737e-02]<br />
+rational stdev: 0.182929<br />
+forecast at the end of period: +79 days<br />
+	 deltaDaycases: 122<br />
+	 total cases: 42259 ± 7730<br />
+	 total death: 1395 ± 765<br />
+trend coefficient of determination: 0.798542 <br />
+ intercept: -1.926266 <br />
+ slope: -0.031064<br />
