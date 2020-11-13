@@ -1,16 +1,15 @@
 World data at: 2020-11-12<br />
-+3 day model MAPE: 0.009554<br />
++3 day model MAPE: 0.000626<br />
 model: bi-Richards<br />
-coeffs: [ 1.66764888e+08  1.89498628e-01 -2.07027156e+02  3.39761528e-02]<br />
-S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.356018<br />
-forecast at the end of period: +491 days<br />
-	 deltaDaycases: 52902<br />
-	 total cases: 158690165 ± 56496623<br />
-	 total death: 3882811 ± 4147056<br />
-bi-Richards approximation splitting point: 55<br />
-trend coefficient of determination: 0.371065 <br />
- intercept: -2.114304 <br />
- slope: -0.043157<br />trend coefficient of determination: 0.751091 <br />
- intercept: -3.095437 <br />
- slope: -0.008672<br />
+coeffs: [1.69548585e+07 2.00689718e+00 1.54817539e+02 2.28284158e-02]<br />
+rational stdev: 0.179974<br />
+forecast at the end of period: +671 days<br />
+	 deltaDaycases: 2650<br />
+	 total cases: 117206499 ± 21094108<br />
+	 total death: 2867794 ± 1548384<br />
+bi-Richards approximation splitting point: 200<br />
+trend coefficient of determination: 0.812136 <br />
+ intercept: -3.155547 <br />
+ slope: -0.011103<br />trend coefficient of determination: 0.280706 <br />
+ intercept: -6.503753 <br />
+ slope: 0.006754<br />
