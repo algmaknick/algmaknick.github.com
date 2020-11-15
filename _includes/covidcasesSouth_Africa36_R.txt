@@ -1,15 +1,15 @@
-South Africa data at: 2020-11-13<br />
-+3 day model MAPE: 0.004853<br />
+South Africa data at: 2020-11-14<br />
++3 day model MAPE: 0.002771<br />
 model: bi-Richards<br />
-coeffs: [7.07181324e+05 1.18446599e-01 1.03835655e+02 4.01444108e-01]<br />
-rational stdev: 0.512775<br />
-forecast at the end of period: +50 days<br />
-	 deltaDaycases: 9<br />
-	 total cases: 708420 ± 363260<br />
-	 total death: 19113 ± 29401<br />
-bi-Richards approximation splitting point: 30<br />
-trend coefficient of determination: 0.747202 <br />
- intercept: -1.559738 <br />
- slope: -0.170288<br />trend coefficient of determination: 0.926299 <br />
- intercept: -4.720817 <br />
- slope: -0.031127<br />
+coeffs: [1.32433869e+05 4.12685546e+00 8.29511574e+01 8.65826422e-03]<br />
+rational stdev: 0.298047<br />
+forecast at the end of period: +49 days<br />
+	 deltaDaycases: 268<br />
+	 total cases: 775323 ± 231082<br />
+	 total death: 20911 ± 18697<br />
+bi-Richards approximation splitting point: 200<br />
+trend coefficient of determination: 0.701147 <br />
+ intercept: -1.698251 <br />
+ slope: -0.019504<br />trend coefficient of determination: 0.015876 <br />
+ intercept: -6.753694 <br />
+ slope: 0.002298<br />
