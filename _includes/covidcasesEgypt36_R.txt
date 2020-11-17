@@ -1,15 +1,15 @@
-Egypt data at: 2020-11-15<br />
-+3 day model MAPE: 0.002877<br />
+Egypt data at: 2020-11-16<br />
++3 day model MAPE: 0.002857<br />
 model: bi-Richards<br />
-coeffs: [ 2.21496153e+04  1.55344249e+00 -1.24522005e+01  1.26087640e-02]<br />
-rational stdev: 0.146147<br />
-forecast at the end of period: +48 days<br />
-	 deltaDaycases: 81<br />
-	 total cases: 115500 ± 16880<br />
-	 total death: 6728 ± 2949<br />
+coeffs: [ 2.31067728e+04  1.53586688e+00 -1.76576268e+01  1.23919613e-02]<br />
+rational stdev: 0.145862<br />
+forecast at the end of period: +47 days<br />
+	 deltaDaycases: 88<br />
+	 total cases: 115885 ± 16903<br />
+	 total death: 6748 ± 2952<br />
 bi-Richards approximation splitting point: 140<br />
-trend coefficient of determination: 0.799468 <br />
- intercept: -2.057653 <br />
- slope: -0.021520<br />trend coefficient of determination: 0.024119 <br />
- intercept: -6.891928 <br />
- slope: 0.001179<br />
+trend coefficient of determination: 0.799279 <br />
+ intercept: -2.056279 <br />
+ slope: -0.021510<br />trend coefficient of determination: 0.031975 <br />
+ intercept: -6.920433 <br />
+ slope: 0.001357<br />
