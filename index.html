@@ -30,7 +30,7 @@ $$R(t) = \dfrac{L_1}{\left(1+e^{-k_1 \nu_1 (t-t_{01})}\right)^\frac{1}{\nu_1}}+\
 
 Finally, active model is expressed as follow
 
-$$A(t_N)=\sum\limits_{i=N-k}^{N}R(t_{i})$$
+$$A(t_N)=\sum\limits_{i=N-k}^{N}\left.\dfrac{d R(t)}{dt}\right\vert_{t_{i}}$$
 
 where \(t_{N}\) is the current day of modeled active data, \(k\) is the amount of days to the past.
 
