@@ -1,15 +1,16 @@
-Ecuador data at: 2020-11-17<br />
-+3 day model MAPE: 0.001706<br />
+Ecuador data at: 2020-11-18<br />
++3 day model MAPE: 0.001324<br />
 model: bi-Richards<br />
-coeffs: [ 1.67212587e+05  1.38939301e+00 -8.81329460e+01  1.20826701e-02]<br />
-rational stdev: 0.081064<br />
-forecast at the end of period: +186 days<br />
+coeffs: [ 1.67475742e+05  1.17265537e+00 -7.77668207e+01  1.43197257e-02]<br />
+rational stdev: 0.080947<br />
+forecast at the end of period: +185 days<br />
 	 deltaDaycases: 45<br />
-	 total cases: 229405 ± 18596<br />
-	 total death: 16498 ± 4012<br />
+	 total cases: 229659 ± 18590<br />
+	 total death: 16447 ± 3994<br />
 bi-Richards approximation splitting point: 80<br />
-trend coefficient of determination: 0.274495 <br />
- intercept: -2.237501 <br />
- slope: -0.047409<br />trend coefficient of determination: 0.029473 <br />
- intercept: -4.469625 <br />
- slope: -0.003935<br />
+actives k: 26<br />
+trend coefficient of determination: 0.275268 <br />
+ intercept: -2.255088 <br />
+ slope: -0.047502<br />trend coefficient of determination: 0.029626 <br />
+ intercept: -4.498155 <br />
+ slope: -0.003909<br />

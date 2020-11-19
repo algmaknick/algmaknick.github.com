@@ -8,25 +8,7 @@ layout: default
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
 </head>
 <body>
-The number of COVID-19 cases \(K (t)\) after transformation is expressed as follows:
-
-$$G(t)=\log{\dfrac{1}{K(t)^2}\dfrac{d K(t)}{d t}}=\log{\dfrac{k}{L}}-k(t-t_0)$$
-
-was used to decide how many humps the model should have. It follows from a logistic function that describes the change in people infected with the virus and is expressed as:
-
-$$K(t) = \dfrac{L}{1+e^{-k (t-t_0)}}=\dfrac{L}{2}+\dfrac{L}{2}\tanh{\dfrac{k(t-t_0)}{2}}$$
-
-which is solution of the differential logistic growth equation
-
-$$\frac{dK}{dt}=k K \left(1 - \frac{K}{L}\right)$$
-
-where t0 is
-
-$$t_0=\dfrac{1}{k}\log{\dfrac{L-K(0)}{K(0)}}$$
-
-k is the exponential growth factor, and L is the quencher coefficient of growth and the lower it is, the faster the growth is extinguished.
-
-In addition,  Richards' growth function 
+The number of COVID-19 cases \(R (t)\) is expressed as  Richards' growth function 
 
 $$R(t) = \dfrac{L}{\left(1+e^{-k \nu (t-t_0)}\right)^\frac{1}{\nu}}$$
 
@@ -34,33 +16,24 @@ were presended, where \(G_R(t)\) expressed as follow
 
 $$G_R(t)=\log{\dfrac{1}{K(t)^{1+\nu}}\dfrac{d K(t)}{d t}}=\log{\dfrac{k}{L^\nu}}-k\nu (t-t_0). $$
 
-The following is the result of the world  and some countries K (t) infected dynamics model and its comparison with observed experimentally observed results for the determination of parameters using the least squares method [4]:
+The following is the result of the world  and each countries infected cases R (t)  dynamics model and its comparison with observed experimentally  results for the determination of parameters using the least squares method [4]:
 
-$$ \min{\sum_{i=1}^{N}\left(K(t_i,a)-y_i\right)^2}$$
+$$ \min{\sum_{i=1}^{N}\left(R(t_i,a)-y_i\right)^2}$$
 
-where K (t, a) is the selected or logistic function
+where R (t, a) is the Richards growth function
 
-$$K(t,a) = \dfrac{a_0}{1+e^{-a_1 (t-a_2)}}$$
+$$R(t) = \dfrac{L}{\left(1+e^{-k \nu (t-t_0)}\right)^\frac{1}{\nu}}$$
 
-or bi-logistic function [3]
+or bi-Richards growth function
 
-$$K(t,a) = \dfrac{a_0}{1+e^{-a_1 (t-a_2)}}+\dfrac{a_3}{1+e^{-a_4 (t-a_5)}}$$
+$$R(t) = \dfrac{L_1}{\left(1+e^{-k_1 \nu_1 (t-t_{01})}\right)^\frac{1}{\nu_1}}+\dfrac{L_2}{\left(1+e^{-k_2 \nu_2 (t-t_{02})}\right)^\frac{1}{\nu_2}}$$
 
-or a tri-logistic function
+Finally, active model is expressed as follow
 
-$$K(t,a) = \dfrac{a_0}{1+e^{-a_1 (t-a_2)}}+\dfrac{a_3}{1+e^{-a_4 (t-a_5)}}+\dfrac{a_6}{1+e^{-a_7 (t-a_8)}}$$
+$$A(t_N)=\sum\limits_{i=N-k}^{N}R(t_{i})$$
 
-Finally, q-logistic and rq-logistic models replaced most of multy-logistic country models, where \(K_Q(t)=K((t-t_0)(t-t_1))\) and \(K_{RQ}(t)=R((t-t_0)(t-t_1))\) . The fourth graph shows the ratio
+where \(t_{N}\) is the current day of modeled active data, \(k\) is the amount of days to the past.
 
-$$S(t)=\dfrac{K_a^\prime(t)}{K^\prime(t)}$$
-
-where \(K_a(t)\) is the number of active cases, \(K(t)\) is the number total cases, after averaging those values ​​for three days. This size in the rise stats in Korea and the world was about 1 and is currently 0.8 . In addition, standard deviation bands for model and model derivative for 1, 2 and 3 sigma, respectively, were added. The red dot in the graphs means the value of current today . 
-
-Obviously, the coefficient \(L\) indicates the country’s actions in actively disinfecting, and the coefficient k is proportional to the amount of social contacts. Therefore, the reduction or disinfection of the L factor, disinfection and disinfection again are on the agenda today.
-
-It should be mentioned that it is only possible to say exactly what logistical growth rate COVID-19 develops after the end of the pandemic, but from the current point of view it can be seen that the model output can vary by several tens of percent to 2x, and the standard deviation of experimental data . However, there is another argument that leads to the assumption that it contains simple logistical dynamics. These are R (t) linear approximations fairly accurate for all countries and a coefficient of determination close to 0.9, and as the trend changes direction and this coefficient begins to decrease, the accuracy of the trend model increases again with the transition to a humpback graph. Therefore, the results of the simple multi-logistic function model will continue to be presented, bearing in mind that the predicted result is the lower limit of the possible scenarios.
-
-Assuming that all countries choose a slow (Korean scenario) exit from quarantine, a second hump with coefficients of 'scenario' was added (without optimisation) to predict the results of the model. 
 <br />
  
   World      
@@ -586,6 +559,13 @@ European Union
 
       {% include_relative _includes/covidcasesSri_Lanka36_R.txt %}
           <br /> 
+
+    Afghanistan
+    <br />
+    <img src="pictures/covidcasesAfghanistan36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesAfghanistan36_R.txt %}
+          <br />
 <b>References</b><br />    
 <ol>
 <li><a href="https://www.worldometers.info/" target="_blank">Worldometers COVID-19 Coronavirus Pandemic</a></li>
@@ -597,5 +577,6 @@ European Union
 <li><a href="https://opendata.ecdc.europa.eu/covid19/casedistribution/csv"> European Centre for Disease Prevention and Control An agency of the European Union</a>&nbsp;</li>
 <li><a href="https://www.medrxiv.org/content/10.1101/2020.03.24.20042937v1" target="_blank">Aaron Miller, Mac Josh Reandelar, Kimberly Fasciglione, Violeta Roumenova, Yan Li, Gonzalo H Otazu, Correlation between universal BCG vaccination policy and reduced morbidity and mortality for COVID-19: an epidemiological study, https://doi.org/10.1101/2020.03.24.20042937 </a>&nbsp;&nbsp;</li>
 <li><a href="https://c19.se/en/global" target="_blank">c19.se</a>&nbsp;</li>
+<li><a href="https://en.wikipedia.org/wiki/Generalised_logistic_function"> Generalised_logistic_function </a>&nbsp;&nbsp; </li>
 </ol>
 </body>

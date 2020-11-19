@@ -1,15 +1,16 @@
-Latvia data at: 2020-11-17<br />
-+3 day model MAPE: 0.008575<br />
+Latvia data at: 2020-11-18<br />
++3 day model MAPE: 0.020304<br />
 model: bi-Richards<br />
-coeffs: [3.55993305e+04 8.42286455e-02 2.30883862e+02 4.52844838e-01]<br />
-rational stdev: 0.104715<br />
-forecast at the end of period: +151 days<br />
-	 deltaDaycases: 7<br />
-	 total cases: 36653 ± 3838<br />
-	 total death: 443 ± 139<br />
+coeffs: [3.29901868e+04 8.25563466e-02 2.31625712e+02 4.86754386e-01]<br />
+rational stdev: 0.104452<br />
+forecast at the end of period: +150 days<br />
+	 deltaDaycases: 5<br />
+	 total cases: 34113 ± 3563<br />
+	 total death: 411 ± 128<br />
 bi-Richards approximation splitting point: 175<br />
-trend coefficient of determination: 0.384526 <br />
- intercept: -6.505925 <br />
- slope: -0.023745<br />trend coefficient of determination: 0.091705 <br />
- intercept: -11.188231 <br />
- slope: 0.016728<br />
+actives k: 35<br />
+trend coefficient of determination: 0.387973 <br />
+ intercept: -6.712681 <br />
+ slope: -0.024024<br />trend coefficient of determination: 0.079496 <br />
+ intercept: -11.142246 <br />
+ slope: 0.015173<br />

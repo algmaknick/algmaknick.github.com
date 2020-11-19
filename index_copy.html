@@ -1,0 +1,601 @@
+---
+layout: default
+---
+
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
+</head>
+<body>
+The number of COVID-19 cases \(K (t)\) after transformation is expressed as follows:
+
+$$G(t)=\log{\dfrac{1}{K(t)^2}\dfrac{d K(t)}{d t}}=\log{\dfrac{k}{L}}-k(t-t_0)$$
+
+was used to decide how many humps the model should have. It follows from a logistic function that describes the change in people infected with the virus and is expressed as:
+
+$$K(t) = \dfrac{L}{1+e^{-k (t-t_0)}}=\dfrac{L}{2}+\dfrac{L}{2}\tanh{\dfrac{k(t-t_0)}{2}}$$
+
+which is solution of the differential logistic growth equation
+
+$$\frac{dK}{dt}=k K \left(1 - \frac{K}{L}\right)$$
+
+where t0 is
+
+$$t_0=\dfrac{1}{k}\log{\dfrac{L-K(0)}{K(0)}}$$
+
+k is the exponential growth factor, and L is the quencher coefficient of growth and the lower it is, the faster the growth is extinguished.
+
+In addition,  Richards' growth function 
+
+$$R(t) = \dfrac{L}{\left(1+e^{-k \nu (t-t_0)}\right)^\frac{1}{\nu}}$$
+
+were presended, where \(G_R(t)\) expressed as follow
+
+$$G_R(t)=\log{\dfrac{1}{K(t)^{1+\nu}}\dfrac{d K(t)}{d t}}=\log{\dfrac{k}{L^\nu}}-k\nu (t-t_0). $$
+
+The following is the result of the world  and some countries K (t) infected dynamics model and its comparison with observed experimentally observed results for the determination of parameters using the least squares method [4]:
+
+$$ \min{\sum_{i=1}^{N}\left(K(t_i,a)-y_i\right)^2}$$
+
+where K (t, a) is the selected or logistic function
+
+$$K(t,a) = \dfrac{a_0}{1+e^{-a_1 (t-a_2)}}$$
+
+or bi-logistic function [3]
+
+$$K(t,a) = \dfrac{a_0}{1+e^{-a_1 (t-a_2)}}+\dfrac{a_3}{1+e^{-a_4 (t-a_5)}}$$
+
+or a tri-logistic function
+
+$$K(t,a) = \dfrac{a_0}{1+e^{-a_1 (t-a_2)}}+\dfrac{a_3}{1+e^{-a_4 (t-a_5)}}+\dfrac{a_6}{1+e^{-a_7 (t-a_8)}}$$
+
+Finally, q-logistic and rq-logistic models replaced most of multy-logistic country models, where \(K_Q(t)=K((t-t_0)(t-t_1))\) and \(K_{RQ}(t)=R((t-t_0)(t-t_1))\) . The fourth graph shows the ratio
+
+$$S(t)=\dfrac{K_a^\prime(t)}{K^\prime(t)}$$
+
+where \(K_a(t)\) is the number of active cases, \(K(t)\) is the number total cases, after averaging those values ​​for three days. This size in the rise stats in Korea and the world was about 1 and is currently 0.8 . In addition, standard deviation bands for model and model derivative for 1, 2 and 3 sigma, respectively, were added. The red dot in the graphs means the value of current today . 
+
+Obviously, the coefficient \(L\) indicates the country’s actions in actively disinfecting, and the coefficient k is proportional to the amount of social contacts. Therefore, the reduction or disinfection of the L factor, disinfection and disinfection again are on the agenda today.
+
+It should be mentioned that it is only possible to say exactly what logistical growth rate COVID-19 develops after the end of the pandemic, but from the current point of view it can be seen that the model output can vary by several tens of percent to 2x, and the standard deviation of experimental data . However, there is another argument that leads to the assumption that it contains simple logistical dynamics. These are R (t) linear approximations fairly accurate for all countries and a coefficient of determination close to 0.9, and as the trend changes direction and this coefficient begins to decrease, the accuracy of the trend model increases again with the transition to a humpback graph. Therefore, the results of the simple multi-logistic function model will continue to be presented, bearing in mind that the predicted result is the lower limit of the possible scenarios.
+
+Assuming that all countries choose a slow (Korean scenario) exit from quarantine, a second hump with coefficients of 'scenario' was added (without optimisation) to predict the results of the model. 
+<br />
+ 
+  World      
+<br />
+<img src="pictures/covidcasesWorld36_R.png" alt="hi" class="inline"/><br /> 
+
+  {% include_relative _includes/covidcasesWorld36_R.txt %}
+      <br /> 
+
+European Union
+<br />
+<img src="pictures/covidcasesEuropean_Union36_R.png" alt="hi" class="inline"/><br /> 
+
+  {% include_relative _includes/covidcasesEuropean_Union36_R.txt %}
+      <br /> 
+    Brazil
+    <br />
+    <img src="pictures/covidcasesBrazil36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesBrazil36_R.txt %}
+          <br /> 
+    Russia
+    <br />
+    <img src="pictures/covidcasesRussia36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesRussia36_R.txt %}
+          <br /> 
+    USA
+    <br />
+    <img src="pictures/covidcasesUSA36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesUSA36_R.txt %}
+          <br /> 
+    
+    Spain
+    <br />
+    <img src="pictures/covidcasesSpain36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesSpain36_R.txt %}
+          <br /> 
+    
+    Italy
+    <br />
+    <img src="pictures/covidcasesItaly36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesItaly36_R.txt %}
+          <br /> 
+    
+    United Kingdom
+    <br />
+    <img src="pictures/covidcasesUnited_Kingdom36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesUnited_Kingdom36_R.txt %}
+          <br /> 
+    
+    France
+    <br />
+    <img src="pictures/covidcasesFrance36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesFrance36_R.txt %}
+          <br /> 
+    
+    Germany
+    <br />
+    <img src="pictures/covidcasesGermany36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesGermany36_R.txt %}
+          <br /> 
+    
+    Turkey
+    <br />
+    <img src="pictures/covidcasesTurkey36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesTurkey36_R.txt %}
+          <br /> 
+   
+    Iran
+    <br />
+    <img src="pictures/covidcasesIran36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesIran36_R.txt %}
+          <br /> 
+        
+    Canada
+    <br />
+    <img src="pictures/covidcasesCanada36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesCanada36_R.txt %}
+          <br /> 
+    South Africa
+    <br />
+    <img src="pictures/covidcasesSouth_Africa36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesSouth_Africa36_R.txt %}
+          <br /> 
+    Belgium
+    <br />
+    <img src="pictures/covidcasesBelgium36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesBelgium36_R.txt %}
+          <br /> 
+    
+    Peru
+    <br />
+    <img src="pictures/covidcasesPeru36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesPeru36_R.txt %}
+          <br /> 
+    
+    Netherlands
+    <br />
+    <img src="pictures/covidcasesNetherlands36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesNetherlands36_R.txt %}
+          <br /> 
+    
+    India
+    <br />
+    <img src="pictures/covidcasesIndia36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesIndia36_R.txt %}
+          <br /> 
+    
+    Switzerland
+    <br />
+    <img src="pictures/covidcasesSwitzerland36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesSwitzerland36_R.txt %}
+          <br /> 
+    
+    Ecuador
+    <br />
+    <img src="pictures/covidcasesEcuador36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesEcuador36_R.txt %}
+          <br /> 
+    
+    Portugal
+    <br />
+    <img src="pictures/covidcasesPortugal36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesPortugal36_R.txt %}
+          <br /> 
+    
+    Saudi Arabia
+    <br />
+    <img src="pictures/covidcasesSaudi_Arabia36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesSaudi_Arabia36_R.txt %}
+          <br /> 
+    
+    Sweden
+    <br />
+    <img src="pictures/covidcasesSweden36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesSweden36_R.txt %}
+          <br />     
+    Pakistan
+    <br />
+    <img src="pictures/covidcasesPakistan36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesPakistan36_R.txt %}
+          <br />     
+    Ireland
+    <br />
+    <img src="pictures/covidcasesIreland36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesIreland36_R.txt %}
+          <br /> 
+    
+    Mexico
+    <br />
+    <img src="pictures/covidcasesMexico36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesMexico36_R.txt %}
+          <br /> 
+    
+    Singapore
+    <br />
+    <img src="pictures/covidcasesSingapore36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesSingapore36_R.txt %}
+          <br /> 
+    
+    Chile
+    <br />
+    <img src="pictures/covidcasesChile36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesChile36_R.txt %}
+          <br /> 
+    
+    Israel
+    <br />
+    <img src="pictures/covidcasesIsrael36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesIsrael36_R.txt %}
+          <br /> 
+    
+    Austria
+    <br />
+    <img src="pictures/covidcasesAustria36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesAustria36_R.txt %}
+          <br /> 
+    
+    Belarus
+    <br />
+    <img src="pictures/covidcasesBelarus36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesBelarus36_R.txt %}
+          <br /> 
+    
+    Japan
+    <br />
+    <img src="pictures/covidcasesJapan36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesJapan36_R.txt %}
+          <br /> 
+ 
+    China
+    <br />
+    <img src="pictures/covidcasesChina100_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesChina100_R.txt %}
+          <br /> 
+   
+    Qatar
+    <br />
+    <img src="pictures/covidcasesQatar36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesQatar36_R.txt %}
+          <br /> 
+    
+    Poland
+    <br />
+    <img src="pictures/covidcasesPoland36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesPoland36_R.txt %}
+          <br /> 
+    
+    UAE
+    <br />
+    <img src="pictures/covidcasesUAE36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesUAE36_R.txt %}
+          <br /> 
+    
+    Romania
+    <br />
+    <img src="pictures/covidcasesRomania36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesRomania36_R.txt %}
+          <br /> 
+    Panama
+    <br />
+    <img src="pictures/covidcasesPanama36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesPanama36_R.txt %}
+          <br />
+    
+    Ukraine
+    <br />
+    <img src="pictures/covidcasesUkraine36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesUkraine36_R.txt %}
+          <br /> 
+    
+    Indonesia
+    <br />
+    <img src="pictures/covidcasesIndonesia36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesIndonesia36_R.txt %}
+          <br /> 
+
+    Bangladesh
+    <br />
+    <img src="pictures/covidcasesBangladesh36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesBangladesh36_R.txt %}
+          <br /> 
+
+    South_Korea
+    <br />
+    <img src="pictures/covidcasesSouth_Korea100_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesSouth_Korea100_R.txt %}
+          <br /> 
+
+    Moldova
+    <br />
+    <img src="pictures/covidcasesMoldova36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesMoldova36_R.txt %}
+          <br />    
+    
+    Denmark
+    <br />
+    <img src="pictures/covidcasesDenmark36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesDenmark36_R.txt %}
+          <br /> 
+    
+    Serbia
+    <br />
+    <img src="pictures/covidcasesSerbia36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesSerbia36_R.txt %}
+          <br /> 
+
+    Kuwait
+    <br />
+    <img src="pictures/covidcasesKuwait36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesKuwait36_R.txt %}
+          <br /> 
+    
+    Philippines
+    <br />
+    <img src="pictures/covidcasesPhilippines36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesPhilippines36_R.txt %}
+          <br /> 
+    
+    Norway
+    <br />
+    <img src="pictures/covidcasesNorway36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesNorway36_R.txt %}
+          <br /> 
+    
+    Czechia
+    <br />
+    <img src="pictures/covidcasesCzechia36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesCzechia36_R.txt %}
+          <br /> 
+    
+    Colombia
+    <br />
+    <img src="pictures/covidcasesColombia36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesColombia36_R.txt %}
+          <br /> 
+    
+    Australia
+    <br />
+    <img src="pictures/covidcasesAustralia36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesAustralia36_R.txt %}
+          <br /> 
+    
+    Malaysia
+    <br />
+    <img src="pictures/covidcasesMalaysia36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesMalaysia36_R.txt %}
+          <br /> 
+
+    Dominican Republic
+    <br />
+    <img src="pictures/covidcasesDominican_Republic36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesDominican_Republic36_R.txt %}
+          <br />  
+   
+    Egypt
+    <br />
+    <img src="pictures/covidcasesEgypt36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesEgypt36_R.txt %}
+          <br /> 
+    
+    Finland
+    <br />
+    <img src="pictures/covidcasesFinland36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesFinland36_R.txt %}
+          <br /> 
+    
+    Morocco
+    <br />
+    <img src="pictures/covidcasesMorocco36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesMorocco36_R.txt %}
+          <br /> 
+
+    Uzbekistan
+    <br />
+    <img src="pictures/covidcasesUzbekistan36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesUzbekistan36_R.txt %}
+          <br /> 
+    
+    Argentina
+    <br />
+    <img src="pictures/covidcasesArgentina36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesArgentina36_R.txt %}
+          <br /> 
+    
+    Algeria
+    <br />
+    <img src="pictures/covidcasesAlgeria36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesAlgeria36_R.txt %}
+          <br /> 
+    
+    Luxembourg
+    <br />
+    <img src="pictures/covidcasesLuxembourg36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesLuxembourg36_R.txt %}
+          <br /> 
+    
+    Thailand
+    <br />
+    <img src="pictures/covidcasesThailand36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesThailand36_R.txt %}
+          <br /> 
+    
+    Hungary
+    <br />
+    <img src="pictures/covidcasesHungary36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesHungary36_R.txt %}
+          <br /> 
+    
+    Greece
+    <br />
+    <img src="pictures/covidcasesGreece36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesGreece36_R.txt %}
+          <br /> 
+    
+    Iraq
+    <br />
+    <img src="pictures/covidcasesIraq36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesIraq36_R.txt %}
+          <br /> 
+    
+    Croatia
+    <br />
+    <img src="pictures/covidcasesCroatia36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesCroatia36_R.txt %}
+          <br /> 
+    
+    Iceland
+    <br />
+    <img src="pictures/covidcasesIceland36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesIceland36_R.txt %}
+          <br /> 
+    
+    Estonia
+    <br />
+    <img src="pictures/covidcasesEstonia36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesEstonia36_R.txt %}
+          <br /> 
+    
+    Bulgaria
+    <br />
+    <img src="pictures/covidcasesBulgaria36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesBulgaria36_R.txt %}
+          <br /> 
+    
+    New Zealand
+    <br />
+    <img src="pictures/covidcasesNew_Zealand36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesNew_Zealand36_R.txt %}
+          <br /> 
+    
+    Slovenia
+    <br />
+    <img src="pictures/covidcasesSlovenia36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesSlovenia36_R.txt %}
+          <br /> 
+    
+    Slovakia
+    <br />
+    <img src="pictures/covidcasesSlovakia36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesSlovakia36_R.txt %}
+          <br /> 
+    
+    Lithuania
+    <br />
+    <img src="pictures/covidcasesLithuania36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesLithuania36_R.txt %}
+          <br /> 
+    
+    Latvia
+    <br />
+    <img src="pictures/covidcasesLatvia36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesLatvia36_R.txt %}
+          <br /> 
+    
+    Cyprus
+    <br />
+    <img src="pictures/covidcasesCyprus36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesCyprus36_R.txt %}
+          <br /> 
+    
+    Malta
+    <br />
+    <img src="pictures/covidcasesMalta36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesMalta36_R.txt %}
+          <br />  
+
+    Sri Lanka
+    <br />
+    <img src="pictures/covidcasesSri_Lanka36_R.png" alt="hi" class="inline"/><br /> 
+
+      {% include_relative _includes/covidcasesSri_Lanka36_R.txt %}
+          <br /> 
+<b>References</b><br />    
+<ol>
+<li><a href="https://www.worldometers.info/" target="_blank">Worldometers COVID-19 Coronavirus Pandemic</a></li>
+<li><a href="https://osp.maps.arcgis.com/apps/MapSeries/index.html?appid=79255eaa219140dfa65c01ae95ed143b" target="_blank">Su COVID-19 susijusi gyventojų ir verslo statistika</a>&nbsp;</li>
+<li><a href="https://phe.rockefeller.edu/publication/bi-logistic-growth/?fbclid=IwAR1LbNNIadzYBjykkx4oSahFIn0SrrMT3fhJLFimHJI8JQtfM7uAo7XzIoE" target="_blank">Bi-logistic growth</a>&nbsp;</li>
+<li><a href="https://en.wikipedia.org/wiki/Least_squares" target="_blank">Least squares</a>&nbsp;</li>
+<li><a href="https://scikit-learn.org/stable/" target="_blank">scikit-learn</a>&nbsp;</li>
+<li><a href="https://www.scipy.org/" target="_blank">scipy.org</a>&nbsp;</li>
+<li><a href="https://opendata.ecdc.europa.eu/covid19/casedistribution/csv"> European Centre for Disease Prevention and Control An agency of the European Union</a>&nbsp;</li>
+<li><a href="https://www.medrxiv.org/content/10.1101/2020.03.24.20042937v1" target="_blank">Aaron Miller, Mac Josh Reandelar, Kimberly Fasciglione, Violeta Roumenova, Yan Li, Gonzalo H Otazu, Correlation between universal BCG vaccination policy and reduced morbidity and mortality for COVID-19: an epidemiological study, https://doi.org/10.1101/2020.03.24.20042937 </a>&nbsp;&nbsp;</li>
+<li><a href="https://c19.se/en/global" target="_blank">c19.se</a>&nbsp;</li>
+</ol>
+</body>

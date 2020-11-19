@@ -1,15 +1,16 @@
-Algeria data at: 2020-11-17<br />
-+3 day model MAPE: 0.007739<br />
+Algeria data at: 2020-11-18<br />
++3 day model MAPE: 0.006119<br />
 model: bi-Richards<br />
-coeffs: [9.54238453e+06 8.65477819e-02 2.74732614e+02 1.54651275e-01]<br />
-rational stdev: 0.240365<br />
-forecast at the end of period: +424 days<br />
-	 deltaDaycases: 4471<br />
-	 total cases: 9254688 ± 2224503<br />
-	 total death: 290709 ± 209628<br />
+coeffs: [7.73517289e+06 7.93799406e-02 2.88876356e+02 1.89682213e-01]<br />
+rational stdev: 0.239902<br />
+forecast at the end of period: +423 days<br />
+	 deltaDaycases: 2195<br />
+	 total cases: 7639985 ± 1832846<br />
+	 total death: 238624 ± 171739<br />
 bi-Richards approximation splitting point: 205<br />
-trend coefficient of determination: 0.815093 <br />
- intercept: -3.567324 <br />
- slope: -0.018348<br />trend coefficient of determination: 0.946109 <br />
- intercept: -16.658566 <br />
- slope: 0.043678<br />
+actives k: 35<br />
+trend coefficient of determination: 0.824023 <br />
+ intercept: -3.807086 <br />
+ slope: -0.019180<br />trend coefficient of determination: 0.948995 <br />
+ intercept: -16.965747 <br />
+ slope: 0.043332<br />

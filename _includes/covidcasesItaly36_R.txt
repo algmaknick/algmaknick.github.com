@@ -1,15 +1,16 @@
-Italy data at: 2020-11-17<br />
-+3 day model MAPE: 0.036019<br />
+Italy data at: 2020-11-18<br />
++3 day model MAPE: 0.029262<br />
 model: bi-Richards<br />
-coeffs: [1.09977603e+06 6.48600216e-02 2.57929238e+02 4.01828116e+00]<br />
-rational stdev: 0.160383<br />
-forecast at the end of period: +81 days<br />
+coeffs: [1.13550559e+06 6.49701175e-02 2.58363006e+02 3.70149528e+00]<br />
+rational stdev: 0.160132<br />
+forecast at the end of period: +80 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 1349594 ± 216452<br />
-	 total death: 50649 ± 24369<br />
+	 total cases: 1385323 ± 221834<br />
+	 total death: 51409 ± 24696<br />
 bi-Richards approximation splitting point: 200<br />
-trend coefficient of determination: 0.529821 <br />
- intercept: -43.497177 <br />
- slope: -0.090238<br />trend coefficient of determination: 0.600505 <br />
- intercept: -44.421085 <br />
- slope: -0.052139<br />
+actives k: 35<br />
+trend coefficient of determination: 0.534501 <br />
+ intercept: -40.276898 <br />
+ slope: -0.085113<br />trend coefficient of determination: 0.572703 <br />
+ intercept: -41.524159 <br />
+ slope: -0.046939<br />
