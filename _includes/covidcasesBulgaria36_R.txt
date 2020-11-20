@@ -1,16 +1,16 @@
-Bulgaria data at: 2020-11-18<br />
-+3 day model MAPE: 0.016255<br />
+Bulgaria data at: 2020-11-19<br />
++3 day model MAPE: 0.038063<br />
 model: bi-Richards<br />
-coeffs: [1.29431865e+05 1.07078408e-01 2.31780635e+02 9.67094590e-01]<br />
-rational stdev: 0.203008<br />
-forecast at the end of period: +45 days<br />
-	 deltaDaycases: 58<br />
-	 total cases: 148585 ± 30163<br />
-	 total death: 3400 ± 2070<br />
+coeffs: [1.40431181e+05 1.11284718e-01 2.31139348e+02 8.29374692e-01]<br />
+rational stdev: 0.202603<br />
+forecast at the end of period: +44 days<br />
+	 deltaDaycases: 111<br />
+	 total cases: 158958 ± 32205<br />
+	 total death: 3679 ± 2236<br />
 bi-Richards approximation splitting point: 200<br />
 actives k: 35<br />
-trend coefficient of determination: 0.816276 <br />
- intercept: -8.563923 <br />
- slope: -0.033931<br />trend coefficient of determination: 0.065621 <br />
- intercept: -11.079000 <br />
- slope: -0.012690<br />
+trend coefficient of determination: 0.796982 <br />
+ intercept: -7.755658 <br />
+ slope: -0.030678<br />trend coefficient of determination: 0.031967 <br />
+ intercept: -10.570921 <br />
+ slope: -0.008417<br />
