@@ -1,16 +1,16 @@
-Serbia data at: 2020-11-20<br />
-+3 day model MAPE: 0.078239<br />
+Serbia data at: 2020-11-21<br />
++3 day model MAPE: 0.062497<br />
 model: bi-Richards<br />
-coeffs: [7.09626267e+05 1.17154042e-01 2.46556206e+02 4.33034929e-01]<br />
-rational stdev: 0.259862<br />
-forecast at the end of period: +113 days<br />
-	 deltaDaycases: 440<br />
-	 total cases: 733625 ± 190641<br />
-	 total death: 7578 ± 5907<br />
+coeffs: [1.34165298e+06 1.23726591e-01 2.47287798e+02 3.21313023e-01]<br />
+rational stdev: 0.259346<br />
+forecast at the end of period: +112 days<br />
+	 deltaDaycases: 2660<br />
+	 total cases: 1306201 ± 338757<br />
+	 total death: 13137 ± 10221<br />
 bi-Richards approximation splitting point: 200<br />
 actives k: 35<br />
-trend coefficient of determination: 0.674458 <br />
- intercept: -6.222070 <br />
- slope: -0.024468<br />trend coefficient of determination: 0.763506 <br />
- intercept: -21.734817 <br />
- slope: 0.058565<br />
+trend coefficient of determination: 0.658784 <br />
+ intercept: -5.354606 <br />
+ slope: -0.022610<br />trend coefficient of determination: 0.779404 <br />
+ intercept: -20.799701 <br />
+ slope: 0.059736<br />

@@ -1,16 +1,16 @@
-Kuwait data at: 2020-11-20<br />
-+3 day model MAPE: 0.005611<br />
+Kuwait data at: 2020-11-21<br />
++3 day model MAPE: 0.005314<br />
 model: bi-Richards<br />
-coeffs: [ 1.49128158e+05  1.44052274e+00 -1.93693255e+02  9.36889265e-03]<br />
-rational stdev: 0.168709<br />
-forecast at the end of period: +92 days<br />
-	 deltaDaycases: 152<br />
-	 total cases: 159877 ± 26972<br />
-	 total death: 988 ± 500<br />
+coeffs: [ 1.49965208e+05  1.36298342e+00 -1.91220362e+02  9.85145584e-03]<br />
+rational stdev: 0.170882<br />
+forecast at the end of period: +91 days<br />
+	 deltaDaycases: 155<br />
+	 total cases: 160427 ± 27414<br />
+	 total death: 990 ± 507<br />
 bi-Richards approximation splitting point: 90<br />
 actives k: 17<br />
-trend coefficient of determination: 0.167547 <br />
- intercept: -2.533629 <br />
- slope: -0.009742<br />trend coefficient of determination: 0.703871 <br />
- intercept: -3.601240 <br />
- slope: -0.007858<br />
+trend coefficient of determination: 0.168573 <br />
+ intercept: -2.535851 <br />
+ slope: -0.009777<br />trend coefficient of determination: 0.709386 <br />
+ intercept: -3.596310 <br />
+ slope: -0.007929<br />
