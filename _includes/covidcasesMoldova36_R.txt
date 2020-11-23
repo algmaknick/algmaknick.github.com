@@ -1,16 +1,16 @@
-Moldova data at: 2020-11-21<br />
-+3 day model MAPE: 0.007935<br />
+Moldova data at: 2020-11-22<br />
++3 day model MAPE: 0.008356<br />
 model: bi-Richards<br />
-coeffs: [ 3.91848298e+05  3.04866400e-01 -2.65014604e+02  2.16693788e-02]<br />
-rational stdev: 0.266346<br />
-forecast at the end of period: +392 days<br />
-	 deltaDaycases: 264<br />
-	 total cases: 355792 ± 94763<br />
-	 total death: 7837 ± 6262<br />
+coeffs: [ 4.06992313e+05  3.06753364e-01 -2.72370855e+02  2.12199929e-02]<br />
+rational stdev: 0.267319<br />
+forecast at the end of period: +531 days<br />
+	 deltaDaycases: 123<br />
+	 total cases: 393864 ± 105287<br />
+	 total death: 8642 ± 6930<br />
 bi-Richards approximation splitting point: 60<br />
 actives k: 26<br />
-trend coefficient of determination: 0.539529 <br />
- intercept: -1.501552 <br />
- slope: -0.039431<br />trend coefficient of determination: 0.287790 <br />
- intercept: -3.746011 <br />
- slope: -0.004898<br />
+trend coefficient of determination: 0.538704 <br />
+ intercept: -1.500504 <br />
+ slope: -0.039375<br />trend coefficient of determination: 0.284398 <br />
+ intercept: -3.750087 <br />
+ slope: -0.004831<br />
