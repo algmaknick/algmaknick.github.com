@@ -1,16 +1,16 @@
 Jordan data at: 2020-11-22<br />
-+3 day model MAPE: 0.003318<br />
++3 day model MAPE: 0.002206<br />
 model: bi-Richards<br />
-coeffs: [1.23804610e+06 4.26537533e-01 1.07224924e+02 4.59140417e-02]<br />
-rational stdev: 0.172681<br />
+coeffs: [1.31339173e+06 3.46137270e-01 1.25568028e+02 5.58672899e-02]<br />
+rational stdev: 0.129811<br />
 forecast at the end of period: +279 days<br />
-	 deltaDaycases: 210<br />
-	 total cases: 1267663 ± 218901<br />
-	 total death: 15452 ± 8004<br />
+	 deltaDaycases: 244<br />
+	 total cases: 1343428 ± 174391<br />
+	 total death: 16376 ± 6377<br />
 bi-Richards approximation splitting point: 180<br />
 actives k: 11<br />
-trend coefficient of determination: 0.000222 <br />
- intercept: -4.673380 <br />
- slope: 0.000320<br />trend coefficient of determination: 0.453725 <br />
- intercept: -0.221435 <br />
- slope: -0.015717<br />
+trend coefficient of determination: 0.009651 <br />
+ intercept: -4.669738 <br />
+ slope: -0.002129<br />trend coefficient of determination: 0.476575 <br />
+ intercept: -0.356248 <br />
+ slope: -0.015039<br />
