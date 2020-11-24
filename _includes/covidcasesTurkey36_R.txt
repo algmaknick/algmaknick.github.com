@@ -1,16 +1,16 @@
-Turkey data at: 2020-11-22<br />
-+3 day model MAPE: 0.015663<br />
+Turkey data at: 2020-11-23<br />
++3 day model MAPE: 0.017323<br />
 model: bi-Richards<br />
-coeffs: [ 3.47509768e+05  2.49735120e+00 -4.74439376e+01  7.00019528e-03]<br />
-rational stdev: 0.279126<br />
-forecast at the end of period: +167 days<br />
-	 deltaDaycases: 255<br />
-	 total cases: 610029 ± 170274<br />
-	 total death: 16871 ± 14127<br />
+coeffs: [ 3.81506908e+05  1.87387528e+00 -4.15238606e+01  8.90401058e-03]<br />
+rational stdev: 0.278657<br />
+forecast at the end of period: +306 days<br />
+	 deltaDaycases: 33<br />
+	 total cases: 656817 ± 183026<br />
+	 total death: 18118 ± 15146<br />
 bi-Richards approximation splitting point: 190<br />
 actives k: 17<br />
-trend coefficient of determination: 0.645668 <br />
- intercept: -2.476349 <br />
- slope: -0.020655<br />trend coefficient of determination: 0.606137 <br />
- intercept: -7.447607 <br />
- slope: 0.009976<br />
+trend coefficient of determination: 0.646007 <br />
+ intercept: -2.493092 <br />
+ slope: -0.020706<br />trend coefficient of determination: 0.607933 <br />
+ intercept: -7.626614 <br />
+ slope: 0.010706<br />
