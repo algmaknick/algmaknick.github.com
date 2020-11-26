@@ -1,16 +1,16 @@
-Saudi Arabia data at: 2020-11-24<br />
-+3 day model MAPE: 0.000048<br />
+Saudi Arabia data at: 2020-11-25<br />
++3 day model MAPE: 0.000079<br />
 model: bi-Richards<br />
-coeffs: [3.23476063e+04 2.63512403e+00 3.66212847e+01 9.52183314e-03]<br />
-rational stdev: 0.225972<br />
-forecast at the end of period: +39 days<br />
-	 deltaDaycases: 146<br />
-	 total cases: 364208 ± 82300<br />
-	 total death: 5949 ± 4032<br />
+coeffs: [3.22381728e+04 2.10190625e+00 4.64825971e+01 1.19893385e-02]<br />
+rational stdev: 0.225588<br />
+forecast at the end of period: +38 days<br />
+	 deltaDaycases: 145<br />
+	 total cases: 364169 ± 82152<br />
+	 total death: 5957 ± 4031<br />
 bi-Richards approximation splitting point: 200<br />
 actives k: 17<br />
-trend coefficient of determination: 0.970679 <br />
- intercept: -1.771460 <br />
- slope: -0.024478<br />trend coefficient of determination: 0.437053 <br />
- intercept: -4.996876 <br />
- slope: -0.008611<br />
+trend coefficient of determination: 0.971057 <br />
+ intercept: -1.791490 <br />
+ slope: -0.024552<br />trend coefficient of determination: 0.442534 <br />
+ intercept: -5.055835 <br />
+ slope: -0.008484<br />
