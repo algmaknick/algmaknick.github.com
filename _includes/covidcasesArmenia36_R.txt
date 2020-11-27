@@ -1,16 +1,16 @@
-Armenia data at: 2020-11-25<br />
-+3 day model MAPE: 0.015585<br />
+Armenia data at: 2020-11-26<br />
++3 day model MAPE: 0.017076<br />
 model: bi-Richards<br />
-coeffs: [9.12279884e+04 9.29308029e-02 2.17981951e+02 1.06519282e+00]<br />
-rational stdev: 0.197107<br />
-forecast at the end of period: +66 days<br />
-	 deltaDaycases: 1<br />
-	 total cases: 136496 ± 26904<br />
-	 total death: 2156 ± 1274<br />
+coeffs: [9.30246902e+04 9.51708335e-02 2.17370296e+02 9.88992844e-01]<br />
+rational stdev: 0.196741<br />
+forecast at the end of period: +65 days<br />
+	 deltaDaycases: 2<br />
+	 total cases: 138285 ± 27206<br />
+	 total death: 2183 ± 1288<br />
 bi-Richards approximation splitting point: 180<br />
 actives k: 21<br />
-trend coefficient of determination: 0.945597 <br />
- intercept: -9.073646 <br />
- slope: -0.052211<br />trend coefficient of determination: 0.016318 <br />
- intercept: -15.504021 <br />
- slope: -0.003881<br />
+trend coefficient of determination: 0.944412 <br />
+ intercept: -8.579550 <br />
+ slope: -0.049957<br />trend coefficient of determination: 0.011842 <br />
+ intercept: -14.795558 <br />
+ slope: -0.003238<br />
