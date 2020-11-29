@@ -1,16 +1,16 @@
-Morocco data at: 2020-11-27<br />
-+3 day model MAPE: 0.001582<br />
+Morocco data at: 2020-11-28<br />
++3 day model MAPE: 0.001601<br />
 model: bi-Richards<br />
-coeffs: [ 2.13847631e+05  1.20378028e+00 -8.08829619e+01  1.19917434e-02]<br />
-rational stdev: 0.276691<br />
-forecast at the end of period: +176 days<br />
-	 deltaDaycases: 164<br />
-	 total cases: 481201 ± 133144<br />
-	 total death: 7928 ± 6580<br />
+coeffs: [ 2.16245858e+05  1.30595371e+00 -8.87325905e+01  1.09694406e-02]<br />
+rational stdev: 0.276203<br />
+forecast at the end of period: +385 days<br />
+	 deltaDaycases: 8<br />
+	 total cases: 494661 ± 136626<br />
+	 total death: 8118 ± 6726<br />
 bi-Richards approximation splitting point: 150<br />
 actives k: 11<br />
-trend coefficient of determination: 0.297685 <br />
- intercept: -2.733442 <br />
- slope: -0.013328<br />trend coefficient of determination: 0.445590 <br />
- intercept: -2.711215 <br />
- slope: -0.006654<br />
+trend coefficient of determination: 0.296856 <br />
+ intercept: -2.727152 <br />
+ slope: -0.013295<br />trend coefficient of determination: 0.454459 <br />
+ intercept: -2.693522 <br />
+ slope: -0.006686<br />

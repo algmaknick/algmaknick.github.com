@@ -1,16 +1,16 @@
-Jordan data at: 2020-11-27<br />
-+3 day model MAPE: 0.026312<br />
+Jordan data at: 2020-11-28<br />
++3 day model MAPE: 0.033090<br />
 model: bi-Richards<br />
-coeffs: [5.32438907e+05 1.07636249e-01 2.14174830e+02 3.36537874e-01]<br />
-rational stdev: 0.140025<br />
-forecast at the end of period: +274 days<br />
-	 deltaDaycases: 2<br />
-	 total cases: 574991 ± 80513<br />
-	 total death: 7118 ± 2990<br />
+coeffs: [4.28890311e+05 9.15164798e-02 2.22754229e+02 4.89964692e-01]<br />
+rational stdev: 0.147047<br />
+forecast at the end of period: +273 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 471470 ± 69328<br />
+	 total death: 5875 ± 2591<br />
 bi-Richards approximation splitting point: 180<br />
-actives k: 11<br />
-trend coefficient of determination: 0.067388 <br />
- intercept: -6.243552 <br />
- slope: -0.005833<br />trend coefficient of determination: 0.839231 <br />
- intercept: 0.392380 <br />
- slope: -0.032636<br />
+actives k: 12<br />
+trend coefficient of determination: 0.115109 <br />
+ intercept: -7.103867 <br />
+ slope: -0.007858<br />trend coefficient of determination: 0.895601 <br />
+ intercept: 0.718299 <br />
+ slope: -0.041839<br />

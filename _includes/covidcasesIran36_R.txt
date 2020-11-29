@@ -1,16 +1,16 @@
-Iran data at: 2020-11-27<br />
-+3 day model MAPE: 0.003371<br />
+Iran data at: 2020-11-28<br />
++3 day model MAPE: 0.003454<br />
 model: bi-Richards<br />
-coeffs: [5.31804118e+06 1.42401021e-01 2.02228015e+02 1.10336081e-01]<br />
-rational stdev: 0.257797<br />
-forecast at the end of period: +400 days<br />
-	 deltaDaycases: 471<br />
-	 total cases: 5895354 ± 1519807<br />
-	 total death: 301000 ± 232791<br />
+coeffs: [6.56447389e+06 2.04820033e-01 1.59500442e+02 6.76235029e-02]<br />
+rational stdev: 0.257392<br />
+forecast at the end of period: +399 days<br />
+	 deltaDaycases: 1088<br />
+	 total cases: 7093259 ± 1825747<br />
+	 total death: 359938 ± 277935<br />
 bi-Richards approximation splitting point: 200<br />
 actives k: 17<br />
-trend coefficient of determination: 0.754629 <br />
- intercept: -3.131864 <br />
- slope: -0.020622<br />trend coefficient of determination: 0.781985 <br />
- intercept: -9.110647 <br />
- slope: 0.012612<br />
+trend coefficient of determination: 0.759188 <br />
+ intercept: -2.765406 <br />
+ slope: -0.019462<br />trend coefficient of determination: 0.791659 <br />
+ intercept: -8.613215 <br />
+ slope: 0.012883<br />
