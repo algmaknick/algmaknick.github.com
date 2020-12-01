@@ -1,16 +1,16 @@
-Belarus data at: 2020-11-29<br />
-+3 day model MAPE: 0.004348<br />
+Belarus data at: 2020-11-30<br />
++3 day model MAPE: 0.004232<br />
 model: bi-Richards<br />
-coeffs: [3.54052227e+05 5.59855193e-01 2.07013682e+01 2.56880603e-02]<br />
-rational stdev: 0.094022<br />
-forecast at the end of period: +384 days<br />
-	 deltaDaycases: 36<br />
-	 total cases: 423974 ± 39862<br />
-	 total death: 3614 ± 1019<br />
+coeffs: [3.65393276e+05 5.38855875e-01 2.19356377e+01 2.64385017e-02]<br />
+rational stdev: 0.093840<br />
+forecast at the end of period: +383 days<br />
+	 deltaDaycases: 39<br />
+	 total cases: 435048 ± 40824<br />
+	 total death: 3686 ± 1037<br />
 bi-Richards approximation splitting point: 200<br />
 actives k: 21<br />
-trend coefficient of determination: 0.690566 <br />
- intercept: -2.823184 <br />
- slope: -0.021843<br />trend coefficient of determination: 0.811568 <br />
- intercept: -7.365183 <br />
- slope: 0.011156<br />
+trend coefficient of determination: 0.690625 <br />
+ intercept: -2.829864 <br />
+ slope: -0.021855<br />trend coefficient of determination: 0.811990 <br />
+ intercept: -7.325012 <br />
+ slope: 0.010928<br />
