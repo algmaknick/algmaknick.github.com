@@ -1,16 +1,16 @@
-Pakistan data at: 2020-11-30<br />
-+3 day model MAPE: 0.004821<br />
+Pakistan data at: 2020-12-01<br />
++3 day model MAPE: 0.005134<br />
 model: bi-Richards<br />
-coeffs: [2.10756839e+06 5.02129320e-01 1.62122341e+00 2.03571803e-02]<br />
-rational stdev: 0.273054<br />
-forecast at the end of period: +649 days<br />
-	 deltaDaycases: 90<br />
-	 total cases: 2401442 ± 655722<br />
-	 total death: 48516 ± 39742<br />
+coeffs: [ 2.31366622e+06  5.02207503e-01 -3.01571235e+00  1.99455668e-02]<br />
+rational stdev: 0.272576<br />
+forecast at the end of period: +648 days<br />
+	 deltaDaycases: 114<br />
+	 total cases: 2604976 ± 710055<br />
+	 total death: 52743 ± 43129<br />
 bi-Richards approximation splitting point: 220<br />
 actives k: 26<br />
-trend coefficient of determination: 0.858622 <br />
- intercept: -1.656484 <br />
- slope: -0.024984<br />trend coefficient of determination: 0.912488 <br />
- intercept: -14.097538 <br />
- slope: 0.033086<br />
+trend coefficient of determination: 0.858368 <br />
+ intercept: -1.653991 <br />
+ slope: -0.024968<br />trend coefficient of determination: 0.910401 <br />
+ intercept: -13.971480 <br />
+ slope: 0.032579<br />
