@@ -1,16 +1,16 @@
-South Africa data at: 2020-12-01<br />
-+3 day model MAPE: 0.005255<br />
+South Africa data at: 2020-12-02<br />
++3 day model MAPE: 0.005272<br />
 model: bi-Richards<br />
-coeffs: [2.29107561e+05 2.55146707e+00 3.61667182e+01 9.17045213e-03]<br />
-rational stdev: 0.288722<br />
-forecast at the end of period: +172 days<br />
-	 deltaDaycases: 51<br />
-	 total cases: 877401 ± 253324<br />
-	 total death: 23968 ± 20760<br />
+coeffs: [2.39392453e+05 2.24587272e+00 3.65543950e+01 1.01193140e-02]<br />
+rational stdev: 0.288201<br />
+forecast at the end of period: +171 days<br />
+	 deltaDaycases: 62<br />
+	 total cases: 887141 ± 255675<br />
+	 total death: 24180 ± 20906<br />
 bi-Richards approximation splitting point: 200<br />
 actives k: 17<br />
-trend coefficient of determination: 0.701767 <br />
- intercept: -1.701044 <br />
- slope: -0.019530<br />trend coefficient of determination: 0.206243 <br />
- intercept: -7.798450 <br />
- slope: 0.007010<br />
+trend coefficient of determination: 0.702913 <br />
+ intercept: -1.706219 <br />
+ slope: -0.019576<br />trend coefficient of determination: 0.233655 <br />
+ intercept: -7.943926 <br />
+ slope: 0.007604<br />

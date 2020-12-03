@@ -1,16 +1,16 @@
-Bangladesh data at: 2020-12-01<br />
-+3 day model MAPE: 0.001653<br />
+Bangladesh data at: 2020-12-02<br />
++3 day model MAPE: 0.137891<br />
 model: bi-Richards<br />
-coeffs: [2.70953545e+05 1.29965588e+00 6.92636052e+01 1.52521941e-02]<br />
-rational stdev: 0.190664<br />
-forecast at the end of period: +270 days<br />
-	 deltaDaycases: 39<br />
-	 total cases: 689509 ± 131464<br />
-	 total death: 9850 ± 5634<br />
+coeffs: [ 1.71324044e+04 -3.18007426e-01 -5.73758033e+01  4.76470892e-01]<br />
+rational stdev: 0.198399<br />
+forecast at the end of period: +269 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 420468 ± 83420<br />
+	 total death: 6012 ± 3578<br />
 bi-Richards approximation splitting point: 220<br />
 actives k: 35<br />
-trend coefficient of determination: 0.494420 <br />
- intercept: -2.291814 <br />
- slope: -0.016105<br />trend coefficient of determination: 0.123212 <br />
- intercept: -7.298209 <br />
- slope: 0.006497<br />
+trend coefficient of determination: 0.845470 <br />
+ intercept: -4.730483 <br />
+ slope: -0.036828<br />trend coefficient of determination: 0.069874 <br />
+ intercept: -12.809368 <br />
+ slope: 0.004597<br />
