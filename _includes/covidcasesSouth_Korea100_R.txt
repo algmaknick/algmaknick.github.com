@@ -1,16 +1,16 @@
-South Korea data at: 2020-12-02<br />
-+3 day model MAPE: 0.025422<br />
+South Korea data at: 2020-12-03<br />
++3 day model MAPE: 0.026680<br />
 model: bi-Richards<br />
-coeffs: [ 3.02225929e+04  1.59756662e+00 -1.30090484e+02  8.62153062e-03]<br />
-rational stdev: 0.165021<br />
-forecast at the end of period: +171 days<br />
-	 deltaDaycases: 15<br />
-	 total cases: 40581 ± 6696<br />
-	 total death: 601 ± 297<br />
+coeffs: [ 3.19599505e+04  1.57473746e+00 -1.44768590e+02  8.34246872e-03]<br />
+rational stdev: 0.164891<br />
+forecast at the end of period: +170 days<br />
+	 deltaDaycases: 18<br />
+	 total cases: 41986 ± 6923<br />
+	 total death: 619 ± 306<br />
 bi-Richards approximation splitting point: 140<br />
 actives k: 26<br />
-trend coefficient of determination: 0.397349 <br />
- intercept: -3.374361 <br />
- slope: -0.026942<br />trend coefficient of determination: 0.066550 <br />
- intercept: -6.245266 <br />
- slope: 0.004115<br />
+trend coefficient of determination: 0.397305 <br />
+ intercept: -3.372214 <br />
+ slope: -0.026937<br />trend coefficient of determination: 0.074334 <br />
+ intercept: -6.287046 <br />
+ slope: 0.004349<br />
