@@ -1,17 +1,17 @@
-Qatar data at: 2020-12-03<br />
-+3 day model MAPE: 0.001075<br />
+Qatar data at: 2020-12-04<br />
++3 day model MAPE: 0.001111<br />
 model: bi-Richards<br />
-coeffs: [ 3.49465023e+04  1.67967680e+00 -5.75482723e+01  1.12064071e-02]<br />
+coeffs: [ 3.51703866e+04  1.96889431e+00 -6.77769924e+01  9.49307550e-03]<br />
 S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.080752<br />
-forecast at the end of period: +30 days<br />
-	 deltaDaycases: 96<br />
-	 total cases: 142443 ± 11502<br />
-	 total death: 244 ± 59<br />
+rational stdev: 0.080601<br />
+forecast at the end of period: +29 days<br />
+	 deltaDaycases: 98<br />
+	 total cases: 142535 ± 11488<br />
+	 total death: 243 ± 58<br />
 bi-Richards approximation splitting point: 144<br />
 actives k: 17<br />
-trend coefficient of determination: 0.918522 <br />
- intercept: -1.946642 <br />
- slope: -0.030878<br />trend coefficient of determination: 0.224549 <br />
- intercept: -5.786940 <br />
- slope: -0.003628<br />
+trend coefficient of determination: 0.917969 <br />
+ intercept: -1.932886 <br />
+ slope: -0.030822<br />trend coefficient of determination: 0.236225 <br />
+ intercept: -5.752419 <br />
+ slope: -0.003708<br />

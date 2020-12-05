@@ -1,16 +1,16 @@
-Dominican Republic data at: 2020-12-03<br />
-+3 day model MAPE: 0.007799<br />
+Dominican Republic data at: 2020-12-04<br />
++3 day model MAPE: 0.007900<br />
 model: bi-Richards<br />
-coeffs: [6.11048664e+04 1.94970373e+00 2.66444019e+01 1.19330173e-02]<br />
-rational stdev: 0.192758<br />
-forecast at the end of period: +100 days<br />
-	 deltaDaycases: 65<br />
-	 total cases: 164109 ± 31633<br />
-	 total death: 2624 ± 1517<br />
+coeffs: [6.35484991e+04 2.13138499e+00 1.73863149e+01 1.05947571e-02]<br />
+rational stdev: 0.192405<br />
+forecast at the end of period: +99 days<br />
+	 deltaDaycases: 74<br />
+	 total cases: 166042 ± 31947<br />
+	 total death: 2652 ± 1530<br />
 bi-Richards approximation splitting point: 200<br />
 actives k: 35<br />
-trend coefficient of determination: 0.785779 <br />
- intercept: -2.579499 <br />
- slope: -0.015418<br />trend coefficient of determination: 0.054165 <br />
- intercept: -7.200994 <br />
- slope: 0.006323<br />
+trend coefficient of determination: 0.785191 <br />
+ intercept: -2.569143 <br />
+ slope: -0.015386<br />trend coefficient of determination: 0.058671 <br />
+ intercept: -7.207447 <br />
+ slope: 0.006425<br />

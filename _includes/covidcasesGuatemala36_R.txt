@@ -1,16 +1,16 @@
-Guatemala data at: 2020-12-03<br />
-+3 day model MAPE: 0.003244<br />
+Guatemala data at: 2020-12-04<br />
++3 day model MAPE: 0.004647<br />
 model: bi-Richards<br />
-coeffs: [4.87337023e+04 2.09092308e+00 3.04929942e+01 1.22237468e-02]<br />
-rational stdev: 0.095137<br />
-forecast at the end of period: +198 days<br />
-	 deltaDaycases: 3<br />
-	 total cases: 142597 ± 13566<br />
-	 total death: 4838 ± 1380<br />
+coeffs: [5.01645501e+04 2.60012946e+00 1.79631912e+01 9.60547314e-03]<br />
+rational stdev: 0.094955<br />
+forecast at the end of period: +197 days<br />
+	 deltaDaycases: 4<br />
+	 total cases: 143996 ± 13673<br />
+	 total death: 4873 ± 1388<br />
 bi-Richards approximation splitting point: 180<br />
-actives k: 29<br />
-trend coefficient of determination: 0.668665 <br />
- intercept: -2.263046 <br />
- slope: -0.017689<br />trend coefficient of determination: 0.019185 <br />
- intercept: -4.476798 <br />
- slope: -0.005741<br />
+actives k: 17<br />
+trend coefficient of determination: 0.665967 <br />
+ intercept: -2.247267 <br />
+ slope: -0.017592<br />trend coefficient of determination: 0.013638 <br />
+ intercept: -4.647299 <br />
+ slope: -0.004732<br />
