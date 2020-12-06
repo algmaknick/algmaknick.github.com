@@ -1,16 +1,16 @@
-Ethiopia data at: 2020-12-04<br />
-+3 day model MAPE: 0.010033<br />
+Ethiopia data at: 2020-12-05<br />
++3 day model MAPE: 0.009650<br />
 model: bi-Richards<br />
-coeffs: [2.59874802e+04 3.90046678e+00 8.55403852e+01 9.99264382e-03]<br />
-rational stdev: 0.169723<br />
-forecast at the end of period: +127 days<br />
-	 deltaDaycases: 3<br />
-	 total cases: 121445 ± 20612<br />
-	 total death: 1878 ± 956<br />
+coeffs: [2.78981485e+04 4.23618059e+00 7.79786801e+01 8.75914197e-03]<br />
+rational stdev: 0.169362<br />
+forecast at the end of period: +126 days<br />
+	 deltaDaycases: 5<br />
+	 total cases: 123311 ± 20884<br />
+	 total death: 1908 ± 969<br />
 bi-Richards approximation splitting point: 210<br />
 actives k: 66<br />
-trend coefficient of determination: 0.509101 <br />
- intercept: -2.695935 <br />
- slope: -0.011368<br />trend coefficient of determination: 0.195605 <br />
- intercept: -8.973495 <br />
- slope: 0.015912<br />
+trend coefficient of determination: 0.506700 <br />
+ intercept: -2.689680 <br />
+ slope: -0.011322<br />trend coefficient of determination: 0.224708 <br />
+ intercept: -9.022575 <br />
+ slope: 0.016204<br />
