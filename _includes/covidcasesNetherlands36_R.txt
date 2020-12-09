@@ -1,16 +1,16 @@
-Netherlands data at: 2020-12-07<br />
-+3 day model MAPE: 0.016293<br />
+Netherlands data at: 2020-12-08<br />
++3 day model MAPE: 0.017197<br />
 model: bi-Richards<br />
-coeffs: [5.27758657e+05 9.90546320e-02 2.14699547e+02 5.68685798e-01]<br />
-rational stdev: 0.221364<br />
-forecast at the end of period: +96 days<br />
-	 deltaDaycases: 14<br />
-	 total cases: 593573 ± 131395<br />
-	 total death: 10207 ± 6778<br />
+coeffs: [5.35905704e+05 1.03720737e-01 2.12809759e+02 5.21984044e-01]<br />
+rational stdev: 0.221128<br />
+forecast at the end of period: +95 days<br />
+	 deltaDaycases: 18<br />
+	 total cases: 601633 ± 133038<br />
+	 total death: 10309 ± 6838<br />
 bi-Richards approximation splitting point: 200<br />
 actives k: 35<br />
-trend coefficient of determination: 0.311721 <br />
- intercept: -8.694639 <br />
- slope: -0.020131<br />trend coefficient of determination: 0.896788 <br />
- intercept: -2.806748 <br />
- slope: -0.035002<br />
+trend coefficient of determination: 0.303433 <br />
+ intercept: -8.269970 <br />
+ slope: -0.019489<br />trend coefficient of determination: 0.889954 <br />
+ intercept: -2.556978 <br />
+ slope: -0.033553<br />

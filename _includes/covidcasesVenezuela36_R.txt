@@ -1,16 +1,16 @@
-Venezuela data at: 2020-12-07<br />
-+3 day model MAPE: 0.004825<br />
+Venezuela data at: 2020-12-08<br />
++3 day model MAPE: 0.005678<br />
 model: bi-Richards<br />
-coeffs: [1.39122019e+04 2.86860390e+00 1.44670107e+02 1.67297604e-02]<br />
-rational stdev: 0.112139<br />
-forecast at the end of period: +124 days<br />
-	 deltaDaycases: 2<br />
-	 total cases: 115775 ± 12982<br />
-	 total death: 1019 ± 342<br />
+coeffs: [1.68769832e+04 2.63252280e+00 1.39696771e+02 1.65741708e-02]<br />
+rational stdev: 0.111917<br />
+forecast at the end of period: +123 days<br />
+	 deltaDaycases: 4<br />
+	 total cases: 118689 ± 13283<br />
+	 total death: 1045 ± 350<br />
 bi-Richards approximation splitting point: 210<br />
 actives k: 112<br />
-trend coefficient of determination: 0.375120 <br />
- intercept: -3.059213 <br />
- slope: -0.009306<br />trend coefficient of determination: 0.038638 <br />
- intercept: -8.160126 <br />
- slope: 0.009975<br />
+trend coefficient of determination: 0.374832 <br />
+ intercept: -3.058327 <br />
+ slope: -0.009301<br />trend coefficient of determination: 0.052870 <br />
+ intercept: -8.428727 <br />
+ slope: 0.011208<br />
