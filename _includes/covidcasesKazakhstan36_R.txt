@@ -1,16 +1,16 @@
-Kazakhstan data at: 2020-12-08<br />
-+3 day model MAPE: 0.002170<br />
+Kazakhstan data at: 2020-12-09<br />
++3 day model MAPE: 0.003496<br />
 model: bi-Richards<br />
-coeffs: [1.71678656e+05 5.57086375e-01 1.05173763e+02 3.70138303e-02]<br />
-rational stdev: 0.276395<br />
-forecast at the end of period: +333 days<br />
-	 deltaDaycases: 5<br />
-	 total cases: 311186 ± 86010<br />
-	 total death: 4695 ± 3893<br />
+coeffs: [1.61582953e+05 5.23660206e-01 1.11535993e+02 4.05073201e-02]<br />
+rational stdev: 0.275897<br />
+forecast at the end of period: +332 days<br />
+	 deltaDaycases: 4<br />
+	 total cases: 301157 ± 83088<br />
+	 total death: 4518 ± 3739<br />
 bi-Richards approximation splitting point: 200<br />
 actives k: 14<br />
-trend coefficient of determination: 0.780709 <br />
- intercept: -2.209372 <br />
- slope: -0.023008<br />trend coefficient of determination: 0.532985 <br />
- intercept: -11.960072 <br />
- slope: 0.026144<br />
+trend coefficient of determination: 0.782782 <br />
+ intercept: -2.232830 <br />
+ slope: -0.023121<br />trend coefficient of determination: 0.526251 <br />
+ intercept: -11.828111 <br />
+ slope: 0.025348<br />
