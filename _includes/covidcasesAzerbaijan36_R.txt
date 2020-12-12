@@ -1,16 +1,16 @@
-Azerbaijan data at: 2020-12-10<br />
-+3 day model MAPE: 0.024759<br />
+Azerbaijan data at: 2020-12-11<br />
+10 day model MAPE: 0.037266<br />
 model: bi-Richards<br />
-coeffs: [1.04318774e+06 8.58629085e-02 2.45261111e+02 3.37698427e-01]<br />
-rational stdev: 0.218885<br />
-forecast at the end of period: +401 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 1081929 ± 236817<br />
-	 total death: 11917 ± 7825<br />
+coeffs: [2.22068735e+05 6.35131856e-02 2.47710621e+02 1.55110359e+00]<br />
+rational stdev: 0.219167<br />
+forecast at the end of period: +92 days<br />
+	 deltaDaycases: 2<br />
+	 total cases: 260817 ± 57162<br />
+	 total death: 2871 ± 1887<br />
 bi-Richards approximation splitting point: 200<br />
 actives k: 17<br />
-trend coefficient of determination: 0.851101 <br />
- intercept: -5.009951 <br />
- slope: -0.024515<br />trend coefficient of determination: 0.227819 <br />
- intercept: -9.991979 <br />
- slope: 0.010667<br />
+trend coefficient of determination: 0.918028 <br />
+ intercept: -13.722123 <br />
+ slope: -0.051076<br />trend coefficient of determination: 0.517212 <br />
+ intercept: -16.316477 <br />
+ slope: -0.021922<br />

@@ -1,16 +1,16 @@
-Panama data at: 2020-12-10<br />
-+3 day model MAPE: 0.005170<br />
+Panama data at: 2020-12-11<br />
+10 day model MAPE: 0.004360<br />
 model: bi-Richards<br />
-coeffs: [6.28373463e+05 6.57131063e-01 5.35291763e+01 2.10710154e-02]<br />
-rational stdev: 0.244275<br />
-forecast at the end of period: +275 days<br />
-	 deltaDaycases: 454<br />
-	 total cases: 725053 ± 177112<br />
-	 total death: 12852 ± 9418<br />
-bi-Richards approximation splitting point: 215<br />
+coeffs: [6.07319054e+05 6.22471208e-01 7.09551085e+01 2.33744285e-02]<br />
+rational stdev: 0.245845<br />
+forecast at the end of period: +414 days<br />
+	 deltaDaycases: 52<br />
+	 total cases: 736347 ± 181027<br />
+	 total death: 12975 ± 9569<br />
+bi-Richards approximation splitting point: 218<br />
 actives k: 26<br />
-trend coefficient of determination: 0.767380 <br />
- intercept: -2.364638 <br />
- slope: -0.015482<br />trend coefficient of determination: 0.652084 <br />
- intercept: -9.141150 <br />
- slope: 0.015931<br />
+trend coefficient of determination: 0.773612 <br />
+ intercept: -2.383684 <br />
+ slope: -0.015498<br />trend coefficient of determination: 0.671889 <br />
+ intercept: -9.381001 <br />
+ slope: 0.016776<br />

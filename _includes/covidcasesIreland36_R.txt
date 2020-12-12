@@ -1,16 +1,16 @@
-Ireland data at: 2020-12-10<br />
-+3 day model MAPE: 0.005528<br />
+Ireland data at: 2020-12-11<br />
+10 day model MAPE: 0.005048<br />
 model: bi-Richards<br />
-coeffs: [4.62278757e+04 1.26785848e-01 2.06625624e+02 5.16004372e-01]<br />
-rational stdev: 0.189561<br />
-forecast at the end of period: +23 days<br />
-	 deltaDaycases: 21<br />
-	 total cases: 74930 ± 14203<br />
-	 total death: 2109 ± 1199<br />
+coeffs: [4.64480011e+04 1.30043385e-01 2.05751665e+02 4.94424110e-01]<br />
+rational stdev: 0.189289<br />
+forecast at the end of period: +22 days<br />
+	 deltaDaycases: 22<br />
+	 total cases: 75122 ± 14219<br />
+	 total death: 2109 ± 1197<br />
 bi-Richards approximation splitting point: 210<br />
 actives k: 35<br />
-trend coefficient of determination: 0.369514 <br />
- intercept: -7.476366 <br />
- slope: -0.026108<br />trend coefficient of determination: 0.829191 <br />
- intercept: -1.506184 <br />
- slope: -0.037026<br />
+trend coefficient of determination: 0.366971 <br />
+ intercept: -7.305675 <br />
+ slope: -0.025763<br />trend coefficient of determination: 0.824786 <br />
+ intercept: -1.460725 <br />
+ slope: -0.036210<br />
