@@ -1,12 +1,16 @@
 Hungary data at: 2020-12-13<br />
-+3 day model MAPE: 0.003545<br />
-model: Richards<br />
-coeffs: [ 4.28503311e+03  2.05973439e+00 -8.33638323e+01  2.42271349e-02]<br />
-rational stdev: 0.014842<br />
-forecast at the end of period: +20 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 4274 ± 63<br />
-	 total death: 106 ± 4<br />
-trend coefficient of determination: 0.615305 <br />
- intercept: -3.750786 <br />
- slope: -0.037124<br />
+10 day model MAPE: 0.004829<br />
+model: bi-Richards<br />
+coeffs: [4.14580784e+05 4.94664112e-02 2.20916350e+02 1.04717765e+00]<br />
+rational stdev: 0.102810<br />
+forecast at the end of period: +125 days<br />
+	 deltaDaycases: 16<br />
+	 total cases: 418556 ± 43031<br />
+	 total death: 10396 ± 3206<br />
+bi-Richards approximation splitting point: 140<br />
+actives k: 35<br />
+trend coefficient of determination: 0.168158 <br />
+ intercept: -12.952772 <br />
+ slope: -0.013909<br />trend coefficient of determination: 0.947583 <br />
+ intercept: -6.034218 <br />
+ slope: -0.046597<br />
