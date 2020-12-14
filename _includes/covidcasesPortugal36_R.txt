@@ -1,10 +1,11 @@
 Portugal data at: 2020-12-13<br />
-10 day model MAPE: 0.016384<br />
-model: bi-Richards<br />
-coeffs: [3.11787362e+05 7.40283993e-02 2.51147425e+02 9.88541287e-01]<br />
-rational stdev: 0.277729<br />
-forecast at the end of period: +90 days<br />
-	 deltaDaycases: 19<br />
++3 day model MAPE: 0.192177<br />
+model: Richards<br />
+coeffs: [5.07381042e+04 7.81053410e+01 3.08156471e+01 2.27452813e+01]<br />
+rational stdev: nan<br />
+forecast at the end of period: +20 days<br />
+	 deltaDaycases: 0<br />
+19<br />
 	 total cases: 385732 ± 107129<br />
 	 total death: 6148 ± 5122<br />
 bi-Richards approximation splitting point: 210<br />
