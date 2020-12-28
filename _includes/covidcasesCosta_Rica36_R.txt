@@ -1,16 +1,12 @@
-Costa Rica data at: 2020-12-24<br />
-10 day model MAPE: 0.004957<br />
-model: bi-Richards<br />
-coeffs: [ 2.09172922e+05  9.93415182e-01 -8.95890417e+01  1.47738125e-02]<br />
-rational stdev: 0.184412<br />
-forecast at the end of period: +245 days<br />
-	 deltaDaycases: 60<br />
-	 total cases: 229406 ± 42305<br />
-	 total death: 2936 ± 1624<br />
-bi-Richards approximation splitting point: 100<br />
-actives k: 45<br />
-trend coefficient of determination: 0.111904 <br />
- intercept: -3.253641 <br />
- slope: -0.012029<br />trend coefficient of determination: 0.623950 <br />
- intercept: -1.714675 <br />
- slope: -0.013411<br />
+Costa Rica data at: 2020-12-27<br />
++3 day model MAPE: 0.118103<br />
+model: Richards<br />
+coeffs: [ 2.86432888e+04  2.44348228e-01 -3.85827434e+02  2.31639574e-02]<br />
+rational stdev: 0.255081<br />
+forecast at the end of period: +6 days<br />
+	 deltaDaycases: 25<br />
+	 total cases: 1670 ± 426<br />
+	 total death: 21 ± 16<br />
+trend coefficient of determination: 0.223685 <br />
+ intercept: -3.075022 <br />
+ slope: -0.019349<br />
