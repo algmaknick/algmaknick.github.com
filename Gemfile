@@ -30,6 +30,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 3.9.0"
 gem "kramdown", "~> 2.3.0"
 gem "github-pages","~> 207" , group: :jekyll_plugins
+gem "nokogiri", ">= 1.11.0.rc4"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.13.0"
