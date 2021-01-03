@@ -1,16 +1,16 @@
-Luxembourg data at: 2021-01-01<br />
-10 day model MAPE: 0.005277<br />
+Luxembourg data at: 2021-01-02<br />
+10 day model MAPE: 0.004975<br />
 model: bi-Richards<br />
-coeffs: [2.97861720e+04 5.76241565e+00 1.44347732e+02 8.61597421e-03]<br />
-rational stdev: 0.252136<br />
-forecast at the end of period: +407 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 202148 ± 50968<br />
-	 total death: 2163 ± 1636<br />
-bi-Richards approximation splitting point: 230<br />
+coeffs: [4.17390744e+04 1.65166473e-01 2.14185887e+02 2.68525706e-01]<br />
+rational stdev: 0.253340<br />
+forecast at the end of period: +406 days<br />
+	 deltaDaycases: 2<br />
+	 total cases: 55877 ± 14155<br />
+	 total death: 600 ± 456<br />
+bi-Richards approximation splitting point: 170<br />
 actives k: 17<br />
-trend coefficient of determination: 0.024173 <br />
- intercept: -4.614189 <br />
- slope: -0.003715<br />trend coefficient of determination: 0.602897 <br />
- intercept: 5.057534 <br />
- slope: -0.035828<br />
+trend coefficient of determination: 0.193648 <br />
+ intercept: -5.647907 <br />
+ slope: -0.017143<br />trend coefficient of determination: 0.008518 <br />
+ intercept: -6.597356 <br />
+ slope: -0.002610<br />
