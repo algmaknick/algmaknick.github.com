@@ -1,16 +1,16 @@
 Thailand data at: 2021-01-06<br />
-10 day model MAPE: 0.230674<br />
+10 day model MAPE: 0.095757<br />
 model: bi-Richards<br />
-coeffs: [4.14073658e+05 4.57138916e-02 3.80229551e+02 3.63747136e+00]<br />
-rational stdev: 0.090987<br />
+coeffs: [4.64161044e+05 8.32127911e-02 3.18115236e+02 9.34932219e-01]<br />
+rational stdev: 0.031396<br />
 forecast at the end of period: +206 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 417092 ± 37950<br />
-	 total death: 2900 ± 791<br />
-bi-Richards approximation splitting point: 73<br />
+	 total cases: 467892 ± 14690<br />
+	 total death: 3253 ± 306<br />
+bi-Richards approximation splitting point: 230<br />
 actives k: 17<br />
-trend coefficient of determination: 0.737091 <br />
- intercept: -26.456984 <br />
- slope: -0.183070<br />trend coefficient of determination: 0.092315 <br />
- intercept: -37.348385 <br />
- slope: 0.004904<br />
+trend coefficient of determination: 0.018308 <br />
+ intercept: -14.106176 <br />
+ slope: -0.002742<br />trend coefficient of determination: 0.562616 <br />
+ intercept: -27.899907 <br />
+ slope: 0.060611<br />
