@@ -1,16 +1,16 @@
 Spain data at: 2021-01-22<br />
-10 day model MAPE: 0.029344<br />
+10 day model MAPE: 0.029361<br />
 model: bi-Richards<br />
-coeffs: [ 2.89508487e+06  9.86736954e-01 -5.14243575e+01  1.43632007e-02]<br />
-rational stdev: 0.125905<br />
+coeffs: [ 3.00824429e+06  8.08624566e-01 -5.27531678e+01  1.67255835e-02]<br />
+rational stdev: 0.191140<br />
 forecast at the end of period: +259 days<br />
-	 deltaDaycases: 354<br />
-	 total cases: 3155948 ± 397349<br />
-	 total death: 67206 ± 25384<br />
-bi-Richards approximation splitting point: 170<br />
-actives k: 35<br />
-trend coefficient of determination: 0.360382 <br />
- intercept: -3.327636 <br />
- slope: -0.021212<br />trend coefficient of determination: 0.139148 <br />
- intercept: -3.592747 <br />
- slope: -0.005063<br />
+	 deltaDaycases: 446<br />
+	 total cases: 3241778 ± 619634<br />
+	 total death: 69033 ± 39584<br />
+bi-Richards approximation splitting point: 100<br />
+actives k: 131<br />
+trend coefficient of determination: 0.949315 <br />
+ intercept: -1.431577 <br />
+ slope: -0.063590<br />trend coefficient of determination: 0.155548 <br />
+ intercept: -6.393918 <br />
+ slope: 0.005465<br />
