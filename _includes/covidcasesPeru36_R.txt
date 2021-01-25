@@ -1,16 +1,16 @@
-Peru data at: 2021-01-23<br />
-10 day model MAPE: 0.006947<br />
+Peru data at: 2021-01-24<br />
+10 day model MAPE: 0.003160<br />
 model: bi-Richards<br />
-coeffs: [7.97042712e+04 1.05893472e+01 2.79488662e+02 1.40669881e-02]<br />
-rational stdev: 0.327112<br />
-forecast at the end of period: +119 days<br />
-	 deltaDaycases: 76<br />
-	 total cases: 1153465 ± 377312<br />
-	 total death: 41763 ± 40983<br />
-bi-Richards approximation splitting point: 270<br />
+coeffs: [-1.73122226e-05 -5.44863622e-02  2.55748036e+01 -3.47607729e-02]<br />
+rational stdev: 0.603586<br />
+forecast at the end of period: +118 days<br />
+	 deltaDaycases: 90<br />
+	 total cases: 1085792 ± 655369<br />
+	 total death: 39298 ± 71159<br />
+bi-Richards approximation splitting point: 265<br />
 actives k: 21<br />
-trend coefficient of determination: 0.908989 <br />
- intercept: -1.973229 <br />
- slope: -0.017560<br />trend coefficient of determination: 0.435125 <br />
- intercept: -12.994613 <br />
- slope: 0.022403<br />
+trend coefficient of determination: 0.901501 <br />
+ intercept: -1.576972 <br />
+ slope: -0.016227<br />trend coefficient of determination: 0.396607 <br />
+ intercept: -11.250698 <br />
+ slope: 0.018915<br />
