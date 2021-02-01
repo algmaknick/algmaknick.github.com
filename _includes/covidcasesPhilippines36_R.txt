@@ -1,16 +1,12 @@
-Philippines data at: 2021-01-30<br />
-10 day model MAPE: 0.007433<br />
-model: bi-Richards<br />
-coeffs: [ 5.29763959e+05  1.07486616e+00 -7.37201681e+01  1.62786700e-02]<br />
-rational stdev: 0.332159<br />
-forecast at the end of period: +168 days<br />
-	 deltaDaycases: 32<br />
-	 total cases: 532327 ± 176817<br />
-	 total death: 10886 ± 10847<br />
-bi-Richards approximation splitting point: 36<br />
-actives k: 17<br />
-trend coefficient of determination: 0.428066 <br />
- intercept: -1.328872 <br />
- slope: -0.060130<br />trend coefficient of determination: 0.760945 <br />
- intercept: -2.916135 <br />
- slope: -0.010334<br />
+Philippines data at: 2021-01-31<br />
++3 day model MAPE: 0.095041<br />
+model: Richards<br />
+coeffs: [4.40831989e+03 2.70678377e-01 1.39356489e+01 1.24523177e+00]<br />
+rational stdev: 0.326084<br />
+forecast at the end of period: +41 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 4408 ± 1437<br />
+	 total death: 90 ± 88<br />
+trend coefficient of determination: 0.911495 <br />
+ intercept: -5.712821 <br />
+ slope: -0.292234<br />
