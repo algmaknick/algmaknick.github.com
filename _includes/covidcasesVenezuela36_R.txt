@@ -1,16 +1,16 @@
-Venezuela data at: 2021-02-06<br />
-10 day model MAPE: 0.002968<br />
+Venezuela data at: 2021-02-07<br />
+10 day model MAPE: 0.002906<br />
 model: bi-Richards<br />
-coeffs: [9.74691697e+04 3.40502237e-01 2.76172422e+01 3.61864687e-02]<br />
-rational stdev: 0.081543<br />
-forecast at the end of period: +203 days<br />
-	 deltaDaycases: 96<br />
-	 total cases: 184259 ± 15025<br />
-	 total death: 1745 ± 426<br />
+coeffs: [ 1.01478520e+05  5.36092498e-01 -2.02534741e+01  2.22035720e-02]<br />
+rational stdev: 0.081409<br />
+forecast at the end of period: +202 days<br />
+	 deltaDaycases: 107<br />
+	 total cases: 186956 ± 15219<br />
+	 total death: 1771 ± 432<br />
 bi-Richards approximation splitting point: 190<br />
 actives k: 11<br />
-trend coefficient of determination: 0.246831 <br />
- intercept: -3.340981 <br />
- slope: -0.007352<br />trend coefficient of determination: 0.018643 <br />
- intercept: -5.725275 <br />
- slope: -0.001478<br />
+trend coefficient of determination: 0.220027 <br />
+ intercept: -3.264138 <br />
+ slope: -0.006850<br />trend coefficient of determination: 0.016438 <br />
+ intercept: -5.589061 <br />
+ slope: -0.001368<br />
