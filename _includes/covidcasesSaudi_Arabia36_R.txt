@@ -1,16 +1,16 @@
-Saudi Arabia data at: 2021-02-07<br />
-10 day model MAPE: 0.002006<br />
+Saudi Arabia data at: 2021-02-08<br />
+10 day model MAPE: 0.003363<br />
 model: bi-Richards<br />
-coeffs: [3.26085763e+04 2.70436281e+00 2.22282276e+01 8.72513601e-03]<br />
-rational stdev: 0.201571<br />
-forecast at the end of period: +104 days<br />
-	 deltaDaycases: 6<br />
-	 total cases: 370457 ± 74673<br />
-	 total death: 6405 ± 3873<br />
-bi-Richards approximation splitting point: 200<br />
+coeffs: [1.45664095e+04 1.77146937e+00 1.38316132e+02 1.73877233e-02]<br />
+rational stdev: 0.103524<br />
+forecast at the end of period: +103 days<br />
+	 deltaDaycases: 4<br />
+	 total cases: 371322 ± 38440<br />
+	 total death: 6417 ± 1992<br />
+bi-Richards approximation splitting point: 300<br />
 actives k: 17<br />
-trend coefficient of determination: 0.970555 <br />
- intercept: -1.764993 <br />
- slope: -0.024454<br />trend coefficient of determination: 0.488059 <br />
- intercept: -5.024504 <br />
- slope: -0.008932<br />
+trend coefficient of determination: 0.978152 <br />
+ intercept: -2.064474 <br />
+ slope: -0.021947<br />trend coefficient of determination: 0.889464 <br />
+ intercept: -17.605707 <br />
+ slope: 0.031706<br />
