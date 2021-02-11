@@ -1,16 +1,16 @@
-Sweden data at: 2021-02-09<br />
-10 day model MAPE: 0.002179<br />
+Sweden data at: 2021-02-10<br />
+10 day model MAPE: 0.003716<br />
 model: bi-Richards<br />
-coeffs: [5.83807540e+05 9.16702881e-02 2.55958448e+02 3.75275975e-01]<br />
-rational stdev: 0.233346<br />
-forecast at the end of period: +137 days<br />
-	 deltaDaycases: 25<br />
-	 total cases: 670911 ± 156554<br />
-	 total death: 13715 ± 9601<br />
-bi-Richards approximation splitting point: 200<br />
+coeffs: [5.89577073e+05 2.48493663e-01 2.12830064e+02 1.21170516e-01]<br />
+rational stdev: 0.198851<br />
+forecast at the end of period: +136 days<br />
+	 deltaDaycases: 49<br />
+	 total cases: 689555 ± 137119<br />
+	 total death: 14159 ± 8446<br />
+bi-Richards approximation splitting point: 240<br />
 actives k: 35<br />
-trend coefficient of determination: 0.863038 <br />
- intercept: -4.272297 <br />
- slope: -0.036414<br />trend coefficient of determination: 0.071465 <br />
- intercept: -7.975623 <br />
- slope: -0.004527<br />
+trend coefficient of determination: 0.725164 <br />
+ intercept: -3.098121 <br />
+ slope: -0.020965<br />trend coefficient of determination: 0.719430 <br />
+ intercept: -0.598473 <br />
+ slope: -0.017920<br />
