@@ -1,8 +1,7 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-US">
   <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
 
 <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>Multi-logistic model of COVID-19 dynamics | Model, code, results</title>
@@ -18,42 +17,23 @@
 {"url":"http://localhost:4000/","name":"Multi-logistic model of COVID-19 dynamics","description":"Model, code, results","@type":"WebSite","headline":"Multi-logistic model of COVID-19 dynamics","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=23cb9e55f5ea9cc718b6d3fc23b20ac6325819a7">
-    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-    <script src="/assets/js/respond.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <!--[if lt IE 8]>
-    <link rel="stylesheet" href="/assets/css/ie.css">
-    <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <link rel="stylesheet" href="/assets/css/style.css?v=f1f058e56a94924cbe6be3fc66a5295c0712214d">
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/algmaknick/algmaknick.github.com">View On GitHub</a></li>
-          
-            <li class="downloads"><a href="https://github.com/algmaknick/algmaknick.github.com/archive/master.zip">ZIP</a></li>
-            <li class="downloads"><a href="https://github.com/algmaknick/algmaknick.github.com/tarball/master">TAR</a></li>
-            <li class="title">DOWNLOADS</li>
-          
-        </nav>
-      </div><!-- end header -->
+    <section class="page-header">
+      <h1 class="project-name">Multi-logistic model of COVID-19 dynamics</h1>
+      <h2 class="project-tagline">Model, code, results</h2>
+      
+      
+        <a href="https://github.com/algmaknick/algmaknick.github.com/archive/master.zip" class="btn">Download .zip</a>
+        <a href="https://github.com/algmaknick/algmaknick.github.com/tarball/master" class="btn">Download .tar.gz</a>
+      
+    </section>
 
-    <div class="wrapper">
-
-      <section>
-        <div id="title">
-          <h1>Multi-logistic model of COVID-19 dynamics</h1>
-          <p>Model, code, results</p>
-          <hr>
-          <span class="credits left">Project maintained by <a href="https://github.com/algmaknick">algmaknick</a></span>
-          <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-        </div>
-
-        <head>
+    <section class="main-content">
+      <head>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous" onload="renderMathInElement(document.body);"></script>
@@ -91,1949 +71,1952 @@ where \(t_{N}\) is the current day of modeled active data, \(k\) is the amount o
 <br />
 <img src="pictures/covidcasesWorld36_R.png" alt="hi" class="inline"/><br /> 
 
-  World data at: 2021-02-09<br />
-10 day model MAPE: 0.002470<br />
+  World data at: 2021-02-12<br />
+10 day model MAPE: 0.002747<br />
 model: bi-Richards<br />
-coeffs: [4.52356794e+07 1.89997130e+00 7.91349575e+01 1.19049494e-02]<br />
-rational stdev: 0.159135<br />
-forecast at the end of period: +582 days<br />
+coeffs: [4.45851219e+07 1.49590626e+00 9.26410825e+01 1.53602331e-02]<br />
+rational stdev: 0.158468<br />
+forecast at the end of period: +579 days<br />
 	 deltaDaycases: 6388<br />
-	 total cases: 166710985 ± 26529628<br />
-	 total death: 3649242 ± 1742171<br />
+	 total cases: 166060433 ± 26315281<br />
+	 total death: 3656694 ± 1738408<br />
 bi-Richards approximation splitting point: 230<br />
 actives k: 33<br />
-trend coefficient of determination: 0.792916 <br />
- intercept: -3.110026 <br />
- slope: -0.009431<br />trend coefficient of determination: 0.670455 <br />
- intercept: -2.387141 <br />
- slope: -0.009474<br />
+trend coefficient of determination: 0.793973 <br />
+ intercept: -3.157508 <br />
+ slope: -0.009498<br />trend coefficient of determination: 0.697498 <br />
+ intercept: -2.380251 <br />
+ slope: -0.009734<br />
       <br /> 
 
 European Union
 <br />
 <img src="pictures/covidcasesEuropean_Union36_R.png" alt="hi" class="inline"/><br /> 
 
-  European Union data at: 2021-02-09<br />
-10 day model MAPE: 0.010124<br />
+  European Union data at: 2021-02-12<br />
+10 day model MAPE: 0.009234<br />
 model: bi-Richards<br />
-coeffs: [2.05890649e+07 2.46169154e+00 4.10988887e+01 8.73944059e-03]<br />
-rational stdev: 0.270656<br />
-forecast at the end of period: +137 days<br />
-	 deltaDaycases: 5625<br />
-	 total cases: 23619489 ± 6392766<br />
-	 total death: 576338 ± 467968<br />
+coeffs: [2.09009924e+07 2.22207265e+00 4.21430469e+01 9.51512418e-03]<br />
+rational stdev: 0.269611<br />
+forecast at the end of period: +134 days<br />
+	 deltaDaycases: 6060<br />
+	 total cases: 23907253 ± 6445662<br />
+	 total death: 585523 ± 473590<br />
 bi-Richards approximation splitting point: 230<br />
 actives k: 35<br />
-trend coefficient of determination: 0.204069 <br />
- intercept: -3.521200 <br />
- slope: -0.009067<br />trend coefficient of determination: 0.755058 <br />
- intercept: 0.213984 <br />
- slope: -0.016793<br />
+trend coefficient of determination: 0.204398 <br />
+ intercept: -3.530326 <br />
+ slope: -0.009079<br />trend coefficient of determination: 0.760042 <br />
+ intercept: 0.123104 <br />
+ slope: -0.016502<br />
       <br /> 
     Brazil
     <br />
     <img src="pictures/covidcasesBrazil36_R.png" alt="hi" class="inline"/><br /> 
 
-      Brazil data at: 2021-02-09<br />
-10 day model MAPE: 0.002114<br />
+      Brazil data at: 2021-02-12<br />
+10 day model MAPE: 0.003071<br />
 model: bi-Richards<br />
-coeffs: [5.77546467e+06 1.84500964e+00 1.04329457e+02 1.14013009e-02]<br />
-rational stdev: 0.242728<br />
-forecast at the end of period: +172 days<br />
-	 deltaDaycases: 2070<br />
-	 total cases: 12240148 ± 2971028<br />
-	 total death: 297765 ± 216827<br />
+coeffs: [5.88164070e+06 1.32785936e+00 1.18775942e+02 1.57020398e-02]<br />
+rational stdev: 0.241828<br />
+forecast at the end of period: +169 days<br />
+	 deltaDaycases: 2199<br />
+	 total cases: 12339262 ± 2983976<br />
+	 total death: 300216 ± 217801<br />
 bi-Richards approximation splitting point: 220<br />
 actives k: 17<br />
-trend coefficient of determination: 0.514951 <br />
- intercept: -2.066095 <br />
- slope: -0.014782<br />trend coefficient of determination: 0.062748 <br />
- intercept: -6.469148 <br />
- slope: 0.003253<br />
+trend coefficient of determination: 0.523862 <br />
+ intercept: -2.093645 <br />
+ slope: -0.015007<br />trend coefficient of determination: 0.064336 <br />
+ intercept: -6.518962 <br />
+ slope: 0.003187<br />
           <br /> 
     Russia
     <br />
     <img src="pictures/covidcasesRussia36_R.png" alt="hi" class="inline"/><br /> 
 
-      Russia data at: 2021-02-09<br />
-10 day model MAPE: 0.003515<br />
+      Russia data at: 2021-02-12<br />
+10 day model MAPE: 0.003369<br />
 model: bi-Richards<br />
-coeffs: [3.93089785e+06 1.56980584e-01 1.40401890e+02 1.26439278e-01]<br />
-rational stdev: 0.155428<br />
-forecast at the end of period: +242 days<br />
-	 deltaDaycases: 202<br />
-	 total cases: 5054494 ± 785608<br />
-	 total death: 98098 ± 45741<br />
+coeffs: [3.88133723e+06 1.41478279e-01 1.48556704e+02 1.43440795e-01]<br />
+rational stdev: 0.154727<br />
+forecast at the end of period: +239 days<br />
+	 deltaDaycases: 177<br />
+	 total cases: 5006369 ± 774622<br />
+	 total death: 98328 ± 45642<br />
 bi-Richards approximation splitting point: 200<br />
 actives k: 26<br />
-trend coefficient of determination: 0.738137 <br />
- intercept: -4.136639 <br />
- slope: -0.017621<br />trend coefficient of determination: 0.835393 <br />
- intercept: -3.865994 <br />
- slope: -0.010802<br />
+trend coefficient of determination: 0.739004 <br />
+ intercept: -4.328069 <br />
+ slope: -0.017924<br />trend coefficient of determination: 0.849264 <br />
+ intercept: -3.984456 <br />
+ slope: -0.011350<br />
           <br /> 
     USA
     <br />
     <img src="pictures/covidcasesUSA36_R.png" alt="hi" class="inline"/><br /> 
 
-      USA data at: 2021-02-09<br />
-10 day model MAPE: 0.004914<br />
+      USA data at: 2021-02-12<br />
+10 day model MAPE: 0.005242<br />
 model: bi-Richards<br />
-coeffs: [2.22862794e+07 1.65157616e+00 1.09071100e+02 1.50078084e-02]<br />
-rational stdev: 0.226213<br />
-forecast at the end of period: +445 days<br />
-	 deltaDaycases: 109<br />
-	 total cases: 35315348 ± 7988787<br />
-	 total death: 609472 ± 413611<br />
+coeffs: [2.19842375e+07 1.76688655e+00 1.08353804e+02 1.42060387e-02]<br />
+rational stdev: 0.225258<br />
+forecast at the end of period: +442 days<br />
+	 deltaDaycases: 108<br />
+	 total cases: 35013324 ± 7887037<br />
+	 total death: 613547 ± 414619<br />
 bi-Richards approximation splitting point: 240<br />
 actives k: 52<br />
-trend coefficient of determination: 0.677059 <br />
- intercept: -2.847638 <br />
- slope: -0.012406<br />trend coefficient of determination: 0.668359 <br />
- intercept: -1.267659 <br />
- slope: -0.012553<br />
+trend coefficient of determination: 0.676913 <br />
+ intercept: -2.837883 <br />
+ slope: -0.012390<br />trend coefficient of determination: 0.696779 <br />
+ intercept: -1.067019 <br />
+ slope: -0.013243<br />
           <br /> 
     
     Spain
     <br />
     <img src="pictures/covidcasesSpain36_R.png" alt="hi" class="inline"/><br /> 
 
-      Spain data at: 2021-02-09<br />
-10 day model MAPE: 0.018250<br />
+      Spain data at: 2021-02-12<br />
+10 day model MAPE: 0.014751<br />
 model: bi-Richards<br />
-coeffs: [ 5.29984095e+06  7.37782136e-01 -1.93399327e+02  1.20352935e-02]<br />
-rational stdev: 0.190686<br />
-forecast at the end of period: +242 days<br />
-	 deltaDaycases: 3625<br />
-	 total cases: 5142012 ± 980510<br />
-	 total death: 107889 ± 61718<br />
+coeffs: [ 5.64177183e+06  8.26848584e-01 -2.24637180e+02  1.03216426e-02]<br />
+rational stdev: 0.189379<br />
+forecast at the end of period: +239 days<br />
+	 deltaDaycases: 4271<br />
+	 total cases: 5384354 ± 1019685<br />
+	 total death: 114076 ± 64810<br />
 bi-Richards approximation splitting point: 100<br />
 actives k: 131<br />
-trend coefficient of determination: 0.949198 <br />
- intercept: -1.385655 <br />
- slope: -0.063413<br />trend coefficient of determination: 0.109423 <br />
- intercept: -6.105555 <br />
- slope: 0.004211<br />
+trend coefficient of determination: 0.949152 <br />
+ intercept: -1.368877 <br />
+ slope: -0.063348<br />trend coefficient of determination: 0.103220 <br />
+ intercept: -6.048069 <br />
+ slope: 0.004021<br />
           <br /> 
     
     Italy
     <br />
     <img src="pictures/covidcasesItaly36_R.png" alt="hi" class="inline"/><br /> 
 
-      Italy data at: 2021-02-09<br />
-10 day model MAPE: 0.011708<br />
+      Italy data at: 2021-02-12<br />
+10 day model MAPE: 0.011767<br />
 model: bi-Richards<br />
-coeffs: [2.42352687e+06 3.90447312e+00 1.11480265e+02 8.26646060e-03]<br />
-rational stdev: 0.215283<br />
-forecast at the end of period: +102 days<br />
-	 deltaDaycases: 196<br />
-	 total cases: 2701879 ± 581669<br />
-	 total death: 93615 ± 60461<br />
+coeffs: [2.45524125e+06 5.14008786e+00 9.89978848e+01 6.13410999e-03]<br />
+rational stdev: 0.214512<br />
+forecast at the end of period: +99 days<br />
+	 deltaDaycases: 226<br />
+	 total cases: 2732503 ± 586155<br />
+	 total death: 94259 ± 60659<br />
 bi-Richards approximation splitting point: 240<br />
 actives k: 28<br />
-trend coefficient of determination: 0.273570 <br />
- intercept: -3.630165 <br />
- slope: -0.013046<br />trend coefficient of determination: 0.874424 <br />
- intercept: 2.326439 <br />
- slope: -0.023401<br />
+trend coefficient of determination: 0.273082 <br />
+ intercept: -3.607942 <br />
+ slope: -0.013020<br />trend coefficient of determination: 0.866145 <br />
+ intercept: 2.144736 <br />
+ slope: -0.022638<br />
           <br /> 
     
     United Kingdom
     <br />
     <img src="pictures/covidcasesUnited_Kingdom36_R.png" alt="hi" class="inline"/><br /> 
 
-      United Kingdom data at: 2021-02-09<br />
-10 day model MAPE: 0.002714<br />
+      United Kingdom data at: 2021-02-12<br />
+10 day model MAPE: 0.002739<br />
 model: bi-Richards<br />
-coeffs: [2.48638492e+06 1.40221156e-01 1.27382072e+02 5.40793320e-01]<br />
-rational stdev: 0.129541<br />
-forecast at the end of period: +102 days<br />
-	 deltaDaycases: 5<br />
-	 total cases: 4123700 ± 534187<br />
-	 total death: 118193 ± 45932<br />
+coeffs: [2.49771402e+06 1.43328618e-01 1.26751553e+02 5.21298812e-01]<br />
+rational stdev: 0.128505<br />
+forecast at the end of period: +99 days<br />
+	 deltaDaycases: 6<br />
+	 total cases: 4135016 ± 531372<br />
+	 total death: 119798 ± 46184<br />
 bi-Richards approximation splitting point: 125<br />
 actives k: 48<br />
-trend coefficient of determination: 0.000630 <br />
- intercept: -11.709163 <br />
- slope: -0.000434<br />trend coefficient of determination: 0.842081 <br />
- intercept: -6.549426 <br />
- slope: -0.039628<br />
+trend coefficient of determination: 0.000029 <br />
+ intercept: -11.467309 <br />
+ slope: -0.000093<br />trend coefficient of determination: 0.862727 <br />
+ intercept: -6.147183 <br />
+ slope: -0.040423<br />
           <br /> 
     
     France
     <br />
     <img src="pictures/covidcasesFrance36_R.png" alt="hi" class="inline"/><br /> 
 
-      France data at: 2021-02-09<br />
-10 day model MAPE: 0.005754<br />
+      France data at: 2021-02-12<br />
+10 day model MAPE: 0.005607<br />
 model: bi-Richards<br />
-coeffs: [1.59833201e+06 1.08561896e-01 2.13637756e+02 6.80533179e-01]<br />
-rational stdev: 0.238508<br />
-forecast at the end of period: +207 days<br />
+coeffs: [1.60903791e+06 1.17761076e-01 2.11027135e+02 5.94948123e-01]<br />
+rational stdev: 0.237485<br />
+forecast at the end of period: +204 days<br />
 	 deltaDaycases: 14<br />
-	 total cases: 6144711 ± 1465564<br />
-	 total death: 146561 ± 104868<br />
+	 total cases: 6155417 ± 1461816<br />
+	 total death: 146276 ± 104214<br />
 bi-Richards approximation splitting point: 225<br />
 actives k: 105<br />
-trend coefficient of determination: 0.117505 <br />
- intercept: -11.925870 <br />
- slope: -0.007855<br />trend coefficient of determination: 0.365062 <br />
- intercept: -9.791394 <br />
- slope: -0.018714<br />
+trend coefficient of determination: 0.092525 <br />
+ intercept: -11.009184 <br />
+ slope: -0.006777<br />trend coefficient of determination: 0.337325 <br />
+ intercept: -8.987541 <br />
+ slope: -0.017012<br />
           <br /> 
     
     Germany
     <br />
     <img src="pictures/covidcasesGermany36_R.png" alt="hi" class="inline"/><br /> 
 
-      Germany data at: 2021-02-09<br />
-10 day model MAPE: 0.005468<br />
+      Germany data at: 2021-02-12<br />
+10 day model MAPE: 0.004999<br />
 model: bi-Richards<br />
-coeffs: [2.52401581e+06 1.08462776e-01 2.15280539e+02 2.44256223e-01]<br />
-rational stdev: 0.190199<br />
-forecast at the end of period: +116 days<br />
-	 deltaDaycases: 591<br />
-	 total cases: 2733499 ± 519909<br />
-	 total death: 75129 ± 42868<br />
+coeffs: [2.49766817e+06 1.01979812e-01 2.19431756e+02 2.65722918e-01]<br />
+rational stdev: 0.189294<br />
+forecast at the end of period: +113 days<br />
+	 deltaDaycases: 536<br />
+	 total cases: 2709699 ± 512930<br />
+	 total death: 75620 ± 42943<br />
 bi-Richards approximation splitting point: 215<br />
 actives k: 17<br />
-trend coefficient of determination: 0.339560 <br />
- intercept: -6.286815 <br />
- slope: -0.015128<br />trend coefficient of determination: 0.759210 <br />
- intercept: -2.483902 <br />
- slope: -0.018972<br />
+trend coefficient of determination: 0.342495 <br />
+ intercept: -6.516831 <br />
+ slope: -0.015363<br />trend coefficient of determination: 0.782317 <br />
+ intercept: -2.642401 <br />
+ slope: -0.019490<br />
           <br /> 
     
     Turkey
     <br />
     <img src="pictures/covidcasesTurkey36_R.png" alt="hi" class="inline"/><br /> 
 
-      Turkey data at: 2021-02-09<br />
-10 day model MAPE: 0.007032<br />
+      Turkey data at: 2021-02-12<br />
+10 day model MAPE: 0.007707<br />
 model: bi-Richards<br />
-coeffs: [1.37119742e+06 6.02566886e-02 2.59444707e+02 1.07719739e+00]<br />
-rational stdev: 0.209535<br />
-forecast at the end of period: +172 days<br />
+coeffs: [1.38719723e+06 6.21438688e-02 2.58111046e+02 9.95188300e-01]<br />
+rational stdev: 0.208624<br />
+forecast at the end of period: +169 days<br />
 	 deltaDaycases: 89<br />
-	 total cases: 2583728 ± 541382<br />
-	 total death: 27374 ± 17207<br />
+	 total cases: 2599728 ± 542365<br />
+	 total death: 27576 ± 17259<br />
 bi-Richards approximation splitting point: 230<br />
 actives k: 17<br />
-trend coefficient of determination: 0.572101 <br />
- intercept: -15.950880 <br />
- slope: -0.024791<br />trend coefficient of determination: 0.806040 <br />
- intercept: -13.179825 <br />
- slope: -0.026780<br />
+trend coefficient of determination: 0.571372 <br />
+ intercept: -14.986080 <br />
+ slope: -0.023827<br />trend coefficient of determination: 0.802804 <br />
+ intercept: -12.309213 <br />
+ slope: -0.025618<br />
           <br /> 
    
     Iran
     <br />
     <img src="pictures/covidcasesIran36_R.png" alt="hi" class="inline"/><br /> 
 
-      Iran data at: 2021-02-08<br />
-10 day model MAPE: 0.012478<br />
+      Iran data at: 2021-02-12<br />
+10 day model MAPE: 0.013026<br />
 model: bi-Richards<br />
-coeffs: [9.47519189e+05 1.70634554e-01 2.20819735e+02 1.91272240e-01]<br />
-rational stdev: 0.232131<br />
-forecast at the end of period: +326 days<br />
+coeffs: [9.86345218e+05 3.46988903e-01 1.86679208e+02 8.42162249e-02]<br />
+rational stdev: 0.231034<br />
+forecast at the end of period: +323 days<br />
 	 deltaDaycases: 13<br />
-	 total cases: 1553825 ± 360690<br />
-	 total death: 61491 ± 42821<br />
+	 total cases: 1592659 ± 367958<br />
+	 total death: 62285 ± 43169<br />
 bi-Richards approximation splitting point: 200<br />
 actives k: 25<br />
-trend coefficient of determination: 0.745966 <br />
- intercept: -3.826264 <br />
- slope: -0.022821<br />trend coefficient of determination: 0.333596 <br />
- intercept: -5.733639 <br />
- slope: -0.006233<br />
+trend coefficient of determination: 0.757430 <br />
+ intercept: -2.907765 <br />
+ slope: -0.019913<br />trend coefficient of determination: 0.274782 <br />
+ intercept: -4.551377 <br />
+ slope: -0.005252<br />
           <br /> 
         
     Canada
     <br />
     <img src="pictures/covidcasesCanada36_R.png" alt="hi" class="inline"/><br /> 
 
-      Canada data at: 2021-02-09<br />
-10 day model MAPE: 0.013231<br />
+      Canada data at: 2021-02-12<br />
+10 day model MAPE: 0.012331<br />
 model: bi-Richards<br />
-coeffs: [9.97843528e+05 1.60090535e-01 1.82964323e+02 1.22549013e-01]<br />
-rational stdev: 0.266901<br />
-forecast at the end of period: +508 days<br />
+coeffs: [9.44391384e+05 1.15411935e-01 2.09464415e+02 1.85459213e-01]<br />
+rational stdev: 0.265886<br />
+forecast at the end of period: +505 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 1148809 ± 306618<br />
-	 total death: 29625 ± 23720<br />
+	 total cases: 1095369 ± 291243<br />
+	 total death: 28258 ± 22540<br />
 bi-Richards approximation splitting point: 240<br />
 actives k: 17<br />
-trend coefficient of determination: 0.502797 <br />
- intercept: -3.809404 <br />
- slope: -0.016296<br />trend coefficient of determination: 0.595295 <br />
- intercept: -2.331934 <br />
- slope: -0.012905<br />
+trend coefficient of determination: 0.517486 <br />
+ intercept: -4.332488 <br />
+ slope: -0.017601<br />trend coefficient of determination: 0.657563 <br />
+ intercept: -2.744122 <br />
+ slope: -0.014345<br />
           <br /> 
     South Africa
     <br />
     <img src="pictures/covidcasesSouth_Africa36_R.png" alt="hi" class="inline"/><br /> 
 
-      South Africa data at: 2021-02-09<br />
-10 day model MAPE: 0.004333<br />
+      South Africa data at: 2021-02-12<br />
+10 day model MAPE: 0.004291<br />
 model: bi-Richards<br />
-coeffs: [7.93161327e+05 4.14388860e-02 3.10893219e+02 3.82191074e+00]<br />
-rational stdev: 1.030029<br />
-forecast at the end of period: +32 days<br />
-	 deltaDaycases: 6<br />
-	 total cases: 1478982 ± 1523395<br />
-	 total death: 46860 ± 144801<br />
+coeffs: [7.97231484e+05 4.15689210e-02 3.10886687e+02 3.68755368e+00]<br />
+rational stdev: 1.026801<br />
+forecast at the end of period: +29 days<br />
+	 deltaDaycases: 8<br />
+	 total cases: 1483038 ± 1522785<br />
+	 total death: 47521 ± 146383<br />
 bi-Richards approximation splitting point: 235<br />
 actives k: 17<br />
-trend coefficient of determination: 0.862200 <br />
- intercept: -24.868713 <br />
- slope: -0.174395<br />trend coefficient of determination: 0.424405 <br />
- intercept: -51.379202 <br />
- slope: -0.022984<br />
+trend coefficient of determination: 0.863347 <br />
+ intercept: -24.050092 <br />
+ slope: -0.168971<br />trend coefficient of determination: 0.449534 <br />
+ intercept: -49.306384 <br />
+ slope: -0.023866<br />
           <br /> 
     Belgium
     <br />
     <img src="pictures/covidcasesBelgium36_R.png" alt="hi" class="inline"/><br /> 
 
-      Belgium data at: 2021-02-09<br />
-10 day model MAPE: 0.001115<br />
+      Belgium data at: 2021-02-12<br />
+10 day model MAPE: 0.001258<br />
 model: bi-Richards<br />
-coeffs: [3.81887333e+05 2.83752780e-01 2.03726376e+02 4.62834212e-01]<br />
-rational stdev: 0.202533<br />
-forecast at the end of period: +277 days<br />
+coeffs: [3.81437840e+05 2.78606564e-01 2.04006104e+02 4.75185696e-01]<br />
+rational stdev: 0.201615<br />
+forecast at the end of period: +274 days<br />
 	 deltaDaycases: 49<br />
-	 total cases: 1834749 ± 371597<br />
-	 total death: 54090 ± 32865<br />
+	 total cases: 1834300 ± 369822<br />
+	 total death: 53887 ± 32593<br />
 bi-Richards approximation splitting point: 230<br />
 actives k: 61<br />
-trend coefficient of determination: 0.037565 <br />
- intercept: -9.365004 <br />
- slope: -0.004523<br />trend coefficient of determination: 0.338385 <br />
- intercept: -8.196684 <br />
- slope: -0.013085<br />
+trend coefficient of determination: 0.039622 <br />
+ intercept: -9.487441 <br />
+ slope: -0.004655<br />trend coefficient of determination: 0.327744 <br />
+ intercept: -8.557873 <br />
+ slope: -0.012331<br />
           <br /> 
     
     Peru
     <br />
     <img src="pictures/covidcasesPeru36_R.png" alt="hi" class="inline"/><br /> 
 
-      Peru data at: 2021-02-09<br />
-10 day model MAPE: 0.008280<br />
+      Peru data at: 2021-02-12<br />
+10 day model MAPE: 0.008662<br />
 model: bi-Richards<br />
-coeffs: [2.19481487e+05 7.05823273e+00 2.57389773e+02 1.02239198e-02]<br />
-rational stdev: 0.318340<br />
-forecast at the end of period: +102 days<br />
-	 deltaDaycases: 95<br />
-	 total cases: 1305207 ± 415500<br />
-	 total death: 46487 ± 44396<br />
+coeffs: [2.49578908e+05 7.82851016e+00 2.50108460e+02 8.39322200e-03]<br />
+rational stdev: 0.317151<br />
+forecast at the end of period: +99 days<br />
+	 deltaDaycases: 102<br />
+	 total cases: 1335192 ± 423458<br />
+	 total death: 47310 ± 45013<br />
 bi-Richards approximation splitting point: 265<br />
 actives k: 21<br />
-trend coefficient of determination: 0.905312 <br />
- intercept: -1.937505 <br />
- slope: -0.017506<br />trend coefficient of determination: 0.617346 <br />
- intercept: -12.686035 <br />
- slope: 0.021768<br />
+trend coefficient of determination: 0.905239 <br />
+ intercept: -1.922833 <br />
+ slope: -0.017454<br />trend coefficient of determination: 0.650687 <br />
+ intercept: -12.759042 <br />
+ slope: 0.022107<br />
           <br /> 
     
     Netherlands
     <br />
     <img src="pictures/covidcasesNetherlands36_R.png" alt="hi" class="inline"/><br /> 
 
-      Netherlands data at: 2021-02-09<br />
-10 day model MAPE: 0.004076<br />
+      Netherlands data at: 2021-02-12<br />
+10 day model MAPE: 0.004739<br />
 model: bi-Richards<br />
-coeffs: [ 1.25026698e+06  1.75852054e+00 -2.24291584e-01  1.01262894e-02]<br />
-rational stdev: 0.218837<br />
-forecast at the end of period: +242 days<br />
-	 deltaDaycases: 83<br />
-	 total cases: 1319861 ± 288835<br />
-	 total death: 18968 ± 12452<br />
+coeffs: [1.23979435e+06 1.38067355e+00 1.58897975e+01 1.30268095e-02]<br />
+rational stdev: 0.217853<br />
+forecast at the end of period: +239 days<br />
+	 deltaDaycases: 78<br />
+	 total cases: 1309712 ± 285324<br />
+	 total death: 18879 ± 12338<br />
 bi-Richards approximation splitting point: 205<br />
 actives k: 35<br />
-trend coefficient of determination: 0.151821 <br />
- intercept: -3.725481 <br />
- slope: -0.010813<br />trend coefficient of determination: 0.818442 <br />
- intercept: 0.124561 <br />
- slope: -0.017113<br />
+trend coefficient of determination: 0.152582 <br />
+ intercept: -3.751889 <br />
+ slope: -0.010852<br />trend coefficient of determination: 0.828328 <br />
+ intercept: 0.102126 <br />
+ slope: -0.017172<br />
           <br /> 
     
     India
     <br />
     <img src="pictures/covidcasesIndia36_R.png" alt="hi" class="inline"/><br /> 
 
-      India data at: 2021-02-09<br />
-10 day model MAPE: 0.000897<br />
+      India data at: 2021-02-12<br />
+10 day model MAPE: 0.000742<br />
 model: bi-Richards<br />
-coeffs: [ 7.09209543e+06  1.88428947e+00 -6.96351560e+00  1.24467401e-02]<br />
-rational stdev: 0.198550<br />
-forecast at the end of period: +242 days<br />
+coeffs: [ 7.09685851e+06  1.81628181e+00 -5.61981792e+00  1.28973680e-02]<br />
+rational stdev: 0.197725<br />
+forecast at the end of period: +239 days<br />
 	 deltaDaycases: 125<br />
-	 total cases: 11286618 ± 2240955<br />
-	 total death: 161405 ± 96140<br />
+	 total cases: 11291372 ± 2232589<br />
+	 total death: 161284 ± 95669<br />
 bi-Richards approximation splitting point: 92<br />
 actives k: 13<br />
-trend coefficient of determination: 0.599601 <br />
- intercept: -1.920517 <br />
- slope: -0.017017<br />trend coefficient of determination: 0.963478 <br />
- intercept: -1.373319 <br />
- slope: -0.016753<br />
+trend coefficient of determination: 0.600803 <br />
+ intercept: -1.922843 <br />
+ slope: -0.017058<br />trend coefficient of determination: 0.964708 <br />
+ intercept: -1.378048 <br />
+ slope: -0.016763<br />
           <br /> 
     
     Switzerland
     <br />
     <img src="pictures/covidcasesSwitzerland36_R.png" alt="hi" class="inline"/><br /> 
 
-      Switzerland data at: 2021-02-09<br />
-10 day model MAPE: 0.004394<br />
+      Switzerland data at: 2021-02-12<br />
+10 day model MAPE: 0.004127<br />
 model: bi-Richards<br />
-coeffs: [5.20970085e+05 3.98028489e+00 8.64275649e+01 7.75695325e-03]<br />
-rational stdev: 0.207869<br />
-forecast at the end of period: +67 days<br />
-	 deltaDaycases: 134<br />
-	 total cases: 557630 ± 115914<br />
-	 total death: 10068 ± 6278<br />
+coeffs: [5.22914991e+05 3.30920958e+00 9.15254867e+01 9.27603134e-03]<br />
+rational stdev: 0.206955<br />
+forecast at the end of period: +64 days<br />
+	 deltaDaycases: 138<br />
+	 total cases: 559413 ± 115773<br />
+	 total death: 10083 ± 6260<br />
 bi-Richards approximation splitting point: 215<br />
 actives k: 43<br />
-trend coefficient of determination: 0.090795 <br />
- intercept: -4.477928 <br />
- slope: -0.007956<br />trend coefficient of determination: 0.870928 <br />
- intercept: 2.240701 <br />
- slope: -0.024599<br />
+trend coefficient of determination: 0.091038 <br />
+ intercept: -4.491797 <br />
+ slope: -0.007971<br />trend coefficient of determination: 0.877847 <br />
+ intercept: 2.204198 <br />
+ slope: -0.024529<br />
           <br /> 
     
     Ecuador
     <br />
     <img src="pictures/covidcasesEcuador36_R.png" alt="hi" class="inline"/><br /> 
 
-      Ecuador data at: 2021-02-09<br />
-10 day model MAPE: 0.012435<br />
+      Ecuador data at: 2021-02-12<br />
+10 day model MAPE: 0.011900<br />
 model: bi-Richards<br />
-coeffs: [ 2.32838230e+05  1.43168751e+00 -1.98898901e+02  8.33195130e-03]<br />
-rational stdev: 0.076782<br />
-forecast at the end of period: +102 days<br />
-	 deltaDaycases: 193<br />
-	 total cases: 280998 ± 21575<br />
-	 total death: 16318 ± 3758<br />
+coeffs: [ 2.39226088e+05  1.19842308e+00 -1.93918555e+02  9.69243271e-03]<br />
+rational stdev: 0.077364<br />
+forecast at the end of period: +99 days<br />
+	 deltaDaycases: 212<br />
+	 total cases: 285185 ± 22063<br />
+	 total death: 16471 ± 3822<br />
 bi-Richards approximation splitting point: 80<br />
 actives k: 26<br />
-trend coefficient of determination: 0.273199 <br />
- intercept: -2.208014 <br />
- slope: -0.047253<br />trend coefficient of determination: 0.121647 <br />
- intercept: -4.261331 <br />
- slope: -0.005220<br />
+trend coefficient of determination: 0.273670 <br />
+ intercept: -2.218710 <br />
+ slope: -0.047310<br />trend coefficient of determination: 0.122194 <br />
+ intercept: -4.286222 <br />
+ slope: -0.005163<br />
           <br /> 
     
     Portugal
     <br />
     <img src="pictures/covidcasesPortugal36_R.png" alt="hi" class="inline"/><br /> 
 
-      Portugal data at: 2021-02-09<br />
-10 day model MAPE: 0.025835<br />
+      Portugal data at: 2021-02-12<br />
+10 day model MAPE: 0.020523<br />
 model: bi-Richards<br />
-coeffs: [4.79915931e+05 3.27449476e-01 2.96888162e+02 2.33941167e-01]<br />
-rational stdev: 0.983124<br />
-forecast at the end of period: +102 days<br />
-	 deltaDaycases: 3<br />
-	 total cases: 871172 ± 856470<br />
-	 total death: 16458 ± 48540<br />
-bi-Richards approximation splitting point: 300<br />
+coeffs: [4.36729049e+05 3.69038355e-01 2.98767351e+02 2.34770264e-01]<br />
+rational stdev: 0.975014<br />
+forecast at the end of period: +99 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 841570 ± 820543<br />
+	 total death: 16195 ± 47371<br />
+bi-Richards approximation splitting point: 305<br />
 actives k: 21<br />
-trend coefficient of determination: 0.291547 <br />
- intercept: -5.336748 <br />
- slope: -0.009334<br />trend coefficient of determination: 0.123794 <br />
- intercept: -2.578725 <br />
- slope: -0.015027<br />
+trend coefficient of determination: 0.291284 <br />
+ intercept: -5.364732 <br />
+ slope: -0.009136<br />trend coefficient of determination: 0.362037 <br />
+ intercept: 2.392770 <br />
+ slope: -0.030376<br />
           <br /> 
     
     Saudi Arabia
     <br />
     <img src="pictures/covidcasesSaudi_Arabia36_R.png" alt="hi" class="inline"/><br /> 
 
-      Saudi Arabia data at: 2021-02-09<br />
-10 day model MAPE: 0.003478<br />
+      Saudi Arabia data at: 2021-02-12<br />
+10 day model MAPE: 0.003839<br />
 model: bi-Richards<br />
-coeffs: [1.51756651e+04 1.41548443e+00 1.41800974e+02 2.10092446e-02]<br />
-rational stdev: 0.103377<br />
-forecast at the end of period: +102 days<br />
-	 deltaDaycases: 5<br />
-	 total cases: 371896 ± 38445<br />
-	 total death: 6425 ± 1992<br />
+coeffs: [1.74983265e+04 1.39071629e+00 1.26575984e+02 1.88571719e-02]<br />
+rational stdev: 0.102939<br />
+forecast at the end of period: +99 days<br />
+	 deltaDaycases: 10<br />
+	 total cases: 374010 ± 38500<br />
+	 total death: 6457 ± 1994<br />
 bi-Richards approximation splitting point: 300<br />
 actives k: 17<br />
-trend coefficient of determination: 0.978116 <br />
- intercept: -2.097871 <br />
- slope: -0.022006<br />trend coefficient of determination: 0.897029 <br />
- intercept: -17.580579 <br />
- slope: 0.031475<br />
+trend coefficient of determination: 0.978138 <br />
+ intercept: -2.078025 <br />
+ slope: -0.021971<br />trend coefficient of determination: 0.910081 <br />
+ intercept: -17.220562 <br />
+ slope: 0.030405<br />
           <br /> 
     
     Sweden
     <br />
     <img src="pictures/covidcasesSweden36_R.png" alt="hi" class="inline"/><br /> 
 
-      Sweden data at: 2021-02-09<br />
-10 day model MAPE: 0.002179<br />
+      Sweden data at: 2021-02-12<br />
+10 day model MAPE: 0.000540<br />
 model: bi-Richards<br />
-coeffs: [5.83807540e+05 9.16702881e-02 2.55958448e+02 3.75275975e-01]<br />
-rational stdev: 0.233346<br />
-forecast at the end of period: +137 days<br />
-	 deltaDaycases: 25<br />
-	 total cases: 670911 ± 156554<br />
-	 total death: 13715 ± 9601<br />
-bi-Richards approximation splitting point: 200<br />
+coeffs: [5.90018492e+05 2.51338398e-01 2.12274204e+02 1.19590082e-01]<br />
+rational stdev: 0.198337<br />
+forecast at the end of period: +134 days<br />
+	 deltaDaycases: 50<br />
+	 total cases: 689978 ± 136848<br />
+	 total death: 14094 ± 8386<br />
+bi-Richards approximation splitting point: 240<br />
 actives k: 35<br />
-trend coefficient of determination: 0.863038 <br />
- intercept: -4.272297 <br />
- slope: -0.036414<br />trend coefficient of determination: 0.071465 <br />
- intercept: -7.975623 <br />
- slope: -0.004527<br />
+trend coefficient of determination: 0.725028 <br />
+ intercept: -3.086418 <br />
+ slope: -0.020929<br />trend coefficient of determination: 0.721503 <br />
+ intercept: -0.657689 <br />
+ slope: -0.017635<br />
           <br />     
     Pakistan
     <br />
     <img src="pictures/covidcasesPakistan36_R.png" alt="hi" class="inline"/><br /> 
 
-      Pakistan data at: 2021-02-09<br />
-10 day model MAPE: 0.002214<br />
+      Pakistan data at: 2021-02-12<br />
+10 day model MAPE: 0.002149<br />
 model: bi-Richards<br />
-coeffs: [2.75776989e+05 1.97455468e+00 1.10369610e+02 1.45708068e-02]<br />
-rational stdev: 2.145257<br />
-forecast at the end of period: +137 days<br />
-	 deltaDaycases: 25<br />
-	 total cases: 596379 ± 1279386<br />
-	 total death: 12971 ± 83478<br />
+coeffs: [2.77380757e+05 2.27974898e+00 1.04021064e+02 1.25157342e-02]<br />
+rational stdev: 2.136503<br />
+forecast at the end of period: +134 days<br />
+	 deltaDaycases: 27<br />
+	 total cases: 597929 ± 1277477<br />
+	 total death: 13069 ± 83765<br />
 bi-Richards approximation splitting point: 260<br />
 actives k: 26<br />
-trend coefficient of determination: 0.669843 <br />
- intercept: -2.661049 <br />
- slope: -0.016689<br />trend coefficient of determination: 0.778017 <br />
- intercept: -0.791165 <br />
- slope: -0.016583<br />
+trend coefficient of determination: 0.669205 <br />
+ intercept: -2.642321 <br />
+ slope: -0.016650<br />trend coefficient of determination: 0.797035 <br />
+ intercept: -0.783240 <br />
+ slope: -0.016516<br />
           <br />     
     Ireland
     <br />
     <img src="pictures/covidcasesIreland36_R.png" alt="hi" class="inline"/><br /> 
 
-      Ireland data at: 2021-02-09<br />
-10 day model MAPE: 0.015598<br />
+      Ireland data at: 2021-02-12<br />
+10 day model MAPE: 0.014542<br />
 model: bi-Richards<br />
-coeffs: [1.28661515e+05 2.00074350e-01 5.44841325e+01 7.44752505e-01]<br />
-rational stdev: 0.020636<br />
-forecast at the end of period: +32 days<br />
-	 deltaDaycases: 1<br />
-	 total cases: 201752 ± 4163<br />
-	 total death: 3693 ± 228<br />
+coeffs: [1.30802924e+05 2.20953534e-01 5.28591964e+01 6.22810106e-01]<br />
+rational stdev: 0.021606<br />
+forecast at the end of period: +29 days<br />
+	 deltaDaycases: 3<br />
+	 total cases: 203883 ± 4405<br />
+	 total death: 3793 ± 245<br />
 bi-Richards approximation splitting point: 55<br />
 actives k: 61<br />
-trend coefficient of determination: 0.121178 <br />
- intercept: -13.834528 <br />
- slope: 0.009996<br />trend coefficient of determination: 0.895467 <br />
- intercept: -7.028094 <br />
- slope: -0.083046<br />
+trend coefficient of determination: 0.134091 <br />
+ intercept: -12.484426 <br />
+ slope: 0.010625<br />trend coefficient of determination: 0.885535 <br />
+ intercept: -6.053902 <br />
+ slope: -0.076128<br />
           <br /> 
     
     Mexico
     <br />
     <img src="pictures/covidcasesMexico36_R.png" alt="hi" class="inline"/><br /> 
 
-      Mexico data at: 2021-02-09<br />
-10 day model MAPE: 0.008347<br />
+      Mexico data at: 2021-02-12<br />
+10 day model MAPE: 0.008209<br />
 model: bi-Richards<br />
-coeffs: [1.79971765e+06 1.17660462e+00 9.74912814e+01 1.57501896e-02]<br />
-rational stdev: 0.268912<br />
-forecast at the end of period: +452 days<br />
-	 deltaDaycases: 11<br />
-	 total cases: 3115671 ± 837840<br />
-	 total death: 269566 ± 217468<br />
+coeffs: [1.68123529e+06 1.20067163e+00 1.03437764e+02 1.60358306e-02]<br />
+rational stdev: 0.268028<br />
+forecast at the end of period: +449 days<br />
+	 deltaDaycases: 8<br />
+	 total cases: 2997320 ± 803367<br />
+	 total death: 261354 ± 210150<br />
 bi-Richards approximation splitting point: 260<br />
 actives k: 17<br />
-trend coefficient of determination: 0.915498 <br />
- intercept: -1.991356 <br />
- slope: -0.015675<br />trend coefficient of determination: 0.066793 <br />
- intercept: -3.737077 <br />
- slope: -0.004694<br />
+trend coefficient of determination: 0.915467 <br />
+ intercept: -1.993502 <br />
+ slope: -0.015684<br />trend coefficient of determination: 0.082956 <br />
+ intercept: -3.655363 <br />
+ slope: -0.004994<br />
           <br /> 
     
     Singapore
     <br />
     <img src="pictures/covidcasesSingapore36_R.png" alt="hi" class="inline"/><br /> 
 
-      Singapore data at: 2021-02-09<br />
-10 day model MAPE: 0.000748<br />
+      Singapore data at: 2021-02-12<br />
+10 day model MAPE: 0.000710<br />
 model: bi-Richards<br />
-coeffs: [1.03485467e+03 4.52378583e-01 1.80908980e+02 3.83782757e-01]<br />
-rational stdev: 15163.546751<br />
-forecast at the end of period: +102 days<br />
+coeffs: [1.05347934e+03 5.53430251e-01 1.77397405e+02 2.66806844e-01]<br />
+rational stdev: 15105.957287<br />
+forecast at the end of period: +99 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 58734 ± 890623408<br />
-	 total death: 28 ± 1273737<br />
+	 total cases: 58753 ± 887522263<br />
+	 total death: 28 ± 1268900<br />
 bi-Richards approximation splitting point: 240<br />
 actives k: 26<br />
-trend coefficient of determination: 0.867753 <br />
- intercept: -3.396128 <br />
- slope: -0.036031<br />trend coefficient of determination: 0.212058 <br />
- intercept: -15.545297 <br />
- slope: 0.008921<br />
+trend coefficient of determination: 0.838938 <br />
+ intercept: -2.890842 <br />
+ slope: -0.031792<br />trend coefficient of determination: 0.213842 <br />
+ intercept: -14.206404 <br />
+ slope: 0.008727<br />
           <br /> 
     
     Chile
     <br />
     <img src="pictures/covidcasesChile36_R.png" alt="hi" class="inline"/><br /> 
 
-      Chile data at: 2021-02-09<br />
-10 day model MAPE: 0.001703<br />
+      Chile data at: 2021-02-12<br />
+10 day model MAPE: 0.006176<br />
 model: bi-Richards<br />
-coeffs: [ 1.92369812e+06  5.55333414e-01 -1.11572572e+02  1.43268318e-02]<br />
+coeffs: [9.00415824e+05 7.36028514e-01 6.88469439e+01 1.85936075e-02]<br />
 S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.683382<br />
-forecast at the end of period: +522 days<br />
-	 deltaDaycases: 467<br />
-	 total cases: 2355074 ± 1609415<br />
-	 total death: 59278 ± 121528<br />
-bi-Richards approximation splitting point: 240<br />
+rational stdev: 0.224512<br />
+forecast at the end of period: +519 days<br />
+	 deltaDaycases: 13<br />
+	 total cases: 1439867 ± 323267<br />
+	 total death: 36246 ± 24412<br />
+bi-Richards approximation splitting point: 280<br />
 actives k: 10<br />
-trend coefficient of determination: 0.915559 <br />
- intercept: -1.780101 <br />
- slope: -0.020692<br />trend coefficient of determination: 0.616365 <br />
- intercept: -8.739067 <br />
- slope: 0.010064<br />
+trend coefficient of determination: 0.893267 <br />
+ intercept: -2.045548 <br />
+ slope: -0.018114<br />trend coefficient of determination: 0.347839 <br />
+ intercept: -8.548787 <br />
+ slope: 0.009261<br />
           <br /> 
     
     Israel
     <br />
     <img src="pictures/covidcasesIsrael36_R.png" alt="hi" class="inline"/><br /> 
 
-      Israel data at: 2021-02-09<br />
-10 day model MAPE: 0.015452<br />
+      Israel data at: 2021-02-12<br />
+10 day model MAPE: 0.015654<br />
 model: bi-Richards<br />
-coeffs: [4.34250858e+05 4.87957656e-02 3.00363244e+02 2.00289247e+00]<br />
-rational stdev: 0.312474<br />
-forecast at the end of period: +67 days<br />
-	 deltaDaycases: 7<br />
-	 total cases: 741169 ± 231595<br />
-	 total death: 5493 ± 5149<br />
+coeffs: [4.53045315e+05 4.95609742e-02 3.00412276e+02 1.77719593e+00]<br />
+rational stdev: 0.311173<br />
+forecast at the end of period: +64 days<br />
+	 deltaDaycases: 17<br />
+	 total cases: 759845 ± 236443<br />
+	 total death: 5607 ± 5234<br />
 bi-Richards approximation splitting point: 248<br />
 actives k: 11<br />
-trend coefficient of determination: 0.830654 <br />
- intercept: -21.334199 <br />
- slope: -0.041736<br />trend coefficient of determination: 0.059438 <br />
- intercept: -29.043423 <br />
- slope: -0.006543<br />
+trend coefficient of determination: 0.804134 <br />
+ intercept: -19.371908 <br />
+ slope: -0.037638<br />trend coefficient of determination: 0.061398 <br />
+ intercept: -26.122036 <br />
+ slope: -0.006573<br />
           <br /> 
     
     Austria
     <br />
     <img src="pictures/covidcasesAustria36_R.png" alt="hi" class="inline"/><br /> 
 
-      Austria data at: 2021-02-09<br />
-10 day model MAPE: 0.009881<br />
+      Austria data at: 2021-02-12<br />
+10 day model MAPE: 0.009033<br />
 model: bi-Richards<br />
-coeffs: [3.73489154e+05 8.54736725e-01 1.75604687e+02 4.69504462e-02]<br />
-rational stdev: 0.305023<br />
-forecast at the end of period: +88 days<br />
-	 deltaDaycases: 90<br />
-	 total cases: 431178 ± 131519<br />
-	 total death: 8167 ± 7473<br />
+coeffs: [3.76819898e+05 2.50646275e+00 1.44441809e+02 1.55055991e-02]<br />
+rational stdev: 0.304136<br />
+forecast at the end of period: +85 days<br />
+	 deltaDaycases: 93<br />
+	 total cases: 434431 ± 132126<br />
+	 total death: 8237 ± 7515<br />
 bi-Richards approximation splitting point: 210<br />
 actives k: 13<br />
-trend coefficient of determination: 0.173262 <br />
- intercept: -3.952130 <br />
- slope: -0.011729<br />trend coefficient of determination: 0.663148 <br />
- intercept: 0.207855 <br />
- slope: -0.018936<br />
+trend coefficient of determination: 0.162523 <br />
+ intercept: -3.725917 <br />
+ slope: -0.011117<br />trend coefficient of determination: 0.655574 <br />
+ intercept: 0.385009 <br />
+ slope: -0.018185<br />
           <br /> 
     
     Belarus
     <br />
     <img src="pictures/covidcasesBelarus36_R.png" alt="hi" class="inline"/><br /> 
 
-      Belarus data at: 2021-02-09<br />
-10 day model MAPE: 0.002187<br />
+      Belarus data at: 2021-02-12<br />
+10 day model MAPE: 0.001683<br />
 model: bi-Richards<br />
-coeffs: [2.80750123e+05 1.60558250e-01 1.51500785e+02 1.19989305e-01]<br />
-rational stdev: 0.109386<br />
-forecast at the end of period: +312 days<br />
+coeffs: [2.78685422e+05 1.52788656e-01 1.55560829e+02 1.27489898e-01]<br />
+rational stdev: 0.108904<br />
+forecast at the end of period: +309 days<br />
 	 deltaDaycases: 5<br />
-	 total cases: 354952 ± 38827<br />
-	 total death: 2458 ± 806<br />
+	 total cases: 352912 ± 38433<br />
+	 total death: 2434 ± 795<br />
 bi-Richards approximation splitting point: 220<br />
 actives k: 21<br />
-trend coefficient of determination: 0.536658 <br />
- intercept: -4.049754 <br />
- slope: -0.017783<br />trend coefficient of determination: 0.592393 <br />
- intercept: -3.428962 <br />
- slope: -0.010169<br />
+trend coefficient of determination: 0.537816 <br />
+ intercept: -4.117483 <br />
+ slope: -0.017890<br />trend coefficient of determination: 0.605800 <br />
+ intercept: -3.556567 <br />
+ slope: -0.010017<br />
           <br /> 
     
     Japan
     <br />
     <img src="pictures/covidcasesJapan36_R.png" alt="hi" class="inline"/><br /> 
 
-      Japan data at: 2021-02-09<br />
-10 day model MAPE: 0.015160<br />
+      Japan data at: 2021-02-12<br />
+10 day model MAPE: 0.021193<br />
 model: bi-Richards<br />
-coeffs: [2.02417580e+05 6.62845496e-02 3.43277098e+02 1.62431584e+00]<br />
-rational stdev: 0.389242<br />
-forecast at the end of period: +214 days<br />
-	 deltaDaycases: 805<br />
-	 total cases: 641180 ± 249574<br />
-	 total death: 10208 ± 11920<br />
-bi-Richards approximation splitting point: 320<br />
+coeffs: [2.84302858e+05 5.90009571e-02 3.41827137e+02 1.31462453e+00]<br />
+rational stdev: 0.411388<br />
+forecast at the end of period: +211 days<br />
+	 deltaDaycases: 8<br />
+	 total cases: 454607 ± 187020<br />
+	 total death: 7479 ± 9230<br />
+bi-Richards approximation splitting point: 310<br />
 actives k: 11<br />
-trend coefficient of determination: 0.720393 <br />
- intercept: -13.871344 <br />
- slope: -0.038697<br />trend coefficient of determination: 0.820418 <br />
- intercept: -9.258416 <br />
- slope: -0.044807<br />
+trend coefficient of determination: 0.689808 <br />
+ intercept: -11.853234 <br />
+ slope: -0.033097<br />trend coefficient of determination: 0.785030 <br />
+ intercept: -8.625260 <br />
+ slope: -0.035634<br />
           <br /> 
  
     China
     <br />
     <img src="pictures/covidcasesChina100_R.png" alt="hi" class="inline"/><br /> 
 
-      China data at: 2021-02-09<br />
-10 day model MAPE: 0.002894<br />
+      China data at: 2021-02-12<br />
+10 day model MAPE: 0.002581<br />
 model: bi-Richards<br />
-coeffs: [ 1.16242298e+04  1.03689169e+00 -5.80392298e+02  5.80209102e-03]<br />
-rational stdev: 0.063066<br />
-forecast at the end of period: +102 days<br />
-	 deltaDaycases: 15<br />
-	 total cases: 90571 ± 5711<br />
-	 total death: 4679 ± 885<br />
+coeffs: [ 1.26179348e+04  8.53825217e-01 -5.89443576e+02  6.67214174e-03]<br />
+rational stdev: 0.062969<br />
+forecast at the end of period: +99 days<br />
+	 deltaDaycases: 17<br />
+	 total cases: 90883 ± 5722<br />
+	 total death: 4694 ± 886<br />
 bi-Richards approximation splitting point: 120<br />
 actives k: 17<br />
-trend coefficient of determination: 0.818011 <br />
- intercept: -2.252398 <br />
- slope: -0.076351<br />trend coefficient of determination: 0.215226 <br />
- intercept: -10.261215 <br />
- slope: 0.006412<br />
+trend coefficient of determination: 0.817998 <br />
+ intercept: -2.261154 <br />
+ slope: -0.076365<br />trend coefficient of determination: 0.187253 <br />
+ intercept: -10.171246 <br />
+ slope: 0.005932<br />
           <br /> 
    
     Qatar
     <br />
     <img src="pictures/covidcasesQatar36_R.png" alt="hi" class="inline"/><br /> 
 
-      Qatar data at: 2021-02-09<br />
-10 day model MAPE: 0.006209<br />
+      Qatar data at: 2021-02-12<br />
+10 day model MAPE: 0.006888<br />
 model: bi-Richards<br />
-coeffs: [ 4.89641178e+04  1.29018355e+00 -1.42269635e+02  1.01876165e-02]<br />
+coeffs: [ 5.11569147e+04  1.25708791e+00 -1.55656612e+02  9.99984297e-03]<br />
 S.Korea scenario coeffs: [0.36242246, 2.56241634, 1.84890887, 0.13324732]<br />
-rational stdev: 0.072153<br />
-forecast at the end of period: +32 days<br />
-	 deltaDaycases: 90<br />
-	 total cases: 154613 ± 11155<br />
+rational stdev: 0.071870<br />
+forecast at the end of period: +29 days<br />
+	 deltaDaycases: 100<br />
+	 total cases: 155502 ± 11175<br />
 	 total death: 252 ± 54<br />
 bi-Richards approximation splitting point: 144<br />
 actives k: 17<br />
-trend coefficient of determination: 0.918193 <br />
- intercept: -1.938462 <br />
- slope: -0.030845<br />trend coefficient of determination: 0.045076 <br />
- intercept: -6.272315 <br />
- slope: -0.001209<br />
+trend coefficient of determination: 0.918133 <br />
+ intercept: -1.936955 <br />
+ slope: -0.030838<br />trend coefficient of determination: 0.020807 <br />
+ intercept: -6.347422 <br />
+ slope: -0.000828<br />
           <br /> 
     
     Poland
     <br />
     <img src="pictures/covidcasesPoland36_R.png" alt="hi" class="inline"/><br /> 
 
-      Poland data at: 2021-02-09<br />
-10 day model MAPE: 0.008261<br />
+      Poland data at: 2021-02-12<br />
+10 day model MAPE: 0.008328<br />
 model: bi-Richards<br />
-coeffs: [1.41614235e+06 4.62284310e+00 1.16520426e+02 8.10423088e-03]<br />
-rational stdev: 0.257562<br />
-forecast at the end of period: +172 days<br />
+coeffs: [1.42645857e+06 3.83865310e+00 1.19619432e+02 9.62273704e-03]<br />
+rational stdev: 0.256587<br />
+forecast at the end of period: +169 days<br />
 	 deltaDaycases: 102<br />
-	 total cases: 1589559 ± 409410<br />
-	 total death: 40191 ± 31055<br />
+	 total cases: 1599862 ± 410503<br />
+	 total death: 41009 ± 31567<br />
 bi-Richards approximation splitting point: 200<br />
 actives k: 21<br />
-trend coefficient of determination: 0.682489 <br />
- intercept: -2.353306 <br />
- slope: -0.016058<br />trend coefficient of determination: 0.656650 <br />
- intercept: 1.034127 <br />
- slope: -0.020324<br />
+trend coefficient of determination: 0.682912 <br />
+ intercept: -2.363533 <br />
+ slope: -0.016101<br />trend coefficient of determination: 0.662915 <br />
+ intercept: 0.945012 <br />
+ slope: -0.020042<br />
           <br /> 
     
     UAE
     <br />
     <img src="pictures/covidcasesUAE36_R.png" alt="hi" class="inline"/><br /> 
 
-      UAE data at: 2021-02-09<br />
-10 day model MAPE: 0.020349<br />
+      UAE data at: 2021-02-12<br />
+10 day model MAPE: 0.017212<br />
 model: bi-Richards<br />
-coeffs: [ 2.16490449e+06  2.94481681e-01 -3.38559311e+02  1.72056686e-02]<br />
-rational stdev: 0.103963<br />
-forecast at the end of period: +592 days<br />
-	 deltaDaycases: 1056<br />
-	 total cases: 2002017 ± 208135<br />
-	 total death: 5700 ± 1777<br />
+coeffs: [ 2.75847183e+06  2.72262874e-01 -3.61077120e+02  1.73611481e-02]<br />
+rational stdev: 0.105960<br />
+forecast at the end of period: +589 days<br />
+	 deltaDaycases: 1641<br />
+	 total cases: 2441878 ± 258742<br />
+	 total death: 7020 ± 2231<br />
 bi-Richards approximation splitting point: 128<br />
 actives k: 11<br />
-trend coefficient of determination: 0.943700 <br />
- intercept: -2.167030 <br />
- slope: -0.028883<br />trend coefficient of determination: 0.163122 <br />
- intercept: -5.705752 <br />
- slope: 0.003081<br />
+trend coefficient of determination: 0.943703 <br />
+ intercept: -2.168267 <br />
+ slope: -0.028888<br />trend coefficient of determination: 0.165465 <br />
+ intercept: -5.699177 <br />
+ slope: 0.003037<br />
           <br /> 
     
     Romania
     <br />
     <img src="pictures/covidcasesRomania36_R.png" alt="hi" class="inline"/><br /> 
 
-      Romania data at: 2021-02-09<br />
-10 day model MAPE: 0.005177<br />
+      Romania data at: 2021-02-12<br />
+10 day model MAPE: 0.005604<br />
 model: bi-Richards<br />
-coeffs: [6.21199306e+05 3.05396197e+00 1.14760939e+02 1.09174266e-02]<br />
-rational stdev: 0.276295<br />
-forecast at the end of period: +95 days<br />
-	 deltaDaycases: 56<br />
-	 total cases: 772754 ± 213507<br />
-	 total death: 19648 ± 16285<br />
+coeffs: [6.24968931e+05 2.70468084e+00 1.17061254e+02 1.22064214e-02]<br />
+rational stdev: 0.275111<br />
+forecast at the end of period: +92 days<br />
+	 deltaDaycases: 59<br />
+	 total cases: 776399 ± 213596<br />
+	 total death: 19753 ± 16302<br />
 bi-Richards approximation splitting point: 220<br />
 actives k: 17<br />
-trend coefficient of determination: 0.428176 <br />
- intercept: -2.806294 <br />
- slope: -0.009918<br />trend coefficient of determination: 0.801526 <br />
- intercept: 1.116723 <br />
- slope: -0.021112<br />
+trend coefficient of determination: 0.429270 <br />
+ intercept: -2.815180 <br />
+ slope: -0.009952<br />trend coefficient of determination: 0.804555 <br />
+ intercept: 1.004627 <br />
+ slope: -0.020744<br />
           <br /> 
     Panama
     <br />
     <img src="pictures/covidcasesPanama36_R.png" alt="hi" class="inline"/><br /> 
 
-      Panama data at: 2021-02-09<br />
-10 day model MAPE: 0.003155<br />
+      Panama data at: 2021-02-12<br />
+10 day model MAPE: 0.001435<br />
 model: bi-Richards<br />
-coeffs: [1.99989670e+05 5.36620267e-02 2.90610297e+02 1.29548159e+00]<br />
-rational stdev: 0.233125<br />
-forecast at the end of period: +74 days<br />
+coeffs: [1.99549191e+05 5.34764424e-02 2.90741683e+02 1.31008674e+00]<br />
+rational stdev: 0.232094<br />
+forecast at the end of period: +71 days<br />
 	 deltaDaycases: 10<br />
-	 total cases: 341288 ± 79562<br />
-	 total death: 5746 ± 4018<br />
+	 total cases: 340852 ± 79109<br />
+	 total death: 5761 ± 4011<br />
 bi-Richards approximation splitting point: 229<br />
 actives k: 17<br />
-trend coefficient of determination: 0.826610 <br />
- intercept: -11.135121 <br />
- slope: -0.048797<br />trend coefficient of determination: 0.501875 <br />
- intercept: -16.048591 <br />
- slope: -0.016643<br />
+trend coefficient of determination: 0.826502 <br />
+ intercept: -11.235313 <br />
+ slope: -0.049183<br />trend coefficient of determination: 0.545072 <br />
+ intercept: -15.883870 <br />
+ slope: -0.017931<br />
           <br />
     
     Ukraine
     <br />
     <img src="pictures/covidcasesUkraine36_R.png" alt="hi" class="inline"/><br /> 
 
-      Ukraine data at: 2021-02-09<br />
-10 day model MAPE: 0.013361<br />
+      Ukraine data at: 2021-02-12<br />
+10 day model MAPE: 0.013570<br />
 model: bi-Richards<br />
-coeffs: [ 3.27060896e+05  3.34577266e+00 -3.17329151e+01  6.69638518e-03]<br />
-rational stdev: 0.033699<br />
-forecast at the end of period: +32 days<br />
-	 deltaDaycases: 598<br />
-	 total cases: 1240737 ± 41811<br />
-	 total death: 23698 ± 2395<br />
+coeffs: [ 3.59744391e+05  2.98276050e+00 -5.33736013e+01  6.69742060e-03]<br />
+rational stdev: 0.034459<br />
+forecast at the end of period: +29 days<br />
+	 deltaDaycases: 817<br />
+	 total cases: 1257771 ± 43341<br />
+	 total death: 24088 ± 2490<br />
 bi-Richards approximation splitting point: 185<br />
 actives k: 35<br />
 trend coefficient of determination: 0.000027 <br />
- intercept: -4.077516 <br />
- slope: 0.000021<br />trend coefficient of determination: 0.892474 <br />
- intercept: 1.403009 <br />
- slope: -0.027584<br />
+ intercept: -4.077526 <br />
+ slope: 0.000021<br />trend coefficient of determination: 0.877130 <br />
+ intercept: 1.143263 <br />
+ slope: -0.026378<br />
           <br /> 
     
     Indonesia
     <br />
     <img src="pictures/covidcasesIndonesia36_R.png" alt="hi" class="inline"/><br /> 
 
-      Indonesia data at: 2021-02-09<br />
-10 day model MAPE: 0.009227<br />
+      Indonesia data at: 2021-02-12<br />
+10 day model MAPE: 0.012148<br />
 model: bi-Richards<br />
-coeffs: [1.54444588e+06 3.95717676e-01 1.85268602e+02 4.96212045e-02]<br />
-rational stdev: 0.218325<br />
-forecast at the end of period: +410 days<br />
-	 deltaDaycases: 25<br />
-	 total cases: 2524073 ± 551067<br />
-	 total death: 68702 ± 44998<br />
+coeffs: [1.33620427e+06 5.19925514e-01 1.75526545e+02 3.96699917e-02]<br />
+rational stdev: 0.217510<br />
+forecast at the end of period: +407 days<br />
+	 deltaDaycases: 19<br />
+	 total cases: 2316154 ± 503787<br />
+	 total death: 62932 ± 41065<br />
 bi-Richards approximation splitting point: 260<br />
 actives k: 17<br />
-trend coefficient of determination: 0.743591 <br />
- intercept: -3.034236 <br />
- slope: -0.010544<br />trend coefficient of determination: 0.014855 <br />
- intercept: -5.697440 <br />
- slope: 0.001577<br />
+trend coefficient of determination: 0.737945 <br />
+ intercept: -2.955854 <br />
+ slope: -0.010307<br />trend coefficient of determination: 0.001054 <br />
+ intercept: -5.232190 <br />
+ slope: 0.000409<br />
           <br /> 
 
     Bangladesh
     <br />
     <img src="pictures/covidcasesBangladesh36_R.png" alt="hi" class="inline"/><br /> 
 
-      Bangladesh data at: 2021-02-09<br />
-10 day model MAPE: 0.001019<br />
+      Bangladesh data at: 2021-02-12<br />
+10 day model MAPE: 0.000941<br />
 model: bi-Richards<br />
-coeffs: [1.30131192e+05 7.21049165e-02 2.45932820e+02 6.30878237e-01]<br />
-rational stdev: 0.171118<br />
-forecast at the end of period: +130 days<br />
+coeffs: [1.30511205e+05 7.30972156e-02 2.45236383e+02 6.15551756e-01]<br />
+rational stdev: 0.170405<br />
+forecast at the end of period: +127 days<br />
 	 deltaDaycases: 4<br />
-	 total cases: 545140 ± 93283<br />
-	 total death: 8326 ± 4274<br />
+	 total cases: 545519 ± 92959<br />
+	 total death: 8337 ± 4261<br />
 bi-Richards approximation splitting point: 210<br />
 actives k: 35<br />
-trend coefficient of determination: 0.862090 <br />
- intercept: -5.432292 <br />
- slope: -0.045373<br />trend coefficient of determination: 0.700584 <br />
- intercept: -9.944494 <br />
- slope: -0.015694<br />
+trend coefficient of determination: 0.860764 <br />
+ intercept: -5.354502 <br />
+ slope: -0.044638<br />trend coefficient of determination: 0.718046 <br />
+ intercept: -9.689732 <br />
+ slope: -0.015915<br />
           <br /> 
 
     South_Korea
     <br />
     <img src="pictures/covidcasesSouth_Korea100_R.png" alt="hi" class="inline"/><br /> 
 
-      South Korea data at: 2021-02-09<br />
-10 day model MAPE: 0.006437<br />
+      South Korea data at: 2021-02-12<br />
+10 day model MAPE: 0.007082<br />
 model: bi-Richards<br />
-coeffs: [3.89098821e+04 7.57774676e-02 2.76554066e+02 1.23935997e+00]<br />
-rational stdev: 0.069500<br />
-forecast at the end of period: +662 days<br />
+coeffs: [3.93289070e+04 7.87198578e-02 2.75444993e+02 1.12988271e+00]<br />
+rational stdev: 0.069249<br />
+forecast at the end of period: +659 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 223367 ± 15524<br />
-	 total death: 4051 ± 844<br />
+	 total cases: 223786 ± 15496<br />
+	 total death: 4072 ± 845<br />
 bi-Richards approximation splitting point: 220<br />
 actives k: 26<br />
-trend coefficient of determination: 0.049297 <br />
- intercept: -17.140661 <br />
- slope: -0.003125<br />trend coefficient of determination: 0.386087 <br />
- intercept: -13.827221 <br />
- slope: -0.015394<br />
+trend coefficient of determination: 0.034518 <br />
+ intercept: -16.151887 <br />
+ slope: -0.002592<br />trend coefficient of determination: 0.376480 <br />
+ intercept: -12.890754 <br />
+ slope: -0.014558<br />
           <br /> 
 
     Moldova
     <br />
     <img src="pictures/covidcasesMoldova36_R.png" alt="hi" class="inline"/><br /> 
 
-      Moldova data at: 2021-02-09<br />
-10 day model MAPE: 0.007215<br />
+      Moldova data at: 2021-02-12<br />
+10 day model MAPE: 0.009076<br />
 model: bi-Richards<br />
-coeffs: [7.33970664e+04 3.74924509e-02 2.71492624e+02 1.78863215e+00]<br />
-rational stdev: 0.249006<br />
-forecast at the end of period: +382 days<br />
+coeffs: [7.45442316e+04 3.87139094e-02 2.69955668e+02 1.59057698e+00]<br />
+rational stdev: 0.248189<br />
+forecast at the end of period: +379 days<br />
 	 deltaDaycases: 9<br />
-	 total cases: 190040 ± 47321<br />
-	 total death: 4098 ± 3061<br />
+	 total cases: 191187 ± 47450<br />
+	 total death: 4106 ± 3057<br />
 bi-Richards approximation splitting point: 190<br />
 actives k: 17<br />
-trend coefficient of determination: 0.759697 <br />
- intercept: -11.726044 <br />
- slope: -0.076710<br />trend coefficient of determination: 0.850690 <br />
- intercept: -18.144284 <br />
- slope: -0.027733<br />
+trend coefficient of determination: 0.761417 <br />
+ intercept: -10.678718 <br />
+ slope: -0.069847<br />trend coefficient of determination: 0.821990 <br />
+ intercept: -16.539620 <br />
+ slope: -0.025127<br />
           <br />    
     
     Denmark
     <br />
     <img src="pictures/covidcasesDenmark36_R.png" alt="hi" class="inline"/><br /> 
 
-      Denmark data at: 2021-02-08<br />
-+3 day model MAPE: 0.161793<br />
-model: Richards<br />
-coeffs: [16641.71641791    72.67294685    84.94829399    19.50901104]<br />
-rational stdev: nan<br />
-forecast at the end of period: +33 days<br />
+      Denmark data at: 2021-02-12<br />
+10 day model MAPE: 0.005486<br />
+model: bi-Richards<br />
+coeffs: [1.85865715e+05 3.13069913e-02 2.46244499e+02 3.02858091e+00]<br />
+rational stdev: 0.158683<br />
+forecast at the end of period: +99 days<br />
 	 deltaDaycases: 0<br />
- 0<br />
-	 total cases: 201711 ± 32068<br />
-	 total death: 2236 ± 1066<br />
+	 total cases: 202459 ± 32126<br />
+	 total death: 2265 ± 1078<br />
 bi-Richards approximation splitting point: 240<br />
 actives k: 17<br />
-trend coefficient of determination: 0.584276 <br />
- intercept: -33.500350 <br />
- slope: -0.021738<br />trend coefficient of determination: 0.964776 <br />
- intercept: -22.782405 <br />
- slope: -0.075279<br />
+trend coefficient of determination: 0.566588 <br />
+ intercept: -32.690339 <br />
+ slope: -0.020815<br />trend coefficient of determination: 0.953568 <br />
+ intercept: -22.788570 <br />
+ slope: -0.070956<br />
           <br /> 
     
     Serbia
     <br />
     <img src="pictures/covidcasesSerbia36_R.png" alt="hi" class="inline"/><br /> 
 
-      Serbia data at: 2021-02-09<br />
-10 day model MAPE: 0.011767<br />
+      Serbia data at: 2021-02-12<br />
+10 day model MAPE: 0.012641<br />
 model: bi-Richards<br />
-coeffs: [3.75667018e+05 3.08215617e-01 2.13655960e+02 1.69781466e-01]<br />
-rational stdev: 0.228047<br />
-forecast at the end of period: +102 days<br />
-	 deltaDaycases: 2<br />
-	 total cases: 407906 ± 93021<br />
-	 total death: 4114 ± 2814<br />
+coeffs: [3.80345140e+05 4.61893747e-01 2.02346012e+02 1.07620182e-01]<br />
+rational stdev: 0.227512<br />
+forecast at the end of period: +99 days<br />
+	 deltaDaycases: 3<br />
+	 total cases: 412559 ± 93862<br />
+	 total death: 4145 ± 2829<br />
 bi-Richards approximation splitting point: 195<br />
 actives k: 105<br />
-trend coefficient of determination: 0.619510 <br />
- intercept: -4.162872 <br />
- slope: -0.020323<br />trend coefficient of determination: 0.184004 <br />
- intercept: -3.382695 <br />
- slope: -0.011824<br />
+trend coefficient of determination: 0.604121 <br />
+ intercept: -3.682222 <br />
+ slope: -0.019258<br />trend coefficient of determination: 0.161672 <br />
+ intercept: -2.956836 <br />
+ slope: -0.010643<br />
           <br /> 
 
     Kuwait
     <br />
     <img src="pictures/covidcasesKuwait36_R.png" alt="hi" class="inline"/><br /> 
 
-      Kuwait data at: 2021-02-08<br />
-10 day model MAPE: 0.006689<br />
+      Kuwait data at: 2021-02-12<br />
+10 day model MAPE: 0.008136<br />
 model: bi-Richards<br />
-coeffs: [ 1.60774001e+05  1.37925743e+00 -2.20363483e+02  8.99604886e-03]<br />
-rational stdev: 0.186693<br />
-forecast at the end of period: +151 days<br />
-	 deltaDaycases: 38<br />
-	 total cases: 180119 ± 33627<br />
-	 total death: 1015 ± 568<br />
+coeffs: [ 1.63031491e+05  1.07091741e+00 -2.06077630e+02  1.13880277e-02]<br />
+rational stdev: 0.195521<br />
+forecast at the end of period: +148 days<br />
+	 deltaDaycases: 40<br />
+	 total cases: 182095 ± 35603<br />
+	 total death: 1026 ± 601<br />
 bi-Richards approximation splitting point: 90<br />
 actives k: 17<br />
-trend coefficient of determination: 0.166756 <br />
- intercept: -2.531912 <br />
- slope: -0.009715<br />trend coefficient of determination: 0.711188 <br />
- intercept: -3.557002 <br />
- slope: -0.008395<br />
+trend coefficient of determination: 0.171848 <br />
+ intercept: -2.542928 <br />
+ slope: -0.009888<br />trend coefficient of determination: 0.672948 <br />
+ intercept: -3.655036 <br />
+ slope: -0.007980<br />
           <br /> 
     
     Philippines
     <br />
     <img src="pictures/covidcasesPhilippines36_R.png" alt="hi" class="inline"/><br /> 
 
-      Philippines data at: 2021-02-08<br />
-10 day model MAPE: 0.008225<br />
+      Philippines data at: 2021-02-12<br />
+10 day model MAPE: 0.007768<br />
 model: bi-Richards<br />
-coeffs: [ 5.42379465e+05  2.54968371e+00 -1.37593411e+02  6.55835642e-03]<br />
-rational stdev: 0.303882<br />
-forecast at the end of period: +159 days<br />
-	 deltaDaycases: 41<br />
-	 total cases: 544303 ± 165404<br />
-	 total death: 11341 ± 10338<br />
+coeffs: [ 5.47513822e+05  1.74493206e+00 -1.19296988e+02  9.43759164e-03]<br />
+rational stdev: 0.285320<br />
+forecast at the end of period: +155 days<br />
+	 deltaDaycases: 45<br />
+	 total cases: 549164 ± 156687<br />
+	 total death: 11547 ± 9883<br />
 bi-Richards approximation splitting point: 36<br />
 actives k: 17<br />
-trend coefficient of determination: 0.414797 <br />
- intercept: -1.291393 <br />
- slope: -0.058558<br />trend coefficient of determination: 0.762567 <br />
- intercept: -2.852643 <br />
- slope: -0.010010<br />
+trend coefficient of determination: 0.418753 <br />
+ intercept: -1.302494 <br />
+ slope: -0.059024<br />trend coefficient of determination: 0.764721 <br />
+ intercept: -2.882357 <br />
+ slope: -0.010025<br />
           <br /> 
     
     Norway
     <br />
     <img src="pictures/covidcasesNorway36_R.png" alt="hi" class="inline"/><br /> 
 
-      Norway data at: 2021-02-09<br />
-10 day model MAPE: 0.005463<br />
+      Norway data at: 2021-02-12<br />
+10 day model MAPE: 0.004673<br />
 model: bi-Richards<br />
-coeffs: [7.27072313e+04 7.07636495e-02 2.25511492e+02 3.07317156e-01]<br />
-rational stdev: 0.182917<br />
-forecast at the end of period: +158 days<br />
-	 deltaDaycases: 13<br />
-	 total cases: 81640 ± 14933<br />
-	 total death: 728 ± 399<br />
+coeffs: [7.18194016e+04 6.82007462e-02 2.28899237e+02 3.25824488e-01]<br />
+rational stdev: 0.182154<br />
+forecast at the end of period: +155 days<br />
+	 deltaDaycases: 12<br />
+	 total cases: 80824 ± 14722<br />
+	 total death: 722 ± 394<br />
 bi-Richards approximation splitting point: 200<br />
 actives k: 26<br />
-trend coefficient of determination: 0.413673 <br />
- intercept: -5.358554 <br />
- slope: -0.024228<br />trend coefficient of determination: 0.355769 <br />
- intercept: -5.420049 <br />
- slope: -0.008743<br />
+trend coefficient of determination: 0.415171 <br />
+ intercept: -5.489248 <br />
+ slope: -0.024508<br />trend coefficient of determination: 0.393170 <br />
+ intercept: -5.477501 <br />
+ slope: -0.009256<br />
           <br /> 
     
     Czechia
     <br />
     <img src="pictures/covidcasesCzechia36_R.png" alt="hi" class="inline"/><br /> 
 
-      Czechia data at: 2021-02-09<br />
-10 day model MAPE: 0.008725<br />
+      Czechia data at: 2021-02-12<br />
+10 day model MAPE: 0.010296<br />
 model: bi-Richards<br />
-coeffs: [6.42245885e+05 5.25457213e+00 4.87538194e+01 5.21960635e-03]<br />
-rational stdev: 0.441229<br />
-forecast at the end of period: +88 days<br />
-	 deltaDaycases: 112<br />
-	 total cases: 1104227 ± 487217<br />
-	 total death: 18457 ± 24431<br />
+coeffs: [6.53577672e+05 5.13880018e+00 4.35844607e+01 5.18155779e-03]<br />
+rational stdev: 0.440606<br />
+forecast at the end of period: +85 days<br />
+	 deltaDaycases: 131<br />
+	 total cases: 1114724 ± 491153<br />
+	 total death: 18589 ± 24571<br />
 bi-Richards approximation splitting point: 210<br />
 actives k: 17<br />
-trend coefficient of determination: 0.076231 <br />
- intercept: -3.571892 <br />
- slope: -0.005607<br />trend coefficient of determination: 0.489593 <br />
- intercept: 0.081519 <br />
- slope: -0.016010<br />
+trend coefficient of determination: 0.076212 <br />
+ intercept: -3.571642 <br />
+ slope: -0.005607<br />trend coefficient of determination: 0.483092 <br />
+ intercept: -0.064104 <br />
+ slope: -0.015437<br />
           <br /> 
     
     Colombia
     <br />
     <img src="pictures/covidcasesColombia36_R.png" alt="hi" class="inline"/><br /> 
 
-      Colombia data at: 2021-02-09<br />
-10 day model MAPE: 0.006780<br />
+      Colombia data at: 2021-02-12<br />
+10 day model MAPE: 0.006400<br />
 model: bi-Richards<br />
-coeffs: [4.90637203e+05 6.64273659e-01 2.62091054e+02 9.62326652e-02]<br />
-rational stdev: 0.187782<br />
-forecast at the end of period: +242 days<br />
+coeffs: [4.68585273e+05 3.71116946e-01 2.75534226e+02 1.92522660e-01]<br />
+rational stdev: 0.187103<br />
+forecast at the end of period: +239 days<br />
 	 deltaDaycases: 305<br />
-	 total cases: 2625530 ± 493028<br />
-	 total death: 68466 ± 38570<br />
+	 total cases: 2603478 ± 487118<br />
+	 total death: 68145 ± 38250<br />
 bi-Richards approximation splitting point: 300<br />
 actives k: 11<br />
-trend coefficient of determination: 0.877432 <br />
- intercept: -2.856063 <br />
- slope: -0.013964<br />trend coefficient of determination: 0.817271 <br />
- intercept: 5.781308 <br />
- slope: -0.038518<br />
+trend coefficient of determination: 0.882599 <br />
+ intercept: -3.561240 <br />
+ slope: -0.016751<br />trend coefficient of determination: 0.859788 <br />
+ intercept: 4.895425 <br />
+ slope: -0.040139<br />
           <br /> 
     
     Australia
     <br />
     <img src="pictures/covidcasesAustralia36_R.png" alt="hi" class="inline"/><br /> 
 
-      Australia data at: 2021-02-09<br />
-10 day model MAPE: 0.001592<br />
+      Australia data at: 2021-02-12<br />
+10 day model MAPE: 0.001567<br />
 model: bi-Richards<br />
-coeffs: [2.10997314e+04 2.13548789e-01 1.05888287e+02 2.97745859e-01]<br />
-rational stdev: 0.047258<br />
-forecast at the end of period: +18 days<br />
+coeffs: [2.11211757e+04 2.22919316e-01 1.04780053e+02 2.82642976e-01]<br />
+rational stdev: 0.047202<br />
+forecast at the end of period: +15 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 28033 ± 1324<br />
-	 total death: 882 ± 125<br />
+	 total cases: 28054 ± 1324<br />
+	 total death: 882 ± 124<br />
 bi-Richards approximation splitting point: 104<br />
 actives k: 26<br />
-trend coefficient of determination: 0.538544 <br />
- intercept: -5.625192 <br />
- slope: -0.044426<br />trend coefficient of determination: 0.728949 <br />
- intercept: -4.557076 <br />
- slope: -0.023457<br />
+trend coefficient of determination: 0.538220 <br />
+ intercept: -5.503529 <br />
+ slope: -0.044252<br />trend coefficient of determination: 0.728872 <br />
+ intercept: -4.471299 <br />
+ slope: -0.023099<br />
           <br /> 
     
     Malaysia
     <br />
     <img src="pictures/covidcasesMalaysia36_R.png" alt="hi" class="inline"/><br /> 
 
-      Malaysia data at: 2021-02-09<br />
+      Malaysia data at: 2021-02-12<br />
 10 day model MAPE: 0.000000<br />
 model: bi-Richards<br />
-coeffs: [ 4.28647422e+03 -6.28217908e-01  1.75779692e+02  2.24716857e-01]<br />
-rational stdev: 0.318692<br />
-forecast at the end of period: +382 days<br />
+coeffs: [ 4.28645851e+03 -7.51795117e-01  1.77516071e+02  1.85159364e-01]<br />
+rational stdev: 0.317339<br />
+forecast at the end of period: +379 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 421069 ± 134191<br />
-	 total death: 1541 ± 1473<br />
+	 total cases: 421069 ± 133621<br />
+	 total death: 1553 ± 1478<br />
 bi-Richards approximation splitting point: 280<br />
 actives k: 15<br />
-trend coefficient of determination: 0.074636 <br />
- intercept: -5.985106 <br />
- slope: -0.006819<br />trend coefficient of determination: 0.051494 <br />
- intercept: -5.835671 <br />
- slope: -0.002613<br />
+trend coefficient of determination: 0.063778 <br />
+ intercept: -5.717671 <br />
+ slope: -0.006224<br />trend coefficient of determination: 0.076005 <br />
+ intercept: -5.204879 <br />
+ slope: -0.003184<br />
           <br /> 
 
     Dominican Republic
     <br />
     <img src="pictures/covidcasesDominican_Republic36_R.png" alt="hi" class="inline"/><br /> 
 
-      Dominican Republic data at: 2021-02-09<br />
-10 day model MAPE: 0.000172<br />
+      Dominican Republic data at: 2021-02-12<br />
+10 day model MAPE: 0.004200<br />
 model: bi-Richards<br />
-coeffs: [ 7.34445616e+05  3.28539534e-01 -1.33836731e+02  2.17393438e-02]<br />
-rational stdev: 0.172209<br />
-forecast at the end of period: +592 days<br />
-	 deltaDaycases: 138<br />
-	 total cases: 820731 ± 141337<br />
-	 total death: 10468 ± 5408<br />
+coeffs: [ 6.95574936e+05  3.43640769e-01 -1.34014942e+02  2.11451121e-02]<br />
+rational stdev: 0.171487<br />
+forecast at the end of period: +589 days<br />
+	 deltaDaycases: 120<br />
+	 total cases: 784682 ± 134562<br />
+	 total death: 10049 ± 5169<br />
 bi-Richards approximation splitting point: 200<br />
 actives k: 35<br />
-trend coefficient of determination: 0.789994 <br />
- intercept: -2.655386 <br />
- slope: -0.015651<br />trend coefficient of determination: 0.259959 <br />
- intercept: -7.398286 <br />
- slope: 0.006813<br />
+trend coefficient of determination: 0.789743 <br />
+ intercept: -2.650787 <br />
+ slope: -0.015637<br />trend coefficient of determination: 0.241108 <br />
+ intercept: -7.276009 <br />
+ slope: 0.006336<br />
           <br />  
    
     Egypt
     <br />
     <img src="pictures/covidcasesEgypt36_R.png" alt="hi" class="inline"/><br /> 
 
-      Egypt data at: 2021-02-09<br />
-10 day model MAPE: 0.010785<br />
+      Egypt data at: 2021-02-12<br />
+10 day model MAPE: 0.011534<br />
 model: bi-Richards<br />
-coeffs: [7.13978272e+04 2.54934670e-02 3.07428788e+02 6.19412558e+00]<br />
-rational stdev: 0.141937<br />
-forecast at the end of period: +102 days<br />
+coeffs: [7.29574968e+04 2.55600000e-02 3.08089337e+02 5.44667502e+00]<br />
+rational stdev: 0.141302<br />
+forecast at the end of period: +99 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 169746 ± 24093<br />
-	 total death: 9691 ± 4126<br />
+	 total cases: 171305 ± 24205<br />
+	 total death: 9824 ± 4164<br />
 bi-Richards approximation splitting point: 170<br />
 actives k: 43<br />
-trend coefficient of determination: 0.911201 <br />
- intercept: -42.527098 <br />
- slope: -0.254070<br />trend coefficient of determination: 0.415013 <br />
- intercept: -75.883326 <br />
- slope: -0.009991<br />
+trend coefficient of determination: 0.915493 <br />
+ intercept: -37.595569 <br />
+ slope: -0.226647<br />trend coefficient of determination: 0.337853 <br />
+ intercept: -67.637967 <br />
+ slope: -0.008072<br />
           <br /> 
     
     Finland
     <br />
     <img src="pictures/covidcasesFinland36_R.png" alt="hi" class="inline"/><br /> 
 
-      Finland data at: 2021-02-09<br />
-10 day model MAPE: 0.013470<br />
+      Finland data at: 2021-02-12<br />
+10 day model MAPE: 0.012772<br />
 model: bi-Richards<br />
-coeffs: [5.49654686e+04 2.46951882e-01 1.24525243e+02 7.24216804e-02]<br />
-rational stdev: 0.120313<br />
-forecast at the end of period: +137 days<br />
-	 deltaDaycases: 28<br />
-	 total cases: 61252 ± 7369<br />
-	 total death: 889 ± 320<br />
+coeffs: [5.77434701e+04 6.25866338e-01 5.44918743e+01 2.65202726e-02]<br />
+rational stdev: 0.119811<br />
+forecast at the end of period: +134 days<br />
+	 deltaDaycases: 35<br />
+	 total cases: 63413 ± 7597<br />
+	 total death: 908 ± 326<br />
 bi-Richards approximation splitting point: 210<br />
 actives k: 26<br />
-trend coefficient of determination: 0.390548 <br />
- intercept: -3.633016 <br />
- slope: -0.021079<br />trend coefficient of determination: 0.282140 <br />
- intercept: -3.186187 <br />
- slope: -0.007714<br />
+trend coefficient of determination: 0.381778 <br />
+ intercept: -3.311060 <br />
+ slope: -0.020468<br />trend coefficient of determination: 0.255284 <br />
+ intercept: -2.918602 <br />
+ slope: -0.006979<br />
           <br /> 
     
     Morocco
     <br />
     <img src="pictures/covidcasesMorocco36_R.png" alt="hi" class="inline"/><br /> 
 
-      Morocco data at: 2021-02-09<br />
-10 day model MAPE: 0.001178<br />
+      Morocco data at: 2021-02-12<br />
+10 day model MAPE: 0.001464<br />
 model: bi-Richards<br />
-coeffs: [3.25437284e+05 2.58434902e+00 1.30055091e+02 1.54572563e-02]<br />
-rational stdev: 0.347271<br />
-forecast at the end of period: +102 days<br />
+coeffs: [3.25921790e+05 3.34941110e+00 1.22930267e+02 1.18713907e-02]<br />
+rational stdev: 0.345764<br />
+forecast at the end of period: +99 days<br />
 	 deltaDaycases: 6<br />
-	 total cases: 483011 ± 167735<br />
-	 total death: 8545 ± 8902<br />
+	 total cases: 483490 ± 167173<br />
+	 total death: 8553 ± 8871<br />
 bi-Richards approximation splitting point: 210<br />
 actives k: 11<br />
-trend coefficient of determination: 0.175795 <br />
- intercept: -3.154712 <br />
- slope: -0.006311<br />trend coefficient of determination: 0.865844 <br />
- intercept: 2.147552 <br />
- slope: -0.027570<br />
+trend coefficient of determination: 0.171589 <br />
+ intercept: -3.131922 <br />
+ slope: -0.006209<br />trend coefficient of determination: 0.874038 <br />
+ intercept: 2.196231 <br />
+ slope: -0.027584<br />
           <br /> 
 
     Uzbekistan
     <br />
     <img src="pictures/covidcasesUzbekistan36_R.png" alt="hi" class="inline"/><br /> 
 
-      Uzbekistan data at: 2021-02-09<br />
-10 day model MAPE: 0.001156<br />
+      Uzbekistan data at: 2021-02-12<br />
+10 day model MAPE: 0.001186<br />
 model: bi-Richards<br />
-coeffs: [1.84801919e+04 5.59211043e+00 4.12901805e+01 5.28265856e-03]<br />
-rational stdev: 0.386073<br />
-forecast at the end of period: +67 days<br />
+coeffs: [1.85443157e+04 5.04925208e+00 4.37196657e+01 5.81702088e-03]<br />
+rational stdev: 0.384405<br />
+forecast at the end of period: +64 days<br />
 	 deltaDaycases: 3<br />
-	 total cases: 79610 ± 30735<br />
-	 total death: 623 ± 721<br />
+	 total cases: 79670 ± 30625<br />
+	 total death: 624 ± 719<br />
 bi-Richards approximation splitting point: 200<br />
 actives k: 11<br />
-trend coefficient of determination: 0.459997 <br />
- intercept: -2.614595 <br />
- slope: -0.011025<br />trend coefficient of determination: 0.869995 <br />
- intercept: -1.080862 <br />
- slope: -0.019997<br />
+trend coefficient of determination: 0.460651 <br />
+ intercept: -2.617495 <br />
+ slope: -0.011042<br />trend coefficient of determination: 0.872274 <br />
+ intercept: -1.137720 <br />
+ slope: -0.019788<br />
           <br /> 
     
     Argentina
     <br />
     <img src="pictures/covidcasesArgentina36_R.png" alt="hi" class="inline"/><br /> 
 
-      Argentina data at: 2021-02-09<br />
-10 day model MAPE: 0.009893<br />
+      Argentina data at: 2021-02-12<br />
+10 day model MAPE: 0.008618<br />
 model: bi-Richards<br />
-coeffs: [ 1.33549161e+06  1.20220571e+00 -1.20423758e+02  9.75740191e-03]<br />
-rational stdev: 0.224477<br />
-forecast at the end of period: +172 days<br />
-	 deltaDaycases: 1080<br />
-	 total cases: 2454613 ± 551003<br />
-	 total death: 61037 ± 41104<br />
+coeffs: [ 1.41558738e+06  9.25320220e-01 -1.11039628e+02  1.21918297e-02]<br />
+rational stdev: 0.223774<br />
+forecast at the end of period: +169 days<br />
+	 deltaDaycases: 1272<br />
+	 total cases: 2512592 ± 562252<br />
+	 total death: 62368 ± 41868<br />
 bi-Richards approximation splitting point: 180<br />
 actives k: 16<br />
-trend coefficient of determination: 0.046082 <br />
- intercept: -2.999838 <br />
- slope: -0.004641<br />trend coefficient of determination: 0.648903 <br />
- intercept: -2.028225 <br />
- slope: -0.011826<br />
+trend coefficient of determination: 0.048121 <br />
+ intercept: -3.014396 <br />
+ slope: -0.004748<br />trend coefficient of determination: 0.654267 <br />
+ intercept: -2.097898 <br />
+ slope: -0.011670<br />
           <br /> 
     
     Algeria
     <br />
     <img src="pictures/covidcasesAlgeria36_R.png" alt="hi" class="inline"/><br /> 
 
-      Algeria data at: 2021-02-09<br />
-10 day model MAPE: 0.007054<br />
+      Algeria data at: 2021-02-12<br />
+10 day model MAPE: 0.007115<br />
 model: bi-Richards<br />
-coeffs: [5.61374200e+04 4.47701594e-01 1.73588490e+02 1.00929514e-01]<br />
-rational stdev: 0.098760<br />
-forecast at the end of period: +32 days<br />
-	 deltaDaycases: 16<br />
-	 total cases: 108528 ± 10718<br />
-	 total death: 2896 ± 858<br />
+coeffs: [5.68189220e+04 9.39707869e-01 1.52371812e+02 4.58171808e-02]<br />
+rational stdev: 0.098336<br />
+forecast at the end of period: +29 days<br />
+	 deltaDaycases: 19<br />
+	 total cases: 109115 ± 10729<br />
+	 total death: 2900 ± 855<br />
 bi-Richards approximation splitting point: 220<br />
 actives k: 35<br />
-trend coefficient of determination: 0.780643 <br />
- intercept: -3.896083 <br />
- slope: -0.013301<br />trend coefficient of determination: 0.897786 <br />
- intercept: 0.330197 <br />
- slope: -0.025818<br />
+trend coefficient of determination: 0.756371 <br />
+ intercept: -3.453851 <br />
+ slope: -0.012402<br />trend coefficient of determination: 0.887320 <br />
+ intercept: 0.651349 <br />
+ slope: -0.024603<br />
           <br /> 
     
     Luxembourg
     <br />
     <img src="pictures/covidcasesLuxembourg36_R.png" alt="hi" class="inline"/><br /> 
 
-      Luxembourg data at: 2021-02-09<br />
-10 day model MAPE: 0.005052<br />
+      Luxembourg data at: 2021-02-12<br />
+10 day model MAPE: 0.004254<br />
 model: bi-Richards<br />
-coeffs: [4.11988015e+04 1.67199376e-01 2.14216253e+02 2.69139592e-01]<br />
-rational stdev: 0.238833<br />
-forecast at the end of period: +368 days<br />
-	 deltaDaycases: 2<br />
-	 total cases: 55337 ± 13216<br />
-	 total death: 638 ± 457<br />
-bi-Richards approximation splitting point: 170<br />
+coeffs: [3.91187355e+04 4.50792529e-01 1.87749833e+02 9.63630220e-02]<br />
+rational stdev: 0.237814<br />
+forecast at the end of period: +365 days<br />
+	 deltaDaycases: 11<br />
+	 total cases: 61189 ± 14551<br />
+	 total death: 705 ± 502<br />
+bi-Richards approximation splitting point: 180<br />
 actives k: 17<br />
-trend coefficient of determination: 0.193802 <br />
- intercept: -5.651726 <br />
- slope: -0.017155<br />trend coefficient of determination: 0.226900 <br />
- intercept: -4.594789 <br />
- slope: -0.011839<br />
+trend coefficient of determination: 0.144840 <br />
+ intercept: -4.633106 <br />
+ slope: -0.013021<br />trend coefficient of determination: 0.269172 <br />
+ intercept: -2.603010 <br />
+ slope: -0.012496<br />
           <br /> 
     
     Thailand
     <br />
     <img src="pictures/covidcasesThailand36_R.png" alt="hi" class="inline"/><br /> 
 
-      Thailand data at: 2021-02-09<br />
-10 day model MAPE: 0.043363<br />
+      Thailand data at: 2021-02-12<br />
+10 day model MAPE: 0.070381<br />
 model: bi-Richards<br />
-coeffs: [1.91024685e+05 4.62762103e-01 1.37101735e+02 3.39511081e-02]<br />
-rational stdev: 0.040176<br />
-forecast at the end of period: +382 days<br />
-	 deltaDaycases: 16<br />
-	 total cases: 193695 ± 7781<br />
-	 total death: 648 ± 78<br />
+coeffs: [6.17995592e+04 1.26359543e-01 2.57750260e+02 2.30852268e-01]<br />
+rational stdev: 0.039239<br />
+forecast at the end of period: +379 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 65543 ± 2571<br />
+	 total death: 214 ± 25<br />
 bi-Richards approximation splitting point: 230<br />
 actives k: 17<br />
-trend coefficient of determination: 0.005048 <br />
- intercept: -6.957660 <br />
- slope: -0.001419<br />trend coefficient of determination: 0.366520 <br />
- intercept: -12.459881 <br />
- slope: 0.029229<br />
+trend coefficient of determination: 0.007273 <br />
+ intercept: -8.519902 <br />
+ slope: -0.001708<br />trend coefficient of determination: 0.187546 <br />
+ intercept: -11.530088 <br />
+ slope: 0.018924<br />
           <br /> 
     
     Hungary
     <br />
     <img src="pictures/covidcasesHungary36_R.png" alt="hi" class="inline"/><br /> 
 
-      Hungary data at: 2021-02-09<br />
-+3 day model MAPE: 0.003545<br />
-model: Richards<br />
-coeffs: [ 4.28503311e+03  2.05973439e+00 -8.33638323e+01  2.42271349e-02]<br />
-rational stdev: 0.014842<br />
-forecast at the end of period: +32 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 4279 ± 63<br />
-	 total death: 149 ± 6<br />
-trend coefficient of determination: 0.615305 <br />
- intercept: -3.750786 <br />
- slope: -0.037124<br />
+      Hungary data at: 2021-02-12<br />
+10 day model MAPE: 0.009298<br />
+model: bi-Richards<br />
+coeffs: [3.73349606e+05 5.41195133e-02 2.14682583e+02 9.69197137e-01]<br />
+rational stdev: 0.089658<br />
+forecast at the end of period: +64 days<br />
+	 deltaDaycases: 10<br />
+	 total cases: 377436 ± 33840<br />
+	 total death: 13341 ± 3588<br />
+bi-Richards approximation splitting point: 140<br />
+actives k: 43<br />
+trend coefficient of determination: 0.160103 <br />
+ intercept: -12.338297 <br />
+ slope: -0.013466<br />trend coefficient of determination: 0.950461 <br />
+ intercept: -5.669927 <br />
+ slope: -0.044314<br />
           <br /> 
     
     Greece
     <br />
     <img src="pictures/covidcasesGreece36_R.png" alt="hi" class="inline"/><br /> 
 
-      Greece data at: 2021-02-09<br />
-10 day model MAPE: 0.008787<br />
+      Greece data at: 2021-02-12<br />
+10 day model MAPE: 0.010850<br />
 model: bi-Richards<br />
-coeffs: [1.17194804e+05 6.07618220e-02 2.32741750e+02 1.24391720e+00]<br />
-rational stdev: 0.146670<br />
-forecast at the end of period: +137 days<br />
+coeffs: [1.18308941e+05 6.30632029e-02 2.31302950e+02 1.13191800e+00]<br />
+rational stdev: 0.148055<br />
+forecast at the end of period: +134 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 163989 ± 24052<br />
-	 total death: 5941 ± 2614<br />
+	 total cases: 165103 ± 24444<br />
+	 total death: 5893 ± 2617<br />
 bi-Richards approximation splitting point: 180<br />
 actives k: 105<br />
-trend coefficient of determination: 0.151247 <br />
- intercept: -14.132496 <br />
- slope: -0.009252<br />trend coefficient of determination: 0.884559 <br />
- intercept: -8.482448 <br />
- slope: -0.039654<br />
+trend coefficient of determination: 0.117933 <br />
+ intercept: -13.319737 <br />
+ slope: -0.007986<br />trend coefficient of determination: 0.863013 <br />
+ intercept: -8.015348 <br />
+ slope: -0.036396<br />
           <br /> 
     
     Iraq
     <br />
     <img src="pictures/covidcasesIraq36_R.png" alt="hi" class="inline"/><br /> 
 
-      Iraq data at: 2021-02-09<br />
-10 day model MAPE: 0.000416<br />
+      Iraq data at: 2021-02-12<br />
+10 day model MAPE: 0.000237<br />
 model: bi-Richards<br />
-coeffs: [-2.56555732e+03  1.71829263e-01  5.16078671e+01  3.81931911e+00]<br />
-rational stdev: 0.180840<br />
-forecast at the end of period: +214 days<br />
+coeffs: [-2.62595862e+03  1.68913301e-01  5.19027088e+01  3.87369430e+00]<br />
+rational stdev: 0.179710<br />
+forecast at the end of period: +211 days<br />
 	 deltaDaycases: 13<br />
-	 total cases: 678884 ± 122769<br />
-	 total death: 14102 ± 7650<br />
+	 total cases: 678824 ± 121991<br />
+	 total death: 13967 ± 7530<br />
 bi-Richards approximation splitting point: 300<br />
 actives k: 17<br />
-trend coefficient of determination: 0.907664 <br />
- intercept: -28.360664 <br />
- slope: -0.115954<br />trend coefficient of determination: 0.432318 <br />
- intercept: -62.735259 <br />
- slope: 0.016814<br />
+trend coefficient of determination: 0.907271 <br />
+ intercept: -28.732047 <br />
+ slope: -0.117430<br />trend coefficient of determination: 0.559016 <br />
+ intercept: -65.383187 <br />
+ slope: 0.022999<br />
           <br /> 
     
     Croatia
     <br />
     <img src="pictures/covidcasesCroatia36_R.png" alt="hi" class="inline"/><br /> 
 
-      Croatia data at: 2021-02-09<br />
-10 day model MAPE: 0.004681<br />
+      Croatia data at: 2021-02-12<br />
+10 day model MAPE: 0.004870<br />
 model: bi-Richards<br />
-coeffs: [1.29583762e+05 1.13861328e-01 2.33083742e+02 5.58948767e-01]<br />
-rational stdev: 0.403183<br />
-forecast at the end of period: +102 days<br />
+coeffs: [1.30327551e+05 1.22013256e-01 2.30800142e+02 5.04176043e-01]<br />
+rational stdev: 0.401303<br />
+forecast at the end of period: +99 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 232907 ± 93904<br />
-	 total death: 5160 ± 6241<br />
+	 total cases: 233650 ± 93764<br />
+	 total death: 5205 ± 6266<br />
 bi-Richards approximation splitting point: 210<br />
 actives k: 11<br />
-trend coefficient of determination: 0.038067 <br />
- intercept: -8.623036 <br />
- slope: -0.006603<br />trend coefficient of determination: 0.875126 <br />
- intercept: 0.827465 <br />
- slope: -0.044444<br />
+trend coefficient of determination: 0.029002 <br />
+ intercept: -8.267049 <br />
+ slope: -0.005719<br />trend coefficient of determination: 0.870694 <br />
+ intercept: 1.019635 <br />
+ slope: -0.042721<br />
           <br /> 
     
     Iceland
     <br />
     <img src="pictures/covidcasesIceland36_R.png" alt="hi" class="inline"/><br /> 
 
-      Iceland data at: 2021-02-09<br />
-10 day model MAPE: 0.004105<br />
+      Iceland data at: 2021-02-12<br />
+10 day model MAPE: 0.003777<br />
 model: bi-Richards<br />
-coeffs: [4.10179702e+03 7.77133548e-02 2.09281137e+02 6.70970267e-01]<br />
-rational stdev: 0.153619<br />
-forecast at the end of period: +102 days<br />
+coeffs: [4.11460210e+03 7.98544879e-02 2.08073107e+02 6.40634486e-01]<br />
+rational stdev: 0.153032<br />
+forecast at the end of period: +99 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 5883 ± 903<br />
+	 total cases: 5896 ± 902<br />
 	 total death: 28 ± 12<br />
 bi-Richards approximation splitting point: 170<br />
 actives k: 17<br />
-trend coefficient of determination: 0.260542 <br />
- intercept: -8.352485 <br />
- slope: -0.030236<br />trend coefficient of determination: 0.538571 <br />
- intercept: -6.065996 <br />
- slope: -0.020920<br />
+trend coefficient of determination: 0.258193 <br />
+ intercept: -8.167831 <br />
+ slope: -0.029869<br />trend coefficient of determination: 0.548823 <br />
+ intercept: -5.809296 <br />
+ slope: -0.020963<br />
           <br /> 
     
     Estonia
     <br />
     <img src="pictures/covidcasesEstonia36_R.png" alt="hi" class="inline"/><br /> 
 
-      Estonia data at: 2021-02-08<br />
-10 day model MAPE: 0.016683<br />
+      Estonia data at: 2021-02-12<br />
+10 day model MAPE: 0.016079<br />
 model: bi-Richards<br />
-coeffs: [6.34823183e+04 6.12733735e-02 2.67935387e+02 4.93651845e-01]<br />
-rational stdev: 0.153235<br />
-forecast at the end of period: +137 days<br />
-	 deltaDaycases: 11<br />
-	 total cases: 65574 ± 10048<br />
-	 total death: 636 ± 292<br />
+coeffs: [6.83057987e+04 6.83505609e-02 2.59528135e+02 3.96598874e-01]<br />
+rational stdev: 0.153410<br />
+forecast at the end of period: +134 days<br />
+	 deltaDaycases: 18<br />
+	 total cases: 70071 ± 10749<br />
+	 total death: 667 ± 306<br />
 bi-Richards approximation splitting point: 200<br />
 actives k: 26<br />
-trend coefficient of determination: 0.198076 <br />
- intercept: -7.595338 <br />
- slope: -0.015971<br />trend coefficient of determination: 0.259687 <br />
- intercept: -6.077903 <br />
- slope: -0.010225<br />
+trend coefficient of determination: 0.186627 <br />
+ intercept: -6.951293 <br />
+ slope: -0.015216<br />trend coefficient of determination: 0.208668 <br />
+ intercept: -5.600393 <br />
+ slope: -0.008613<br />
           <br /> 
     
     Bulgaria
     <br />
     <img src="pictures/covidcasesBulgaria36_R.png" alt="hi" class="inline"/><br /> 
 
-      Bulgaria data at: 2021-02-09<br />
-10 day model MAPE: 0.006435<br />
+      Bulgaria data at: 2021-02-12<br />
+10 day model MAPE: 0.008077<br />
 model: bi-Richards<br />
-coeffs: [2.00865307e+05 4.16331736e-01 1.92706403e+02 1.16536372e-01]<br />
-rational stdev: 0.178385<br />
-forecast at the end of period: +32 days<br />
-	 deltaDaycases: 32<br />
-	 total cases: 222660 ± 39719<br />
-	 total death: 9339 ± 4997<br />
+coeffs: [2.02264711e+05 6.21717167e-01 1.81713982e+02 7.55484375e-02]<br />
+rational stdev: 0.177667<br />
+forecast at the end of period: +29 days<br />
+	 deltaDaycases: 37<br />
+	 total cases: 223934 ± 39785<br />
+	 total death: 9381 ± 5000<br />
 bi-Richards approximation splitting point: 210<br />
 actives k: 35<br />
-trend coefficient of determination: 0.508353 <br />
- intercept: -3.642402 <br />
- slope: -0.012804<br />trend coefficient of determination: 0.718927 <br />
- intercept: 2.993577 <br />
- slope: -0.033573<br />
+trend coefficient of determination: 0.474945 <br />
+ intercept: -3.399435 <br />
+ slope: -0.011872<br />trend coefficient of determination: 0.693246 <br />
+ intercept: 2.926761 <br />
+ slope: -0.031440<br />
           <br /> 
     
     New Zealand
     <br />
     <img src="pictures/covidcasesNew_Zealand36_R.png" alt="hi" class="inline"/><br /> 
 
-      New Zealand data at: 2021-02-09<br />
-10 day model MAPE: 0.002762<br />
+      New Zealand data at: 2021-02-12<br />
+10 day model MAPE: 0.002158<br />
 model: bi-Richards<br />
-coeffs: [ 1.04770862e+03  1.31377655e+00 -2.24778295e+02  8.59018021e-03]<br />
-rational stdev: 0.016583<br />
-forecast at the end of period: +32 days<br />
+coeffs: [ 1.05680346e+03  1.16546848e+00 -2.17346370e+02  9.60381803e-03]<br />
+rational stdev: 0.016559<br />
+forecast at the end of period: +29 days<br />
 	 deltaDaycases: 1<br />
-	 total cases: 2367 ± 39<br />
+	 total cases: 2370 ± 39<br />
 	 total death: 25 ± 1<br />
 bi-Richards approximation splitting point: 100<br />
 actives k: 17<br />
-trend coefficient of determination: 0.536262 <br />
- intercept: -3.222077 <br />
- slope: -0.080904<br />trend coefficient of determination: 0.026013 <br />
- intercept: -7.364782 <br />
- slope: 0.002630<br />
+trend coefficient of determination: 0.536287 <br />
+ intercept: -3.228910 <br />
+ slope: -0.080913<br />trend coefficient of determination: 0.019735 <br />
+ intercept: -7.306999 <br />
+ slope: 0.002255<br />
           <br /> 
     
     Slovenia
     <br />
     <img src="pictures/covidcasesSlovenia36_R.png" alt="hi" class="inline"/><br /> 
 
-      Slovenia data at: 2021-02-09<br />
-10 day model MAPE: 0.002975<br />
+      Slovenia data at: 2021-02-12<br />
+10 day model MAPE: 0.002397<br />
 model: bi-Richards<br />
-coeffs: [2.17666771e+05 1.55551879e+00 5.79197698e+01 1.32198718e-02]<br />
-rational stdev: 0.232913<br />
-forecast at the end of period: +137 days<br />
-	 deltaDaycases: 100<br />
-	 total cases: 224886 ± 52378<br />
-	 total death: 4712 ± 3292<br />
-bi-Richards approximation splitting point: 190<br />
+coeffs: [2.06871916e+05 1.83633156e+00 5.53325310e+01 1.14818089e-02]<br />
+rational stdev: 0.244434<br />
+forecast at the end of period: +274 days<br />
+	 deltaDaycases: 3<br />
+	 total cases: 249307 ± 60939<br />
+	 total death: 5167 ± 3788<br />
+bi-Richards approximation splitting point: 200<br />
 actives k: 17<br />
-trend coefficient of determination: 0.061853 <br />
- intercept: -4.318408 <br />
- slope: -0.009069<br />trend coefficient of determination: 0.237228 <br />
- intercept: -0.882424 <br />
- slope: -0.012825<br />
+trend coefficient of determination: 0.031366 <br />
+ intercept: -4.501857 <br />
+ slope: -0.006039<br />trend coefficient of determination: 0.264295 <br />
+ intercept: -0.365684 <br />
+ slope: -0.014495<br />
           <br /> 
     
     Slovakia
     <br />
     <img src="pictures/covidcasesSlovakia36_R.png" alt="hi" class="inline"/><br /> 
 
-      Slovakia data at: 2021-02-08<br />
-10 day model MAPE: 0.001854<br />
+      Slovakia data at: 2021-02-12<br />
+10 day model MAPE: 0.003747<br />
 model: bi-Richards<br />
-coeffs: [ 4.21865138e+05  1.31782982e+00 -1.60947418e+01  1.14664010e-02]<br />
-rational stdev: 0.272936<br />
-forecast at the end of period: +277 days<br />
+coeffs: [ 4.24181462e+05  1.10109820e+00 -4.61259658e+00  1.36892653e-02]<br />
+rational stdev: 0.272032<br />
+forecast at the end of period: +274 days<br />
 	 deltaDaycases: 51<br />
-	 total cases: 427266 ± 116616<br />
-	 total death: 8651 ± 7083<br />
+	 total cases: 429557 ± 116853<br />
+	 total death: 8990 ± 7336<br />
 bi-Richards approximation splitting point: 170<br />
 actives k: 30<br />
-trend coefficient of determination: 0.120023 <br />
- intercept: -3.716780 <br />
- slope: -0.013621<br />trend coefficient of determination: 0.330183 <br />
- intercept: -1.451377 <br />
- slope: -0.010778<br />
+trend coefficient of determination: 0.120560 <br />
+ intercept: -3.728781 <br />
+ slope: -0.013663<br />trend coefficient of determination: 0.339614 <br />
+ intercept: -1.478366 <br />
+ slope: -0.010759<br />
           <br /> 
     
     Lithuania
     <br />
     <img src="pictures/covidcasesLithuania36_R.png" alt="hi" class="inline"/><br /> 
 
-      Lithuania data at: 2021-02-09<br />
-10 day model MAPE: 0.002088<br />
+      Lithuania data at: 2021-02-12<br />
+10 day model MAPE: 0.000423<br />
 model: bi-Richards<br />
-coeffs: [1.88780180e+05 6.62599524e-02 2.31611662e+02 8.07109838e-01]<br />
-rational stdev: 0.070357<br />
-forecast at the end of period: +158 days<br />
+coeffs: [1.88721509e+05 6.61915470e-02 2.31658800e+02 8.08845368e-01]<br />
+rational stdev: 0.070152<br />
+forecast at the end of period: +155 days<br />
 	 deltaDaycases: 34<br />
-	 total cases: 206913 ± 14557<br />
-	 total death: 3288 ± 694<br />
+	 total cases: 206855 ± 14511<br />
+	 total death: 3323 ± 699<br />
 bi-Richards approximation splitting point: 190<br />
 actives k: 35<br />
-trend coefficient of determination: 0.010438 <br />
- intercept: -11.340964 <br />
- slope: 0.001630<br />trend coefficient of determination: 0.965679 <br />
- intercept: -0.588006 <br />
- slope: -0.050805<br />
+trend coefficient of determination: 0.010262 <br />
+ intercept: -11.353061 <br />
+ slope: 0.001616<br />trend coefficient of determination: 0.963263 <br />
+ intercept: -0.768984 <br />
+ slope: -0.050092<br />
           <br /> 
     
     Latvia
     <br />
     <img src="pictures/covidcasesLatvia36_R.png" alt="hi" class="inline"/><br /> 
 
-      Latvia data at: 2021-02-09<br />
-10 day model MAPE: 0.002276<br />
+      Latvia data at: 2021-02-12<br />
+10 day model MAPE: 0.002657<br />
 model: bi-Richards<br />
-coeffs: [1.07493123e+05 7.83669418e-02 2.44596900e+02 3.26009118e-01]<br />
-rational stdev: 0.132982<br />
-forecast at the end of period: +277 days<br />
+coeffs: [1.08527619e+05 8.00798583e-02 2.42860721e+02 3.14542665e-01]<br />
+rational stdev: 0.132148<br />
+forecast at the end of period: +274 days<br />
 	 deltaDaycases: 1<br />
-	 total cases: 108999 ± 14495<br />
-	 total death: 2038 ± 813<br />
+	 total cases: 110029 ± 14540<br />
+	 total death: 2085 ± 826<br />
 bi-Richards approximation splitting point: 210<br />
 actives k: 25<br />
-trend coefficient of determination: 0.117069 <br />
- intercept: -6.521207 <br />
- slope: -0.010311<br />trend coefficient of determination: 0.656958 <br />
- intercept: -1.519777 <br />
- slope: -0.020590<br />
+trend coefficient of determination: 0.115530 <br />
+ intercept: -6.450890 <br />
+ slope: -0.010223<br />trend coefficient of determination: 0.660124 <br />
+ intercept: -1.551298 <br />
+ slope: -0.020032<br />
           <br /> 
     
     Cyprus
     <br />
     <img src="pictures/covidcasesCyprus36_R.png" alt="hi" class="inline"/><br /> 
 
-      Cyprus data at: 2021-02-09<br />
-10 day model MAPE: 0.006988<br />
+      Cyprus data at: 2021-02-12<br />
+10 day model MAPE: 0.003770<br />
 model: bi-Richards<br />
-coeffs: [3.12041988e+04 4.57287086e-02 2.80656561e+02 1.30004300e+00]<br />
-rational stdev: 0.238712<br />
-forecast at the end of period: +347 days<br />
+coeffs: [3.10752941e+04 4.53621629e-02 2.81022079e+02 1.33206398e+00]<br />
+rational stdev: 0.237923<br />
+forecast at the end of period: +344 days<br />
 	 deltaDaycases: 1<br />
-	 total cases: 34755 ± 8296<br />
-	 total death: 232 ± 166<br />
+	 total cases: 34626 ± 8238<br />
+	 total death: 234 ± 167<br />
 bi-Richards approximation splitting point: 215<br />
 actives k: 70<br />
-trend coefficient of determination: 0.311487 <br />
- intercept: -11.489124 <br />
- slope: -0.022640<br />trend coefficient of determination: 0.937477 <br />
- intercept: -2.582194 <br />
- slope: -0.050254<br />
+trend coefficient of determination: 0.314819 <br />
+ intercept: -11.669135 <br />
+ slope: -0.022973<br />trend coefficient of determination: 0.942341 <br />
+ intercept: -2.760158 <br />
+ slope: -0.050685<br />
           <br /> 
     
     Malta
     <br />
     <img src="pictures/covidcasesMalta36_R.png" alt="hi" class="inline"/><br /> 
 
-      Malta data at: 2021-02-09<br />
-10 day model MAPE: 0.012520<br />
+      Malta data at: 2021-02-12<br />
+10 day model MAPE: 0.012475<br />
 model: bi-Richards<br />
-coeffs: [ 3.41722862e+04  7.08327022e-01 -1.80107344e+02  1.32761238e-02]<br />
-rational stdev: 0.138672<br />
-forecast at the end of period: +193 days<br />
-	 deltaDaycases: 40<br />
-	 total cases: 34068 ± 4724<br />
-	 total death: 508 ± 211<br />
+coeffs: [ 3.68429719e+04  8.34785144e-01 -2.15302660e+02  1.08026719e-02]<br />
+rational stdev: 0.139800<br />
+forecast at the end of period: +190 days<br />
+	 deltaDaycases: 47<br />
+	 total cases: 35652 ± 4984<br />
+	 total death: 526 ± 220<br />
 bi-Richards approximation splitting point: 170<br />
 actives k: 17<br />
-trend coefficient of determination: 0.080115 <br />
- intercept: -6.536890 <br />
- slope: 0.011458<br />trend coefficient of determination: 0.464211 <br />
- intercept: -2.374566 <br />
- slope: -0.009326<br />
+trend coefficient of determination: 0.080490 <br />
+ intercept: -6.522743 <br />
+ slope: 0.011489<br />trend coefficient of determination: 0.464201 <br />
+ intercept: -2.411602 <br />
+ slope: -0.009048<br />
           <br />  
 
     Sri Lanka
     <br />
     <img src="pictures/covidcasesSri_Lanka36_R.png" alt="hi" class="inline"/><br /> 
 
-      Sri Lanka data at: 2021-02-09<br />
-10 day model MAPE: 0.015122<br />
+      Sri Lanka data at: 2021-02-12<br />
+10 day model MAPE: 0.016895<br />
 model: bi-Richards<br />
-coeffs: [1.21659272e+05 8.18066469e-01 1.66665443e+01 1.82991174e-02]<br />
-rational stdev: 0.168487<br />
-forecast at the end of period: +312 days<br />
-	 deltaDaycases: 10<br />
-	 total cases: 123047 ± 20731<br />
-	 total death: 639 ± 322<br />
+coeffs: [1.28667558e+05 8.05280869e-01 8.52517058e+00 1.78903495e-02]<br />
+rational stdev: 0.166600<br />
+forecast at the end of period: +309 days<br />
+	 deltaDaycases: 13<br />
+	 total cases: 129811 ± 21626<br />
+	 total death: 673 ± 336<br />
 bi-Richards approximation splitting point: 120<br />
 actives k: 17<br />
-trend coefficient of determination: 0.216184 <br />
- intercept: -3.207267 <br />
- slope: -0.022267<br />trend coefficient of determination: 0.347407 <br />
- intercept: -8.068200 <br />
- slope: 0.013794<br />
+trend coefficient of determination: 0.215997 <br />
+ intercept: -3.205255 <br />
+ slope: -0.022255<br />trend coefficient of determination: 0.341665 <br />
+ intercept: -7.990095 <br />
+ slope: 0.013399<br />
           <br /> 
 
     Afghanistan
     <br />
     <img src="pictures/covidcasesAfghanistan36_R.png" alt="hi" class="inline"/><br /> 
 
-      Afghanistan data at: 2021-02-08<br />
-10 day model MAPE: 0.000746<br />
+      Afghanistan data at: 2021-02-12<br />
+10 day model MAPE: 0.000199<br />
 model: bi-Richards<br />
-coeffs: [1.74926729e+04 5.00544486e-02 2.29953419e+02 9.88806806e-01]<br />
-rational stdev: 0.333983<br />
-forecast at the end of period: +61 days<br />
+coeffs: [1.75045155e+04 5.01435949e-02 2.29858574e+02 9.84500342e-01]<br />
+rational stdev: 0.332058<br />
+forecast at the end of period: +57 days<br />
 	 deltaDaycases: 1<br />
-	 total cases: 55902 ± 18670<br />
-	 total death: 2436 ± 2440<br />
+	 total cases: 55913 ± 18566<br />
+	 total death: 2446 ± 2436<br />
 bi-Richards approximation splitting point: 180<br />
 actives k: 35<br />
-trend coefficient of determination: 0.913485 <br />
- intercept: -7.920917 <br />
- slope: -0.066011<br />trend coefficient of determination: 0.188930 <br />
- intercept: -14.173518 <br />
- slope: -0.011118<br />
+trend coefficient of determination: 0.913537 <br />
+ intercept: -7.892463 <br />
+ slope: -0.065883<br />trend coefficient of determination: 0.243025 <br />
+ intercept: -13.706836 <br />
+ slope: -0.013012<br />
           <br />
     
     Nepal
     <br />
     <img src="pictures/covidcasesNepal36_R.png" alt="hi" class="inline"/><br /> 
 
-      Nepal data at: 2021-02-09<br />
-10 day model MAPE: 0.001403<br />
+      Nepal data at: 2021-02-12<br />
+10 day model MAPE: 0.001312<br />
 model: bi-Richards<br />
-coeffs: [2.52187001e+05 5.64226531e-02 1.75590848e+02 7.88334973e-01]<br />
-rational stdev: 0.302374<br />
-forecast at the end of period: +60 days<br />
-	 deltaDaycases: 5<br />
-	 total cases: 272228 ± 82314<br />
-	 total death: 2047 ± 1856<br />
+coeffs: [2.52388634e+05 5.66798345e-02 1.75340488e+02 7.81547223e-01]<br />
+rational stdev: 0.312201<br />
+forecast at the end of period: +57 days<br />
+	 deltaDaycases: 6<br />
+	 total cases: 272426 ± 85051<br />
+	 total death: 2053 ± 1922<br />
 bi-Richards approximation splitting point: 120<br />
 actives k: 12<br />
-trend coefficient of determination: 0.897244 <br />
- intercept: -5.230996 <br />
- slope: -0.070360<br />trend coefficient of determination: 0.963579 <br />
- intercept: -7.078214 <br />
- slope: -0.034483<br />
+trend coefficient of determination: 0.896528 <br />
+ intercept: -5.204449 <br />
+ slope: -0.069928<br />trend coefficient of determination: 0.964686 <br />
+ intercept: -6.992920 <br />
+ slope: -0.034525<br />
           <br />
 
     Jordan
     <br />
     <img src="pictures/covidcasesJordan36_R.png" alt="hi" class="inline"/><br /> 
 
-      Jordan data at: 2021-02-09<br />
-10 day model MAPE: 0.007722<br />
+      Jordan data at: 2021-02-12<br />
+10 day model MAPE: 0.009079<br />
 model: bi-Richards<br />
-coeffs: [3.18067987e+05 1.11480378e-01 2.14434468e+02 4.63222776e-01]<br />
-rational stdev: 0.117494<br />
-forecast at the end of period: +130 days<br />
+coeffs: [3.20330381e+05 1.20041234e-01 2.11535969e+02 4.15992896e-01]<br />
+rational stdev: 0.116783<br />
+forecast at the end of period: +127 days<br />
 	 deltaDaycases: 57<br />
-	 total cases: 359669 ± 42258<br />
-	 total death: 4672 ± 1646<br />
+	 total cases: 361929 ± 42267<br />
+	 total death: 4669 ± 1635<br />
 bi-Richards approximation splitting point: 180<br />
 actives k: 12<br />
-trend coefficient of determination: 0.106212 <br />
- intercept: -6.953916 <br />
- slope: -0.007505<br />trend coefficient of determination: 0.953297 <br />
- intercept: 0.726120 <br />
- slope: -0.040958<br />
+trend coefficient of determination: 0.091047 <br />
+ intercept: -6.689083 <br />
+ slope: -0.006882<br />trend coefficient of determination: 0.941237 <br />
+ intercept: 0.707256 <br />
+ slope: -0.038589<br />
           <br />
 
     Bolivia
     <br />
     <img src="pictures/covidcasesBolivia36_R.png" alt="hi" class="inline"/><br /> 
 
-      Bolivia data at: 2021-02-09<br />
-10 day model MAPE: 0.010559<br />
+      Bolivia data at: 2021-02-12<br />
+10 day model MAPE: 0.003071<br />
 model: bi-Richards<br />
-coeffs: [1.15805054e+05 1.14518707e-01 2.85071581e+02 5.49326182e-01]<br />
-rational stdev: 0.225750<br />
-forecast at the end of period: +102 days<br />
+coeffs: [1.13824566e+05 1.11514573e-01 2.86013436e+02 5.81726135e-01]<br />
+rational stdev: 0.224887<br />
+forecast at the end of period: +99 days<br />
 	 deltaDaycases: 3<br />
-	 total cases: 260686 ± 58849<br />
-	 total death: 12347 ± 8361<br />
+	 total cases: 258719 ± 58182<br />
+	 total death: 12222 ± 8245<br />
 bi-Richards approximation splitting point: 240<br />
 actives k: 63<br />
-trend coefficient of determination: 0.974568 <br />
- intercept: -5.129916 <br />
- slope: -0.038654<br />trend coefficient of determination: 0.648556 <br />
- intercept: -21.972869 <br />
- slope: 0.034950<br />
+trend coefficient of determination: 0.974445 <br />
+ intercept: -5.335954 <br />
+ slope: -0.039625<br />trend coefficient of determination: 0.602958 <br />
+ intercept: -21.537088 <br />
+ slope: 0.031867<br />
           <br />
 
     Costa Rica
     <br />
     <img src="pictures/covidcasesCosta_Rica36_R.png" alt="hi" class="inline"/><br /> 
 
-      Costa Rica data at: 2021-02-07<br />
-10 day model MAPE: 0.000565<br />
+      Costa Rica data at: 2021-02-10<br />
+10 day model MAPE: 0.001042<br />
 model: bi-Richards<br />
-coeffs: [ 2.30800562e+05  9.71735743e-01 -1.15990776e+02  1.37207812e-02]<br />
-rational stdev: 0.191779<br />
-forecast at the end of period: +200 days<br />
+coeffs: [ 2.30532362e+05  1.03140379e+00 -1.20275968e+02  1.29374836e-02]<br />
+rational stdev: 0.190520<br />
+forecast at the end of period: +197 days<br />
 	 deltaDaycases: 79<br />
-	 total cases: 249363 ± 47822<br />
-	 total death: 3400 ± 1956<br />
+	 total cases: 249118 ± 47461<br />
+	 total death: 3394 ± 1939<br />
 bi-Richards approximation splitting point: 100<br />
 actives k: 45<br />
-trend coefficient of determination: 0.111497 <br />
- intercept: -3.248108 <br />
- slope: -0.012002<br />trend coefficient of determination: 0.746890 <br />
- intercept: -1.719700 <br />
- slope: -0.013289<br />
+trend coefficient of determination: 0.111195 <br />
+ intercept: -3.243991 <br />
+ slope: -0.011982<br />trend coefficient of determination: 0.755651 <br />
+ intercept: -1.696673 <br />
+ slope: -0.013373<br />
           <br />
 
     Armenia
     <br />
     <img src="pictures/covidcasesArmenia36_R.png" alt="hi" class="inline"/><br /> 
 
-      Armenia data at: 2021-02-09<br />
-10 day model MAPE: 0.001467<br />
+      Armenia data at: 2021-02-12<br />
+10 day model MAPE: 0.001451<br />
 model: bi-Richards<br />
-coeffs: [1.24147403e+05 1.94151573e+00 1.26740197e+02 2.17140053e-02]<br />
-rational stdev: 0.174712<br />
-forecast at the end of period: +60 days<br />
+coeffs: [1.24296363e+05 2.34944300e+00 1.21676332e+02 1.78651831e-02]<br />
+rational stdev: 0.173988<br />
+forecast at the end of period: +57 days<br />
 	 deltaDaycases: 6<br />
-	 total cases: 169280 ± 29575<br />
-	 total death: 3144 ± 1647<br />
+	 total cases: 169424 ± 29477<br />
+	 total death: 3147 ± 1642<br />
 bi-Richards approximation splitting point: 180<br />
 actives k: 21<br />
-trend coefficient of determination: 0.779315 <br />
- intercept: -2.307519 <br />
- slope: -0.021348<br />trend coefficient of determination: 0.571382 <br />
- intercept: -0.202816 <br />
- slope: -0.021178<br />
+trend coefficient of determination: 0.777029 <br />
+ intercept: -2.282563 <br />
+ slope: -0.021234<br />trend coefficient of determination: 0.585700 <br />
+ intercept: -0.162543 <br />
+ slope: -0.021162<br />
           <br />
 
     Oman
     <br />
     <img src="pictures/covidcasesOman36_R.png" alt="hi" class="inline"/><br /> 
 
-      Oman data at: 2021-02-08<br />
-10 day model MAPE: 0.004438<br />
+      Oman data at: 2021-02-10<br />
+10 day model MAPE: 0.004583<br />
 model: bi-Richards<br />
-coeffs: [4.67814940e+04 5.71870805e+00 3.56182231e+01 5.49837602e-03]<br />
-rational stdev: 0.206655<br />
-forecast at the end of period: +67 days<br />
+coeffs: [4.70739877e+04 5.93724834e+00 3.19490813e+01 5.22393409e-03]<br />
+rational stdev: 0.206121<br />
+forecast at the end of period: +64 days<br />
 	 deltaDaycases: 4<br />
-	 total cases: 133537 ± 27596<br />
-	 total death: 1506 ± 933<br />
+	 total cases: 133812 ± 27581<br />
+	 total death: 1507 ± 931<br />
 bi-Richards approximation splitting point: 200<br />
 actives k: 29<br />
-trend coefficient of determination: 0.772307 <br />
- intercept: -1.909637 <br />
- slope: -0.020778<br />trend coefficient of determination: 0.609799 <br />
- intercept: -2.763179 <br />
- slope: -0.013390<br />
+trend coefficient of determination: 0.772117 <br />
+ intercept: -1.908039 <br />
+ slope: -0.020768<br />trend coefficient of determination: 0.572953 <br />
+ intercept: -2.922222 <br />
+ slope: -0.012722<br />
           <br />
 
     Kazakhstan
     <br />
     <img src="pictures/covidcasesKazakhstan36_R.png" alt="hi" class="inline"/><br /> 
 
-      Kazakhstan data at: 2021-02-09<br />
-10 day model MAPE: 0.010172<br />
+      Kazakhstan data at: 2021-02-12<br />
+10 day model MAPE: 0.008442<br />
 model: bi-Richards<br />
-coeffs: [1.72164712e+05 1.17231545e+00 2.04233830e+01 1.43699965e-02]<br />
-rational stdev: 0.249465<br />
-forecast at the end of period: +270 days<br />
-	 deltaDaycases: 16<br />
-	 total cases: 310985 ± 77580<br />
-	 total death: 3987 ± 2983<br />
+coeffs: [1.81331381e+05 1.33495571e+00 3.10207478e+00 1.21332872e-02]<br />
+rational stdev: 0.248406<br />
+forecast at the end of period: +267 days<br />
+	 deltaDaycases: 20<br />
+	 total cases: 319817 ± 79444<br />
+	 total death: 4042 ± 3012<br />
 bi-Richards approximation splitting point: 200<br />
 actives k: 14<br />
-trend coefficient of determination: 0.766650 <br />
- intercept: -2.057322 <br />
- slope: -0.022278<br />trend coefficient of determination: 0.236374 <br />
- intercept: -7.209225 <br />
- slope: 0.006083<br />
+trend coefficient of determination: 0.765201 <br />
+ intercept: -2.042303 <br />
+ slope: -0.022206<br />trend coefficient of determination: 0.217026 <br />
+ intercept: -7.070870 <br />
+ slope: 0.005618<br />
           <br />
 
     Azerbaijan
     <br />
     <img src="pictures/covidcasesAzerbaijan36_R.png" alt="hi" class="inline"/><br /> 
 
-      Azerbaijan data at: 2021-02-09<br />
-10 day model MAPE: 0.002205<br />
+      Azerbaijan data at: 2021-02-12<br />
+10 day model MAPE: 0.002162<br />
 model: bi-Richards<br />
-coeffs: [1.90501824e+05 6.34451583e-02 2.45620215e+02 1.86236032e+00]<br />
-rational stdev: 0.199155<br />
-forecast at the end of period: +32 days<br />
+coeffs: [1.90756869e+05 6.36870407e-02 2.45514657e+02 1.83723997e+00]<br />
+rational stdev: 0.198270<br />
+forecast at the end of period: +29 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 229269 ± 45660<br />
-	 total death: 3134 ± 1872<br />
+	 total cases: 229524 ± 45507<br />
+	 total death: 3141 ± 1868<br />
 bi-Richards approximation splitting point: 200<br />
 actives k: 17<br />
-trend coefficient of determination: 0.918367 <br />
- intercept: -15.956927 <br />
- slope: -0.057890<br />trend coefficient of determination: 0.934225 <br />
- intercept: -9.203375 <br />
- slope: -0.069452<br />
+trend coefficient of determination: 0.918391 <br />
+ intercept: -15.776564 <br />
+ slope: -0.057340<br />trend coefficient of determination: 0.934191 <br />
+ intercept: -9.232290 <br />
+ slope: -0.068114<br />
           <br />
 
     Guatemala
     <br />
     <img src="pictures/covidcasesGuatemala36_R.png" alt="hi" class="inline"/><br /> 
 
-      Guatemala data at: 2021-02-09<br />
-10 day model MAPE: 0.004424<br />
+      Guatemala data at: 2021-02-12<br />
+10 day model MAPE: 0.004490<br />
 model: bi-Richards<br />
-coeffs: [ 1.27642989e+05  1.14043902e+00 -9.60602706e+01  1.10785156e-02]<br />
-rational stdev: 0.084850<br />
-forecast at the end of period: +130 days<br />
-	 deltaDaycases: 172<br />
-	 total cases: 207211 ± 17581<br />
-	 total death: 7524 ± 1915<br />
+coeffs: [ 1.31237707e+05  1.10013077e+00 -9.88673187e+01  1.12794268e-02]<br />
+rational stdev: 0.084465<br />
+forecast at the end of period: +127 days<br />
+	 deltaDaycases: 184<br />
+	 total cases: 209459 ± 17691<br />
+	 total death: 7629 ± 1933<br />
 bi-Richards approximation splitting point: 180<br />
 actives k: 17<br />
-trend coefficient of determination: 0.667488 <br />
- intercept: -2.256144 <br />
- slope: -0.017647<br />trend coefficient of determination: 0.016683 <br />
- intercept: -5.127947 <br />
- slope: -0.002655<br />
+trend coefficient of determination: 0.667695 <br />
+ intercept: -2.257355 <br />
+ slope: -0.017654<br />trend coefficient of determination: 0.012270 <br />
+ intercept: -5.231042 <br />
+ slope: -0.002201<br />
           <br />
 
     Ethiopia
     <br />
     <img src="pictures/covidcasesEthiopia36_R.png" alt="hi" class="inline"/><br /> 
 
-      Ethiopia data at: 2021-02-09<br />
-10 day model MAPE: 0.010696<br />
+      Ethiopia data at: 2021-02-12<br />
+10 day model MAPE: 0.011200<br />
 model: bi-Richards<br />
-coeffs: [ 7.51956911e+04  2.87713866e+00 -3.24791121e+01  7.10198117e-03]<br />
-rational stdev: 0.232545<br />
-forecast at the end of period: +60 days<br />
-	 deltaDaycases: 83<br />
-	 total cases: 148032 ± 34424<br />
-	 total death: 2225 ± 1552<br />
+coeffs: [ 7.79874241e+04  4.12758503e+00 -6.14219582e+01  4.74490841e-03]<br />
+rational stdev: 0.231542<br />
+forecast at the end of period: +57 days<br />
+	 deltaDaycases: 96<br />
+	 total cases: 149943 ± 34718<br />
+	 total death: 2242 ± 1557<br />
 bi-Richards approximation splitting point: 190<br />
 actives k: 45<br />
-trend coefficient of determination: 0.359895 <br />
- intercept: -2.813995 <br />
- slope: -0.009247<br />trend coefficient of determination: 0.133526 <br />
- intercept: -4.778515 <br />
- slope: -0.003471<br />
+trend coefficient of determination: 0.354523 <br />
+ intercept: -2.802666 <br />
+ slope: -0.009150<br />trend coefficient of determination: 0.105981 <br />
+ intercept: -4.862596 <br />
+ slope: -0.002978<br />
           <br />
 
     Honduras
     <br />
     <img src="pictures/covidcasesHonduras36_R.png" alt="hi" class="inline"/><br /> 
 
-      Honduras data at: 2021-02-09<br />
-10 day model MAPE: 0.007065<br />
+      Honduras data at: 2021-02-12<br />
+10 day model MAPE: 0.004929<br />
 model: bi-Richards<br />
-coeffs: [ 1.38428261e+06  2.33863536e-01 -1.84180651e+02  2.26758143e-02]<br />
-rational stdev: 1.614386<br />
-forecast at the end of period: +732 days<br />
-	 deltaDaycases: 473<br />
-	 total cases: 1394312 ± 2250958<br />
-	 total death: 33734 ± 163379<br />
+coeffs: [ 1.62451090e+06  2.06444265e-01 -1.68293689e+02  2.50084396e-02]<br />
+rational stdev: 1.592761<br />
+forecast at the end of period: +729 days<br />
+	 deltaDaycases: 623<br />
+	 total cases: 1601148 ± 2550247<br />
+	 total death: 38743 ± 185125<br />
 bi-Richards approximation splitting point: 210<br />
 actives k: 112<br />
-trend coefficient of determination: 0.624742 <br />
- intercept: -2.904380 <br />
- slope: -0.012266<br />trend coefficient of determination: 0.172221 <br />
- intercept: -8.127239 <br />
- slope: 0.009040<br />
+trend coefficient of determination: 0.627487 <br />
+ intercept: -2.919951 <br />
+ slope: -0.012332<br />trend coefficient of determination: 0.170550 <br />
+ intercept: -8.053312 <br />
+ slope: 0.008625<br />
           <br />
 
     Venezuela
     <br />
     <img src="pictures/covidcasesVenezuela36_R.png" alt="hi" class="inline"/><br /> 
 
-      Venezuela data at: 2021-02-09<br />
-10 day model MAPE: 0.002902<br />
+      Venezuela data at: 2021-02-12<br />
+10 day model MAPE: 0.001459<br />
 model: bi-Richards<br />
-coeffs: [ 1.04282869e+05  5.51916795e-01 -2.64334804e+01  2.12671729e-02]<br />
-rational stdev: 0.081141<br />
-forecast at the end of period: +200 days<br />
-	 deltaDaycases: 114<br />
-	 total cases: 188971 ± 15333<br />
-	 total death: 1797 ± 437<br />
+coeffs: [ 1.06453900e+05  5.58117546e-01 -3.01566455e+01  2.08145021e-02]<br />
+rational stdev: 0.080745<br />
+forecast at the end of period: +197 days<br />
+	 deltaDaycases: 119<br />
+	 total cases: 190513 ± 15382<br />
+	 total death: 1825 ± 442<br />
 bi-Richards approximation splitting point: 190<br />
 actives k: 11<br />
-trend coefficient of determination: 0.218246 <br />
- intercept: -3.258992 <br />
- slope: -0.006817<br />trend coefficient of determination: 0.013869 <br />
- intercept: -5.610978 <br />
- slope: -0.001224<br />
+trend coefficient of determination: 0.217386 <br />
+ intercept: -3.256504 <br />
+ slope: -0.006800<br />trend coefficient of determination: 0.018168 <br />
+ intercept: -5.576560 <br />
+ slope: -0.001352<br />
           <br />
                 
 <b>References</b><br />    
@@ -2062,9 +2045,11 @@ trend coefficient of determination: 0.218246 <br />
 </body>
 
 
-      </section>
-
-    </div>
+      <footer class="site-footer">
+        
+        <span class="site-footer-credits">This page was generated by <a href="https://pages.github.com">GitHub Pages</a>.</span>
+      </footer>
+    </section>
 
     
       <script>
@@ -2072,6 +2057,7 @@ trend coefficient of determination: 0.218246 <br />
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
         m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
         })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
         ga('create', 'UA-162905210-1', 'auto');
         ga('send', 'pageview');
       </script>
