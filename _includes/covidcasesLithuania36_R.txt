@@ -1,16 +1,12 @@
 Lithuania data at: 2021-02-20<br />
-10 day model MAPE: 0.002311<br />
-model: bi-Richards<br />
-coeffs: [1.89339979e+05 6.70831893e-02 2.31047069e+02 7.87587405e-01]<br />
-rational stdev: 0.068036<br />
-forecast at the end of period: +147 days<br />
-	 deltaDaycases: 34<br />
-	 total cases: 207473 ± 14115<br />
-	 total death: 3390 ± 691<br />
-bi-Richards approximation splitting point: 190<br />
-actives k: 21<br />
-trend coefficient of determination: 0.012516 <br />
- intercept: -11.204881 <br />
- slope: 0.001788<br />trend coefficient of determination: 0.962752 <br />
- intercept: -0.879656 <br />
- slope: -0.048612<br />
++3 day model MAPE: 0.590940<br />
+model: Richards<br />
+coeffs: [1.88942786e+04 6.29330491e-03 4.35556650e+02 8.48088955e+00]<br />
+rational stdev: 0.069332<br />
+forecast at the end of period: +21 days<br />
+	 deltaDaycases: 21<br />
+	 total cases: 3485 ± 241<br />
+	 total death: 110 ± 22<br />
+trend coefficient of determination: 0.810769 <br />
+ intercept: -65.597337 <br />
+ slope: -0.047459<br />
