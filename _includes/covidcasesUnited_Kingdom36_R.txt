@@ -1,16 +1,16 @@
-United Kingdom data at: 2021-02-20<br />
-10 day model MAPE: 0.019605<br />
+United Kingdom data at: 2021-02-21<br />
+10 day model MAPE: 0.020142<br />
 model: bi-Richards<br />
-coeffs: [ 6.73502073e+06  8.55591204e-01 -4.98022710e+01  1.65791658e-02]<br />
-rational stdev: 0.179117<br />
-forecast at the end of period: +301 days<br />
-	 deltaDaycases: 727<br />
-	 total cases: 7097919 ± 1271359<br />
-	 total death: 208087 ± 111815<br />
+coeffs: [ 6.53370969e+06  4.88097195e-01 -1.90280089e+00  3.00085735e-02]<br />
+rational stdev: 0.179310<br />
+forecast at the end of period: +300 days<br />
+	 deltaDaycases: 607<br />
+	 total cases: 6906456 ± 1238395<br />
+	 total death: 202351 ± 108850<br />
 bi-Richards approximation splitting point: 230<br />
 actives k: 48<br />
-trend coefficient of determination: 0.244448 <br />
- intercept: -5.818154 <br />
- slope: 0.006313<br />trend coefficient of determination: 0.907692 <br />
- intercept: 5.580975 <br />
- slope: -0.040783<br />
+trend coefficient of determination: 0.236844 <br />
+ intercept: -5.978271 <br />
+ slope: 0.006178<br />trend coefficient of determination: 0.912894 <br />
+ intercept: 5.433908 <br />
+ slope: -0.040995<br />
