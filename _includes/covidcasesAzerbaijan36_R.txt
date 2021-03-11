@@ -1,16 +1,12 @@
-Azerbaijan data at: 2021-03-09<br />
-10 day model MAPE: 0.002810<br />
-model: bi-Richards<br />
-coeffs: [1.93025652e+05 6.62797932e-02 2.44361189e+02 1.61284714e+00]<br />
-rational stdev: 0.191331<br />
-forecast at the end of period: +4 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 231789 ± 44348<br />
-	 total death: 3175 ± 1822<br />
-bi-Richards approximation splitting point: 200<br />
-actives k: 17<br />
-trend coefficient of determination: 0.918228 <br />
- intercept: -14.165438 <br />
- slope: -0.052428<br />trend coefficient of determination: 0.881522 <br />
- intercept: -10.124795 <br />
- slope: -0.053735<br />
+Azerbaijan data at: 2021-03-10<br />
++3 day model MAPE: 0.006563<br />
+model: Richards<br />
+coeffs: [3.87702548e+04 4.97941010e-02 8.85547620e+01 1.07819083e+00]<br />
+rational stdev: 0.252028<br />
+forecast at the end of period: +3 days<br />
+	 deltaDaycases: 19<br />
+	 total cases: 38407 ± 9679<br />
+	 total death: 526 ± 397<br />
+trend coefficient of determination: 0.948286 <br />
+ intercept: -10.020821 <br />
+ slope: -0.045543<br />
