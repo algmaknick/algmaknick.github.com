@@ -1,16 +1,16 @@
-Italy data at: 2021-03-12<br />
-10 day model MAPE: 0.007723<br />
+Italy data at: 2021-03-13<br />
+10 day model MAPE: 0.005430<br />
 model: bi-Richards<br />
-coeffs: [1.58900803e+06 1.21985648e+01 1.24163101e+02 3.41536172e-03]<br />
-rational stdev: 0.327694<br />
-forecast at the end of period: +351 days<br />
-	 deltaDaycases: 1034<br />
-	 total cases: 10781369 ± 3532993<br />
-	 total death: 344793 ± 338960<br />
-bi-Richards approximation splitting point: 260<br />
+coeffs: [6.36944659e+05 4.08918334e-01 2.50541338e+02 4.68708427e-01]<br />
+rational stdev: 0.535209<br />
+forecast at the end of period: +210 days<br />
+	 deltaDaycases: 97<br />
+	 total cases: 10181674 ± 5449324<br />
+	 total death: 323976 ± 520184<br />
+bi-Richards approximation splitting point: 270<br />
 actives k: 28<br />
-trend coefficient of determination: 0.098496 <br />
- intercept: -4.055868 <br />
- slope: -0.007219<br />trend coefficient of determination: 0.576741 <br />
- intercept: -0.809462 <br />
- slope: -0.012740<br />
+trend coefficient of determination: 0.170285 <br />
+ intercept: -9.074778 <br />
+ slope: -0.011144<br />trend coefficient of determination: 0.568627 <br />
+ intercept: -7.812798 <br />
+ slope: -0.012287<br />
