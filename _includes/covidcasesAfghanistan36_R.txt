@@ -1,16 +1,12 @@
-Afghanistan data at: 2021-03-15<br />
-10 day model MAPE: 0.000769<br />
-model: bi-Richards<br />
-coeffs: [1.75852805e+04 5.14118141e-02 2.28510164e+02 9.31722727e-01]<br />
-rational stdev: 0.317349<br />
-forecast at the end of period: +96 days<br />
+Afghanistan data at: 2021-03-16<br />
++3 day model MAPE: 0.001942<br />
+model: Richards<br />
+coeffs: [3.83792531e+04 1.29575661e-01 4.72830034e+01 4.47249521e-01]<br />
+rational stdev: 0.427659<br />
+forecast at the end of period: +67 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 55963 ± 17759<br />
-	 total death: 2458 ± 2340<br />
-bi-Richards approximation splitting point: 180<br />
-actives k: 35<br />
-trend coefficient of determination: 0.913991 <br />
- intercept: -7.536323 <br />
- slope: -0.064375<br />trend coefficient of determination: 0.483372 <br />
- intercept: -11.733587 <br />
- slope: -0.019227<br />
+	 total cases: 38377 ± 16412<br />
+	 total death: 1685 ± 2161<br />
+trend coefficient of determination: 0.895820 <br />
+ intercept: -4.292730 <br />
+ slope: -0.050794<br />
