@@ -1,16 +1,16 @@
-UAE data at: 2021-03-22<br />
-10 day model MAPE: 0.010949<br />
+UAE data at: 2021-03-23<br />
+10 day model MAPE: 0.012481<br />
 model: bi-Richards<br />
-coeffs: [ 2.42985872e+06  1.66264352e-01 -2.11220100e+02  3.05997505e-02]<br />
-rational stdev: 0.100183<br />
-forecast at the end of period: +761 days<br />
-	 deltaDaycases: 459<br />
-	 total cases: 2394953 ± 239933<br />
-	 total death: 7825 ± 2351<br />
+coeffs: [ 2.30588835e+06  1.54036916e-01 -1.85028194e+02  3.37619903e-02]<br />
+rational stdev: 0.099772<br />
+forecast at the end of period: +760 days<br />
+	 deltaDaycases: 400<br />
+	 total cases: 2284732 ± 227952<br />
+	 total death: 7459 ± 2232<br />
 bi-Richards approximation splitting point: 128<br />
 actives k: 11<br />
-trend coefficient of determination: 0.943889 <br />
- intercept: -2.273578 <br />
- slope: -0.029288<br />trend coefficient of determination: 0.012424 <br />
- intercept: -5.381120 <br />
- slope: 0.000678<br />
+trend coefficient of determination: 0.943922 <br />
+ intercept: -2.298733 <br />
+ slope: -0.029384<br />trend coefficient of determination: 0.009335 <br />
+ intercept: -5.398964 <br />
+ slope: 0.000585<br />
