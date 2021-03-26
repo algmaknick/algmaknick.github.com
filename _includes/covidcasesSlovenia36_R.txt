@@ -1,16 +1,16 @@
-Slovenia data at: 2021-03-24<br />
-10 day model MAPE: 0.010812<br />
+Slovenia data at: 2021-03-25<br />
+10 day model MAPE: 0.011467<br />
 model: bi-Richards<br />
-coeffs: [1.27787144e+05 3.71091294e+00 5.15218759e+01 6.58442631e-03]<br />
-rational stdev: 1.098517<br />
-forecast at the end of period: +94 days<br />
-	 deltaDaycases: 17<br />
-	 total cases: 202826 ± 222808<br />
-	 total death: 3883 ± 12796<br />
-bi-Richards approximation splitting point: 229<br />
+coeffs: [ 1.45994972e+05  2.78303443e+00 -2.69384686e+01  6.08861923e-03]<br />
+rational stdev: 1.867692<br />
+forecast at the end of period: +93 days<br />
+	 deltaDaycases: 87<br />
+	 total cases: 218843 ± 408731<br />
+	 total death: 4171 ± 23370<br />
+bi-Richards approximation splitting point: 231<br />
 actives k: 17<br />
-trend coefficient of determination: 0.000214 <br />
- intercept: -4.929584 <br />
- slope: 0.000431<br />trend coefficient of determination: 0.457181 <br />
- intercept: 0.539851 <br />
- slope: -0.017297<br />
+trend coefficient of determination: 0.001106 <br />
+ intercept: -4.967526 <br />
+ slope: 0.000974<br />trend coefficient of determination: 0.434492 <br />
+ intercept: 0.313604 <br />
+ slope: -0.016567<br />
