@@ -1,16 +1,16 @@
-Netherlands data at: 2021-03-28<br />
-10 day model MAPE: 0.008730<br />
+Netherlands data at: 2021-03-29<br />
+10 day model MAPE: 0.002959<br />
 model: bi-Richards<br />
-coeffs: [1.09944243e+06 2.12801665e+00 1.79432881e+00 8.69235771e-03]<br />
-rational stdev: 0.245332<br />
-forecast at the end of period: +195 days<br />
-	 deltaDaycases: 708<br />
-	 total cases: 1448917 ± 355466<br />
-	 total death: 19048 ± 14019<br />
-bi-Richards approximation splitting point: 217<br />
+coeffs: [8.07329396e+05 1.81894980e+00 5.95915424e+01 1.27959416e-02]<br />
+rational stdev: 0.250850<br />
+forecast at the end of period: +334 days<br />
+	 deltaDaycases: 106<br />
+	 total cases: 3307997 ± 829810<br />
+	 total death: 43282 ± 32571<br />
+bi-Richards approximation splitting point: 221<br />
 actives k: 35<br />
-trend coefficient of determination: 0.078478 <br />
- intercept: -3.959505 <br />
- slope: -0.007253<br />trend coefficient of determination: 0.749970 <br />
- intercept: -0.921067 <br />
- slope: -0.013085<br />
+trend coefficient of determination: 0.060843 <br />
+ intercept: -4.072753 <br />
+ slope: -0.006262<br />trend coefficient of determination: 0.728918 <br />
+ intercept: -1.121683 <br />
+ slope: -0.012626<br />
