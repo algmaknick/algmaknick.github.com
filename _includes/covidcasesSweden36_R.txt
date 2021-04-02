@@ -1,16 +1,16 @@
 Sweden data at: 2021-04-01<br />
-10 day model MAPE: 0.017558<br />
+10 day model MAPE: 0.011695<br />
 model: bi-Richards<br />
-coeffs: [6.96490539e+05 3.28836593e+00 6.32888626e+01 6.60679220e-03]<br />
-rational stdev: 0.250573<br />
+coeffs: [4.39860399e+05 7.14005474e-01 2.65212765e+02 4.06823427e-02]<br />
+rational stdev: 0.602307<br />
 forecast at the end of period: +86 days<br />
-	 deltaDaycases: 291<br />
-	 total cases: 822492 ± 206094<br />
-	 total death: 13652 ± 10262<br />
-bi-Richards approximation splitting point: 260<br />
+	 deltaDaycases: 607<br />
+	 total cases: 978700 ± 589478<br />
+	 total death: 16245 ± 29353<br />
+bi-Richards approximation splitting point: 340<br />
 actives k: 35<br />
-trend coefficient of determination: 0.495534 <br />
- intercept: -2.637956 <br />
- slope: -0.013683<br />trend coefficient of determination: 0.622547 <br />
- intercept: -0.641716 <br />
- slope: -0.012561<br />
+trend coefficient of determination: 0.254044 <br />
+ intercept: -3.600822 <br />
+ slope: -0.006932<br />trend coefficient of determination: 0.151885 <br />
+ intercept: -8.543636 <br />
+ slope: 0.007527<br />
