@@ -1,12 +1,16 @@
-Armenia data at: 2021-04-01<br />
-+3 day model MAPE: 0.003831<br />
-model: Richards<br />
-coeffs: [4.52825503e+04 6.42552136e-02 8.09930468e+01 7.26225173e-01]<br />
-rational stdev: 0.231544<br />
-forecast at the end of period: +51 days<br />
-	 deltaDaycases: 5<br />
-	 total cases: 45157 ± 10455<br />
-	 total death: 823 ± 571<br />
-trend coefficient of determination: 0.937499 <br />
- intercept: -6.797057 <br />
- slope: -0.043537<br />
+Armenia data at: 2021-04-02<br />
+10 day model MAPE: 0.009727<br />
+model: bi-Richards<br />
+coeffs: [1.29534709e+05 5.87363125e+00 7.80691093e+01 6.10205924e-03]<br />
+rational stdev: 0.436579<br />
+forecast at the end of period: +78 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 177319 ± 77414<br />
+	 total death: 3232 ± 4233<br />
+bi-Richards approximation splitting point: 200<br />
+actives k: 21<br />
+trend coefficient of determination: 0.730157 <br />
+ intercept: -2.378570 <br />
+ slope: -0.018159<br />trend coefficient of determination: 0.468934 <br />
+ intercept: -1.117248 <br />
+ slope: -0.015637<br />
