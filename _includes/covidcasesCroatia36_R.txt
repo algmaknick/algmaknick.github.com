@@ -1,16 +1,16 @@
-Croatia data at: 2021-04-02<br />
-10 day model MAPE: 0.020150<br />
+Croatia data at: 2021-04-03<br />
+10 day model MAPE: 0.021397<br />
 model: bi-Richards<br />
-coeffs: [2.64401602e+05 1.01227281e+00 1.13761743e+00 1.07163397e-02]<br />
-rational stdev: 6.355311<br />
-forecast at the end of period: +260 days<br />
-	 deltaDaycases: 256<br />
-	 total cases: 457843 ± 2909738<br />
-	 total death: 9931 ± 189343<br />
+coeffs: [ 3.62883176e+05  7.73900139e-01 -5.64453366e+00  1.26275702e-02]<br />
+rational stdev: 6.349386<br />
+forecast at the end of period: +259 days<br />
+	 deltaDaycases: 469<br />
+	 total cases: 529278 ± 3360592<br />
+	 total death: 11444 ± 217987<br />
 bi-Richards approximation splitting point: 310<br />
 actives k: 11<br />
-trend coefficient of determination: 0.007124 <br />
- intercept: -4.925942 <br />
- slope: 0.001650<br />trend coefficient of determination: 0.198036 <br />
- intercept: -12.496335 <br />
- slope: 0.017891<br />
+trend coefficient of determination: 0.006795 <br />
+ intercept: -4.937713 <br />
+ slope: 0.001611<br />trend coefficient of determination: 0.217564 <br />
+ intercept: -12.792266 <br />
+ slope: 0.018707<br />
