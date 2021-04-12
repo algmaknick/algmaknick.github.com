@@ -1,16 +1,16 @@
-Greece data at: 2021-04-10<br />
-10 day model MAPE: 0.001713<br />
+Greece data at: 2021-04-11<br />
+10 day model MAPE: 0.000643<br />
 model: bi-Richards<br />
-coeffs: [1.29679563e+06 3.02070858e-01 1.00257146e+02 3.23450179e-02]<br />
-rational stdev: 5.934021<br />
-forecast at the end of period: +427 days<br />
-	 deltaDaycases: 408<br />
-	 total cases: 1386218 ± 8225849<br />
-	 total death: 41681 ± 742007<br />
+coeffs: [1.26413498e+06 2.92326158e-01 1.06142331e+02 3.37518917e-02]<br />
+rational stdev: 5.928349<br />
+forecast at the end of period: +426 days<br />
+	 deltaDaycases: 382<br />
+	 total cases: 1356670 ± 8042815<br />
+	 total death: 40794 ± 725523<br />
 bi-Richards approximation splitting point: 300<br />
 actives k: 35<br />
-trend coefficient of determination: 0.007164 <br />
- intercept: -4.989189 <br />
- slope: 0.001035<br />trend coefficient of determination: 0.438382 <br />
- intercept: -9.690581 <br />
- slope: 0.012957<br />
+trend coefficient of determination: 0.006833 <br />
+ intercept: -4.998767 <br />
+ slope: 0.001011<br />trend coefficient of determination: 0.404345 <br />
+ intercept: -9.472748 <br />
+ slope: 0.012238<br />
