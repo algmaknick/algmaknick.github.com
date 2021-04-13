@@ -1,16 +1,16 @@
-World data at: 2021-04-11<br />
-10 day model MAPE: 0.008780<br />
+World data at: 2021-04-12<br />
+10 day model MAPE: 0.000593<br />
 model: bi-Richards<br />
-coeffs: [5.55617650e+07 2.36732907e+00 2.34679680e+01 7.93800733e-03]<br />
-rational stdev: 0.143695<br />
-forecast at the end of period: +521 days<br />
-	 deltaDaycases: 3766<br />
-	 total cases: 162854837 ± 23401454<br />
-	 total death: 3515625 ± 1515535<br />
-bi-Richards approximation splitting point: 270<br />
+coeffs: [-1.07305078e+07  2.29840269e+01  2.83589499e+02  3.69281600e-03]<br />
+rational stdev: 0.188413<br />
+forecast at the end of period: +1060 days<br />
+	 deltaDaycases: 25995<br />
+	 total cases: 456295431 ± 85972118<br />
+	 total death: 9836385 ± 5559916<br />
+bi-Richards approximation splitting point: 320<br />
 actives k: 33<br />
-trend coefficient of determination: 0.733173 <br />
- intercept: -3.208832 <br />
- slope: -0.007481<br />trend coefficient of determination: 0.495823 <br />
- intercept: -2.828970 <br />
- slope: -0.007800<br />
+trend coefficient of determination: 0.745005 <br />
+ intercept: -3.240610 <br />
+ slope: -0.006458<br />trend coefficient of determination: 0.050945 <br />
+ intercept: -6.429112 <br />
+ slope: 0.002310<br />
