@@ -1,16 +1,16 @@
-Argentina data at: 2021-04-12<br />
-10 day model MAPE: 0.013394<br />
+Argentina data at: 2021-04-13<br />
+10 day model MAPE: 0.034092<br />
 model: bi-Richards<br />
-coeffs: [ 2.31390733e+06  6.83387190e-01 -2.18163950e+02  1.17964696e-02]<br />
-rational stdev: 0.203896<br />
-forecast at the end of period: +250 days<br />
-	 deltaDaycases: 1465<br />
-	 total cases: 3338141 ± 680632<br />
-	 total death: 75810 ± 46371<br />
-bi-Richards approximation splitting point: 180<br />
+coeffs: [1.51672954e+06 4.24509889e-02 4.21857446e+02 9.25407609e+00]<br />
+rational stdev: 9.740452<br />
+forecast at the end of period: +249 days<br />
+	 deltaDaycases: 104<br />
+	 total cases: 3890007 ± 37890429<br />
+	 total death: 87746 ± 2564057<br />
+bi-Richards approximation splitting point: 350<br />
 actives k: 16<br />
-trend coefficient of determination: 0.047787 <br />
- intercept: -3.012032 <br />
- slope: -0.004731<br />trend coefficient of determination: 0.528695 <br />
- intercept: -3.006716 <br />
- slope: -0.007959<br />
+trend coefficient of determination: 0.872055 <br />
+ intercept: -73.189598 <br />
+ slope: -0.237345<br />trend coefficient of determination: 0.191548 <br />
+ intercept: -137.360501 <br />
+ slope: -0.009721<br />
