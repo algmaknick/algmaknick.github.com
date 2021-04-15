@@ -1,16 +1,16 @@
 Estonia data at: 2021-04-14<br />
-10 day model MAPE: 0.834945<br />
+10 day model MAPE: 0.000864<br />
 model: bi-Richards<br />
-coeffs: [ 6.90571089e+02  3.94732857e-02  2.77022223e+02 -6.64150288e+00]<br />
-rational stdev: 0.534643<br />
+coeffs: [4.05938492e+04 5.57226321e+00 3.00811950e+02 1.35390801e-02]<br />
+rational stdev: 8.501028<br />
 forecast at the end of period: +108 days<br />
-	 deltaDaycases: 164133<br />
-	 total cases: 4309864 ± 2304240<br />
-	 total death: 39397 ± 63190<br />
-bi-Richards approximation splitting point: 350<br />
+	 deltaDaycases: 6<br />
+	 total cases: 125058 ± 1063126<br />
+	 total death: 1143 ± 29150<br />
+bi-Richards approximation splitting point: 355<br />
 actives k: 26<br />
-trend coefficient of determination: 0.873158 <br />
- intercept: 35.472405 <br />
- slope: 0.086869<br />trend coefficient of determination: 0.705121 <br />
- intercept: 52.062483 <br />
- slope: 0.051764<br />
+trend coefficient of determination: 0.046899 <br />
+ intercept: -5.643178 <br />
+ slope: 0.003437<br />trend coefficient of determination: 0.771860 <br />
+ intercept: 10.779493 <br />
+ slope: -0.041156<br />
