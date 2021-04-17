@@ -1,16 +1,16 @@
 Uzbekistan data at: 2021-04-16<br />
-10 day model MAPE: 0.006598<br />
+10 day model MAPE: 0.000824<br />
 model: bi-Richards<br />
-coeffs: [ 2.16057411e+04  5.08486034e+00 -2.80793288e+01  4.21081195e-03]<br />
-rational stdev: 0.353932<br />
+coeffs: [4.19372356e+02 2.60610331e-01 1.51482262e+01 1.16215299e+01]<br />
+rational stdev: 0.307995<br />
 forecast at the end of period: +141 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 82821 ± 29313<br />
-	 total death: 610 ± 647<br />
-bi-Richards approximation splitting point: 200<br />
+	 total cases: 80982 ± 24942<br />
+	 total death: 596 ± 550<br />
+bi-Richards approximation splitting point: 350<br />
 actives k: 11<br />
-trend coefficient of determination: 0.458682 <br />
- intercept: -2.608778 <br />
- slope: -0.010991<br />trend coefficient of determination: 0.329434 <br />
- intercept: -4.020319 <br />
- slope: -0.008549<br />
+trend coefficient of determination: 0.784575 <br />
+ intercept: -80.959005 <br />
+ slope: -0.212155<br />trend coefficient of determination: 0.472728 <br />
+ intercept: -146.663313 <br />
+ slope: 0.022914<br />
