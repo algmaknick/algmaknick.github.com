@@ -1,16 +1,16 @@
-Brazil data at: 2021-04-17<br />
-10 day model MAPE: 0.005147<br />
+Brazil data at: 2021-04-18<br />
+10 day model MAPE: 0.004763<br />
 model: bi-Richards<br />
-coeffs: [1.56711987e+07 6.82417455e-01 5.09541897e+00 1.59373808e-02]<br />
-rational stdev: 0.224482<br />
-forecast at the end of period: +385 days<br />
-	 deltaDaycases: 1996<br />
-	 total cases: 22051626 ± 4950187<br />
-	 total death: 589976 ± 397316<br />
+coeffs: [ 1.58562735e+07  8.35936193e-01 -1.73955284e+01  1.28859371e-02]<br />
+rational stdev: 0.224245<br />
+forecast at the end of period: +384 days<br />
+	 deltaDaycases: 2106<br />
+	 total cases: 22224598 ± 4983756<br />
+	 total death: 595248 ± 400444<br />
 bi-Richards approximation splitting point: 220<br />
 actives k: 17<br />
-trend coefficient of determination: 0.524345 <br />
- intercept: -2.095153 <br />
- slope: -0.015020<br />trend coefficient of determination: 0.045698 <br />
- intercept: -6.108440 <br />
- slope: 0.001664<br />
+trend coefficient of determination: 0.518045 <br />
+ intercept: -2.075605 <br />
+ slope: -0.014860<br />trend coefficient of determination: 0.041809 <br />
+ intercept: -6.037822 <br />
+ slope: 0.001584<br />
