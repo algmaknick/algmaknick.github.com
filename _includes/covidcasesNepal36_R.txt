@@ -1,16 +1,16 @@
 Nepal data at: 2021-04-20<br />
-10 day model MAPE: 0.045682<br />
+10 day model MAPE: 0.012557<br />
 model: bi-Richards<br />
-coeffs: [1.78854757e+03 7.83625100e-01 5.26823391e+01 1.57527237e+00]<br />
-rational stdev: 0.327720<br />
+coeffs: [ 9.42468059e+04  2.37059870e+00 -7.27530182e+01  4.56275343e-03]<br />
+rational stdev: 0.377146<br />
 forecast at the end of period: +130 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 272182 ± 89199<br />
-	 total death: 2936 ± 2886<br />
-bi-Richards approximation splitting point: 322<br />
+	 deltaDaycases: 307<br />
+	 total cases: 328194 ± 123777<br />
+	 total death: 3540 ± 4005<br />
+bi-Richards approximation splitting point: 324<br />
 actives k: 12<br />
-trend coefficient of determination: 0.901765 <br />
- intercept: -12.129977 <br />
- slope: -0.054396<br />trend coefficient of determination: 0.818622 <br />
- intercept: -46.795403 <br />
- slope: 0.057080<br />
+trend coefficient of determination: 0.765656 <br />
+ intercept: -2.044872 <br />
+ slope: -0.016076<br />trend coefficient of determination: 0.840044 <br />
+ intercept: -28.552556 <br />
+ slope: 0.061202<br />
