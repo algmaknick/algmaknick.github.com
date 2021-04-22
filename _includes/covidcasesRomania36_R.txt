@@ -1,16 +1,16 @@
-Romania data at: 2021-04-20<br />
-10 day model MAPE: 0.007042<br />
+Romania data at: 2021-04-21<br />
+10 day model MAPE: 0.006219<br />
 model: bi-Richards<br />
-coeffs: [8.81934270e+05 4.70930902e-01 1.67853035e+02 3.25612376e-02]<br />
-rational stdev: 0.367163<br />
-forecast at the end of period: +305 days<br />
-	 deltaDaycases: 104<br />
-	 total cases: 1532741 ± 562766<br />
-	 total death: 39456 ± 43460<br />
-bi-Richards approximation splitting point: 320<br />
+coeffs: [4.10464507e+05 7.26085576e-01 2.88392587e+02 4.82658954e-02]<br />
+rational stdev: 0.419151<br />
+forecast at the end of period: +164 days<br />
+	 deltaDaycases: 16<br />
+	 total cases: 1166111 ± 488776<br />
+	 total death: 30128 ± 37884<br />
+bi-Richards approximation splitting point: 360<br />
 actives k: 17<br />
-trend coefficient of determination: 0.439333 <br />
- intercept: -3.211384 <br />
- slope: -0.007057<br />trend coefficient of determination: 0.083516 <br />
- intercept: -7.359887 <br />
- slope: 0.003863<br />
+trend coefficient of determination: 0.583975 <br />
+ intercept: -3.234171 <br />
+ slope: -0.008226<br />trend coefficient of determination: 0.195051 <br />
+ intercept: -2.119369 <br />
+ slope: -0.010141<br />
