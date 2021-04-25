@@ -1,16 +1,16 @@
 Ireland data at: 2021-04-24<br />
-10 day model MAPE: 0.007835<br />
+10 day model MAPE: 0.007557<br />
 model: bi-Richards<br />
-coeffs: [2.02722395e+05 2.81033146e-02 3.00606534e+02 2.76607610e+00]<br />
-rational stdev: 0.228561<br />
+coeffs: [2.13851124e+05 2.02417597e-02 3.08856505e+02 4.49995517e+00]<br />
+rational stdev: 0.191216<br />
 forecast at the end of period: +63 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 234820 ± 53670<br />
-	 total death: 4646 ± 3185<br />
-bi-Richards approximation splitting point: 271<br />
+	 total cases: 234624 ± 44863<br />
+	 total death: 4642 ± 2662<br />
+bi-Richards approximation splitting point: 153<br />
 actives k: 61<br />
-trend coefficient of determination: 0.387918 <br />
- intercept: -31.213105 <br />
- slope: -0.020524<br />trend coefficient of determination: 0.810084 <br />
- intercept: -24.316259 <br />
- slope: -0.044562<br />
+trend coefficient of determination: 0.523397 <br />
+ intercept: -45.656805 <br />
+ slope: -0.063520<br />trend coefficient of determination: 0.949833 <br />
+ intercept: -42.301584 <br />
+ slope: -0.053973<br />
