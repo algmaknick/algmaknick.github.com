@@ -1,16 +1,16 @@
-Oman data at: 2021-04-22<br />
-10 day model MAPE: 0.000686<br />
+Oman data at: 2021-04-23<br />
+10 day model MAPE: 0.021391<br />
 model: bi-Richards<br />
-coeffs: [1.98764121e+05 2.73835433e-02 4.40106341e+02 8.80018993e+00]<br />
-rational stdev: 0.127116<br />
-forecast at the end of period: +133 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 328585 ± 41768<br />
-	 total death: 3444 ± 1313<br />
-bi-Richards approximation splitting point: 320<br />
+coeffs: [5.80134699e+04 3.12885024e-02 3.95173186e+02 1.12977506e+01]<br />
+rational stdev: 0.154254<br />
+forecast at the end of period: +132 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 190392 ± 29368<br />
+	 total death: 1993 ± 922<br />
+bi-Richards approximation splitting point: 340<br />
 actives k: 29<br />
-trend coefficient of determination: 0.726548 <br />
- intercept: -66.020740 <br />
- slope: -0.183023<br />trend coefficient of determination: 0.304801 <br />
- intercept: -107.155398 <br />
- slope: -0.009651<br />
+trend coefficient of determination: 0.698995 <br />
+ intercept: -86.268158 <br />
+ slope: -0.210827<br />trend coefficient of determination: 0.710109 <br />
+ intercept: -129.655311 <br />
+ slope: -0.029404<br />
