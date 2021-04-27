@@ -1,12 +1,16 @@
-Lithuania data at: 2021-04-25<br />
-+3 day model MAPE: 0.002236<br />
-model: Richards<br />
-coeffs: [1.93915241e+05 4.73041365e-02 1.47324288e+02 1.35663387e+00]<br />
-rational stdev: 2.918496<br />
-forecast at the end of period: +27 days<br />
-	 deltaDaycases: 52<br />
-	 total cases: 193112 ± 563598<br />
-	 total death: 6248 ± 54704<br />
-trend coefficient of determination: 0.822680 <br />
- intercept: -13.520555 <br />
- slope: -0.038572<br />
+Lithuania data at: 2021-04-26<br />
+10 day model MAPE: 0.000604<br />
+model: bi-Richards<br />
+coeffs: [2.00270427e+05 8.49636670e-01 5.48451393e+01 1.92344060e-02]<br />
+rational stdev: 2.583423<br />
+forecast at the end of period: +271 days<br />
+	 deltaDaycases: 55<br />
+	 total cases: 390813 ± 1009636<br />
+	 total death: 12671 ± 98203<br />
+bi-Richards approximation splitting point: 200<br />
+actives k: 19<br />
+trend coefficient of determination: 0.007969 <br />
+ intercept: -4.464614 <br />
+ slope: 0.001418<br />trend coefficient of determination: 0.277999 <br />
+ intercept: -8.158654 <br />
+ slope: 0.008729<br />

@@ -1,16 +1,16 @@
-Turkey data at: 2021-04-25<br />
-10 day model MAPE: 0.008985<br />
+Turkey data at: 2021-04-26<br />
+10 day model MAPE: 0.742315<br />
 model: bi-Richards<br />
-coeffs: [-5.84722537e+05  1.53465845e-01  3.21467500e+02  9.12651679e-01]<br />
-rational stdev: 0.225793<br />
-forecast at the end of period: +447 days<br />
-	 deltaDaycases: 92<br />
-	 total cases: 30524071 ± 6892135<br />
-	 total death: 252883 ± 171297<br />
-bi-Richards approximation splitting point: 330<br />
+coeffs: [6.32407745e+06 5.11306907e-01 2.94473410e+02 5.43908599e-02]<br />
+rational stdev: 0.227013<br />
+forecast at the end of period: +236 days<br />
+	 deltaDaycases: 290<br />
+	 total cases: 8977242 ± 2037948<br />
+	 total death: 74458 ± 50708<br />
+bi-Richards approximation splitting point: 360<br />
 actives k: 17<br />
-trend coefficient of determination: 0.550190 <br />
- intercept: -14.706701 <br />
- slope: -0.014727<br />trend coefficient of determination: 0.767785 <br />
- intercept: -25.814942 <br />
- slope: 0.019664<br />
+trend coefficient of determination: 0.384681 <br />
+ intercept: -4.483174 <br />
+ slope: -0.006196<br />trend coefficient of determination: 0.357603 <br />
+ intercept: -10.608359 <br />
+ slope: 0.013840<br />
