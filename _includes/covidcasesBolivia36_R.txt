@@ -1,12 +1,16 @@
 Bolivia data at: 2021-05-08<br />
-+3 day model MAPE: 0.002045<br />
-model: Richards<br />
-coeffs: [1.46313249e+05 5.54352863e-02 1.07349160e+02 6.94175368e-01]<br />
-rational stdev: 0.224240<br />
-forecast at the end of period: +14 days<br />
-	 deltaDaycases: 12<br />
-	 total cases: 146005 ± 32740<br />
-	 total death: 6071 ± 4084<br />
-trend coefficient of determination: 0.936549 <br />
- intercept: -6.447925 <br />
- slope: -0.038360<br />
+10 day model MAPE: 0.015181<br />
+model: bi-Richards<br />
+coeffs: [1.64804969e+05 4.46055112e+00 1.06299526e+02 5.85933677e-03]<br />
+rational stdev: 0.188746<br />
+forecast at the end of period: +153 days<br />
+	 deltaDaycases: 6<br />
+	 total cases: 310885 ± 58678<br />
+	 total death: 12907 ± 7308<br />
+bi-Richards approximation splitting point: 280<br />
+actives k: 63<br />
+trend coefficient of determination: 0.827320 <br />
+ intercept: -1.932603 <br />
+ slope: -0.019502<br />trend coefficient of determination: 0.301941 <br />
+ intercept: -2.466832 <br />
+ slope: -0.008729<br />
