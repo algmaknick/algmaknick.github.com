@@ -27,8 +27,8 @@ source "https://rubygems.org"
 
 # Performance-booster for watching directories on Windows
 # gem "wdm", "~> 0.1.1", :install_if => Gem.win_platform?
-#gem "jekyll", "~> 3.9.0"
-gem 'jekyll', '>=3.9', '<4'
+gem "jekyll", "~> 4.2.0"
+#gem 'jekyll', '>=3.9', '<4'
 gem 'jekyll-seo-tag','~> 2.7.1'
 gem 'kramdown-parser-gfm', '~> 1.1.0'
 gem "kramdown", "~> 2.3.1"
