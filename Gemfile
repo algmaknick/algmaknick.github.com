@@ -32,6 +32,7 @@ gem 'jekyll', '>=3.9', '<4'
 gem 'jekyll-seo-tag','~> 2.7.1'
 gem 'kramdown-parser-gfm', '~> 1.1.0'
 gem "kramdown", "~> 2.3.1"
+gem "rexml", ">= 3.2.5"
 #gem "github-pages","~> 213" , group: :jekyll_plugins
 gem "nokogiri", ">= 1.11.2" 
 # If you have any plugins, put them here!
