@@ -1,16 +1,16 @@
-Iran data at: 2021-05-15<br />
-10 day model MAPE: 0.014064<br />
+Iran data at: 2021-05-16<br />
+10 day model MAPE: 0.004567<br />
 model: bi-Richards<br />
-coeffs: [4.29849421e+06 4.39372082e-01 2.24896190e+02 3.34953826e-02]<br />
-rational stdev: 0.263962<br />
-forecast at the end of period: +231 days<br />
-	 deltaDaycases: 2458<br />
-	 total cases: 5603864 ± 1479209<br />
-	 total death: 156737 ± 124117<br />
-bi-Richards approximation splitting point: 360<br />
+coeffs: [1.28220566e+06 6.37218413e-02 4.21166826e+02 1.11162193e+00]<br />
+rational stdev: 0.263171<br />
+forecast at the end of period: +90 days<br />
+	 deltaDaycases: 32<br />
+	 total cases: 2952454 ± 777000<br />
+	 total death: 82564 ± 65185<br />
+bi-Richards approximation splitting point: 380<br />
 actives k: 25<br />
-trend coefficient of determination: 0.553192 <br />
- intercept: -3.372992 <br />
- slope: -0.007765<br />trend coefficient of determination: 0.218055 <br />
- intercept: -8.001446 <br />
- slope: 0.005981<br />
+trend coefficient of determination: 0.662791 <br />
+ intercept: -13.872728 <br />
+ slope: -0.022905<br />trend coefficient of determination: 0.013023 <br />
+ intercept: -20.439346 <br />
+ slope: -0.001920<br />

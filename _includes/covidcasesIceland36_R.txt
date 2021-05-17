@@ -1,16 +1,12 @@
-Iceland data at: 2021-05-13<br />
-10 day model MAPE: 0.003400<br />
-model: bi-Richards<br />
-coeffs: [4.40007525e+03 2.59537024e+00 7.91695419e+01 1.27204869e-02]<br />
-rational stdev: 0.172213<br />
-forecast at the end of period: +78 days<br />
+Iceland data at: 2021-05-16<br />
++3 day model MAPE: 0.003978<br />
+model: Richards<br />
+coeffs: [1.78698933e+03 4.73428382e-01 2.78296547e+00 2.53176988e-01]<br />
+rational stdev: 0.268147<br />
+forecast at the end of period: +6 days<br />
 	 deltaDaycases: 0<br />
-	 total cases: 6186 ± 1065<br />
-	 total death: 27 ± 13<br />
-bi-Richards approximation splitting point: 172<br />
-actives k: 17<br />
-trend coefficient of determination: 0.186252 <br />
- intercept: -4.404828 <br />
- slope: -0.021230<br />trend coefficient of determination: 0.410224 <br />
- intercept: -2.866779 <br />
- slope: -0.012004<br />
+	 total cases: 1786 ± 479<br />
+	 total death: 7 ± 5<br />
+trend coefficient of determination: 0.227833 <br />
+ intercept: -5.784235 <br />
+ slope: -0.025633<br />
