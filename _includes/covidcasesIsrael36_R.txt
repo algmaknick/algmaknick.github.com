@@ -1,16 +1,16 @@
-Israel data at: 2021-05-16<br />
-10 day model MAPE: 0.000493<br />
+Israel data at: 2021-05-17<br />
+10 day model MAPE: 0.000539<br />
 model: bi-Richards<br />
-coeffs: [5.33424026e+05 6.21638579e-02 3.16638215e+02 8.69530275e-01]<br />
-rational stdev: 0.357194<br />
-forecast at the end of period: +76 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 842519 ± 300942<br />
-	 total death: 6407 ± 6865<br />
-bi-Richards approximation splitting point: 252<br />
+coeffs: [5.30939278e+05 6.73385233e-02 3.14278512e+02 7.88245017e-01]<br />
+rational stdev: 0.357255<br />
+forecast at the end of period: +75 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 842846 ± 301111<br />
+	 total death: 6417 ± 6877<br />
+bi-Richards approximation splitting point: 258<br />
 actives k: 11<br />
-trend coefficient of determination: 0.581898 <br />
- intercept: -9.191438 <br />
- slope: -0.030893<br />trend coefficient of determination: 0.645573 <br />
- intercept: -7.311723 <br />
- slope: -0.030440<br />
+trend coefficient of determination: 0.582475 <br />
+ intercept: -8.624873 <br />
+ slope: -0.028862<br />trend coefficient of determination: 0.681084 <br />
+ intercept: -5.441152 <br />
+ slope: -0.032500<br />
