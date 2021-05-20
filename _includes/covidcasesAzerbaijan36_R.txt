@@ -1,12 +1,16 @@
 Azerbaijan data at: 2021-05-19<br />
-+3 day model MAPE: 0.033539<br />
-model: Richards<br />
-coeffs: [ 5.24352697e+04  2.61373716e+00 -1.58007083e+02  7.58584527e-03]<br />
-rational stdev: 0.848268<br />
-forecast at the end of period: +3 days<br />
-	 deltaDaycases: 79<br />
-	 total cases: 48282 ± 40956<br />
-	 total death: 702 ± 1786<br />
-trend coefficient of determination: 0.532812 <br />
- intercept: -2.947606 <br />
- slope: -0.012847<br />
+10 day model MAPE: 0.020723<br />
+model: bi-Richards<br />
+coeffs: [2.42358049e+05 8.11471041e+00 6.34517925e+00 3.04396959e-03]<br />
+rational stdev: 0.644677<br />
+forecast at the end of period: +143 days<br />
+	 deltaDaycases: 3<br />
+	 total cases: 294661 ± 189961<br />
+	 total death: 4284 ± 8285<br />
+bi-Richards approximation splitting point: 240<br />
+actives k: 17<br />
+trend coefficient of determination: 0.292141 <br />
+ intercept: -3.244336 <br />
+ slope: -0.008411<br />trend coefficient of determination: 0.058659 <br />
+ intercept: -3.898690 <br />
+ slope: -0.006013<br />
