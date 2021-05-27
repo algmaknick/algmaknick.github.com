@@ -1,16 +1,16 @@
 Afghanistan data at: 2021-05-25<br />
-10 day model MAPE: 0.015445<br />
+10 day model MAPE: 0.039056<br />
 model: bi-Richards<br />
-coeffs: [ 2.31595772e+04  3.26146253e+00 -6.54425055e+01  5.39466796e-03]<br />
-rational stdev: 0.292804<br />
-forecast at the end of period: +24 days<br />
-	 deltaDaycases: 12<br />
-	 total cases: 60821 ± 17808<br />
-	 total death: 2552 ± 2241<br />
-bi-Richards approximation splitting point: 180<br />
+coeffs: [6.19022308e+05 2.73730994e-02 5.48050098e+02 3.03700850e+00]<br />
+rational stdev: 0.289753<br />
+forecast at the end of period: +304 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 673866 ± 195255<br />
+	 total death: 28279 ± 24581<br />
+bi-Richards approximation splitting point: 380<br />
 actives k: 35<br />
-trend coefficient of determination: 0.830778 <br />
- intercept: -1.419539 <br />
- slope: -0.036934<br />trend coefficient of determination: 0.026764 <br />
- intercept: -5.776474 <br />
- slope: -0.002953<br />
+trend coefficient of determination: 0.604133 <br />
+ intercept: -28.264423 <br />
+ slope: -0.042901<br />trend coefficient of determination: 0.056540 <br />
+ intercept: -44.614193 <br />
+ slope: 0.013917<br />
