@@ -1,16 +1,16 @@
-Dominican Republic data at: 2021-05-26<br />
-10 day model MAPE: 0.008337<br />
+Dominican Republic data at: 2021-05-27<br />
+10 day model MAPE: 0.000000<br />
 model: bi-Richards<br />
-coeffs: [1.06466438e+05 4.92910237e+00 1.05979661e+02 5.52374149e-03]<br />
-rational stdev: 0.166168<br />
-forecast at the end of period: +66 days<br />
-	 deltaDaycases: 29<br />
-	 total cases: 276896 ± 46011<br />
-	 total death: 3494 ± 1741<br />
-bi-Richards approximation splitting point: 300<br />
+coeffs: [ 1.40746207e+03 -5.99702593e-03  2.43180972e+01  3.39170578e-02]<br />
+rational stdev: 0.255999<br />
+forecast at the end of period: +275 days<br />
+	 deltaDaycases: 143<br />
+	 total cases: 375814 ± 96208<br />
+	 total death: 4723 ± 3627<br />
+bi-Richards approximation splitting point: 380<br />
 actives k: 35<br />
-trend coefficient of determination: 0.704608 <br />
- intercept: -2.942213 <br />
- slope: -0.010618<br />trend coefficient of determination: 0.236934 <br />
- intercept: -2.917643 <br />
- slope: -0.008626<br />
+trend coefficient of determination: 0.740602 <br />
+ intercept: -3.328679 <br />
+ slope: -0.009584<br />trend coefficient of determination: 0.202926 <br />
+ intercept: -12.644199 <br />
+ slope: 0.015035<br />
