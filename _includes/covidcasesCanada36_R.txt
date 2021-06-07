@@ -1,16 +1,16 @@
-Canada data at: 2021-06-05<br />
-10 day model MAPE: 0.365564<br />
+Canada data at: 2021-06-06<br />
+10 day model MAPE: 0.003893<br />
 model: bi-Richards<br />
-coeffs: [4.10432886e+05 5.84278849e+00 3.29622388e+02 9.86619134e-03]<br />
-rational stdev: 0.456727<br />
-forecast at the end of period: +112 days<br />
-	 deltaDaycases: 3<br />
-	 total cases: 1423006 ± 649925<br />
-	 total death: 26300 ± 36035<br />
-bi-Richards approximation splitting point: 424<br />
+coeffs: [5.58197725e+05 3.67684381e-01 3.57734722e+02 1.21165116e-01]<br />
+rational stdev: 0.451515<br />
+forecast at the end of period: +111 days<br />
+	 deltaDaycases: 19<br />
+	 total cases: 1456313 ± 657547<br />
+	 total death: 26901 ± 36438<br />
+bi-Richards approximation splitting point: 400<br />
 actives k: 17<br />
-trend coefficient of determination: 0.260069 <br />
- intercept: -3.700221 <br />
- slope: -0.004887<br />trend coefficient of determination: 0.929700 <br />
- intercept: 15.477133 <br />
- slope: -0.048182<br />
+trend coefficient of determination: 0.358742 <br />
+ intercept: -4.605169 <br />
+ slope: -0.007116<br />trend coefficient of determination: 0.848685 <br />
+ intercept: 6.461011 <br />
+ slope: -0.031507<br />
