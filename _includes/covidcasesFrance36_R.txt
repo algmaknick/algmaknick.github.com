@@ -1,16 +1,16 @@
 France data at: 2021-06-15<br />
-10 day model MAPE: 0.002608<br />
+10 day model MAPE: 0.009113<br />
 model: bi-Richards<br />
-coeffs: [1.15552651e+06 7.28066625e-02 2.22887483e+02 3.07473472e+00]<br />
-rational stdev: 0.223934<br />
+coeffs: [4.28959524e+06 4.71936824e-02 3.16963450e+02 4.62727766e-01]<br />
+rational stdev: 2.578394<br />
 forecast at the end of period: +81 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 5263763 ± 1178737<br />
-	 total death: 101265 ± 68030<br />
-bi-Richards approximation splitting point: 233<br />
+	 deltaDaycases: 2150<br />
+	 total cases: 6314841 ± 16282150<br />
+	 total death: 121486 ± 939716<br />
+bi-Richards approximation splitting point: 300<br />
 actives k: 70<br />
-trend coefficient of determination: 0.646981 <br />
- intercept: -38.155615 <br />
- slope: -0.034820<br />trend coefficient of determination: 0.825796 <br />
- intercept: -43.262652 <br />
- slope: -0.024971<br />
+trend coefficient of determination: 0.214591 <br />
+ intercept: -9.531184 <br />
+ slope: -0.007168<br />trend coefficient of determination: 0.440108 <br />
+ intercept: -6.943739 <br />
+ slope: -0.015283<br />
