@@ -1,16 +1,16 @@
-Russia data at: 2021-06-14<br />
-10 day model MAPE: 0.004540<br />
+Russia data at: 2021-06-15<br />
+10 day model MAPE: 0.005482<br />
 model: bi-Richards<br />
-coeffs: [ 4.07207369e+06  2.10718312e+00 -3.68953318e+01  8.13668154e-03]<br />
-rational stdev: 0.132772<br />
-forecast at the end of period: +117 days<br />
-	 deltaDaycases: 400<br />
-	 total cases: 5182584 ± 688101<br />
-	 total death: 125834 ± 50121<br />
-bi-Richards approximation splitting point: 200<br />
+coeffs: [1.30216204e+06 2.59555102e+00 1.35724960e+02 8.05577273e-03]<br />
+rational stdev: 0.241748<br />
+forecast at the end of period: +116 days<br />
+	 deltaDaycases: 640<br />
+	 total cases: 5447616 ± 1316948<br />
+	 total death: 132269 ± 95927<br />
+bi-Richards approximation splitting point: 360<br />
 actives k: 26<br />
-trend coefficient of determination: 0.729466 <br />
- intercept: -2.804602 <br />
- slope: -0.015514<br />trend coefficient of determination: 0.898160 <br />
- intercept: -2.237231 <br />
- slope: -0.010681<br />
+trend coefficient of determination: 0.617209 <br />
+ intercept: -3.391916 <br />
+ slope: -0.007556<br />trend coefficient of determination: 0.060288 <br />
+ intercept: -6.918630 <br />
+ slope: 0.001259<br />
