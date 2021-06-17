@@ -1,16 +1,16 @@
-Bangladesh data at: 2021-06-15<br />
-10 day model MAPE: 0.006941<br />
+Bangladesh data at: 2021-06-16<br />
+10 day model MAPE: 0.010335<br />
 model: bi-Richards<br />
-coeffs: [2.45177014e+05 7.36263842e+00 3.05377721e+02 8.18900058e-03]<br />
-rational stdev: 0.316369<br />
-forecast at the end of period: +4 days<br />
-	 deltaDaycases: 270<br />
-	 total cases: 811654 ± 256782<br />
-	 total death: 12881 ± 12225<br />
-bi-Richards approximation splitting point: 378<br />
+coeffs: [2.56261327e+05 2.75675210e+00 3.15516240e+02 2.04357183e-02]<br />
+rational stdev: 0.313604<br />
+forecast at the end of period: +213 days<br />
+	 deltaDaycases: 5<br />
+	 total cases: 824224 ± 258480<br />
+	 total death: 13075 ± 12301<br />
+bi-Richards approximation splitting point: 345<br />
 actives k: 35<br />
-trend coefficient of determination: 0.723745 <br />
- intercept: -2.521859 <br />
- slope: -0.012921<br />trend coefficient of determination: 0.516893 <br />
- intercept: 3.371466 <br />
- slope: -0.021818<br />
+trend coefficient of determination: 0.725702 <br />
+ intercept: -2.500396 <br />
+ slope: -0.014100<br />trend coefficient of determination: 0.011472 <br />
+ intercept: -7.250002 <br />
+ slope: 0.002547<br />
