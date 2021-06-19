@@ -1,16 +1,16 @@
-Finland data at: 2021-06-17<br />
-10 day model MAPE: 0.155145<br />
+Finland data at: 2021-06-18<br />
+10 day model MAPE: 0.002941<br />
 model: bi-Richards<br />
-coeffs: [ 7.09506490e+02  1.57818277e-02  1.99684274e+02 -2.13161403e+01]<br />
-rational stdev: 0.305155<br />
-forecast at the end of period: +79 days<br />
-	 deltaDaycases: 2351<br />
-	 total cases: 210968 ± 64378<br />
-	 total death: 2168 ± 1984<br />
-bi-Richards approximation splitting point: 368<br />
+coeffs: [3.08047105e+04 6.87138040e+00 2.48303182e+02 5.94671954e-03]<br />
+rational stdev: 0.385803<br />
+forecast at the end of period: +78 days<br />
+	 deltaDaycases: 1<br />
+	 total cases: 93967 ± 36253<br />
+	 total death: 965 ± 1116<br />
+bi-Richards approximation splitting point: 370<br />
 actives k: 26<br />
-trend coefficient of determination: 0.786608 <br />
- intercept: 149.268454 <br />
- slope: 0.229326<br />trend coefficient of determination: 0.740585 <br />
- intercept: 216.842781 <br />
- slope: 0.045399<br />
+trend coefficient of determination: 0.011020 <br />
+ intercept: -4.721848 <br />
+ slope: -0.001539<br />trend coefficient of determination: 0.851494 <br />
+ intercept: 5.447675 <br />
+ slope: -0.027268<br />
