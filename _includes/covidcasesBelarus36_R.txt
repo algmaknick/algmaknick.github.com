@@ -1,16 +1,16 @@
 Belarus data at: 2021-06-19<br />
-10 day model MAPE: 0.575023<br />
+10 day model MAPE: 0.005400<br />
 model: bi-Richards<br />
-coeffs: [ 9.19495076e+04 -7.66868773e-01 -1.76366264e+02 -5.73498615e-01]<br />
-rational stdev: 0.681619<br />
+coeffs: [ 3.43482533e+05  2.31807731e+00 -7.85550159e+01  6.06023062e-03]<br />
+rational stdev: 0.182687<br />
 forecast at the end of period: +182 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 182471 ± 124375<br />
-	 total death: 1350 ± 2760<br />
-bi-Richards approximation splitting point: 260<br />
+	 deltaDaycases: 44<br />
+	 total cases: 433010 ± 79105<br />
+	 total death: 3204 ± 1755<br />
+bi-Richards approximation splitting point: 262<br />
 actives k: 10<br />
-trend coefficient of determination: 0.022939 <br />
- intercept: 1.739957 <br />
- slope: -0.001899<br />trend coefficient of determination: 0.620323 <br />
- intercept: 3.845129 <br />
- slope: -0.005913<br />
+trend coefficient of determination: 0.255713 <br />
+ intercept: -3.604916 <br />
+ slope: -0.008775<br />trend coefficient of determination: 0.752037 <br />
+ intercept: -2.568026 <br />
+ slope: -0.008437<br />
