@@ -1,16 +1,16 @@
-Portugal data at: 2021-06-22<br />
-10 day model MAPE: 0.000862<br />
+Portugal data at: 2021-06-23<br />
+10 day model MAPE: 0.069474<br />
 model: bi-Richards<br />
-coeffs: [8.64691536e+03 6.39880928e-01 2.33387389e+01 6.62122145e-01]<br />
-rational stdev: 0.281435<br />
-forecast at the end of period: +39 days<br />
-	 deltaDaycases: 0<br />
-	 total cases: 819171 ± 230543<br />
-	 total death: 16135 ± 13622<br />
+coeffs: [6.71248579e+04 5.17501250e+00 1.80469575e+02 4.44822225e-03]<br />
+rational stdev: 0.614129<br />
+forecast at the end of period: +38 days<br />
+	 deltaDaycases: 165<br />
+	 total cases: 870089 ± 534347<br />
+	 total death: 17111 ± 31525<br />
 bi-Richards approximation splitting point: 395<br />
 actives k: 21<br />
-trend coefficient of determination: 0.623103 <br />
- intercept: -8.612860 <br />
- slope: -0.017499<br />trend coefficient of determination: 0.170838 <br />
- intercept: -19.954376 <br />
- slope: 0.007967<br />
+trend coefficient of determination: 0.333626 <br />
+ intercept: -3.273336 <br />
+ slope: -0.007058<br />trend coefficient of determination: 0.207172 <br />
+ intercept: -11.415430 <br />
+ slope: 0.008983<br />
