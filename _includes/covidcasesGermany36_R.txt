@@ -1,16 +1,16 @@
-Germany data at: 2021-06-24<br />
-10 day model MAPE: 0.000685<br />
+Germany data at: 2021-06-25<br />
+10 day model MAPE: 0.000955<br />
 model: bi-Richards<br />
-coeffs: [ 4.01568327e+06  1.60132383e+00 -1.05410026e+02  7.54981016e-03]<br />
-rational stdev: 0.176575<br />
-forecast at the end of period: +51 days<br />
-	 deltaDaycases: 3246<br />
-	 total cases: 3970434 ± 701079<br />
-	 total death: 96975 ± 51370<br />
+coeffs: [ 4.01359313e+06  1.43163876e+00 -9.56173321e+01  8.45411685e-03]<br />
+rational stdev: 0.176418<br />
+forecast at the end of period: +50 days<br />
+	 deltaDaycases: 3239<br />
+	 total cases: 3969307 ± 700258<br />
+	 total death: 97042 ± 51359<br />
 bi-Richards approximation splitting point: 215<br />
 actives k: 17<br />
-trend coefficient of determination: 0.300448 <br />
- intercept: -3.750508 <br />
- slope: -0.012543<br />trend coefficient of determination: 0.722587 <br />
- intercept: -0.548645 <br />
- slope: -0.013855<br />
+trend coefficient of determination: 0.300624 <br />
+ intercept: -3.760198 <br />
+ slope: -0.012553<br />trend coefficient of determination: 0.723997 <br />
+ intercept: -0.512407 <br />
+ slope: -0.014018<br />
