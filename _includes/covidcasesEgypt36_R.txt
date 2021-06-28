@@ -1,16 +1,16 @@
-Egypt data at: 2021-06-26<br />
-10 day model MAPE: 0.001148<br />
+Egypt data at: 2021-06-27<br />
+10 day model MAPE: 0.000816<br />
 model: bi-Richards<br />
-coeffs: [ 3.13558219e+05  7.22326212e-01 -2.15814557e+02  1.05323980e-02]<br />
-rational stdev: 0.119206<br />
-forecast at the end of period: +175 days<br />
-	 deltaDaycases: 300<br />
-	 total cases: 369461 ± 44042<br />
-	 total death: 21193 ± 7579<br />
+coeffs: [ 3.13265239e+05  6.23747222e-01 -1.95136455e+02  1.22210802e-02]<br />
+rational stdev: 0.119085<br />
+forecast at the end of period: +174 days<br />
+	 deltaDaycases: 299<br />
+	 total cases: 369365 ± 43986<br />
+	 total death: 21198 ± 7573<br />
 bi-Richards approximation splitting point: 170<br />
 actives k: 43<br />
-trend coefficient of determination: 0.847854 <br />
- intercept: -1.728983 <br />
- slope: -0.027202<br />trend coefficient of determination: 0.234018 <br />
- intercept: -6.880032 <br />
- slope: 0.002989<br />
+trend coefficient of determination: 0.848814 <br />
+ intercept: -1.740124 <br />
+ slope: -0.027264<br />trend coefficient of determination: 0.221169 <br />
+ intercept: -6.876048 <br />
+ slope: 0.002901<br />
