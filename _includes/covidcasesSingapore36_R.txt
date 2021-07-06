@@ -1,16 +1,16 @@
-Singapore data at: 2021-07-04<br />
-10 day model MAPE: 0.000014<br />
+Singapore data at: 2021-07-05<br />
+10 day model MAPE: 0.071535<br />
 model: bi-Richards<br />
-coeffs: [ 5.74211788e+03  1.69432849e+00 -2.60760310e+01  6.86234608e-03]<br />
-rational stdev: 0.302228<br />
-forecast at the end of period: +167 days<br />
-	 deltaDaycases: 3<br />
-	 total cases: 64143 ± 19385<br />
-	 total death: 36 ± 32<br />
+coeffs: [609.08019999  -4.29319898 -12.50691424  -8.24012156]<br />
+rational stdev: 0.224892<br />
+forecast at the end of period: +166 days<br />
+	 deltaDaycases: 0<br />
+	 total cases: 59316 ± 13339<br />
+	 total death: 34 ± 22<br />
 bi-Richards approximation splitting point: 394<br />
 actives k: 26<br />
-trend coefficient of determination: 0.737137 <br />
- intercept: -3.005430 <br />
- slope: -0.018330<br />trend coefficient of determination: 0.159439 <br />
- intercept: -4.917468 <br />
- slope: -0.007087<br />
+trend coefficient of determination: 0.354968 <br />
+ intercept: 65.719602 <br />
+ slope: 0.060712<br />trend coefficient of determination: 0.052342 <br />
+ intercept: 84.569575 <br />
+ slope: -0.003799<br />
