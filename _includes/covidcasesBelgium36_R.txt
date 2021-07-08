@@ -1,16 +1,16 @@
-Belgium data at: 2021-07-06<br />
-10 day model MAPE: 0.001902<br />
+Belgium data at: 2021-07-07<br />
+10 day model MAPE: 0.136406<br />
 model: bi-Richards<br />
-coeffs: [4.22231881e+05 3.24550338e-01 2.81882178e+02 8.37876258e-02]<br />
-rational stdev: 3.065855<br />
-forecast at the end of period: +130 days<br />
-	 deltaDaycases: 20<br />
-	 total cases: 1119251 ± 3431463<br />
-	 total death: 25891 ± 238134<br />
+coeffs: [ 1.71312512e+04  1.26819827e-02  2.08997870e+02 -2.53332140e+01]<br />
+rational stdev: 0.503847<br />
+forecast at the end of period: +129 days<br />
+	 deltaDaycases: 33174<br />
+	 total cases: 3330239 ± 1677929<br />
+	 total death: 76903 ± 116241<br />
 bi-Richards approximation splitting point: 360<br />
 actives k: 61<br />
-trend coefficient of determination: 0.199614 <br />
- intercept: -4.769651 <br />
- slope: -0.006441<br />trend coefficient of determination: 0.702809 <br />
- intercept: 1.590754 <br />
- slope: -0.021335<br />
+trend coefficient of determination: 0.831280 <br />
+ intercept: 231.777676 <br />
+ slope: 0.336394<br />trend coefficient of determination: 0.731946 <br />
+ intercept: 322.358648 <br />
+ slope: 0.049097<br />
